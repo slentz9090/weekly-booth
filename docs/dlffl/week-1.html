@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Dewart Lake FFL — Week 1 | The Weekly Booth</title>
+<title>Dewart Lake FFL , Week 1 | The Weekly Booth</title>
 <meta name="description" content="Gil and Boomer call Week 1 of the Dewart Lake FFL: the two biggest scores in the league came out of the same marriage, and Scott Howard benched 46 points.">
 <meta name="author" content="The Weekly Booth">
 <link rel="canonical" href="https://slentz9090.github.io/weekly-booth/dlffl/week-1.html">
@@ -33,7 +33,7 @@
 :root{
   color-scheme:dark;
   --bg:#0b0e13; --surf:#171d27; --surf2:#1c2432; --line:#6b7a94; --line2:#7d8ca6;
-  --hair:#3d4759;
+  --hair:#4d5a70;
   --tx:#e6eaf0; --mut:#9aa4b2; --dim:#8b95a5;
   --blue:#8fbcff; --gold:#ffcf7a; --green:#7ceaae; --red:#ff9c9c;
   --maxw:760px; --navh:58px;
@@ -54,6 +54,7 @@ p{margin:0 0 13px}
 a{color:var(--blue);text-decoration:none}
 a:hover{text-decoration:underline}
 :focus-visible{outline:3px solid var(--gold);outline-offset:2px}
+#main:focus,#main:focus-visible{outline:none}
 .sr{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0}
 .skip{position:absolute;left:-9999px;top:0;z-index:70}
 .skip:focus{left:8px;top:8px;background:var(--gold);color:#12161d;padding:11px 14px;
@@ -76,9 +77,11 @@ a:hover{text-decoration:underline}
   .mast .m2{font-size:23px}
   .mast .m3{margin-left:0;width:100%;text-align:left;border-top:1px solid var(--hair);padding-top:9px}
 }
-.crumb{font-size:12.5px;color:var(--dim);letter-spacing:.05em;padding:11px 0 0}
-.crumb a{color:var(--mut)}
+.crumb{font-size:12.5px;color:var(--dim);letter-spacing:.05em;padding:4px 0 0}
+.crumb a{color:var(--blue);text-decoration:underline;text-underline-offset:3px;
+  display:inline-block;padding:9px 2px;min-height:40px}
 .crumb a:hover{color:#fff}
+.crumb > span[aria-current]{display:inline-block;padding:9px 2px}
 
 /* ---- nav ---- */
 .nav{position:sticky;top:0;z-index:50;background:rgba(11,14,19,.94);
@@ -91,7 +94,7 @@ a:hover{text-decoration:underline}
 .nav ul{display:flex;gap:7px;list-style:none;margin:0;padding:0;overflow-x:auto;
   scrollbar-width:none;-webkit-overflow-scrolling:touch;scroll-snap-type:x proximity}
 .nav ul::-webkit-scrollbar{display:none}
-.nav::after{content:"";position:absolute;top:0;bottom:1px;right:0;width:28px;pointer-events:none;
+html.js .nav::after{content:"";position:absolute;top:0;bottom:1px;right:0;width:28px;pointer-events:none;
   background:linear-gradient(90deg,rgba(11,14,19,0),rgba(11,14,19,.96));opacity:1}
 .nav.at-end::after{opacity:0}
 @media (prefers-reduced-motion:no-preference){.nav::after{transition:opacity .2s}}
@@ -99,6 +102,7 @@ a:hover{text-decoration:underline}
   text-transform:uppercase;color:var(--mut);border:1px solid var(--line);border-radius:999px;
   padding:11px 14px;white-space:nowrap;scroll-snap-align:start}
 .nav a:hover{color:#fff;border-color:var(--line2);text-decoration:none}
+.nav a:focus-visible{outline-offset:-3px}
 .nav a[aria-current]{color:#fff;border-color:var(--gold)}
 
 /* ---- headline ---- */
@@ -109,6 +113,7 @@ h2{font-size:15px;letter-spacing:.2em;text-transform:uppercase;color:var(--blue)
   margin:42px 0 14px;padding-bottom:8px;border-bottom:1px solid var(--hair);font-weight:700}
 h3{font-size:16px;margin:0 0 8px;color:#fff}
 @media (max-width:430px){h1{font-size:34px}body{font-size:16px}}
+@media (max-width:400px){.au-t{letter-spacing:.06em;font-size:12.5px;-webkit-line-clamp:3}.au{gap:10px}}
 
 /* ---- speakers ---- */
 .who{color:var(--gold);font-weight:700}
@@ -122,53 +127,59 @@ h3{font-size:16px;margin:0 0 8px;color:#fff}
 .mcard{border:1px solid var(--hair);border-radius:14px;background:var(--surf);
   padding:15px 16px 13px;margin:24px 0 14px;position:relative}
 @supports (content-visibility:auto){
-  .mcard{content-visibility:auto;contain-intrinsic-size:auto 430px}}
+  .mcard{content-visibility:auto;contain-intrinsic-size:auto 480px}}
 .mcard:target{border-color:var(--gold);box-shadow:0 0 0 3px rgba(255,207,122,.16)}
-.mc-top{display:flex;align-items:flex-start;gap:9px;margin:0 0 14px}
+.mc-top{display:flex;flex-wrap:wrap;align-items:flex-start;gap:9px;margin:0 0 14px}
 .mc-rib{font-size:15px;font-weight:700;letter-spacing:.17em;text-transform:uppercase;
-  line-height:1.15;margin:0;display:flex;align-items:flex-start;gap:9px;min-width:0}
+  line-height:1.15;margin:0;display:flex;align-items:flex-start;gap:9px;min-width:0;
+  flex:1 1 0}
 .mc-rib::before{content:"";flex:none;width:4px;height:1.15em;margin-top:.04em;border-radius:2px;
   background:currentColor}
 .mc-lnk{display:none;margin-left:auto;flex:none;background:none;border:1px solid var(--line);
   color:var(--mut);border-radius:7px;font-family:inherit;font-weight:700;font-size:11px;
-  line-height:1;letter-spacing:.09em;text-transform:uppercase;padding:10px 12px;min-height:40px;
+  line-height:1;letter-spacing:.09em;text-transform:uppercase;padding:10px 12px;min-height:44px;
   min-width:68px;text-align:center;cursor:pointer}
 html.js .mc-lnk{display:block}
 .mc-lnk:hover{color:#fff;border-color:var(--line2)}
-.mc-url{flex:1 0 100%;margin-top:9px;font:12px/1.4 ui-monospace,Menlo,monospace;
+.mc-url{flex:1 0 100%;min-width:0;margin-top:9px;font:16px/1.4 ui-monospace,Menlo,monospace;
   background:var(--surf2);color:var(--tx);border:1px solid var(--line2);border-radius:7px;padding:9px}
 .mc-row{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:baseline;column-gap:12px;
-  margin-bottom:13px;scroll-margin-top:calc(var(--navh) + 10px);border-radius:9px}
+  margin-bottom:13px;scroll-margin-top:10px;border-radius:9px}
 .mc-name{font-size:19px;font-weight:700;color:#fff;line-height:1.2;min-width:0;overflow-wrap:anywhere}
 .mc-sub{grid-column:1;font-size:13px;color:var(--mut);margin-top:2px}
 .mc-score{font-size:30px;font-weight:700;color:#fff;white-space:nowrap;
   font-variant-numeric:tabular-nums;line-height:1}
-.mc-row.win .mc-score::after{content:" W";font-size:.5em;color:var(--green);vertical-align:.55em;
+.mc-row.win:not(.bye) .mc-score::after{content:" W";font-size:.5em;color:var(--green);vertical-align:.55em;
   letter-spacing:.06em}
 .mc-row.lose .mc-name,.mc-row.lose .mc-score{color:#a9b3c2}
 .mc-left{grid-column:2;font-size:12.5px;color:var(--red);text-align:right;margin-top:3px;
   font-variant-numeric:tabular-nums;white-space:nowrap}
-.mc-track{grid-column:1/-1;position:relative;height:12px;border-radius:7px;background:#39445a;
+.mc-track{grid-column:1/-1;position:relative;height:12px;border-radius:7px;background:#2a3345;
   overflow:hidden;margin-top:9px;border:1px solid var(--line)}
 .mc-fill,.mc-tail{position:absolute;top:0;bottom:0}
 .mc-fill{left:0;background:linear-gradient(90deg,#5f95e6,#8fbcff)}
-.mc-row.lose .mc-fill{background:linear-gradient(90deg,#818d9f,#9fabbd)}
+.mc-row.lose .mc-fill{background:linear-gradient(90deg,#94a1b5,#b2bdcd)}
 .mc-tail{background:repeating-linear-gradient(135deg,#e09aa0 0 3px,#9a5a60 3px 6px);min-width:5px}
 .mc-note{border-top:1px solid var(--hair);padding-top:12px;margin:3px 0 4px;font-size:15.5px;
   line-height:1.48;color:#d5dce7}
-.mc-row.lit{box-shadow:0 0 0 3px rgba(255,207,122,.22);margin-left:-7px;margin-right:-7px;
-  padding:0 7px}
+.mc-row.lit,.mc-row:target{box-shadow:0 0 0 3px rgba(255,207,122,.22);margin-left:-7px;
+  margin-right:-7px;padding:0 7px}
 @media (prefers-reduced-motion:no-preference){.mc-row.lit{transition:box-shadow .3s}}
 @media (min-width:560px){.mc-name{font-size:21px}.mc-score{font-size:34px}}
-.key{border:1px solid var(--hair);border-radius:11px;background:var(--surf);padding:12px 14px;
-  margin:0 0 6px;font-size:13.5px;line-height:1.45;color:var(--mut)}
+.mc-key{margin:0;font-size:13px;line-height:1.45;color:var(--mut);
+  border-top:1px solid var(--hair);padding-top:10px}
 
 /* ---- the calls ---- */
-.call{display:grid;grid-template-columns:auto minmax(0,1fr);gap:0 13px;border:1px solid var(--hair);
-  border-radius:12px;background:var(--surf);padding:13px 15px;margin:0 0 11px}
-.call-n{grid-row:1/3;font-size:30px;font-weight:700;color:var(--gold);line-height:.95;
-  font-variant-numeric:tabular-nums}
-.call-t{font-size:16.5px;font-weight:700;color:#fff;margin:0 0 4px;line-height:1.35}
+ol.calls{counter-reset:call;list-style:none;padding:0;margin:0}
+.call{counter-increment:call;display:grid;grid-template-columns:auto minmax(0,1fr);gap:0 13px;
+  border:1px solid var(--hair);border-radius:12px;background:var(--surf);padding:13px 15px;
+  margin:0 0 11px}
+.call::before{content:counter(call);grid-row:1/3;align-self:start;
+  font-family:"Barlow Condensed","BC Fallback","BC Fallback 2","Arial Narrow",Arial,sans-serif;
+  font-size:30px;font-weight:700;color:var(--gold);line-height:1;font-variant-numeric:tabular-nums;
+  min-width:1.1em}
+.call-t{font-size:16.5px;color:#fff;margin:0 0 4px;line-height:1.38}
+.call-t strong{color:var(--gold);font-weight:700}
 .call-s{margin:0;font-size:14.5px;color:var(--mut);line-height:1.45}
 
 /* ---- audio ---- */
@@ -182,9 +193,9 @@ html.js .mc-lnk{display:block}
 .au-t{font-size:13px;font-weight:700;letter-spacing:.11em;text-transform:uppercase;color:var(--tx);
   margin:0 0 6px;line-height:1.3;overflow:hidden;display:-webkit-box;-webkit-line-clamp:2;
   -webkit-box-orient:vertical}
-.au-bar{position:relative;height:7px;border-radius:4px;background:#6b7a94;overflow:visible;cursor:pointer}
+.au-bar{position:relative;height:7px;border-radius:4px;background:#565f74;overflow:visible;cursor:pointer}
 .au-bar i{display:block;height:100%;width:0;background:var(--gold);border-radius:4px}
-.au-bar::after{content:"";position:absolute;left:0;right:0;top:-9px;bottom:-11px}
+.au-bar::after{content:"";position:absolute;left:0;right:0;top:-14px;bottom:-14px}
 .au-time{flex:none;font-size:12px;color:var(--mut);font-variant-numeric:tabular-nums;
   min-width:38px;text-align:right}
 .au audio:not(.sr){width:100%}
@@ -206,13 +217,22 @@ ol{padding-left:22px;margin:0 0 13px}
 ol li{margin-bottom:9px}
 .led{width:100%;border-collapse:collapse;font-size:15px;margin:0 0 13px}
 .led caption{text-align:left;color:var(--mut);font-size:13.5px;padding:0 0 9px}
-.led th{text-align:left;font-size:11.5px;letter-spacing:.13em;text-transform:uppercase;
-  color:var(--mut);font-weight:700;padding:0 0 7px;border-bottom:1px solid var(--hair)}
-.led td{padding:8px 0;border-bottom:1px solid #232b39;font-variant-numeric:tabular-nums}
-.led td:first-child{width:1%;padding-right:12px;color:var(--dim);white-space:nowrap}
-.led td:last-child,.led th:last-child{text-align:right}
-.led tr:first-child td{color:#fff;font-weight:700}
+.led thead th{text-align:left;font-size:11.5px;letter-spacing:.13em;text-transform:uppercase;
+  color:var(--mut);font-weight:700;padding:0 10px 7px 0;border-bottom:1px solid var(--hair)}
+.led td{padding:8px 10px 8px 0;border-bottom:1px solid var(--hair);font-variant-numeric:tabular-nums}
+.led tbody th[scope=row]{text-align:left;font:inherit;color:inherit;letter-spacing:0;
+  text-transform:none;padding:8px 10px 8px 0;border-bottom:1px solid var(--hair);
+  overflow-wrap:anywhere}
+.led td:first-child{width:1%;padding-right:10px;color:var(--dim);white-space:nowrap}
+.led td:nth-child(3){width:1%;text-align:right;white-space:nowrap}
+.led th:nth-child(3){text-align:right}
+.led .led-v{width:1%;white-space:nowrap;text-align:right;padding-right:0;color:var(--mut);
+  font-size:13.5px}
+.led th:last-child{text-align:right;padding-right:0}
+.led tbody tr:first-child th,.led tbody tr:first-child td{color:#fff;font-weight:700}
+.led .led-v.yes{color:var(--red);font-weight:700}
 .note{color:var(--mut);font-size:14.5px}
+.note a{display:inline-block;padding:10px 0;min-height:40px}
 .jump{display:none;align-items:center;gap:10px;flex-wrap:wrap;border:1px solid var(--hair);
   border-radius:11px;background:var(--surf);padding:11px 13px;margin:0 0 6px}
 html.js .jump{display:flex}
@@ -223,10 +243,10 @@ html.js .jump{display:flex}
 .foot a{display:inline-block;padding:9px 0}
 
 @media (prefers-reduced-motion:no-preference){
-  @keyframes grow{to{transform:scaleX(1)}}
-  html.js .mc-fill,html.js .mc-tail{transform:scaleX(0);transform-origin:left center;
-    animation:grow .85s cubic-bezier(.2,.85,.25,1) both;animation-play-state:paused}
-  html.js .mcard.on .mc-fill,html.js .mcard.on .mc-tail{animation-play-state:running}
+  @keyframes grow{from{transform:scaleX(0)}to{transform:scaleX(1)}}
+  html.js .mc-fill,html.js .mc-tail{transform-origin:left center}
+  html.js .mcard.on .mc-fill,html.js .mcard.on .mc-tail{
+    animation:grow .85s cubic-bezier(.2,.85,.25,1) both}
 }
 @media (prefers-reduced-motion:reduce){.mc-fill,.mc-tail{transform:none;animation:none}}
 @media (forced-colors:active){
@@ -235,6 +255,9 @@ html.js .jump{display:flex}
   .mc-track{border:1px solid CanvasText}
   .mcard,.aw,.au,.nav a,.call{border-color:CanvasText}
   .au-btn{background:ButtonFace;color:ButtonText;border:1px solid ButtonText}
+  .nav{background:Canvas;-webkit-backdrop-filter:none;backdrop-filter:none}
+  .mc-rib::before{background:CanvasText;forced-color-adjust:none}
+  #prog{background:Highlight;forced-color-adjust:none}
   .bcom{border-left-style:solid;border-left-width:5px}
   .bcom-good,.aw.good{border-left-style:double;border-left-width:6px}
   .bcom-bad,.aw.bad{border-left-style:dashed;border-left-width:6px}
@@ -257,7 +280,7 @@ html.js .jump{display:flex}
     -webkit-print-color-adjust:exact;print-color-adjust:exact}
   h2{color:#000;page-break-after:avoid}
   .mcard,.aw,.call{page-break-inside:avoid;border:1px solid #bbb}
-  a[href]:not([href^="#"])::after{content:" (" attr(href) ")";font-size:8pt;color:#555;word-break:break-all}
+  a[href^="http"]::after{content:" (" attr(href) ")";font-size:8pt;color:#555;word-break:break-all}
 }
 </style>
 <script>document.documentElement.className+=' js';</script>
@@ -295,72 +318,65 @@ html.js .jump{display:flex}
 <circle cx="60" cy="60" r="55" fill="none" stroke="#2a3342" stroke-width="2"/>
 </svg><div class="mt"><p class="m1">The Weekly Booth</p><p class="m2">Dewart Lake FFL</p></div><div class="m3">Week 1 · 2026<br>Gil Prather &amp; Boomer Latour</div></header>
 <nav class="crumb" aria-label="Breadcrumb"><a href="https://slentz9090.github.io/weekly-booth/">The Weekly Booth</a> <span aria-hidden="true">&#8250;</span> <a href="./">Dewart Lake FFL</a> <span aria-hidden="true">&#8250;</span> <span aria-current="page">Week 1</span></nav>
-<nav class="nav" aria-label="Sections"><ul><li><a href="#calls">On The Record</a></li><li><a href="#board">The Scoreboard</a></li><li><a href="#hardware">The Hardware</a></li><li><a href="#ledger">The Bench Ledger</a></li><li><a href="#wire">The Waiver Wire</a></li><li><a href="#ranks">Power Rankings</a></li></ul></nav>
+<nav class="nav" aria-label="Sections"><ul><li><a href="#board">The Scoreboard</a></li><li><a href="#calls">On The Record</a></li><li><a href="#hardware">The Hardware</a></li><li><a href="#ledger">The Bench Ledger</a></li><li><a href="#wire">The Waiver Wire</a></li><li><a href="#next">Next Sunday</a></li></ul></nav>
 <h1>A Husband And Wife Put Up The Two Biggest Scores In This League. Next Sunday They Play Each Other.</h1>
-<p class="dek">DA went for 156.86, the most in the league. Mama Beth went for 149.12. Kent Frenger was third at 147.76 and then the whole league falls off a cliff — nobody else cleared 130.</p>
-<div class="au big" data-label="Gil and Boomer recap Week 1 of the Dewart Lake FFL"><div class="au-m"><p class="au-t">The whole week in 35 seconds</p><audio controls preload="metadata" src="../audio/dlffl-w1-recap.mp3"></audio></div></div>
-<div class="jump"><label for="jump">Jump to your team</label><select id="jump"><option value="">Pick one…</option><option value="t-an-album-cover">An alBum Cover — Adam Calvelage</option><option value="t-balls-deep">Balls Deep — Spencer Lentz</option><option value="t-beardown">BearDown — Ryan Reed</option><option value="t-berlin-blitz">Berlin Blitz — Kent Frenger</option><option value="t-cosby-copperheads">Cosby Copperheads — Doug Fields</option><option value="t-da-the-badenov-s">DA The Badenov's — Dennis Couture</option><option value="t-hawk-tua-tagovailoa">Hawk Tua Tagovailoa — Geoff Cavender</option><option value="t-holy-rollers">Holy Rollers — Adam Hershberger</option><option value="t-momma-s-boys">Momma's Boys — Beth Couture</option><option value="t-one-under-akathe-mulligan">One Under akaThe Mulligan — Casey Couture</option><option value="t-samba-st-gibbs-lion-king">Samba St. Gibbs Lion King — Scott Reisert</option><option value="t-the-scranton-strangler">The Scranton Strangler — Scott Howard</option></select></div>
-<h2 id="calls">On The Record</h2>
-<div class="bcom"><p><span class="who">BOOMER:</span> Four calls. I put them at the top so nobody can pretend I buried them. Every one gets graded in this spot next week, in public, and when I am wrong I say so before I say anything else.</p></div>
-<div class="call"><p class="call-n">1</p><p class="call-t">Mama Beth beats DA on Sunday.</p><p class="call-s">She is 17 and 10 against him across 27 meetings and she did not need a career week to do it. He just had one and it still only got him 7.74 more than her.</p></div>
-<div class="call"><p class="call-n">2</p><p class="call-t">Scott Reisert does not clear 120 points in September.</p><p class="call-s">Jahmyr Gibbs scored 34.1 of his 104.94. Take Gibbs out and there are 70.84 points of roster behind him. I do not believe in it.</p></div>
-<div class="call"><p class="call-n">3</p><p class="call-t">Ryan Reed starts the wrong quarterback again before Halloween.</p><p class="call-s">He owns Justin Herbert and Jaxson Dart. He has to pick one off a list of two every Sunday for six more weeks. Week 1 cost him 13.34 of the 21.18 he lost by.</p></div>
-<div class="call"><p class="call-n">4</p><p class="call-t">Scott Howard leaves twenty or more on his bench again in Week 2.</p><p class="call-s">Not because he is unlucky. Because he has a roster full of answers and a habit of asking the wrong one.</p></div>
-<p><span class="who">GIL:</span> Recorded, all four.</p>
+<p class="dek">Dennis Couture, DA to everybody here, went for 156.86. His wife, Mama Beth, went for 149.12. Only Kent Frenger got anywhere near them, and Week 2 puts the two of them across the table from each other.</p>
+<div class="au big" data-label="Gil and Boomer recap Week 1 of the Dewart Lake FFL"><div class="au-m"><p class="au-t">The whole week in 45 seconds</p><audio controls preload="metadata" src="../audio/dlffl-w1-recap.mp3"></audio></div></div>
+<div class="jump"><label for="jump">Jump to your team</label><select id="jump"><option value="">Pick one…</option><option value="t-an-album-cover">An alBum Cover · Adam Calvelage</option><option value="t-balls-deep">Balls Deep · Spencer Lentz</option><option value="t-beardown">BearDown · Ryan Reed</option><option value="t-berlin-blitz">Berlin Blitz · Kent Frenger</option><option value="t-cosby-copperheads">Cosby Copperheads · Doug Fields</option><option value="t-da-the-badenov-s">DA The Badenov's · DA</option><option value="t-hawk-tua-tagovailoa">Hawk Tua Tagovailoa · Geoff Cavender</option><option value="t-holy-rollers">Holy Rollers · Adam Hershberger</option><option value="t-momma-s-boys">Momma's Boys · Mama Beth</option><option value="t-one-under-akathe-mulligan">One Under akaThe Mulligan · Casey Couture</option><option value="t-samba-st-gibbs-lion-king">Samba St. Gibbs Lion King · Scott Reisert</option><option value="t-the-scranton-strangler">The Scranton Strangler · Scott Howard</option></select></div>
 <h2 id="board">The Scoreboard</h2>
-<p class="key">Solid = the points you started. Hatched = the points you left behind, meaning your best possible lineup minus the one you turned in. Every bar on this page is drawn to the same scale.</p>
-<section class="mcard" id="m-da" aria-label="DA The Badenov&#x27;s beat Balls Deep, 156.86 to 114.02"><div class="mc-top"><h3 class="mc-rib" style="color:var(--gold)">DA's sixth-best Sunday ever</h3><button class="mc-lnk" type="button" data-a="m-da" aria-label="Copy a link to DA The Badenov&#x27;s versus Balls Deep">Link</button></div><div class="mc-row win" id="t-da-the-badenov-s"><span class="mc-name">DA The Badenov's</span><span class="mc-score">156.86</span><span class="mc-sub">Dennis Couture</span><span class="mc-left">3.70 left behind</span><div class="mc-track" aria-hidden="true"><div class="mc-fill" style="width:97.70%"></div><div class="mc-tail" style="left:97.70%;width:2.30%"></div></div></div><div class="mc-row lose" id="t-balls-deep"><span class="mc-name">Balls Deep</span><span class="mc-score">114.02</span><span class="mc-sub">Spencer Lentz</span><span class="mc-left">18.90 left behind</span><div class="mc-track" aria-hidden="true"><div class="mc-fill" style="width:71.01%"></div><div class="mc-tail" style="left:71.01%;width:11.77%"></div></div></div><p class="mc-note">Josh Allen went for 38.66, the biggest start in the league. DA left 3.70 behind, the least of anybody.</p><div class="au" data-label="Gil and Boomer on DA The Badenov&#x27;s versus Balls Deep"><div class="au-m"><p class="au-t">Listen: DA vs Balls Deep</p><audio controls preload="metadata" src="../audio/dlffl-g6.mp3"></audio></div></div></section>
-<p><span class="who">GIL:</span> Dennis Couture, 156.86, and he outscores all eleven other teams. In 287 career games that is the sixth-best week of his life, and it missed his all-time top five by fourteen hundredths of a point.</p>
+<section class="mcard" id="m-da" aria-labelledby="m-da-h"><div class="mc-top"><h3 class="mc-rib" id="m-da-h" style="color:var(--gold)">DA's sixth-best Sunday ever</h3><button class="mc-lnk" type="button" data-a="m-da" aria-label="Share or copy a link to DA The Badenov&#x27;s versus Balls Deep">Link</button></div><div class="mc-row win" id="t-da-the-badenov-s"><span class="mc-name">DA The Badenov's</span><span class="mc-score">156.86</span><span class="mc-sub">DA</span><span class="mc-left">3.70 left behind</span><div class="mc-track" aria-hidden="true"><div class="mc-fill" style="width:97.70%"></div><div class="mc-tail" style="left:97.70%;width:2.30%"></div></div></div><div class="mc-row lose" id="t-balls-deep"><span class="mc-name">Balls Deep</span><span class="mc-score">114.02</span><span class="mc-sub">Spencer Lentz</span><span class="mc-left">18.90 left behind</span><div class="mc-track" aria-hidden="true"><div class="mc-fill" style="width:71.01%"></div><div class="mc-tail" style="left:71.01%;width:11.77%"></div></div></div><p class="mc-note">Josh Allen went for 38.66, the biggest start in the league. DA left 3.70 behind, the least of anybody.</p><p class="mc-key">Solid = the points you started. Hatched = the points you left behind, meaning your best possible lineup minus the one you turned in. Every bar on this page is on the same scale.</p><div class="au" data-label="Gil and Boomer on DA The Badenov&#x27;s versus Balls Deep"><div class="au-m"><p class="au-t">Listen: DA vs Lentz</p><audio controls preload="metadata" src="../audio/dlffl-g6.mp3"></audio></div></div></section>
+<p><span class="who">GIL:</span> DA goes for 156.86 and outscores all eleven other teams. In 287 career games that is the sixth-best week of his life, and it missed his all-time top five by fourteen hundredths of a point.</p>
 <div class="bcom"><p><span class="who">BOOMER:</span> Here is the part that ought to keep Spencer up tonight. DA is 10 and 22 against him lifetime. He almost never wins this game. He picked the sixth-best Sunday of his life to finally do it.</p></div>
 <p><span class="who">GIL:</span> Spencer Lentz got 27.3 from Bijan Robinson and started Jaylen Warren for 7.8 with Chuba Hubbard and 22.2 on the bench. His perfect lineup was 132.92, which still loses by 23.94.</p>
 <div class="bcom bcom-bad"><p><span class="who">BOOMER:</span> So the bench did not cost him the game. It cost him the right to be mad about it.</p></div>
-<section class="mcard" id="m-beth" aria-label="Momma&#x27;s Boys beat Cosby Copperheads, 149.12 to 96.96"><div class="mc-top"><h3 class="mc-rib" style="color:var(--gold)">Mama Beth buries Doug Fields by 52</h3><button class="mc-lnk" type="button" data-a="m-beth" aria-label="Copy a link to Momma&#x27;s Boys versus Cosby Copperheads">Link</button></div><div class="mc-row win" id="t-momma-s-boys"><span class="mc-name">Momma's Boys</span><span class="mc-score">149.12</span><span class="mc-sub">Beth Couture</span><span class="mc-left">3.90 left behind</span><div class="mc-track" aria-hidden="true"><div class="mc-fill" style="width:92.87%"></div><div class="mc-tail" style="left:92.87%;width:2.43%"></div></div></div><div class="mc-row lose" id="t-cosby-copperheads"><span class="mc-name">Cosby Copperheads</span><span class="mc-score">96.96</span><span class="mc-sub">Doug Fields</span><span class="mc-left">3.90 left behind</span><div class="mc-track" aria-hidden="true"><div class="mc-fill" style="width:60.39%"></div><div class="mc-tail" style="left:60.39%;width:2.43%"></div></div></div><p class="mc-note">The biggest margin of the week. Zay Flowers 27.5, David Montgomery 27.4, Justin Jefferson 27.2 — three starters inside three tenths of each other.</p><div class="au" data-label="Gil and Boomer on Momma&#x27;s Boys versus Cosby Copperheads"><div class="au-m"><p class="au-t">Listen: Mama Beth vs Cosby Copperheads</p><audio controls preload="metadata" src="../audio/dlffl-g4.mp3"></audio></div></div></section>
-<p><span class="who">GIL:</span> Mama Beth scores 149.12 and leaves 3.90 behind. She started 97.5 percent of the points available to her. Across her career she has started 90.1 percent of the points she owned, the best figure of anybody in this league.</p>
+<section class="mcard" id="m-beth" aria-labelledby="m-beth-h"><div class="mc-top"><h3 class="mc-rib" id="m-beth-h" style="color:var(--gold)">Mama Beth buries Doug Fields by 52</h3><button class="mc-lnk" type="button" data-a="m-beth" aria-label="Share or copy a link to Momma&#x27;s Boys versus Cosby Copperheads">Link</button></div><div class="mc-row win" id="t-momma-s-boys"><span class="mc-name">Momma's Boys</span><span class="mc-score">149.12</span><span class="mc-sub">Mama Beth</span><span class="mc-left">3.90 left behind</span><div class="mc-track" aria-hidden="true"><div class="mc-fill" style="width:92.87%"></div><div class="mc-tail" style="left:92.87%;width:2.43%"></div></div></div><div class="mc-row lose" id="t-cosby-copperheads"><span class="mc-name">Cosby Copperheads</span><span class="mc-score">96.96</span><span class="mc-sub">Doug Fields</span><span class="mc-left">3.90 left behind</span><div class="mc-track" aria-hidden="true"><div class="mc-fill" style="width:60.39%"></div><div class="mc-tail" style="left:60.39%;width:2.43%"></div></div></div><p class="mc-note">Zay Flowers 27.5, David Montgomery 27.4, Justin Jefferson 27.2. Three starters inside three tenths of each other.</p><div class="au" data-label="Gil and Boomer on Momma&#x27;s Boys versus Cosby Copperheads"><div class="au-m"><p class="au-t">Listen: Mama Beth vs Fields</p><audio controls preload="metadata" src="../audio/dlffl-g4.mp3"></audio></div></div></section>
+<p><span class="who">GIL:</span> Mama Beth scores 149.12 and leaves 3.90 behind. She started 97.45 percent of the points available to her. Across her career she has started 90.1 percent of the points she owned, the best figure of anybody in this league.</p>
 <div class="bcom bcom-good"><p><span class="who">BOOMER:</span> Her husband left 3.70 and she left 3.90. Two cleanest lineups in the building, same address. Somebody over there is checking the other one's work.</p></div>
-<p><span class="who">GIL:</span> Doug Fields got 37.8 out of Derrick Henry and still lost by 52.16. Fields went 13 and 1 in 2024, the best record any champion has posted here.</p>
-<div class="bcom"><p><span class="who">BOOMER:</span> His Houston defense scored negative four, Gil. He had the second-best single player on the field and a unit that went backwards. That invoice goes to draft night.</p></div>
-<section class="mcard" id="m-berlin" aria-label="Berlin Blitz beat Holy Rollers, 147.76 to 96.80"><div class="mc-top"><h3 class="mc-rib" style="color:var(--gold)">The champ opens at 147</h3><button class="mc-lnk" type="button" data-a="m-berlin" aria-label="Copy a link to Berlin Blitz versus Holy Rollers">Link</button></div><div class="mc-row win" id="t-berlin-blitz"><span class="mc-name">Berlin Blitz</span><span class="mc-score">147.76</span><span class="mc-sub">Kent Frenger</span><span class="mc-left">7.40 left behind</span><div class="mc-track" aria-hidden="true"><div class="mc-fill" style="width:92.03%"></div><div class="mc-tail" style="left:92.03%;width:4.61%"></div></div></div><div class="mc-row lose" id="t-holy-rollers"><span class="mc-name">Holy Rollers</span><span class="mc-score">96.80</span><span class="mc-sub">Adam Hershberger</span><span class="mc-left">14.40 left behind</span><div class="mc-track" aria-hidden="true"><div class="mc-fill" style="width:60.29%"></div><div class="mc-tail" style="left:60.29%;width:8.97%"></div></div></div><p class="mc-note">Kent Frenger won this league in 2025. Caleb Williams gave him 37.26. Ja'Marr Chase gave him 2.2.</p><div class="au" data-label="Gil and Boomer on Berlin Blitz versus Holy Rollers"><div class="au-m"><p class="au-t">Listen: Berlin Blitz vs Holy Rollers</p><audio controls preload="metadata" src="../audio/dlffl-g3.mp3"></audio></div></div></section>
-<div class="bcom"><p><span class="who">BOOMER:</span> Won by fifty with Ja'Marr Chase asleep in the car. Eleven men are going to look at that and quietly decide they can live with second.</p></div>
-<p><span class="who">GIL:</span> Adam Hershberger claimed Trevor Lawrence off waivers after Scott Howard dropped him, started him for a team-high 26.1, and lost by 50.96.</p>
+<p><span class="who">GIL:</span> Doug Fields got 37.8 out of Derrick Henry and still lost by 52.16.</p>
+<div class="bcom"><p><span class="who">BOOMER:</span> His Houston defense scored negative four. He had the second-biggest score any player put up in this league and a defense that went backwards. That invoice goes to draft night.</p></div>
+<section class="mcard" id="m-berlin" aria-labelledby="m-berlin-h"><div class="mc-top"><h3 class="mc-rib" id="m-berlin-h" style="color:var(--gold)">The champ opens at 147</h3><button class="mc-lnk" type="button" data-a="m-berlin" aria-label="Share or copy a link to Berlin Blitz versus Holy Rollers">Link</button></div><div class="mc-row win" id="t-berlin-blitz"><span class="mc-name">Berlin Blitz</span><span class="mc-score">147.76</span><span class="mc-sub">Kent Frenger</span><span class="mc-left">7.40 left behind</span><div class="mc-track" aria-hidden="true"><div class="mc-fill" style="width:92.03%"></div><div class="mc-tail" style="left:92.03%;width:4.61%"></div></div></div><div class="mc-row lose" id="t-holy-rollers"><span class="mc-name">Holy Rollers</span><span class="mc-score">96.80</span><span class="mc-sub">Adam Hershberger</span><span class="mc-left">14.40 left behind</span><div class="mc-track" aria-hidden="true"><div class="mc-fill" style="width:60.29%"></div><div class="mc-tail" style="left:60.29%;width:8.97%"></div></div></div><p class="mc-note">Kent Frenger won this league in 2025. Caleb Williams gave him 37.26. Ja'Marr Chase gave him 2.2.</p><div class="au" data-label="Gil and Boomer on Berlin Blitz versus Holy Rollers"><div class="au-m"><p class="au-t">Listen: Frenger vs Hershberger</p><audio controls preload="metadata" src="../audio/dlffl-g3.mp3"></audio></div></div></section>
+<p><span class="who">GIL:</span> Kent Frenger scored 147.76 with his first receiver posting 2.2. That is the third-highest score in the league, built on eight men.</p>
+<div class="bcom"><p><span class="who">BOOMER:</span> Won by fifty with Ja'Marr Chase asleep in the car, and Chase handed that exact same 2.2 to Aaron Jezioro over in Friends of Herb on the same afternoon. Frenger won by fifty. Jezioro lost by eighty-three. Same player, same Sunday, two completely different verdicts.</p></div>
+<p><span class="who">GIL:</span> Adam Hershberger claimed Trevor Lawrence off the wire the same week Scott Howard released him, started him for a team-high 26.1, and lost by 50.96.</p>
 <div class="bcom"><p><span class="who">BOOMER:</span> Right answer, wrong building.</p></div>
-<section class="mcard" id="m-casey" aria-label="One Under akaThe Mulligan beat BearDown, 129.44 to 108.26"><div class="mc-top"><h3 class="mc-rib" style="color:var(--gold)">Casey wins with a zero at tight end</h3><button class="mc-lnk" type="button" data-a="m-casey" aria-label="Copy a link to One Under akaThe Mulligan versus BearDown">Link</button></div><div class="mc-row win" id="t-one-under-akathe-mulligan"><span class="mc-name">One Under akaThe Mulligan</span><span class="mc-score">129.44</span><span class="mc-sub">Casey Couture</span><span class="mc-left">16.30 left behind</span><div class="mc-track" aria-hidden="true"><div class="mc-fill" style="width:80.62%"></div><div class="mc-tail" style="left:80.62%;width:10.15%"></div></div></div><div class="mc-row lose" id="t-beardown"><span class="mc-name">BearDown</span><span class="mc-score">108.26</span><span class="mc-sub">Ryan Reed</span><span class="mc-left">18.64 left behind</span><div class="mc-track" aria-hidden="true"><div class="mc-fill" style="width:67.43%"></div><div class="mc-tail" style="left:67.43%;width:11.61%"></div></div></div><p class="mc-note">D'Andre Swift 34.9 covered it. Kyle Pitts Sr. started and scored nothing while T.J. Hockenson sat with 11.6.</p><div class="au" data-label="Gil and Boomer on One Under akaThe Mulligan versus BearDown"><div class="au-m"><p class="au-t">Listen: One Under vs BearDown</p><audio controls preload="metadata" src="../audio/dlffl-g5.mp3"></audio></div></div></section>
+<section class="mcard" id="m-casey" aria-labelledby="m-casey-h"><div class="mc-top"><h3 class="mc-rib" id="m-casey-h" style="color:var(--gold)">Casey wins with a zero at tight end</h3><button class="mc-lnk" type="button" data-a="m-casey" aria-label="Share or copy a link to One Under akaThe Mulligan versus BearDown">Link</button></div><div class="mc-row win" id="t-one-under-akathe-mulligan"><span class="mc-name">One Under akaThe Mulligan</span><span class="mc-score">129.44</span><span class="mc-sub">Casey Couture</span><span class="mc-left">16.30 left behind</span><div class="mc-track" aria-hidden="true"><div class="mc-fill" style="width:80.62%"></div><div class="mc-tail" style="left:80.62%;width:10.15%"></div></div></div><div class="mc-row lose" id="t-beardown"><span class="mc-name">BearDown</span><span class="mc-score">108.26</span><span class="mc-sub">Ryan Reed</span><span class="mc-left">18.64 left behind</span><div class="mc-track" aria-hidden="true"><div class="mc-fill" style="width:67.43%"></div><div class="mc-tail" style="left:67.43%;width:11.61%"></div></div></div><p class="mc-note">D'Andre Swift 34.9 covered it. Kyle Pitts Sr. started and scored nothing while T.J. Hockenson sat with 11.6.</p><div class="au" data-label="Gil and Boomer on One Under akaThe Mulligan versus BearDown"><div class="au-m"><p class="au-t">Listen: Casey vs Reed</p><audio controls preload="metadata" src="../audio/dlffl-g5.mp3"></audio></div></div></section>
 <p><span class="who">GIL:</span> Casey Couture has five titles here, more than anyone who has ever played in this league.</p>
 <div class="bcom"><p><span class="who">BOOMER:</span> Five rings, a zero at tight end, 16.30 on the bench, and he wins by 21. That man could give away a roster spot on purpose and the scoreboard would apologize to him.</p></div>
 <p><span class="who">GIL:</span> Ryan Reed got 25.2 from Jaxon Smith-Njigba and 19 from the Steelers defense, then started Justin Herbert for 13.26 with Jaxson Dart and 26.6 on his own bench.</p>
-<div class="bcom bcom-bad"><p><span class="who">BOOMER:</span> Two quarterbacks, both already his, one list, two names — and he took the 13. Thirteen of the 21.18 he lost by, sitting right there in his own house.</p></div>
-<section class="mcard" id="m-samba" aria-label="Samba St. Gibbs Lion King beat An alBum Cover, 104.94 to 75.46"><div class="mc-top"><h3 class="mc-rib" style="color:var(--gold)">Gibbs carries Reisert home</h3><button class="mc-lnk" type="button" data-a="m-samba" aria-label="Copy a link to Samba St. Gibbs Lion King versus An alBum Cover">Link</button></div><div class="mc-row win" id="t-samba-st-gibbs-lion-king"><span class="mc-name">Samba St. Gibbs Lion King</span><span class="mc-score">104.94</span><span class="mc-sub">Scott Reisert</span><span class="mc-left">14.80 left behind</span><div class="mc-track" aria-hidden="true"><div class="mc-fill" style="width:65.36%"></div><div class="mc-tail" style="left:65.36%;width:9.22%"></div></div></div><div class="mc-row lose" id="t-an-album-cover"><span class="mc-name">An alBum Cover</span><span class="mc-score">75.46</span><span class="mc-sub">Adam Calvelage</span><span class="mc-left">6.64 left behind</span><div class="mc-track" aria-hidden="true"><div class="mc-fill" style="width:47.00%"></div><div class="mc-tail" style="left:47.00%;width:4.14%"></div></div></div><p class="mc-note">Jahmyr Gibbs scored 34.1 of Reisert's 104.94. Adam Calvelage's 75.46 is the lowest score in the league.</p><div class="au" data-label="Gil and Boomer on Samba St. Gibbs Lion King versus An alBum Cover"><div class="au-m"><p class="au-t">Listen: Samba vs An alBum Cover</p><audio controls preload="metadata" src="../audio/dlffl-g2.mp3"></audio></div></div></section>
-<p><span class="who">GIL:</span> Scott Reisert won this league in 2023. One player accounted for a third of his afternoon.</p>
-<div class="bcom"><p><span class="who">BOOMER:</span> A man named his team after Gibbs and then Gibbs went and did all of it. I have never seen a roster keep a promise that literally.</p></div>
+<div class="bcom bcom-bad"><p><span class="who">BOOMER:</span> Two quarterbacks, both already his, one list, two names, and he took the 13. Thirteen of the 21.18 he lost by, sitting right there in his own house.</p></div>
+<section class="mcard" id="m-samba" aria-labelledby="m-samba-h"><div class="mc-top"><h3 class="mc-rib" id="m-samba-h" style="color:var(--gold)">Gibbs carries Reisert home</h3><button class="mc-lnk" type="button" data-a="m-samba" aria-label="Share or copy a link to Samba St. Gibbs Lion King versus An alBum Cover">Link</button></div><div class="mc-row win" id="t-samba-st-gibbs-lion-king"><span class="mc-name">Samba St. Gibbs Lion King</span><span class="mc-score">104.94</span><span class="mc-sub">Scott Reisert</span><span class="mc-left">14.80 left behind</span><div class="mc-track" aria-hidden="true"><div class="mc-fill" style="width:65.36%"></div><div class="mc-tail" style="left:65.36%;width:9.22%"></div></div></div><div class="mc-row lose" id="t-an-album-cover"><span class="mc-name">An alBum Cover</span><span class="mc-score">75.46</span><span class="mc-sub">Adam Calvelage</span><span class="mc-left">6.64 left behind</span><div class="mc-track" aria-hidden="true"><div class="mc-fill" style="width:47.00%"></div><div class="mc-tail" style="left:47.00%;width:4.14%"></div></div></div><p class="mc-note">Scott Reisert won this league in 2023. Jahmyr Gibbs scored 34.1 of his 104.94, with Javonte Williams adding 21.7. Adam Calvelage's 75.46 is the lowest score in the league.</p><div class="au" data-label="Gil and Boomer on Samba St. Gibbs Lion King versus An alBum Cover"><div class="au-m"><p class="au-t">Listen: Reisert vs Calvelage</p><audio controls preload="metadata" src="../audio/dlffl-g2.mp3"></audio></div></div></section>
+<div class="bcom"><p><span class="who">BOOMER:</span> A man named his team after Gibbs and then Gibbs went and did a third of it. I have never seen a roster keep a promise that literally.</p></div>
 <p><span class="who">GIL:</span> Calvelage dropped Tyler Shough, who scored 27.2, and dropped the Chiefs D/ST, who scored 14. He then started Jayden Daniels for 17.66 with Brock Purdy and 21.1 on his bench.</p>
 <div class="bcom bcom-bad"><p><span class="who">BOOMER:</span> He owned three quarterbacks this week. He released the best one, benched the second one, and started the third. At some point that stops being bad luck and starts being a preference.</p></div>
-<section class="mcard" id="m-hawk" aria-label="Hawk Tua Tagovailoa beat The Scranton Strangler, 96.40 to 80.26"><div class="mc-top"><h3 class="mc-rib" style="color:var(--red)">The lowest winning score of the week</h3><button class="mc-lnk" type="button" data-a="m-hawk" aria-label="Copy a link to Hawk Tua Tagovailoa versus The Scranton Strangler">Link</button></div><div class="mc-row win" id="t-hawk-tua-tagovailoa"><span class="mc-name">Hawk Tua Tagovailoa</span><span class="mc-score">96.40</span><span class="mc-sub">Geoff Cavender</span><span class="mc-left">28.98 left behind</span><div class="mc-track" aria-hidden="true"><div class="mc-fill" style="width:60.04%"></div><div class="mc-tail" style="left:60.04%;width:18.05%"></div></div></div><div class="mc-row lose" id="t-the-scranton-strangler"><span class="mc-name">The Scranton Strangler</span><span class="mc-score">80.26</span><span class="mc-sub">Scott Howard</span><span class="mc-left">46.00 left behind</span><div class="mc-track" aria-hidden="true"><div class="mc-fill" style="width:49.99%"></div><div class="mc-tail" style="left:49.99%;width:28.65%"></div></div></div><p class="mc-note">Geoff Cavender wins with 96.40 and 28.98 on his own bench. Scott Howard had 126.26 available and turned in 80.26.</p><div class="au" data-label="Gil and Boomer on Hawk Tua Tagovailoa versus The Scranton Strangler"><div class="au-m"><p class="au-t">Listen: Hawk Tua vs Scranton</p><audio controls preload="metadata" src="../audio/dlffl-g1.mp3"></audio></div></div></section>
+<section class="mcard" id="m-hawk" aria-labelledby="m-hawk-h"><div class="mc-top"><h3 class="mc-rib" id="m-hawk-h" style="color:var(--red)">Cavender wins it holding 28.98</h3><button class="mc-lnk" type="button" data-a="m-hawk" aria-label="Share or copy a link to Hawk Tua Tagovailoa versus The Scranton Strangler">Link</button></div><div class="mc-row win" id="t-hawk-tua-tagovailoa"><span class="mc-name">Hawk Tua Tagovailoa</span><span class="mc-score">96.40</span><span class="mc-sub">Geoff Cavender</span><span class="mc-left">28.98 left behind</span><div class="mc-track" aria-hidden="true"><div class="mc-fill" style="width:60.04%"></div><div class="mc-tail" style="left:60.04%;width:18.05%"></div></div></div><div class="mc-row lose" id="t-the-scranton-strangler"><span class="mc-name">The Scranton Strangler</span><span class="mc-score">80.26</span><span class="mc-sub">Scott Howard</span><span class="mc-left">46.00 left behind</span><div class="mc-track" aria-hidden="true"><div class="mc-fill" style="width:49.99%"></div><div class="mc-tail" style="left:49.99%;width:28.65%"></div></div></div><p class="mc-note">96.40 is the lowest winning score of the week and tenth of twelve in scoring. Scott Howard had 126.26 available and turned in 80.26.</p><div class="au" data-label="Gil and Boomer on Hawk Tua Tagovailoa versus The Scranton Strangler"><div class="au-m"><p class="au-t">Listen: Cavender vs Howard</p><audio controls preload="metadata" src="../audio/dlffl-g1.mp3"></audio></div></div></section>
 <p><span class="who">GIL:</span> Howard left 46 points behind, the most in the league. Jalen Coker scored 33.8 sitting there while Drake London started for 4.5. He also dropped Trevor Lawrence to add Brian Robinson Jr., and Lawrence scored 26.1 in Hershberger's lineup.</p>
 <div class="bcom bcom-bad"><p><span class="who">BOOMER:</span> He benched 46 points and then handed a 26-point quarterback to another man in this league. That is not a loss, Gil. That is a charitable contribution.</p></div>
-<p><span class="who">GIL:</span> Cavender won it with Ashton Jeanty at 32.7 and Matthew Stafford at 4.1, with Jordan Love and 23.48 on his bench.</p>
-<div class="bcom"><p><span class="who">BOOMER:</span> Undefeated, below his own career median, and 28.98 in his pocket. Geoff Cavender did not beat anybody this week. He was simply the second-worst person in the room.</p></div>
+<p><span class="who">GIL:</span> That is not the whole story, Boomer. Jalen Coker outscored every player Geoff Cavender started on Sunday. The talent showed up. Howard just had it facing the wrong way.</p>
+<div class="bcom"><p><span class="who">BOOMER:</span> All right. Then he is the most dangerous 0 and 1 in this league, and Ashton at 32.7 is the only reason Cavender is not sitting next to him.</p></div>
+<h2 id="calls">On The Record</h2>
+<div class="bcom"><p><span class="who">BOOMER:</span> A call on every team, in the order I would rather own these rosters right now. Twelve on the board, none of them graded yet. Next week I read every one of them back, and when I am wrong I say so before I say anything else.</p></div>
+<ol class="calls"><li class="call"><p class="call-t"><strong>DA The Badenov's.</strong> DA finishes top three in scoring again in Week 2.</p><p class="call-s">Josh Allen at 38.66, Christian Watson at 33.7, Kyle Monangai at 23.4, and 3.70 wasted. That is not one hot player carrying a roster, that is three of them and a manager who did not get in the way. It does not take 156 to finish top three.</p></li><li class="call"><p class="call-t"><strong>Momma's Boys.</strong> Mama Beth beats DA on Sunday.</p><p class="call-s">She is 17 and 10 against him across 27 meetings, and 12 and 10 against Casey Couture. Only two people in this building own more rings than she does, and one of them is the man she just watched lose by 43. She does not need a career week to beat DA. She needs a Sunday.</p></li><li class="call"><p class="call-t"><strong>Berlin Blitz.</strong> Ja'Marr Chase goes for 15 or more for Kent Frenger in Week 2.</p><p class="call-s">Two points from a receiver taken that early is not a thing that repeats. Frenger won by fifty without him. Sunday we find out whether that was a bye week or a warning.</p></li><li class="call"><p class="call-t"><strong>One Under akaThe Mulligan.</strong> Casey Couture is 2 and 0 by Sunday night.</p><p class="call-s">Five rings and the luckiest man in this league's history, six wins above expectation. He does not have to be good. He has to be present.</p></li><li class="call"><p class="call-t"><strong>Balls Deep.</strong> Spencer Lentz beats Adam Calvelage by more than thirty.</p><p class="call-s">Fifth in points and 0 and 1. Seven of the ten teams he did not play would have lost to his 114.02. He drew the one man who went for 156.</p></li><li class="call"><p class="call-t"><strong>BearDown.</strong> Ryan Reed starts Jaxson Dart in Week 2.</p><p class="call-s">Reed had not played a game in this league since 2021 and his 108.26 is already above his career median of 101.78. One list, two names. Now we find out whether he can read.</p></li><li class="call"><p class="call-t"><strong>Samba St. Gibbs Lion King.</strong> Scott Reisert does not reach 120 in Week 2 or Week 3.</p><p class="call-s">Seventy-two games into his career here he averages 101.62. He scored 104.94 and got a win. That is the plan and it is working, and I still do not believe in it.</p></li><li class="call"><p class="call-t"><strong>Cosby Copperheads.</strong> Doug Fields outscores Ryan Reed on Sunday.</p><p class="call-s">Fields has never lost to Ryan Reed. Three games, three wins. He also went 13 and 1 two years ago, the best record any champion has posted here. A 96.96 is not who this man is.</p></li><li class="call"><p class="call-t"><strong>Holy Rollers.</strong> Adam Hershberger beats Geoff Cavender by twenty or more.</p><p class="call-s">He made the best move in the league and the reward was the third-highest score in it sitting across the table. Now he gets the lowest winning score in the league instead. That is the whole schedule, right there.</p></li><li class="call"><p class="call-t"><strong>Hawk Tua Tagovailoa.</strong> Geoff Cavender does not clear 110 in Week 2.</p><p class="call-s">Undefeated at 96.40, below his own career median of 98.92, and nine of the ten teams he did not play would have beaten him. The W is the only evidence in his favor.</p></li><li class="call"><p class="call-t"><strong>The Scranton Strangler.</strong> Scott Howard scores 120 or more in Week 2.</p><p class="call-s">Yes, I am betting on him. Lamar Jackson gave him 28.96, he had 126.26 sitting in the house, and he turned in 80.26 of it. Nobody on this list has a shorter walk to a big number. Sunday we find out whether he takes it.</p></li><li class="call"><p class="call-t"><strong>An alBum Cover.</strong> Adam Calvelage clears 100 in Week 2.</p><p class="call-s">Last in the league, and he released 41.2 points off his own roster to get there. He is down to two quarterbacks and he has already found the floor. A hundred is not a big ask. It is the smallest one on this page.</p></li></ol>
 <h2 id="hardware">The Hardware</h2>
-<div class="aw good"><h3>Owner of the Week</h3><p class="win">Mama Beth — Momma's Boys</p><p><span class="who">GIL:</span> 149.12, 3.90 left behind, 97.5 percent of her available points started.</p><p><span class="who">BOOMER:</span> Second-highest score in the league on the night her husband had the sixth-best week of his 287 games, and she is 17 and 10 against that man lifetime. She did not blink.</p></div>
-<div class="aw bad"><h3>Worst Owner of the Week</h3><p class="win">Scott Howard — The Scranton Strangler</p><p><span class="who">GIL:</span> 80.26 scored, 126.26 available, 46 points on the bench.</p><p><span class="who">BOOMER:</span> He lost by 16.14 holding 46. He did not get beaten by Geoff Cavender, he got beaten by his own furniture.</p></div>
-<div class="aw good"><h3>Start of the Week</h3><p class="win">Kent Frenger — Caleb Williams, 37.26</p><p><span class="who">GIL:</span> Second-biggest start in the league, behind Josh Allen at 38.66.</p><p><span class="who">BOOMER:</span> And on the same afternoon his first receiver, Ja’Marr Chase, gave him 2.2. Gil, Chase did the exact same thing to a man in the other league. One receiver ruined two Sundays in two different buildings and both of those men still won.</p></div>
-<div class="aw bad"><h3>Sit of the Week</h3><p class="win">Adam Calvelage — Brock Purdy, 21.1 on the bench</p><p><span class="who">GIL:</span> Started Jayden Daniels for 17.66. Purdy scored 21.1 in a 75.46 week.</p><p><span class="who">BOOMER:</span> He finished last in this league by 4.8 points with 21.1 of them sitting on his bench. He did not need a better team. He needed to look down.</p></div>
-<div class="aw bad"><h3>Waste of the Week</h3><p class="win">Geoff Cavender — 28.98 behind, and he won</p><p><span class="who">GIL:</span> 125.38 available, 96.40 started. Jordan Love scored 23.48 on the bench while Matthew Stafford started for 4.1.</p><p><span class="who">BOOMER:</span> Nobody is going to say a word to him, because he is 1 and 0. I am saying it. He threw away more points than nine teams left behind combined and the standings are going to tell him he had a good week.</p></div>
+<div class="aw good"><h3>Owner of the Week</h3><p class="win">Mama Beth · Momma's Boys</p><p><span class="who">GIL:</span> 149.12, 3.90 left behind, 97.45 percent of her available points started.</p><p><span class="who">BOOMER:</span> Second-highest score in the league on the night her husband had the week of his life, and she is 17 and 10 against that man lifetime. She did not blink.</p></div>
+<div class="aw bad"><h3>Worst Owner of the Week</h3><p class="win">Scott Howard · The Scranton Strangler</p><p><span class="who">GIL:</span> 80.26 scored, 126.26 available, 46 points on the bench.</p><p><span class="who">BOOMER:</span> He lost by 16.14 holding 46. He did not get beaten by Geoff Cavender, he got beaten by his own furniture.</p></div>
+<div class="aw good"><h3>Start of the Week</h3><p class="win">DA · Josh Allen, 38.66</p><p><span class="who">GIL:</span> The biggest score any player put up in this league this week. Derrick Henry is second at 37.8, Caleb Williams third at 37.26.</p><p><span class="who">BOOMER:</span> Everybody who owns a quarterback like that spends the week telling you how smart they are. DA started him, wasted 3.70, beat the man he has beaten ten times in thirty-two tries, and said nothing. That is how you do it.</p></div>
+<div class="aw bad"><h3>Sit of the Week</h3><p class="win">Scott Howard · Jalen Coker, 33.8 on the bench</p><p><span class="who">GIL:</span> The worst lineup slot in the league. A 29.3-point swing in one decision, in a game he lost by 16.14.</p><p><span class="who">BOOMER:</span> Second on that list is Geoff Cavender, who benched Jordan Love and 23.48 and won anyway. Two men made the two worst decisions in this league and only one of them is going to hear about it in the group chat.</p></div>
+<div class="aw bad"><h3>Waste of the Week</h3><p class="win">Geoff Cavender · 28.98 behind, and he won anyway</p><p><span class="who">GIL:</span> The most points left on a bench by anybody who won a game. 125.38 available, 96.40 started.</p><p><span class="who">BOOMER:</span> Every single team he did not play left less behind than he did, and the standings are going to tell him he had a good week. He is 1 and 0 and he was the second-worst manager in the building.</p></div>
 <h2 id="ledger">The Bench Ledger</h2>
-<div class="bcom"><p><span class="who">BOOMER:</span> New this year. Every point this league leaves on its bench goes in the ledger, all twelve of you, all season, and I read the running total back to every one of you in December.</p></div>
-<table class="led"><caption>Week 1 — points left on the bench, all twelve teams</caption><thead><tr><th scope="col"><span class="sr">Rank</span></th><th scope="col">Owner</th><th scope="col">Points benched</th></tr></thead><tbody><tr><td>1</td><td>Scott Howard</td><td>46.00</td></tr><tr><td>2</td><td>Geoff Cavender</td><td>28.98</td></tr><tr><td>3</td><td>Spencer Lentz</td><td>18.90</td></tr><tr><td>4</td><td>Ryan Reed</td><td>18.64</td></tr><tr><td>5</td><td>Casey Couture</td><td>16.30</td></tr><tr><td>6</td><td>Scott Reisert</td><td>14.80</td></tr><tr><td>7</td><td>Adam Hershberger</td><td>14.40</td></tr><tr><td>8</td><td>Kent Frenger</td><td>7.40</td></tr><tr><td>9</td><td>Adam Calvelage</td><td>6.64</td></tr><tr><td>10</td><td>Beth Couture</td><td>3.90</td></tr><tr><td>11</td><td>Doug Fields</td><td>3.90</td></tr><tr><td>12</td><td>Dennis Couture</td><td>3.70</td></tr></tbody></table>
-<p><span class="who">GIL:</span> For scale: Kent Frenger has left 5,369 points on his bench across seventeen seasons on record here, more than anybody still playing in this league. Doug Fields is second at 5,306.</p>
-<div class="bcom"><p><span class="who">BOOMER:</span> Frenger has benched more points than Geoff Cavender has scored in his entire career, and he won the thing last year. The ledger is not a verdict, Gil. It is just the receipt.</p></div>
+<div class="bcom"><p><span class="who">BOOMER:</span> Every point this league leaves on its bench goes in the ledger, all twelve of you, all season. I read the running total back to every one of you in December.</p></div>
+<table class="led"><caption>Week 1: points left on the bench, and whether it actually cost the game</caption><thead><tr><th scope="col"><span class="sr">Rank</span></th><th scope="col">Owner</th><th scope="col">Benched</th><th scope="col">Cost him?</th></tr></thead><tbody><tr><td>1</td><th scope="row">Scott Howard</th><td>46.00</td><td class="led-v yes">Yes, by 16.14</td></tr><tr><td>2</td><th scope="row">Geoff Cavender</th><td>28.98</td><td class="led-v">No, won</td></tr><tr><td>3</td><th scope="row">Spencer Lentz</th><td>18.90</td><td class="led-v">No, lost by 42.84</td></tr><tr><td>4</td><th scope="row">Ryan Reed</th><td>18.64</td><td class="led-v">No, lost by 21.18</td></tr><tr><td>5</td><th scope="row">Casey Couture</th><td>16.30</td><td class="led-v">No, won</td></tr><tr><td>6</td><th scope="row">Scott Reisert</th><td>14.80</td><td class="led-v">No, won</td></tr><tr><td>7</td><th scope="row">Adam Hershberger</th><td>14.40</td><td class="led-v">No, lost by 50.96</td></tr><tr><td>8</td><th scope="row">Kent Frenger</th><td>7.40</td><td class="led-v">No, won</td></tr><tr><td>9</td><th scope="row">Adam Calvelage</th><td>6.64</td><td class="led-v">No, lost by 29.48</td></tr><tr><td>10</td><th scope="row">Mama Beth</th><td>3.90</td><td class="led-v">No, won</td></tr><tr><td>11</td><th scope="row">Doug Fields</th><td>3.90</td><td class="led-v">No, lost by 52.16</td></tr><tr><td>12</td><th scope="row">DA</th><td>3.70</td><td class="led-v">No, won</td></tr></tbody></table>
+<p><span class="who">GIL:</span> One of twelve. Everybody else was going to lose or win regardless.</p>
+<div class="bcom"><p><span class="who">BOOMER:</span> That is the whole argument, Gil. All twelve of you wasted points and eleven of you are fine. Scott Howard wasted points at the exact moment it mattered, which is the only crime this ledger can actually convict a man of. The ledger is not a verdict. It is the receipt, and in December I read the whole thing out loud.</p></div>
 <h2 id="wire">The Waiver Wire</h2>
 <p><span class="who">GIL:</span> <strong>Worst move:</strong> Adam Calvelage dropping Tyler Shough, who scored 27.2, to add Keaton Mitchell, who scored 0.9. A 26.3-point swing, the worst in the league. Scott Howard is second, Trevor Lawrence out for Brian Robinson Jr., 23.0.</p>
-<p><span class="who">GIL:</span> <strong>Best move:</strong> Adam Hershberger claiming Lawrence the moment Howard released him, and starting him for a team high.</p>
-<div class="bcom"><p><span class="who">BOOMER:</span> Seven moves went through this league and two men made four of them. Three of those four went backwards and not one of these men has said a word about it. The wire is where this league goes to hurt itself in private.</p></div>
-<h2 id="ranks">Boomer's Power Rankings</h2>
-<div class="bcom"><p><span class="who">BOOMER:</span> Twelve teams. My order. One line each, and every line is something I have not already said.</p></div>
-<ol><li><strong>DA The Badenov's.</strong> The unluckiest owner in the recorded history of this league, six wins below what his scores deserved. He is not going to score 156 every week, and he does not have to.</li><li><strong>Momma's Boys.</strong> Three starters within three tenths of each other and nothing on the bench. That roster has no single point of failure, which is the rarest thing in this league.</li><li><strong>Berlin Blitz.</strong> The defending champion won by fifty with his first receiver scoring 2.2. Everybody else needs that to be who Chase is now.</li><li><strong>One Under akaThe Mulligan.</strong> Five rings and he is the luckiest man in league history, six wins above expectation. Casey Couture does not need to be good. He needs to be present.</li><li><strong>Balls Deep.</strong> Fifth in points and 0 and 1, because he drew the only score in the league he could not have beaten.</li><li><strong>BearDown.</strong> Two defenses' worth of good process and one quarterback slot he cannot stop losing.</li><li><strong>Samba St. Gibbs Lion King.</strong> 1 and 0 and six teams outscored him. If Gibbs has a quiet Sunday there is nothing behind it.</li><li><strong>Cosby Copperheads.</strong> Derrick Henry at 37.8 and a defense at negative four. Doug Fields is one waiver claim away from being a problem.</li><li><strong>Holy Rollers.</strong> Best move in the league, worst luck in the league. He gets Cavender next week and he should win by thirty.</li><li><strong>Hawk Tua Tagovailoa.</strong> Undefeated and he would have lost to nine of the eleven teams he did not play.</li><li><strong>The Scranton Strangler.</strong> The roster is not the problem. I have seen the bench.</li><li><strong>An alBum Cover.</strong> Last in scoring, and he released 41.2 points off his own roster to get there.</li></ol>
-<p><span class="who">GIL:</span> Next Sunday: DA at Mama Beth. Also Geoff Cavender at Adam Hershberger, Kent Frenger at Scott Reisert, Scott Howard at Casey Couture, Adam Calvelage at Spencer Lentz, and Ryan Reed at Doug Fields.</p>
+<p><span class="who">GIL:</span> <strong>Best move:</strong> Adam Hershberger claiming Lawrence the same week Howard released him, and starting him for a team high.</p>
+<div class="bcom"><p><span class="who">BOOMER:</span> Seven moves went through. Scott Howard and Adam Calvelage made four of them between them and pushed 60.4 points out the door on net. The wire is where this league goes to hurt itself in private, and those two did most of it.</p></div>
+<h2 id="next">Next Sunday</h2>
+<p><span class="who">GIL:</span> DA at Mama Beth. Geoff Cavender at Adam Hershberger, Kent Frenger at Scott Reisert, Scott Howard at Casey Couture, Adam Calvelage at Spencer Lentz, Ryan Reed at Doug Fields.</p>
 <div class="bcom"><p><span class="who">BOOMER:</span> One house, two teams, one football game. Somebody in Dewart Lake is eating dinner in total silence on Monday and I would not miss it for anything.</p></div>
 </main>
 <footer class="wrap foot">
-<p>THE WEEKLY BOOTH — Dewart Lake FFL, Week 1, 2026. Gil Prather and Boomer Latour. Every number on this page is pulled from the league and checked before it is spoken.</p><p class="note">Scores are computed under each league’s own settings, so the same player can be worth different numbers in two different buildings.</p><p><a href="../">The Weekly Booth</a> &nbsp; <a href="./">Dewart Lake FFL, 2026</a> &nbsp; <a href="../foh/week-1.html">Friends of Herb, Week 1</a></p>
+<p>THE WEEKLY BOOTH: Dewart Lake FFL, Week 1, 2026. Gil Prather and Boomer Latour. Every number on this page is pulled from the league and checked before it is spoken.</p><p class="note">Scores are computed under each league’s own settings, so the same player can be worth different numbers in two different buildings.</p><p><a href="https://slentz9090.github.io/weekly-booth/">The Weekly Booth</a> &nbsp; <a href="https://slentz9090.github.io/weekly-booth/dlffl/">Dewart Lake FFL, 2026</a> &nbsp; <a href="https://slentz9090.github.io/weekly-booth/foh/week-1.html">Friends of Herb, Week 1</a></p>
 </footer>
 <script>
 (function(){
@@ -403,10 +419,18 @@ html.js .jump{display:flex}
    b.addEventListener('click',function(){
      var u=location.origin+location.pathname+'#'+b.getAttribute('data-a');
      var old=b.parentNode.querySelector('.mc-url'); if(old)old.remove();
-     if(navigator.share){navigator.share({url:u}).then(done,function(){});return;}
-     if(navigator.clipboard&&navigator.clipboard.writeText){
-       navigator.clipboard.writeText(u).then(done,function(){fb(u);});
-     } else fb(u);
+     function clip(){
+       if(navigator.clipboard&&navigator.clipboard.writeText){
+         navigator.clipboard.writeText(u).then(done,function(){fb(u);});
+       } else fb(u);
+     }
+     if(navigator.share){
+       navigator.share({url:u}).then(done,function(err){
+         if(!err||err.name!=='AbortError')clip();
+       });
+       return;
+     }
+     clip();
      function fb(u){
        var i=document.createElement('textarea');
        i.value=u; i.setAttribute('readonly','');
@@ -424,6 +448,9 @@ html.js .jump{display:flex}
      }
    });
  });
+
+ if(location.hash){var h0=document.getElementById(location.hash.slice(1));
+   if(h0&&h0.classList.contains('mc-row'))h0.classList.add('lit');}
 
  var j=document.getElementById('jump');
  if(j){
@@ -475,6 +502,8 @@ html.js .jump{display:flex}
 
    btn.addEventListener('click',function(){
      if(a.paused){
+       if(!a.currentTime){try{var v=+sessionStorage.getItem('wb:'+a.src);
+         if(v>3&&(!a.duration||v<a.duration-3))a.currentTime=v;}catch(e){}}
        all.forEach(function(o){var x=o.querySelector('audio'); if(x&&x!==a)x.pause();});
        var pr=a.play();
        if(pr&&pr.catch)pr.catch(function(err){
@@ -497,11 +526,15 @@ html.js .jump{display:flex}
    a.addEventListener('pause',function(){btn.innerHTML=PLAY;btn.setAttribute('aria-label','Play: '+name);});
    a.addEventListener('waiting',function(){btn.style.opacity='.55';});
    a.addEventListener('playing',function(){btn.style.opacity='';});
-   a.addEventListener('loadedmetadata',function(){
-     tm.textContent=fmt(a.duration);
-     try{var v=+sessionStorage.getItem('wb:'+a.src);
-         if(v>3&&v<a.duration-3)a.currentTime=v;}catch(e){}
-   });
+   a.addEventListener('loadedmetadata',function(){tm.textContent=fmt(a.duration);});
+   var lastSave=0;
+   var save=function(){try{
+     if(a.currentTime>3&&a.duration&&a.currentTime<a.duration-3)
+       sessionStorage.setItem('wb:'+a.src,a.currentTime);
+     else sessionStorage.removeItem('wb:'+a.src);
+   }catch(e){}};
+   a.addEventListener('pause',save);
+   addEventListener('pagehide',save);
    a.addEventListener('timeupdate',function(){
      if(!a.duration) return;
      var pct=a.currentTime/a.duration*100;
@@ -509,7 +542,7 @@ html.js .jump{display:flex}
      bar.setAttribute('aria-valuenow',Math.round(pct));
      bar.setAttribute('aria-valuetext',fmt(a.currentTime)+' of '+fmt(a.duration));
      tm.textContent=fmt(a.duration-a.currentTime);
-     if(Math.floor(a.currentTime)%5===0){try{sessionStorage.setItem('wb:'+a.src,a.currentTime);}catch(e){}}
+     if(a.currentTime-lastSave>4){lastSave=a.currentTime;save();}
    });
    a.addEventListener('ended',function(){fil.style.width='0%';tm.textContent=fmt(a.duration);
      try{sessionStorage.removeItem('wb:'+a.src);}catch(e){}});
