@@ -3,8 +3,8 @@
  "leagueName": "Dewart Lake FFL",
  "season": 2026,
  "throughWeek": 1,
- "updated": "2026-09-17T06:15:53.126Z",
- "note": "Season to date ledger. Each weekly run appends one week per owner, updates totals, appends awards, and grades the prior prediction. Leaderboards are computed from this file, never from a single week.",
+ "updated": "2026-09-17",
+ "note": "Week 1 published 2026-09-16. Awards match the published page. ON THE RECORD carries one call per team, each with a machine-checkable `check` block. Grade every one of them at the TOP of the next issue, right or wrong, before anything else, then make a new call on every team at the bottom. Keep the positive/negative mix near even. A page of predicted failures reads as a pillory.",
  "owners": {
   "dennis couture": {
    "team": "DA The Badenov's",
@@ -34,9 +34,7 @@
     "weeksPlayed": 1
    },
    "awards": {
-    "ownerOfWeek": [
-     1
-    ],
+    "ownerOfWeek": [],
     "worstOwner": [],
     "startOfWeek": [
      1
@@ -73,7 +71,9 @@
     "weeksPlayed": 1
    },
    "awards": {
-    "ownerOfWeek": [],
+    "ownerOfWeek": [
+     1
+    ],
     "worstOwner": [],
     "startOfWeek": [],
     "sitOfWeek": [],
@@ -321,9 +321,7 @@
     "ownerOfWeek": [],
     "worstOwner": [],
     "startOfWeek": [],
-    "sitOfWeek": [
-     1
-    ],
+    "sitOfWeek": [],
     "wasteOfWeek": []
    }
   },
@@ -359,7 +357,9 @@
     "worstOwner": [],
     "startOfWeek": [],
     "sitOfWeek": [],
-    "wasteOfWeek": []
+    "wasteOfWeek": [
+     1
+    ]
    }
   },
   "Scott Howard": {
@@ -395,10 +395,10 @@
      1
     ],
     "startOfWeek": [],
-    "sitOfWeek": [],
-    "wasteOfWeek": [
+    "sitOfWeek": [
      1
-    ]
+    ],
+    "wasteOfWeek": []
    }
   },
   "Adam Calvelage": {
@@ -439,12 +439,199 @@
  },
  "predictions": [
   {
+   "n": 1,
    "week": 1,
    "by": "Boomer",
-   "call": "Mama Beth beats DA in Week 2, and DA still finishes top three in scoring. Both halves must hit.",
+   "owner": "dennis couture",
+   "call": "DA finishes top three in scoring again in Week 2.",
    "resolvesWeek": 2,
    "graded": null,
-   "correct": null
+   "correct": null,
+   "check": {
+    "type": "scoringRankAtMost",
+    "owner": "dennis couture",
+    "week": 2,
+    "value": 3
+   }
+  },
+  {
+   "n": 2,
+   "week": 1,
+   "by": "Boomer",
+   "owner": "Beth Couture",
+   "call": "Mama Beth beats DA on Sunday.",
+   "resolvesWeek": 2,
+   "graded": null,
+   "correct": null,
+   "check": {
+    "type": "h2h",
+    "winner": "Beth Couture",
+    "loser": "dennis couture",
+    "week": 2
+   }
+  },
+  {
+   "n": 3,
+   "week": 1,
+   "by": "Boomer",
+   "owner": "Kent Frenger",
+   "call": "Ja'Marr Chase goes for 15 or more for Kent Frenger in Week 2.",
+   "resolvesWeek": 2,
+   "graded": null,
+   "correct": null,
+   "check": {
+    "type": "playerAtLeast",
+    "owner": "Kent Frenger",
+    "week": 2,
+    "player": "Ja'Marr Chase",
+    "value": 15
+   }
+  },
+  {
+   "n": 4,
+   "week": 1,
+   "by": "Boomer",
+   "owner": "Casey Couture",
+   "call": "Casey Couture is 2 and 0 by Sunday night.",
+   "resolvesWeek": 2,
+   "graded": null,
+   "correct": null,
+   "check": {
+    "type": "winsWeek",
+    "owner": "Casey Couture",
+    "week": 2
+   }
+  },
+  {
+   "n": 5,
+   "week": 1,
+   "by": "Boomer",
+   "owner": "Spencer Lentz",
+   "call": "Spencer Lentz beats Adam Calvelage by more than thirty.",
+   "resolvesWeek": 2,
+   "graded": null,
+   "correct": null,
+   "check": {
+    "type": "winsByMoreThan",
+    "owner": "Spencer Lentz",
+    "week": 2,
+    "value": 30
+   }
+  },
+  {
+   "n": 6,
+   "week": 1,
+   "by": "Boomer",
+   "owner": "Ryan Reed",
+   "call": "Ryan Reed starts Jaxson Dart in Week 2.",
+   "resolvesWeek": 2,
+   "graded": null,
+   "correct": null,
+   "check": {
+    "type": "startsPlayer",
+    "owner": "Ryan Reed",
+    "week": 2,
+    "player": "Jaxson Dart"
+   }
+  },
+  {
+   "n": 7,
+   "week": 1,
+   "by": "Boomer",
+   "owner": "Scott Reisert",
+   "call": "Scott Reisert does not reach 120 in Week 2 or Week 3.",
+   "resolvesWeek": 3,
+   "graded": null,
+   "correct": null,
+   "check": {
+    "type": "maxScoreUnder",
+    "owner": "Scott Reisert",
+    "weeks": [
+     2,
+     3
+    ],
+    "value": 120
+   }
+  },
+  {
+   "n": 8,
+   "week": 1,
+   "by": "Boomer",
+   "owner": "Doug Fields",
+   "call": "Doug Fields outscores Ryan Reed on Sunday.",
+   "resolvesWeek": 2,
+   "graded": null,
+   "correct": null,
+   "check": {
+    "type": "outscores",
+    "owner": "Doug Fields",
+    "other": "Ryan Reed",
+    "week": 2
+   }
+  },
+  {
+   "n": 9,
+   "week": 1,
+   "by": "Boomer",
+   "owner": "Adam Hershberger",
+   "call": "Adam Hershberger beats Geoff Cavender by twenty or more.",
+   "resolvesWeek": 2,
+   "graded": null,
+   "correct": null,
+   "check": {
+    "type": "winsByAtLeast",
+    "owner": "Adam Hershberger",
+    "week": 2,
+    "value": 20
+   }
+  },
+  {
+   "n": 10,
+   "week": 1,
+   "by": "Boomer",
+   "owner": "Geoff Cavender",
+   "call": "Geoff Cavender does not clear 110 in Week 2.",
+   "resolvesWeek": 2,
+   "graded": null,
+   "correct": null,
+   "check": {
+    "type": "scoreUnder",
+    "owner": "Geoff Cavender",
+    "week": 2,
+    "value": 110
+   }
+  },
+  {
+   "n": 11,
+   "week": 1,
+   "by": "Boomer",
+   "owner": "Scott Howard",
+   "call": "Scott Howard scores 120 or more in Week 2.",
+   "resolvesWeek": 2,
+   "graded": null,
+   "correct": null,
+   "check": {
+    "type": "scoreAtLeast",
+    "owner": "Scott Howard",
+    "week": 2,
+    "value": 120
+   }
+  },
+  {
+   "n": 12,
+   "week": 1,
+   "by": "Boomer",
+   "owner": "Adam Calvelage",
+   "call": "Adam Calvelage clears 100 in Week 2.",
+   "resolvesWeek": 2,
+   "graded": null,
+   "correct": null,
+   "check": {
+    "type": "scoreAtLeast",
+    "owner": "Adam Calvelage",
+    "week": 2,
+    "value": 100
+   }
   }
  ]
 }

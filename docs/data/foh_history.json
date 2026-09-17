@@ -1,0 +1,1510 @@
+{
+ "league": "foh",
+ "leagueName": "Friends of Herb",
+ "note": "All-time history for Friends of Herb across BOTH eras. The CBS Sportsline era (c.2004-2010) is champions and finishes only, reconstructed from the league email record, with no weekly scores. The ESPN era (2011-2025) has weekly scores, and rosters from 2018. Rank a single week only against ESPN-era numbers. Titles and finishes may be cited across both eras. Never invent a number that is not in this file. 2010 resolved to Bob Dorsch from the 2010 Payouts email (Spencer 2nd); titlesAllEras updated 2026-09-17.",
+ "activeOwners": [
+  "Michael Turner",
+  "Spencer Lentz",
+  "Aaron Jezioro",
+  "Matt Davis",
+  "Bob Dorsch",
+  "Michael Smith",
+  "Ryan Kelly",
+  "Rahul Pahuja",
+  "Billy Norton",
+  "Aron Rogers",
+  "Eric Olson"
+ ],
+ "owners": {
+  "Michael Turner": {
+   "games": 236,
+   "best": {
+    "pts": 197.6,
+    "year": 2016,
+    "week": 3
+   },
+   "top5": [
+    {
+     "pts": 197.6,
+     "year": 2016,
+     "week": 3
+    },
+    {
+     "pts": 154.74,
+     "year": 2025,
+     "week": 7
+    },
+    {
+     "pts": 153.04,
+     "year": 2023,
+     "week": 13
+    },
+    {
+     "pts": 151.84,
+     "year": 2024,
+     "week": 13
+    },
+    {
+     "pts": 149.9,
+     "year": 2014,
+     "week": 12
+    }
+   ],
+   "worst": {
+    "pts": 43.2,
+    "year": 2017,
+    "week": 13
+   },
+   "bottom3": [
+    {
+     "pts": 43.2,
+     "year": 2017,
+     "week": 13
+    },
+    {
+     "pts": 45.24,
+     "year": 2018,
+     "week": 15
+    },
+    {
+     "pts": 46.46,
+     "year": 2019,
+     "week": 12
+    }
+   ],
+   "mean": 103.13,
+   "median": 101.34,
+   "deciles": [
+    74.62,
+    83.8,
+    90.58,
+    96.58,
+    101.34,
+    108.6,
+    115.82,
+    123.16,
+    130.8
+   ],
+   "firstYear": 2011,
+   "lastYear": 2025
+  },
+  "Spencer Lentz": {
+   "games": 240,
+   "best": {
+    "pts": 193.3,
+    "year": 2018,
+    "week": 10
+   },
+   "top5": [
+    {
+     "pts": 193.3,
+     "year": 2018,
+     "week": 10
+    },
+    {
+     "pts": 180.76,
+     "year": 2011,
+     "week": 13
+    },
+    {
+     "pts": 179.8,
+     "year": 2018,
+     "week": 12
+    },
+    {
+     "pts": 178.78,
+     "year": 2021,
+     "week": 5
+    },
+    {
+     "pts": 174.68,
+     "year": 2013,
+     "week": 9
+    }
+   ],
+   "worst": {
+    "pts": 50.6,
+    "year": 2021,
+    "week": 16
+   },
+   "bottom3": [
+    {
+     "pts": 50.6,
+     "year": 2021,
+     "week": 16
+    },
+    {
+     "pts": 56.4,
+     "year": 2022,
+     "week": 16
+    },
+    {
+     "pts": 59.98,
+     "year": 2017,
+     "week": 9
+    }
+   ],
+   "mean": 115.14,
+   "median": 110.89,
+   "deciles": [
+    84.86,
+    96.24,
+    101.34,
+    105.84,
+    111.04,
+    119.72,
+    126.04,
+    135.29,
+    149.68
+   ],
+   "firstYear": 2011,
+   "lastYear": 2025
+  },
+  "Aaron Jezioro": {
+   "games": 236,
+   "best": {
+    "pts": 174.12,
+    "year": 2015,
+    "week": 3
+   },
+   "top5": [
+    {
+     "pts": 174.12,
+     "year": 2015,
+     "week": 3
+    },
+    {
+     "pts": 168.4,
+     "year": 2015,
+     "week": 6
+    },
+    {
+     "pts": 163.9,
+     "year": 2025,
+     "week": 16
+    },
+    {
+     "pts": 162.52,
+     "year": 2012,
+     "week": 9
+    },
+    {
+     "pts": 157.6,
+     "year": 2018,
+     "week": 4
+    }
+   ],
+   "worst": {
+    "pts": 42.26,
+    "year": 2013,
+    "week": 10
+   },
+   "bottom3": [
+    {
+     "pts": 42.26,
+     "year": 2013,
+     "week": 10
+    },
+    {
+     "pts": 47.6,
+     "year": 2013,
+     "week": 3
+    },
+    {
+     "pts": 52.2,
+     "year": 2023,
+     "week": 10
+    }
+   ],
+   "mean": 101.65,
+   "median": 101.53,
+   "deciles": [
+    69.54,
+    78.22,
+    87.7,
+    94.84,
+    101.66,
+    108.14,
+    113.61,
+    122.76,
+    133.62
+   ],
+   "firstYear": 2011,
+   "lastYear": 2025
+  },
+  "Matt Davis": {
+   "games": 239,
+   "best": {
+    "pts": 186.54,
+    "year": 2017,
+    "week": 15
+   },
+   "top5": [
+    {
+     "pts": 186.54,
+     "year": 2017,
+     "week": 15
+    },
+    {
+     "pts": 185.46,
+     "year": 2020,
+     "week": 7
+    },
+    {
+     "pts": 178.0,
+     "year": 2025,
+     "week": 10
+    },
+    {
+     "pts": 175.8,
+     "year": 2013,
+     "week": 15
+    },
+    {
+     "pts": 167.7,
+     "year": 2016,
+     "week": 5
+    }
+   ],
+   "worst": {
+    "pts": 48.85,
+    "year": 2011,
+    "week": 16
+   },
+   "bottom3": [
+    {
+     "pts": 48.85,
+     "year": 2011,
+     "week": 16
+    },
+    {
+     "pts": 65.4,
+     "year": 2021,
+     "week": 7
+    },
+    {
+     "pts": 65.68,
+     "year": 2012,
+     "week": 7
+    }
+   ],
+   "mean": 114.68,
+   "median": 114.0,
+   "deciles": [
+    84.76,
+    92.3,
+    101.02,
+    107.28,
+    114.0,
+    118.06,
+    126.26,
+    134.04,
+    146.04
+   ],
+   "firstYear": 2011,
+   "lastYear": 2025
+  },
+  "Bob Dorsch": {
+   "games": 238,
+   "best": {
+    "pts": 189.14,
+    "year": 2025,
+    "week": 6
+   },
+   "top5": [
+    {
+     "pts": 189.14,
+     "year": 2025,
+     "week": 6
+    },
+    {
+     "pts": 188.8,
+     "year": 2022,
+     "week": 9
+    },
+    {
+     "pts": 184.22,
+     "year": 2019,
+     "week": 5
+    },
+    {
+     "pts": 176.3,
+     "year": 2020,
+     "week": 12
+    },
+    {
+     "pts": 174.7,
+     "year": 2015,
+     "week": 15
+    }
+   ],
+   "worst": {
+    "pts": 52.82,
+    "year": 2014,
+    "week": 11
+   },
+   "bottom3": [
+    {
+     "pts": 52.82,
+     "year": 2014,
+     "week": 11
+    },
+    {
+     "pts": 60.52,
+     "year": 2011,
+     "week": 9
+    },
+    {
+     "pts": 64.5,
+     "year": 2019,
+     "week": 2
+    }
+   ],
+   "mean": 116.4,
+   "median": 117.03,
+   "deciles": [
+    84.84,
+    96.64,
+    103.14,
+    112.34,
+    117.22,
+    123.44,
+    127.22,
+    136.18,
+    144.92
+   ],
+   "firstYear": 2011,
+   "lastYear": 2025
+  },
+  "Michael Smith": {
+   "games": 239,
+   "best": {
+    "pts": 171.2,
+    "year": 2016,
+    "week": 1
+   },
+   "top5": [
+    {
+     "pts": 171.2,
+     "year": 2016,
+     "week": 1
+    },
+    {
+     "pts": 160.52,
+     "year": 2014,
+     "week": 7
+    },
+    {
+     "pts": 159.64,
+     "year": 2020,
+     "week": 16
+    },
+    {
+     "pts": 153.86,
+     "year": 2019,
+     "week": 12
+    },
+    {
+     "pts": 153.28,
+     "year": 2014,
+     "week": 12
+    }
+   ],
+   "worst": {
+    "pts": 0.0,
+    "year": 2023,
+    "week": 14
+   },
+   "bottom3": [
+    {
+     "pts": 0.0,
+     "year": 2023,
+     "week": 14
+    },
+    {
+     "pts": 7.2,
+     "year": 2023,
+     "week": 16
+    },
+    {
+     "pts": 46.22,
+     "year": 2014,
+     "week": 14
+    }
+   ],
+   "mean": 106.62,
+   "median": 106.96,
+   "deciles": [
+    75.96,
+    85.38,
+    94.66,
+    100.04,
+    106.96,
+    112.98,
+    120.82,
+    128.24,
+    136.28
+   ],
+   "firstYear": 2011,
+   "lastYear": 2025
+  },
+  "Ryan Kelly": {
+   "games": 237,
+   "best": {
+    "pts": 175.82,
+    "year": 2013,
+    "week": 13
+   },
+   "top5": [
+    {
+     "pts": 175.82,
+     "year": 2013,
+     "week": 13
+    },
+    {
+     "pts": 171.08,
+     "year": 2024,
+     "week": 14
+    },
+    {
+     "pts": 168.1,
+     "year": 2011,
+     "week": 15
+    },
+    {
+     "pts": 166.84,
+     "year": 2014,
+     "week": 1
+    },
+    {
+     "pts": 165.92,
+     "year": 2022,
+     "week": 7
+    }
+   ],
+   "worst": {
+    "pts": 35.7,
+    "year": 2019,
+    "week": 16
+   },
+   "bottom3": [
+    {
+     "pts": 35.7,
+     "year": 2019,
+     "week": 16
+    },
+    {
+     "pts": 39.7,
+     "year": 2019,
+     "week": 12
+    },
+    {
+     "pts": 55.74,
+     "year": 2025,
+     "week": 7
+    }
+   ],
+   "mean": 109.9,
+   "median": 110.7,
+   "deciles": [
+    73.48,
+    86.12,
+    94.64,
+    103.1,
+    110.7,
+    116.92,
+    125.02,
+    131.84,
+    143.8
+   ],
+   "firstYear": 2011,
+   "lastYear": 2025
+  },
+  "Rahul Pahuja": {
+   "games": 239,
+   "best": {
+    "pts": 174.84,
+    "year": 2025,
+    "week": 8
+   },
+   "top5": [
+    {
+     "pts": 174.84,
+     "year": 2025,
+     "week": 8
+    },
+    {
+     "pts": 173.12,
+     "year": 2015,
+     "week": 3
+    },
+    {
+     "pts": 170.68,
+     "year": 2022,
+     "week": 10
+    },
+    {
+     "pts": 169.74,
+     "year": 2017,
+     "week": 13
+    },
+    {
+     "pts": 168.9,
+     "year": 2014,
+     "week": 13
+    }
+   ],
+   "worst": {
+    "pts": 56.34,
+    "year": 2025,
+    "week": 11
+   },
+   "bottom3": [
+    {
+     "pts": 56.34,
+     "year": 2025,
+     "week": 11
+    },
+    {
+     "pts": 56.46,
+     "year": 2016,
+     "week": 14
+    },
+    {
+     "pts": 58.66,
+     "year": 2021,
+     "week": 12
+    }
+   ],
+   "mean": 109.84,
+   "median": 107.2,
+   "deciles": [
+    82.14,
+    90.18,
+    96.56,
+    102.09,
+    107.2,
+    113.58,
+    119.5,
+    126.4,
+    144.06
+   ],
+   "firstYear": 2011,
+   "lastYear": 2025
+  },
+  "Billy Norton": {
+   "games": 203,
+   "best": {
+    "pts": 177.28,
+    "year": 2023,
+    "week": 13
+   },
+   "top5": [
+    {
+     "pts": 177.28,
+     "year": 2023,
+     "week": 13
+    },
+    {
+     "pts": 175.06,
+     "year": 2023,
+     "week": 8
+    },
+    {
+     "pts": 173.1,
+     "year": 2018,
+     "week": 4
+    },
+    {
+     "pts": 172.44,
+     "year": 2018,
+     "week": 2
+    },
+    {
+     "pts": 164.12,
+     "year": 2013,
+     "week": 9
+    }
+   ],
+   "worst": {
+    "pts": 54.52,
+    "year": 2020,
+    "week": 5
+   },
+   "bottom3": [
+    {
+     "pts": 54.52,
+     "year": 2020,
+     "week": 5
+    },
+    {
+     "pts": 55.32,
+     "year": 2013,
+     "week": 16
+    },
+    {
+     "pts": 57.42,
+     "year": 2025,
+     "week": 13
+    }
+   ],
+   "mean": 110.19,
+   "median": 108.84,
+   "deciles": [
+    80.18,
+    87.44,
+    94.52,
+    102.82,
+    108.84,
+    115.64,
+    123.24,
+    134.04,
+    142.16
+   ],
+   "firstYear": 2013,
+   "lastYear": 2025
+  },
+  "Aron Rogers": {
+   "games": 157,
+   "best": {
+    "pts": 187.0,
+    "year": 2024,
+    "week": 15
+   },
+   "top5": [
+    {
+     "pts": 187.0,
+     "year": 2024,
+     "week": 15
+    },
+    {
+     "pts": 169.16,
+     "year": 2021,
+     "week": 5
+    },
+    {
+     "pts": 168.64,
+     "year": 2019,
+     "week": 5
+    },
+    {
+     "pts": 162.86,
+     "year": 2020,
+     "week": 8
+    },
+    {
+     "pts": 162.82,
+     "year": 2021,
+     "week": 4
+    }
+   ],
+   "worst": {
+    "pts": 48.3,
+    "year": 2023,
+    "week": 10
+   },
+   "bottom3": [
+    {
+     "pts": 48.3,
+     "year": 2023,
+     "week": 10
+    },
+    {
+     "pts": 50.7,
+     "year": 2012,
+     "week": 15
+    },
+    {
+     "pts": 62.54,
+     "year": 2012,
+     "week": 8
+    }
+   ],
+   "mean": 111.0,
+   "median": 111.24,
+   "deciles": [
+    78.24,
+    91.02,
+    98.12,
+    103.6,
+    111.24,
+    117.26,
+    122.56,
+    130.94,
+    143.64
+   ],
+   "firstYear": 2012,
+   "lastYear": 2025
+  },
+  "Eric Olson": {
+   "games": 66,
+   "best": {
+    "pts": 163.5,
+    "year": 2013,
+    "week": 15
+   },
+   "top5": [
+    {
+     "pts": 163.5,
+     "year": 2013,
+     "week": 15
+    },
+    {
+     "pts": 162.04,
+     "year": 2013,
+     "week": 16
+    },
+    {
+     "pts": 161.9,
+     "year": 2014,
+     "week": 13
+    },
+    {
+     "pts": 157.84,
+     "year": 2014,
+     "week": 6
+    },
+    {
+     "pts": 155.84,
+     "year": 2012,
+     "week": 1
+    }
+   ],
+   "worst": {
+    "pts": 60.68,
+    "year": 2011,
+    "week": 7
+   },
+   "bottom3": [
+    {
+     "pts": 60.68,
+     "year": 2011,
+     "week": 7
+    },
+    {
+     "pts": 64.1,
+     "year": 2013,
+     "week": 11
+    },
+    {
+     "pts": 79.4,
+     "year": 2014,
+     "week": 16
+    }
+   ],
+   "mean": 116.63,
+   "median": 114.98,
+   "deciles": [
+    89.93,
+    99.49,
+    107.76,
+    110.0,
+    115.3,
+    120.56,
+    127.32,
+    134.28,
+    151.92
+   ],
+   "firstYear": 2011,
+   "lastYear": 2014
+  }
+ },
+ "headToHead": {
+  "Michael Turner": {
+   "Spencer Lentz": "8-15-0",
+   "Aaron Jezioro": "16-16-0",
+   "Matt Davis": "11-11-0",
+   "Bob Dorsch": "11-15-0",
+   "Michael Smith": "13-12-0",
+   "Ryan Kelly": "10-15-0",
+   "Rahul Pahuja": "5-13-0",
+   "Billy Norton": "8-8-0",
+   "Aron Rogers": "5-8-0",
+   "Eric Olson": "1-5-0"
+  },
+  "Spencer Lentz": {
+   "Michael Turner": "15-8-0",
+   "Aaron Jezioro": "11-7-0",
+   "Matt Davis": "14-14-0",
+   "Bob Dorsch": "8-18-0",
+   "Michael Smith": "12-10-0",
+   "Ryan Kelly": "11-10-0",
+   "Rahul Pahuja": "16-10-0",
+   "Billy Norton": "9-13-0",
+   "Aron Rogers": "7-10-0",
+   "Eric Olson": "3-3-0"
+  },
+  "Aaron Jezioro": {
+   "Michael Turner": "16-16-0",
+   "Spencer Lentz": "7-11-0",
+   "Matt Davis": "12-12-0",
+   "Bob Dorsch": "5-15-0",
+   "Michael Smith": "9-14-0",
+   "Ryan Kelly": "6-10-0",
+   "Rahul Pahuja": "11-18-0",
+   "Billy Norton": "8-16-0",
+   "Aron Rogers": "3-12-0",
+   "Eric Olson": "2-5-0"
+  },
+  "Matt Davis": {
+   "Michael Turner": "11-11-0",
+   "Spencer Lentz": "14-14-0",
+   "Aaron Jezioro": "12-12-0",
+   "Bob Dorsch": "14-8-0",
+   "Michael Smith": "13-7-0",
+   "Ryan Kelly": "17-12-0",
+   "Rahul Pahuja": "12-8-0",
+   "Billy Norton": "5-11-0",
+   "Aron Rogers": "9-11-0",
+   "Eric Olson": "1-7-0"
+  },
+  "Bob Dorsch": {
+   "Michael Turner": "15-11-0",
+   "Spencer Lentz": "18-8-0",
+   "Aaron Jezioro": "15-5-0",
+   "Matt Davis": "8-14-0",
+   "Michael Smith": "13-9-0",
+   "Ryan Kelly": "14-11-0",
+   "Rahul Pahuja": "14-7-0",
+   "Billy Norton": "16-6-0",
+   "Aron Rogers": "10-7-0",
+   "Eric Olson": "5-2-0"
+  },
+  "Michael Smith": {
+   "Michael Turner": "12-13-0",
+   "Spencer Lentz": "10-12-0",
+   "Aaron Jezioro": "14-9-0",
+   "Matt Davis": "7-13-0",
+   "Bob Dorsch": "9-13-0",
+   "Ryan Kelly": "9-14-0",
+   "Rahul Pahuja": "10-18-0",
+   "Billy Norton": "5-13-0",
+   "Aron Rogers": "7-10-0",
+   "Eric Olson": "2-2-0"
+  },
+  "Ryan Kelly": {
+   "Michael Turner": "15-10-0",
+   "Spencer Lentz": "10-11-0",
+   "Aaron Jezioro": "10-6-0",
+   "Matt Davis": "12-17-0",
+   "Bob Dorsch": "11-14-0",
+   "Michael Smith": "14-9-0",
+   "Rahul Pahuja": "13-12-0",
+   "Billy Norton": "10-7-0",
+   "Aron Rogers": "7-6-0",
+   "Eric Olson": "3-3-0"
+  },
+  "Rahul Pahuja": {
+   "Michael Turner": "13-5-0",
+   "Spencer Lentz": "10-16-0",
+   "Aaron Jezioro": "18-11-0",
+   "Matt Davis": "8-12-0",
+   "Bob Dorsch": "7-14-0",
+   "Michael Smith": "18-10-0",
+   "Ryan Kelly": "12-13-0",
+   "Billy Norton": "11-10-0",
+   "Aron Rogers": "5-10-0",
+   "Eric Olson": "2-5-0"
+  },
+  "Billy Norton": {
+   "Michael Turner": "8-8-0",
+   "Spencer Lentz": "13-9-0",
+   "Aaron Jezioro": "16-8-0",
+   "Matt Davis": "11-5-0",
+   "Bob Dorsch": "6-16-0",
+   "Michael Smith": "13-5-0",
+   "Ryan Kelly": "7-10-0",
+   "Rahul Pahuja": "10-11-0",
+   "Aron Rogers": "8-8-0",
+   "Eric Olson": "2-2-0"
+  },
+  "Aron Rogers": {
+   "Michael Turner": "8-5-0",
+   "Spencer Lentz": "10-7-0",
+   "Aaron Jezioro": "12-3-0",
+   "Matt Davis": "11-9-0",
+   "Bob Dorsch": "7-10-0",
+   "Michael Smith": "10-7-0",
+   "Ryan Kelly": "6-7-0",
+   "Rahul Pahuja": "10-5-0",
+   "Billy Norton": "8-8-0",
+   "Eric Olson": "0-1-0"
+  },
+  "Eric Olson": {
+   "Michael Turner": "5-1-0",
+   "Spencer Lentz": "3-3-0",
+   "Aaron Jezioro": "5-2-0",
+   "Matt Davis": "7-1-0",
+   "Bob Dorsch": "2-5-0",
+   "Michael Smith": "2-2-0",
+   "Ryan Kelly": "3-3-0",
+   "Rahul Pahuja": "5-2-0",
+   "Billy Norton": "2-2-0",
+   "Aron Rogers": "1-0-0"
+  }
+ },
+ "managerSkill": {
+  "Michael Turner": {
+   "startSitEffPct": 86.5,
+   "careerBenchPts": 5187.3,
+   "adds": 65,
+   "addStarterPts": 2624.1
+  },
+  "Spencer Lentz": {
+   "startSitEffPct": 87.8,
+   "careerBenchPts": 5202.8,
+   "adds": 278,
+   "addStarterPts": 5732.8
+  },
+  "Aaron Jezioro": {
+   "startSitEffPct": 86.4,
+   "careerBenchPts": 4424.4,
+   "adds": 121,
+   "addStarterPts": 3668.1
+  },
+  "Matt Davis": {
+   "startSitEffPct": 89,
+   "careerBenchPts": 5015.8,
+   "adds": 120,
+   "addStarterPts": 3437.3
+  },
+  "Bob Dorsch": {
+   "startSitEffPct": 89.4,
+   "careerBenchPts": 5276.6,
+   "adds": 329,
+   "addStarterPts": 5887.1
+  },
+  "Michael Smith": {
+   "startSitEffPct": 88.3,
+   "careerBenchPts": 4450.7,
+   "adds": 116,
+   "addStarterPts": 2844.4
+  },
+  "Ryan Kelly": {
+   "startSitEffPct": 85.4,
+   "careerBenchPts": 5448.2,
+   "adds": 77,
+   "addStarterPts": 2279.6
+  },
+  "Rahul Pahuja": {
+   "startSitEffPct": 87.3,
+   "careerBenchPts": 4960.1,
+   "adds": 213,
+   "addStarterPts": 5101.4
+  },
+  "Billy Norton": {
+   "startSitEffPct": 87.6,
+   "careerBenchPts": 4620,
+   "adds": 193,
+   "addStarterPts": 4272.7
+  },
+  "Aron Rogers": {
+   "startSitEffPct": 89.6,
+   "careerBenchPts": 4135.2,
+   "adds": 122,
+   "addStarterPts": 3715
+  },
+  "Eric Olson": {
+   "startSitEffPct": "N/A",
+   "careerBenchPts": "N/A",
+   "adds": "N/A",
+   "addStarterPts": "N/A"
+  }
+ },
+ "superlatives": [
+  {
+   "title": "Most Titles",
+   "owner": "Ryan Kelly",
+   "detail": "4 (2011, 2016, 2021, 2024)"
+  },
+  {
+   "title": "Best Manager (legacy pts, min 5 seasons)",
+   "owner": "Bob Dorsch",
+   "detail": "51 legacy pts, 61.3% win rate"
+  },
+  {
+   "title": "Luckiest (W minus all-play xW)",
+   "owner": "Herb Schumann",
+   "detail": "+5.6 wins above expectation"
+  },
+  {
+   "title": "Unluckiest",
+   "owner": "Michael Smith",
+   "detail": "-6.8 wins vs expectation"
+  },
+  {
+   "title": "Best Drafter (ROI/pick, 2018-25)",
+   "owner": "Ryan Kelly",
+   "detail": "12.3 pts/pick vs slot avg"
+  },
+  {
+   "title": "Best Trader",
+   "owner": "N/A - only 0 trade(s) executed 2018-25",
+   "detail": "see Transactions tab"
+  },
+  {
+   "title": "Highest Ceiling (90th pct week)",
+   "owner": "Jason Lee",
+   "detail": "153.8 pts"
+  },
+  {
+   "title": "Most Consistent (lowest weekly SD, min 5 seasons)",
+   "owner": "Matt Davis",
+   "detail": "SD 22.7"
+  },
+  {
+   "title": "Biggest Choker (worst playoff win% min 4 apps)",
+   "owner": "Michael Turner",
+   "detail": "2-4 in playoffs, 4 apps"
+  },
+  {
+   "title": "Most Improved (YoY win% jump)",
+   "owner": "Aron Rogers",
+   "detail": "2018→2019: +67.0 pct pts"
+  },
+  {
+   "title": "Perennial Bridesmaid (most 2nds)",
+   "owner": "Matt Davis",
+   "detail": "4 runner-up finishes, 1 titles"
+  }
+ ],
+ "champions": [
+  [
+   "2011",
+   "Ryan Kelly",
+   "Old Man Smashers",
+   "9-4-0",
+   "1640.9"
+  ],
+  [
+   "2012",
+   "Bob Dorsch",
+   "Team Dorsch",
+   "9-5-0",
+   "1528"
+  ],
+  [
+   "2013",
+   "Rahul Pahuja",
+   "Pack Up",
+   "11-3-0",
+   "1700.7"
+  ],
+  [
+   "2014",
+   "Billy Norton",
+   "I Love You Tom Brady",
+   "8-5-0",
+   "1446.3"
+  ],
+  [
+   "2015",
+   "Bob Dorsch",
+   "DC Steel City",
+   "9-4-0",
+   "1564.1"
+  ],
+  [
+   "2016",
+   "Ryan Kelly",
+   "Old Man Smashers",
+   "7-6-0",
+   "1430.2"
+  ],
+  [
+   "2017",
+   "Billy Norton",
+   "I Love You Tom Brady",
+   "10-3-0",
+   "1400.7"
+  ],
+  [
+   "2018",
+   "Billy Norton",
+   "I Love You Tom Brady",
+   "11-1-0",
+   "1682.7"
+  ],
+  [
+   "2019",
+   "Aron Rogers",
+   "Kim Jong Un Pleasure Squad",
+   "11-1-0",
+   "1554.6"
+  ],
+  [
+   "2020",
+   "Michael Smith",
+   "Midget Grinders",
+   "8-5-0",
+   "1484.7"
+  ],
+  [
+   "2021",
+   "Ryan Kelly",
+   "Old Man Smashers",
+   "9-5-0",
+   "1770.8"
+  ],
+  [
+   "2022",
+   "Billy Norton",
+   "I Loved You Tom Brady",
+   "8-6-0",
+   "1562.6"
+  ],
+  [
+   "2023",
+   "Matt Davis",
+   "Dallas Dawgs",
+   "10-3-0",
+   "1430.8"
+  ],
+  [
+   "2024",
+   "Ryan Kelly",
+   "Old Man Smashers",
+   "9-5-0",
+   "1802.4"
+  ],
+  [
+   "2025",
+   "Bob Dorsch",
+   "WPB Steel City",
+   "11-3-0",
+   "1853"
+  ]
+ ],
+ "topRivalries": [
+  {
+   "rivalry": "Michael Turner vs Aaron Jezioro",
+   "games": 32,
+   "h2h": "16-16-0",
+   "avgMargin": 2.73
+  },
+  {
+   "rivalry": "Ryan Kelly vs Matt Davis",
+   "games": 29,
+   "h2h": "12-17-0",
+   "avgMargin": 13.55
+  },
+  {
+   "rivalry": "Aaron Jezioro vs Rahul Pahuja",
+   "games": 29,
+   "h2h": "11-18-0",
+   "avgMargin": 9.78
+  },
+  {
+   "rivalry": "Spencer Lentz vs Matt Davis",
+   "games": 28,
+   "h2h": "14-14-0",
+   "avgMargin": 2.06
+  },
+  {
+   "rivalry": "Rahul Pahuja vs Michael Smith",
+   "games": 28,
+   "h2h": "18-10-0",
+   "avgMargin": 8.97
+  },
+  {
+   "rivalry": "Michael Turner vs Bob Dorsch",
+   "games": 26,
+   "h2h": "11-15-0",
+   "avgMargin": 12.38
+  },
+  {
+   "rivalry": "Spencer Lentz vs Bob Dorsch",
+   "games": 26,
+   "h2h": "8-18-0",
+   "avgMargin": 15.88
+  },
+  {
+   "rivalry": "Spencer Lentz vs Rahul Pahuja",
+   "games": 26,
+   "h2h": "16-10-0",
+   "avgMargin": 7.29
+  },
+  {
+   "rivalry": "Ryan Kelly vs Rahul Pahuja",
+   "games": 25,
+   "h2h": "13-12-0",
+   "avgMargin": 3.79
+  },
+  {
+   "rivalry": "Ryan Kelly vs Bob Dorsch",
+   "games": 25,
+   "h2h": "11-14-0",
+   "avgMargin": 4.15
+  },
+  {
+   "rivalry": "Michael Turner vs Ryan Kelly",
+   "games": 25,
+   "h2h": "10-15-0",
+   "avgMargin": 3.42
+  },
+  {
+   "rivalry": "Michael Turner vs Michael Smith",
+   "games": 25,
+   "h2h": "13-12-0",
+   "avgMargin": 4.04
+  },
+  {
+   "rivalry": "Aaron Jezioro vs Matt Davis",
+   "games": 24,
+   "h2h": "12-12-0",
+   "avgMargin": 9.36
+  },
+  {
+   "rivalry": "Billy Norton vs Aaron Jezioro",
+   "games": 24,
+   "h2h": "16-8-0",
+   "avgMargin": 16.45
+  },
+  {
+   "rivalry": "Ryan Kelly vs Michael Smith",
+   "games": 23,
+   "h2h": "14-9-0",
+   "avgMargin": 8.12
+  }
+ ],
+ "eras": {
+  "cbsSportsline": {
+   "years": "c. 2004-2010",
+   "source": "League mailing list and email record. Champions and finishes only. No weekly scores exist for this era, so never rank a 2026 score against it.",
+   "champions": [
+    {
+     "year": 2004,
+     "champion": "Dallas Dawgs (Matt Davis)",
+     "runnerUp": null,
+     "third": null,
+     "scoreOrPayout": null,
+     "status": "INFERRED"
+    },
+    {
+     "year": 2005,
+     "champion": "Blind Squirrels (Eric Olson)",
+     "runnerUp": "Biflo (Bob Dorsch)",
+     "third": "Packup (Rahul Pahuja)",
+     "scoreOrPayout": "$280/$140/$50",
+     "status": "CONFIRMED"
+    },
+    {
+     "year": 2006,
+     "champion": "Dallas Dawgs (Matt Davis)",
+     "runnerUp": "Fighting King Prawns (Elliott Dowling)",
+     "third": "Balls Deep (Spencer Lentz)",
+     "scoreOrPayout": "101.5-100 $300/$120/$50",
+     "status": "CONFIRMED"
+    },
+    {
+     "year": 2007,
+     "champion": "The Croup (Aaron Jezioro)",
+     "runnerUp": "Runs With Bull (Scott Dabney)",
+     "third": "Midget Grinder (Michael Smith)",
+     "scoreOrPayout": null,
+     "status": "CONFIRMED"
+    },
+    {
+     "year": 2008,
+     "champion": "The Croup (Aaron Jezioro)",
+     "runnerUp": "Napoleon's Army (Michael Turner)",
+     "third": "Dallas Dawgs (Matt Davis)",
+     "scoreOrPayout": "$637.30/$300/$100",
+     "status": "CONFIRMED"
+    },
+    {
+     "year": 2009,
+     "champion": "The Croup (Aaron Jezioro)",
+     "runnerUp": "Balls Deep (Spencer Lentz)",
+     "third": "Dallas Dawgs (Matt Davis, by 0.4)",
+     "scoreOrPayout": null,
+     "status": "CONFIRMED"
+    },
+    {
+     "year": 2010,
+     "champion": "Bob Dorsch",
+     "runnerUp": "Balls Deep (Spencer Lentz)",
+     "third": null,
+     "scoreOrPayout": "$630/$300",
+     "status": "CONFIRMED",
+     "source": "2010 Payouts email, Spencer's Gmail"
+    }
+   ],
+   "finalStandings2005": [
+    "1 Blind Squirrels (Eric Olson) $280",
+    "2 Biflo (Bob Dorsch) $140",
+    "3 Packup (Rahul Pahuja) $50",
+    "4 Balls Deep (Spencer Lentz)",
+    "5 Kip's Cage Fighters (owner unmapped)",
+    "6 Napoleon's Army (Michael Turner)",
+    "7 Cork Soakers (owner unmapped)",
+    "8 Runs with Bulls (Scott Dabney)",
+    "9 Old Man Smashers (Ryan Kelly)",
+    "10 Dallas Dawgs (Matt Davis)",
+    "11 The Croup (Aaron Jezioro)",
+    "12 Midget Grinder (Michael Smith)",
+    "2005-12-12 thread: Herb Schumann rooting for Alge Crumpler ('All I need is 3 TDs and 13 receptions to overtake Spencer Pretty Boy Lentz')",
+    "2006 title decided 101.5-100; commish famously called Jason Witten 'Jeremy Witten' (Turner 2006-12-25; Davis roast 2006-12-28)",
+    "2008 payouts to the penny: $637.30/$300/$100 (Davis, 2009-01-04)",
+    "2009 was an auction draft (Olson 2009-08-12 'Change is Hard. Let's Change: Fantasy AUCTION'; 2010-07-13 'auction format we did last year')"
+   ]
+  },
+  "espn": {
+   "years": "2011-2025",
+   "source": "ESPN API. Full weekly scores; rosters and optimal lineups from 2018 on."
+  }
+ },
+ "titlesAllEras": {
+  "Ryan Kelly": {
+   "cbsEra": [],
+   "espnEra": [
+    {
+     "year": 2011,
+     "team": "Old Man Smashers"
+    },
+    {
+     "year": 2016,
+     "team": "Old Man Smashers"
+    },
+    {
+     "year": 2021,
+     "team": "Old Man Smashers"
+    },
+    {
+     "year": 2024,
+     "team": "Old Man Smashers"
+    }
+   ],
+   "total": 4
+  },
+  "Billy Norton": {
+   "cbsEra": [],
+   "espnEra": [
+    {
+     "year": 2014,
+     "team": "I Love You Tom Brady"
+    },
+    {
+     "year": 2017,
+     "team": "I Love You Tom Brady"
+    },
+    {
+     "year": 2018,
+     "team": "I Love You Tom Brady"
+    },
+    {
+     "year": 2022,
+     "team": "I Loved You Tom Brady"
+    }
+   ],
+   "total": 4
+  },
+  "Matt Davis": {
+   "cbsEra": [
+    {
+     "year": 2004,
+     "team": "Dallas Dawgs",
+     "status": "INFERRED"
+    },
+    {
+     "year": 2006,
+     "team": "Dallas Dawgs",
+     "status": "CONFIRMED"
+    }
+   ],
+   "espnEra": [
+    {
+     "year": 2023,
+     "team": "Dallas Dawgs"
+    }
+   ],
+   "total": 3
+  },
+  "Aaron Jezioro": {
+   "cbsEra": [
+    {
+     "year": 2007,
+     "team": "The Croup",
+     "status": "CONFIRMED"
+    },
+    {
+     "year": 2008,
+     "team": "The Croup",
+     "status": "CONFIRMED"
+    },
+    {
+     "year": 2009,
+     "team": "The Croup",
+     "status": "CONFIRMED"
+    }
+   ],
+   "espnEra": [],
+   "total": 3
+  },
+  "Bob Dorsch": {
+   "cbsEra": [
+    {
+     "year": 2010,
+     "team": "Biflo",
+     "status": "CONFIRMED"
+    }
+   ],
+   "espnEra": [
+    {
+     "year": 2012,
+     "team": "Team Dorsch"
+    },
+    {
+     "year": 2015,
+     "team": "DC Steel City"
+    },
+    {
+     "year": 2025,
+     "team": "WPB Steel City"
+    }
+   ],
+   "total": 4
+  },
+  "Eric Olson": {
+   "cbsEra": [
+    {
+     "year": 2005,
+     "team": "Blind Squirrels",
+     "status": "CONFIRMED"
+    }
+   ],
+   "espnEra": [],
+   "total": 1
+  },
+  "Rahul Pahuja": {
+   "cbsEra": [],
+   "espnEra": [
+    {
+     "year": 2013,
+     "team": "Pack Up"
+    }
+   ],
+   "total": 1
+  },
+  "Aron Rogers": {
+   "cbsEra": [],
+   "espnEra": [
+    {
+     "year": 2019,
+     "team": "Kim Jong Un Pleasure Squad"
+    }
+   ],
+   "total": 1
+  },
+  "Michael Smith": {
+   "cbsEra": [],
+   "espnEra": [
+    {
+     "year": 2020,
+     "team": "Midget Grinders"
+    }
+   ],
+   "total": 1
+  }
+ }
+}

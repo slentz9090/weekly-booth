@@ -3,8 +3,8 @@
  "leagueName": "Friends of Herb",
  "season": 2026,
  "throughWeek": 1,
- "updated": "2026-09-17T06:15:53.127Z",
- "note": "Season to date ledger. Each weekly run appends one week per owner, updates totals, appends awards, and grades the prior prediction. Leaderboards are computed from this file, never from a single week.",
+ "updated": "2026-09-17",
+ "note": "Week 1 published 2026-09-16. Awards match the published page. ON THE RECORD carries one call per team, each with a machine-checkable `check` block. Grade every one of them at the TOP of the next issue, right or wrong, before anything else, then make a new call on every team at the bottom. Keep the positive/negative mix near even. A page of predicted failures reads as a pillory.",
  "owners": {
   "Spencer Lentz": {
    "team": "Balls Deep",
@@ -34,9 +34,7 @@
     "weeksPlayed": 1
    },
    "awards": {
-    "ownerOfWeek": [
-     1
-    ],
+    "ownerOfWeek": [],
     "worstOwner": [],
     "startOfWeek": [],
     "sitOfWeek": [],
@@ -74,10 +72,10 @@
     "ownerOfWeek": [],
     "worstOwner": [],
     "startOfWeek": [],
-    "sitOfWeek": [],
-    "wasteOfWeek": [
+    "sitOfWeek": [
      1
-    ]
+    ],
+    "wasteOfWeek": []
    }
   },
   "Aron Rogers": {
@@ -108,11 +106,11 @@
     "weeksPlayed": 1
    },
    "awards": {
-    "ownerOfWeek": [],
-    "worstOwner": [],
-    "startOfWeek": [
+    "ownerOfWeek": [
      1
     ],
+    "worstOwner": [],
+    "startOfWeek": [],
     "sitOfWeek": [],
     "wasteOfWeek": []
    }
@@ -183,9 +181,7 @@
     "ownerOfWeek": [],
     "worstOwner": [],
     "startOfWeek": [],
-    "sitOfWeek": [
-     1
-    ],
+    "sitOfWeek": [],
     "wasteOfWeek": []
    }
   },
@@ -219,7 +215,9 @@
    "awards": {
     "ownerOfWeek": [],
     "worstOwner": [],
-    "startOfWeek": [],
+    "startOfWeek": [
+     1
+    ],
     "sitOfWeek": [],
     "wasteOfWeek": []
    }
@@ -253,12 +251,12 @@
    },
    "awards": {
     "ownerOfWeek": [],
-    "worstOwner": [
-     1
-    ],
+    "worstOwner": [],
     "startOfWeek": [],
     "sitOfWeek": [],
-    "wasteOfWeek": []
+    "wasteOfWeek": [
+     1
+    ]
    }
   },
   "Bob Dorsch": {
@@ -290,7 +288,9 @@
    },
    "awards": {
     "ownerOfWeek": [],
-    "worstOwner": [],
+    "worstOwner": [
+     1
+    ],
     "startOfWeek": [],
     "sitOfWeek": [],
     "wasteOfWeek": []
@@ -404,12 +404,187 @@
  },
  "predictions": [
   {
+   "n": 1,
    "week": 1,
    "by": "Boomer",
-   "call": "Rahul Pahuja leaves more than twenty points on his bench again in Week 2, and this time it costs him the game.",
+   "owner": "Spencer Lentz",
+   "call": "Spencer Lentz posts 150 or more again in Week 2.",
    "resolvesWeek": 2,
    "graded": null,
-   "correct": null
+   "correct": null,
+   "check": {
+    "type": "scoreAtLeast",
+    "owner": "Spencer Lentz",
+    "week": 2,
+    "value": 150
+   }
+  },
+  {
+   "n": 2,
+   "week": 1,
+   "by": "Boomer",
+   "owner": "Eric Olson",
+   "call": "Eric Olson starts Christian Watson in Week 2.",
+   "resolvesWeek": 2,
+   "graded": null,
+   "correct": null,
+   "check": {
+    "type": "startsPlayer",
+    "owner": "Eric Olson",
+    "week": 2,
+    "player": "Christian Watson"
+   }
+  },
+  {
+   "n": 3,
+   "week": 1,
+   "by": "Boomer",
+   "owner": "Aron Rogers",
+   "call": "Aron Rogers leaves under five on his bench again.",
+   "resolvesWeek": 2,
+   "graded": null,
+   "correct": null,
+   "check": {
+    "type": "benchUnder",
+    "owner": "Aron Rogers",
+    "week": 2,
+    "value": 5
+   }
+  },
+  {
+   "n": 4,
+   "week": 1,
+   "by": "Boomer",
+   "owner": "Bob Dorsch",
+   "call": "Bob Dorsch wins Week 2 with Pat Freiermuth in his lineup.",
+   "resolvesWeek": 2,
+   "graded": null,
+   "correct": null,
+   "check": {
+    "type": "winWithStarter",
+    "owner": "Bob Dorsch",
+    "week": 2,
+    "player": "Pat Freiermuth"
+   }
+  },
+  {
+   "n": 5,
+   "week": 1,
+   "by": "Boomer",
+   "owner": "Michael Turner",
+   "call": "Michael Turner loses another one by under five points before Halloween.",
+   "resolvesWeek": 8,
+   "graded": null,
+   "correct": null,
+   "check": {
+    "type": "losesByUnder",
+    "owner": "Michael Turner",
+    "weeks": [
+     3,
+     4,
+     5,
+     6,
+     7,
+     8
+    ],
+    "value": 5
+   }
+  },
+  {
+   "n": 6,
+   "week": 1,
+   "by": "Boomer",
+   "owner": "Ryan Kelly",
+   "call": "Ryan Kelly beats Aaron Jezioro by more than twenty.",
+   "resolvesWeek": 2,
+   "graded": null,
+   "correct": null,
+   "check": {
+    "type": "winsByMoreThan",
+    "owner": "Ryan Kelly",
+    "week": 2,
+    "value": 20
+   }
+  },
+  {
+   "n": 7,
+   "week": 1,
+   "by": "Boomer",
+   "owner": "Rahul Pahuja",
+   "call": "Rahul Pahuja leaves twenty or more behind again, and this time it costs him.",
+   "resolvesWeek": 2,
+   "graded": null,
+   "correct": null,
+   "check": {
+    "type": "benchAtLeastAndLoses",
+    "owner": "Rahul Pahuja",
+    "week": 2,
+    "value": 20
+   }
+  },
+  {
+   "n": 8,
+   "week": 1,
+   "by": "Boomer",
+   "owner": "Matt Davis",
+   "call": "Matt Davis gets a wide receiver into his top three scorers in Week 2.",
+   "resolvesWeek": 2,
+   "graded": null,
+   "correct": null,
+   "check": {
+    "type": "posInTop3",
+    "owner": "Matt Davis",
+    "week": 2,
+    "pos": "WR"
+   }
+  },
+  {
+   "n": 9,
+   "week": 1,
+   "by": "Boomer",
+   "owner": "Billy Norton",
+   "call": "Billy Norton scores 130 or more in Week 2.",
+   "resolvesWeek": 2,
+   "graded": null,
+   "correct": null,
+   "check": {
+    "type": "scoreAtLeast",
+    "owner": "Billy Norton",
+    "week": 2,
+    "value": 130
+   }
+  },
+  {
+   "n": 10,
+   "week": 1,
+   "by": "Boomer",
+   "owner": "Michael Smith",
+   "call": "Michael Smith beats Spencer Lentz on Sunday.",
+   "resolvesWeek": 2,
+   "graded": null,
+   "correct": null,
+   "check": {
+    "type": "h2h",
+    "winner": "Michael Smith",
+    "loser": "Spencer Lentz",
+    "week": 2
+   }
+  },
+  {
+   "n": 11,
+   "week": 1,
+   "by": "Boomer",
+   "owner": "Aaron Jezioro",
+   "call": "Aaron Jezioro beats Ryan Kelly on Sunday.",
+   "resolvesWeek": 2,
+   "graded": null,
+   "correct": null,
+   "check": {
+    "type": "h2h",
+    "winner": "Aaron Jezioro",
+    "loser": "Ryan Kelly",
+    "week": 2
+   }
   }
  ]
 }
