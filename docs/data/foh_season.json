@@ -1,0 +1,415 @@
+{
+ "league": "foh",
+ "leagueName": "Friends of Herb",
+ "season": 2026,
+ "throughWeek": 1,
+ "updated": "2026-09-17T06:15:53.127Z",
+ "note": "Season to date ledger. Each weekly run appends one week per owner, updates totals, appends awards, and grades the prior prediction. Leaderboards are computed from this file, never from a single week.",
+ "owners": {
+  "Spencer Lentz": {
+   "team": "Balls Deep",
+   "display": "Spencer Lentz",
+   "weeks": [
+    {
+     "week": 1,
+     "score": 171.92,
+     "benchPoints": 9.9,
+     "optimal": 181.82,
+     "allPlayW": 10,
+     "allPlayL": 0,
+     "worstSit": {
+      "benched": "Parker Washington",
+      "pts": 16.8,
+      "started": "Tee Higgins",
+      "startedPts": 7.4,
+      "cost": 9.4
+     }
+    }
+   ],
+   "totals": {
+    "pointsFor": 171.92,
+    "benchPoints": 9.9,
+    "allPlayW": 10,
+    "allPlayL": 0,
+    "weeksPlayed": 1
+   },
+   "awards": {
+    "ownerOfWeek": [
+     1
+    ],
+    "worstOwner": [],
+    "startOfWeek": [],
+    "sitOfWeek": [],
+    "wasteOfWeek": []
+   }
+  },
+  "Eric Olson": {
+   "team": "Colorado Narcoleptic Kestrels",
+   "display": "Eric Olson",
+   "weeks": [
+    {
+     "week": 1,
+     "score": 144.86,
+     "benchPoints": 33.3,
+     "optimal": 178.16,
+     "allPlayW": 9,
+     "allPlayL": 1,
+     "worstSit": {
+      "benched": "Christian Watson",
+      "pts": 34.7,
+      "started": "A.J. Brown",
+      "startedPts": 4.1,
+      "cost": 30.6
+     }
+    }
+   ],
+   "totals": {
+    "pointsFor": 144.86,
+    "benchPoints": 33.3,
+    "allPlayW": 9,
+    "allPlayL": 1,
+    "weeksPlayed": 1
+   },
+   "awards": {
+    "ownerOfWeek": [],
+    "worstOwner": [],
+    "startOfWeek": [],
+    "sitOfWeek": [],
+    "wasteOfWeek": [
+     1
+    ]
+   }
+  },
+  "Aron Rogers": {
+   "team": "Kim Jong Un Pleasure Squad",
+   "display": "Aron Rogers",
+   "weeks": [
+    {
+     "week": 1,
+     "score": 131.5,
+     "benchPoints": 2,
+     "optimal": 133.5,
+     "allPlayW": 8,
+     "allPlayL": 2,
+     "worstSit": {
+      "benched": "Wan'Dale Robinson",
+      "pts": 6.3,
+      "started": "George Pickens",
+      "startedPts": 4.3,
+      "cost": 2
+     }
+    }
+   ],
+   "totals": {
+    "pointsFor": 131.5,
+    "benchPoints": 2,
+    "allPlayW": 8,
+    "allPlayL": 2,
+    "weeksPlayed": 1
+   },
+   "awards": {
+    "ownerOfWeek": [],
+    "worstOwner": [],
+    "startOfWeek": [
+     1
+    ],
+    "sitOfWeek": [],
+    "wasteOfWeek": []
+   }
+  },
+  "Michael Turner": {
+   "team": "Napoleon's Army",
+   "display": "Michael Turner",
+   "weeks": [
+    {
+     "week": 1,
+     "score": 131.16,
+     "benchPoints": 3.6,
+     "optimal": 134.76,
+     "allPlayW": 7,
+     "allPlayL": 3,
+     "worstSit": {
+      "benched": "Alec Pierce",
+      "pts": 8.1,
+      "started": "Drake London",
+      "startedPts": 4.5,
+      "cost": 3.6
+     }
+    }
+   ],
+   "totals": {
+    "pointsFor": 131.16,
+    "benchPoints": 3.6,
+    "allPlayW": 7,
+    "allPlayL": 3,
+    "weeksPlayed": 1
+   },
+   "awards": {
+    "ownerOfWeek": [],
+    "worstOwner": [],
+    "startOfWeek": [],
+    "sitOfWeek": [],
+    "wasteOfWeek": []
+   }
+  },
+  "Matt Davis": {
+   "team": "Dallas Dawgs",
+   "display": "Matt Davis",
+   "weeks": [
+    {
+     "week": 1,
+     "score": 117.26,
+     "benchPoints": 4.1,
+     "optimal": 121.36,
+     "allPlayW": 6,
+     "allPlayL": 4,
+     "worstSit": {
+      "benched": "Jameson Williams",
+      "pts": 6.5,
+      "started": "Terry McLaurin",
+      "startedPts": 2.4,
+      "cost": 4.1
+     }
+    }
+   ],
+   "totals": {
+    "pointsFor": 117.26,
+    "benchPoints": 4.1,
+    "allPlayW": 6,
+    "allPlayL": 4,
+    "weeksPlayed": 1
+   },
+   "awards": {
+    "ownerOfWeek": [],
+    "worstOwner": [],
+    "startOfWeek": [],
+    "sitOfWeek": [
+     1
+    ],
+    "wasteOfWeek": []
+   }
+  },
+  "Ryan Kelly": {
+   "team": "Old Man Smashers",
+   "display": "Ryan Kelly",
+   "weeks": [
+    {
+     "week": 1,
+     "score": 115.66,
+     "benchPoints": 8.9,
+     "optimal": 124.56,
+     "allPlayW": 5,
+     "allPlayL": 5,
+     "worstSit": {
+      "benched": "Jakobi Meyers",
+      "pts": 11.2,
+      "started": "Kenny Gainwell",
+      "startedPts": 2.3,
+      "cost": 8.9
+     }
+    }
+   ],
+   "totals": {
+    "pointsFor": 115.66,
+    "benchPoints": 8.9,
+    "allPlayW": 5,
+    "allPlayL": 5,
+    "weeksPlayed": 1
+   },
+   "awards": {
+    "ownerOfWeek": [],
+    "worstOwner": [],
+    "startOfWeek": [],
+    "sitOfWeek": [],
+    "wasteOfWeek": []
+   }
+  },
+  "Rahul Pahuja": {
+   "team": "Pack Up",
+   "display": "Rahul Pahuja",
+   "weeks": [
+    {
+     "week": 1,
+     "score": 114.12,
+     "benchPoints": 38.3,
+     "optimal": 152.42,
+     "allPlayW": 4,
+     "allPlayL": 6,
+     "worstSit": {
+      "benched": "Isaiah Likely",
+      "pts": 23.8,
+      "started": "Harold Fannin Jr.",
+      "startedPts": 3.1,
+      "cost": 20.7
+     }
+    }
+   ],
+   "totals": {
+    "pointsFor": 114.12,
+    "benchPoints": 38.3,
+    "allPlayW": 4,
+    "allPlayL": 6,
+    "weeksPlayed": 1
+   },
+   "awards": {
+    "ownerOfWeek": [],
+    "worstOwner": [
+     1
+    ],
+    "startOfWeek": [],
+    "sitOfWeek": [],
+    "wasteOfWeek": []
+   }
+  },
+  "Bob Dorsch": {
+   "team": "WPB Steel City",
+   "display": "Bob Dorsch",
+   "weeks": [
+    {
+     "week": 1,
+     "score": 113.66,
+     "benchPoints": 10.7,
+     "optimal": 124.36,
+     "allPlayW": 3,
+     "allPlayL": 7,
+     "worstSit": {
+      "benched": "Pat Freiermuth",
+      "pts": 13.1,
+      "started": "Sam LaPorta",
+      "startedPts": 7.3,
+      "cost": 5.8
+     }
+    }
+   ],
+   "totals": {
+    "pointsFor": 113.66,
+    "benchPoints": 10.7,
+    "allPlayW": 3,
+    "allPlayL": 7,
+    "weeksPlayed": 1
+   },
+   "awards": {
+    "ownerOfWeek": [],
+    "worstOwner": [],
+    "startOfWeek": [],
+    "sitOfWeek": [],
+    "wasteOfWeek": []
+   }
+  },
+  "Billy Norton": {
+   "team": "I Loved You Tom Brady",
+   "display": "Billy Norton",
+   "weeks": [
+    {
+     "week": 1,
+     "score": 108.84,
+     "benchPoints": 6.7,
+     "optimal": 115.54,
+     "allPlayW": 2,
+     "allPlayL": 8,
+     "worstSit": {
+      "benched": "Stefon Diggs",
+      "pts": 13.5,
+      "started": "Jadarian Price",
+      "startedPts": 6.8,
+      "cost": 6.7
+     }
+    }
+   ],
+   "totals": {
+    "pointsFor": 108.84,
+    "benchPoints": 6.7,
+    "allPlayW": 2,
+    "allPlayL": 8,
+    "weeksPlayed": 1
+   },
+   "awards": {
+    "ownerOfWeek": [],
+    "worstOwner": [],
+    "startOfWeek": [],
+    "sitOfWeek": [],
+    "wasteOfWeek": []
+   }
+  },
+  "Michael Smith": {
+   "team": "Midget Grinders",
+   "display": "Michael Smith",
+   "weeks": [
+    {
+     "week": 1,
+     "score": 94.4,
+     "benchPoints": 11,
+     "optimal": 105.4,
+     "allPlayW": 1,
+     "allPlayL": 9,
+     "worstSit": {
+      "benched": "Deebo Samuel Sr.",
+      "pts": 15,
+      "started": "DK Metcalf",
+      "startedPts": 6,
+      "cost": 9
+     }
+    }
+   ],
+   "totals": {
+    "pointsFor": 94.4,
+    "benchPoints": 11,
+    "allPlayW": 1,
+    "allPlayL": 9,
+    "weeksPlayed": 1
+   },
+   "awards": {
+    "ownerOfWeek": [],
+    "worstOwner": [],
+    "startOfWeek": [],
+    "sitOfWeek": [],
+    "wasteOfWeek": []
+   }
+  },
+  "Aaron Jezioro": {
+   "team": "| croup",
+   "display": "Aaron Jezioro",
+   "weeks": [
+    {
+     "week": 1,
+     "score": 88.2,
+     "benchPoints": 4,
+     "optimal": 92.2,
+     "allPlayW": 0,
+     "allPlayL": 10,
+     "worstSit": {
+      "benched": "Rome Odunze",
+      "pts": 6.2,
+      "started": "Ja'Marr Chase",
+      "startedPts": 2.2,
+      "cost": 4
+     }
+    }
+   ],
+   "totals": {
+    "pointsFor": 88.2,
+    "benchPoints": 4,
+    "allPlayW": 0,
+    "allPlayL": 10,
+    "weeksPlayed": 1
+   },
+   "awards": {
+    "ownerOfWeek": [],
+    "worstOwner": [],
+    "startOfWeek": [],
+    "sitOfWeek": [],
+    "wasteOfWeek": []
+   }
+  }
+ },
+ "predictions": [
+  {
+   "week": 1,
+   "by": "Boomer",
+   "call": "Rahul Pahuja leaves more than twenty points on his bench again in Week 2, and this time it costs him the game.",
+   "resolvesWeek": 2,
+   "graded": null,
+   "correct": null
+  }
+ ]
+}
