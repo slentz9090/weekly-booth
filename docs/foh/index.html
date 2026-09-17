@@ -389,7 +389,28 @@ html.js .jump{display:flex}
  });
 
  if(location.hash){var h0=document.getElementById(location.hash.slice(1));
-   if(h0&&h0.classList.contains('mc-row'))h0.classList.add('lit');}
+   if(h0&&h0.classList.contains('mc-row'))h0.classList.add('lit');
+   // A deep link fires before fonts and audio players settle, so the browser's
+   // first jump lands in the wrong place. Re-aim it until the layout stops moving,
+   // and stand down the moment the reader takes over.
+   var hTgt=document.getElementById(location.hash.slice(1));
+   if(hTgt){
+     var userMoved=false,lastY=-1;
+     var onWheel=function(){userMoved=true;};
+     addEventListener('wheel',onWheel,{passive:true,once:true});
+     addEventListener('touchstart',onWheel,{passive:true,once:true});
+     addEventListener('keydown',onWheel,{once:true});
+     var aim=function(){
+       if(userMoved)return;
+       var y=Math.round(hTgt.getBoundingClientRect().top);
+       if(y===lastY)return; lastY=y;
+       hTgt.scrollIntoView({behavior:'auto',block:'start'});
+     };
+     var tries=0,iv=setInterval(function(){aim();if(++tries>20||userMoved)clearInterval(iv);},120);
+     addEventListener('load',aim);
+     if(document.fonts&&document.fonts.ready)document.fonts.ready.then(aim);
+   }
+ }
 
  var j=document.getElementById('jump');
  if(j){
