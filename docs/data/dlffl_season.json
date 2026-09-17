@@ -1,0 +1,450 @@
+{
+ "league": "dlffl",
+ "leagueName": "Dewart Lake FFL",
+ "season": 2026,
+ "throughWeek": 1,
+ "updated": "2026-09-17T06:15:53.126Z",
+ "note": "Season to date ledger. Each weekly run appends one week per owner, updates totals, appends awards, and grades the prior prediction. Leaderboards are computed from this file, never from a single week.",
+ "owners": {
+  "dennis couture": {
+   "team": "DA The Badenov's",
+   "display": "DA",
+   "weeks": [
+    {
+     "week": 1,
+     "score": 156.86,
+     "benchPoints": 3.7,
+     "optimal": 160.56,
+     "allPlayW": 11,
+     "allPlayL": 0,
+     "worstSit": {
+      "benched": "Khalil Shakir",
+      "pts": 7,
+      "started": "Xavier Worthy",
+      "startedPts": 3.3,
+      "cost": 3.7
+     }
+    }
+   ],
+   "totals": {
+    "pointsFor": 156.86,
+    "benchPoints": 3.7,
+    "allPlayW": 11,
+    "allPlayL": 0,
+    "weeksPlayed": 1
+   },
+   "awards": {
+    "ownerOfWeek": [
+     1
+    ],
+    "worstOwner": [],
+    "startOfWeek": [
+     1
+    ],
+    "sitOfWeek": [],
+    "wasteOfWeek": []
+   }
+  },
+  "Beth Couture": {
+   "team": "Momma's Boys",
+   "display": "Mama Beth",
+   "weeks": [
+    {
+     "week": 1,
+     "score": 149.12,
+     "benchPoints": 3.9,
+     "optimal": 153.02,
+     "allPlayW": 10,
+     "allPlayL": 1,
+     "worstSit": {
+      "benched": "Luther Burden III",
+      "pts": 7,
+      "started": "Rico Dowdle",
+      "startedPts": 3.1,
+      "cost": 3.9
+     }
+    }
+   ],
+   "totals": {
+    "pointsFor": 149.12,
+    "benchPoints": 3.9,
+    "allPlayW": 10,
+    "allPlayL": 1,
+    "weeksPlayed": 1
+   },
+   "awards": {
+    "ownerOfWeek": [],
+    "worstOwner": [],
+    "startOfWeek": [],
+    "sitOfWeek": [],
+    "wasteOfWeek": []
+   }
+  },
+  "Kent Frenger": {
+   "team": "Berlin Blitz",
+   "display": "Kent Frenger",
+   "weeks": [
+    {
+     "week": 1,
+     "score": 147.76,
+     "benchPoints": 7.4,
+     "optimal": 155.16,
+     "allPlayW": 9,
+     "allPlayL": 2,
+     "worstSit": {
+      "benched": "Tyler Allgeier",
+      "pts": 8,
+      "started": "Tony Pollard",
+      "startedPts": 3.9,
+      "cost": 4.1
+     }
+    }
+   ],
+   "totals": {
+    "pointsFor": 147.76,
+    "benchPoints": 7.4,
+    "allPlayW": 9,
+    "allPlayL": 2,
+    "weeksPlayed": 1
+   },
+   "awards": {
+    "ownerOfWeek": [],
+    "worstOwner": [],
+    "startOfWeek": [],
+    "sitOfWeek": [],
+    "wasteOfWeek": []
+   }
+  },
+  "Casey Couture": {
+   "team": "One Under akaThe Mulligan",
+   "display": "Casey Couture",
+   "weeks": [
+    {
+     "week": 1,
+     "score": 129.44,
+     "benchPoints": 16.3,
+     "optimal": 145.74,
+     "allPlayW": 8,
+     "allPlayL": 3,
+     "worstSit": {
+      "benched": "T.J. Hockenson",
+      "pts": 11.6,
+      "started": "Kyle Pitts Sr.",
+      "startedPts": 0,
+      "cost": 11.6
+     }
+    }
+   ],
+   "totals": {
+    "pointsFor": 129.44,
+    "benchPoints": 16.3,
+    "allPlayW": 8,
+    "allPlayL": 3,
+    "weeksPlayed": 1
+   },
+   "awards": {
+    "ownerOfWeek": [],
+    "worstOwner": [],
+    "startOfWeek": [],
+    "sitOfWeek": [],
+    "wasteOfWeek": []
+   }
+  },
+  "Spencer Lentz": {
+   "team": "Balls Deep",
+   "display": "Spencer Lentz",
+   "weeks": [
+    {
+     "week": 1,
+     "score": 114.02,
+     "benchPoints": 18.9,
+     "optimal": 132.92,
+     "allPlayW": 7,
+     "allPlayL": 4,
+     "worstSit": {
+      "benched": "Chuba Hubbard",
+      "pts": 22.2,
+      "started": "Jaylen Warren",
+      "startedPts": 7.8,
+      "cost": 14.4
+     }
+    }
+   ],
+   "totals": {
+    "pointsFor": 114.02,
+    "benchPoints": 18.9,
+    "allPlayW": 7,
+    "allPlayL": 4,
+    "weeksPlayed": 1
+   },
+   "awards": {
+    "ownerOfWeek": [],
+    "worstOwner": [],
+    "startOfWeek": [],
+    "sitOfWeek": [],
+    "wasteOfWeek": []
+   }
+  },
+  "Ryan Reed": {
+   "team": "BearDown",
+   "display": "Ryan Reed",
+   "weeks": [
+    {
+     "week": 1,
+     "score": 108.26,
+     "benchPoints": 18.64,
+     "optimal": 126.9,
+     "allPlayW": 6,
+     "allPlayL": 5,
+     "worstSit": {
+      "benched": "Jaxson Dart",
+      "pts": 26.6,
+      "started": "Justin Herbert",
+      "startedPts": 13.26,
+      "cost": 13.34
+     }
+    }
+   ],
+   "totals": {
+    "pointsFor": 108.26,
+    "benchPoints": 18.64,
+    "allPlayW": 6,
+    "allPlayL": 5,
+    "weeksPlayed": 1
+   },
+   "awards": {
+    "ownerOfWeek": [],
+    "worstOwner": [],
+    "startOfWeek": [],
+    "sitOfWeek": [],
+    "wasteOfWeek": []
+   }
+  },
+  "Scott Reisert": {
+   "team": "Samba St. Gibbs Lion King",
+   "display": "Scott Reisert",
+   "weeks": [
+    {
+     "week": 1,
+     "score": 104.94,
+     "benchPoints": 14.8,
+     "optimal": 119.74,
+     "allPlayW": 5,
+     "allPlayL": 6,
+     "worstSit": {
+      "benched": "Deebo Samuel Sr.",
+      "pts": 15,
+      "started": "Terry McLaurin",
+      "startedPts": 2.4,
+      "cost": 12.6
+     }
+    }
+   ],
+   "totals": {
+    "pointsFor": 104.94,
+    "benchPoints": 14.8,
+    "allPlayW": 5,
+    "allPlayL": 6,
+    "weeksPlayed": 1
+   },
+   "awards": {
+    "ownerOfWeek": [],
+    "worstOwner": [],
+    "startOfWeek": [],
+    "sitOfWeek": [],
+    "wasteOfWeek": []
+   }
+  },
+  "Doug Fields": {
+   "team": "Cosby Copperheads",
+   "display": "Doug Fields",
+   "weeks": [
+    {
+     "week": 1,
+     "score": 96.96,
+     "benchPoints": 3.9,
+     "optimal": 100.86,
+     "allPlayW": 4,
+     "allPlayL": 7,
+     "worstSit": {
+      "benched": "Tucker Kraft",
+      "pts": 8,
+      "started": "Hunter Henry",
+      "startedPts": 4.1,
+      "cost": 3.9
+     }
+    }
+   ],
+   "totals": {
+    "pointsFor": 96.96,
+    "benchPoints": 3.9,
+    "allPlayW": 4,
+    "allPlayL": 7,
+    "weeksPlayed": 1
+   },
+   "awards": {
+    "ownerOfWeek": [],
+    "worstOwner": [],
+    "startOfWeek": [],
+    "sitOfWeek": [],
+    "wasteOfWeek": []
+   }
+  },
+  "Adam Hershberger": {
+   "team": "Holy Rollers",
+   "display": "Adam Hershberger",
+   "weeks": [
+    {
+     "week": 1,
+     "score": 96.8,
+     "benchPoints": 14.4,
+     "optimal": 111.2,
+     "allPlayW": 3,
+     "allPlayL": 8,
+     "worstSit": {
+      "benched": "Matthew Golden",
+      "pts": 12.5,
+      "started": "MarShawn Lloyd",
+      "startedPts": 3.7,
+      "cost": 8.8
+     }
+    }
+   ],
+   "totals": {
+    "pointsFor": 96.8,
+    "benchPoints": 14.4,
+    "allPlayW": 3,
+    "allPlayL": 8,
+    "weeksPlayed": 1
+   },
+   "awards": {
+    "ownerOfWeek": [],
+    "worstOwner": [],
+    "startOfWeek": [],
+    "sitOfWeek": [
+     1
+    ],
+    "wasteOfWeek": []
+   }
+  },
+  "Geoff Cavender": {
+   "team": "Hawk Tua Tagovailoa",
+   "display": "Geoff Cavender",
+   "weeks": [
+    {
+     "week": 1,
+     "score": 96.4,
+     "benchPoints": 28.98,
+     "optimal": 125.38,
+     "allPlayW": 2,
+     "allPlayL": 9,
+     "worstSit": {
+      "benched": "Jordan Love",
+      "pts": 23.48,
+      "started": "Matthew Stafford",
+      "startedPts": 4.1,
+      "cost": 19.38
+     }
+    }
+   ],
+   "totals": {
+    "pointsFor": 96.4,
+    "benchPoints": 28.98,
+    "allPlayW": 2,
+    "allPlayL": 9,
+    "weeksPlayed": 1
+   },
+   "awards": {
+    "ownerOfWeek": [],
+    "worstOwner": [],
+    "startOfWeek": [],
+    "sitOfWeek": [],
+    "wasteOfWeek": []
+   }
+  },
+  "Scott Howard": {
+   "team": "The Scranton Strangler",
+   "display": "Scott Howard",
+   "weeks": [
+    {
+     "week": 1,
+     "score": 80.26,
+     "benchPoints": 46,
+     "optimal": 126.26,
+     "allPlayW": 1,
+     "allPlayL": 10,
+     "worstSit": {
+      "benched": "Jalen Coker",
+      "pts": 33.8,
+      "started": "Drake London",
+      "startedPts": 4.5,
+      "cost": 29.3
+     }
+    }
+   ],
+   "totals": {
+    "pointsFor": 80.26,
+    "benchPoints": 46,
+    "allPlayW": 1,
+    "allPlayL": 10,
+    "weeksPlayed": 1
+   },
+   "awards": {
+    "ownerOfWeek": [],
+    "worstOwner": [
+     1
+    ],
+    "startOfWeek": [],
+    "sitOfWeek": [],
+    "wasteOfWeek": [
+     1
+    ]
+   }
+  },
+  "Adam Calvelage": {
+   "team": "An alBum Cover",
+   "display": "Adam Calvelage",
+   "weeks": [
+    {
+     "week": 1,
+     "score": 75.46,
+     "benchPoints": 6.64,
+     "optimal": 82.1,
+     "allPlayW": 0,
+     "allPlayL": 11,
+     "worstSit": {
+      "benched": "Brock Purdy",
+      "pts": 21.1,
+      "started": "Jayden Daniels",
+      "startedPts": 17.66,
+      "cost": 3.44
+     }
+    }
+   ],
+   "totals": {
+    "pointsFor": 75.46,
+    "benchPoints": 6.64,
+    "allPlayW": 0,
+    "allPlayL": 11,
+    "weeksPlayed": 1
+   },
+   "awards": {
+    "ownerOfWeek": [],
+    "worstOwner": [],
+    "startOfWeek": [],
+    "sitOfWeek": [],
+    "wasteOfWeek": []
+   }
+  }
+ },
+ "predictions": [
+  {
+   "week": 1,
+   "by": "Boomer",
+   "call": "Mama Beth beats DA in Week 2, and DA still finishes top three in scoring. Both halves must hit.",
+   "resolvesWeek": 2,
+   "graded": null,
+   "correct": null
+  }
+ ]
+}
