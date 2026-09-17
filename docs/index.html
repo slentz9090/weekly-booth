@@ -4,25 +4,24 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>The Weekly Booth — 2026</title>
-<meta name="description" content="Gil Prather and Boomer Latour call two fantasy football leagues every Tuesday of the 2026 season.">
+<meta name="description" content="Gil Prather and Boomer Latour call two fantasy football leagues every week of the 2026 season: every matchup, five awards, a running bench ledger, and four calls that get graded in public.">
 <meta name="author" content="The Weekly Booth">
 <link rel="canonical" href="https://slentz9090.github.io/weekly-booth/">
 <meta name="theme-color" content="#0b0e13">
-<meta property="og:type" content="article">
+<meta property="og:type" content="website">
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="The Weekly Booth">
 <meta property="og:title" content="The Weekly Booth — 2026 season">
-<meta property="og:description" content="Gil Prather and Boomer Latour call two fantasy football leagues every Tuesday of the 2026 season.">
+<meta property="og:description" content="Gil Prather and Boomer Latour call two fantasy football leagues every week of the 2026 season: every matchup, five awards, a running bench ledger, and four calls that get graded in public.">
 <meta property="og:url" content="https://slentz9090.github.io/weekly-booth/">
-<meta property="og:image" content="https://slentz9090.github.io/weekly-booth/og/dlffl-week-1.png">
+<meta property="og:image" content="https://slentz9090.github.io/weekly-booth/og/booth-hub.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta property="og:image:alt" content="The Weekly Booth — 2026 season">
-<meta property="article:published_time" content="2026-09-16T22:00:00-04:00">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="The Weekly Booth — 2026 season">
-<meta name="twitter:description" content="Gil Prather and Boomer Latour call two fantasy football leagues every Tuesday of the 2026 season.">
-<meta name="twitter:image" content="https://slentz9090.github.io/weekly-booth/og/dlffl-week-1.png">
+<meta name="twitter:description" content="Gil Prather and Boomer Latour call two fantasy football leagues every week of the 2026 season: every matchup, five awards, a running bench ledger, and four calls that get graded in public.">
+<meta name="twitter:image" content="https://slentz9090.github.io/weekly-booth/og/booth-hub.png">
 <meta name="twitter:image:alt" content="The Weekly Booth — 2026 season">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Crect width='24' height='24' rx='6' fill='%23141922'/%3E%3Crect x='9.5' y='4' width='5' height='9' rx='2.5' fill='%23ffcf7a'/%3E%3Cpath d='M7.5 11a4.5 4.5 0 0 0 9 0M12 15.5V19M9 19h6' stroke='%23ffcf7a' stroke-width='1.7' fill='none' stroke-linecap='round'/%3E%3C/svg%3E">
 <link rel="apple-touch-icon" href="https://slentz9090.github.io/weekly-booth/og/booth-icon.png">
@@ -32,26 +31,32 @@
 <style>
 :root{
   color-scheme:dark;
-  --bg:#0b0e13; --surf:#141922; --surf2:#1a2130; --line:#46536b; --line2:#5b6a84;
-  --hair:#2a3342;
-  --tx:#e6eaf0; --mut:#9aa4b2; --dim:#7d8898;
+  --bg:#0b0e13; --surf:#171d27; --surf2:#1c2432; --line:#6b7a94; --line2:#7d8ca6;
+  --hair:#3d4759;
+  --tx:#e6eaf0; --mut:#9aa4b2; --dim:#8b95a5;
   --blue:#8fbcff; --gold:#ffcf7a; --green:#7ceaae; --red:#ff9c9c;
-  --maxw:760px; --navh:62px;
+  --maxw:760px; --navh:58px;
 }
 *{box-sizing:border-box}
 html{-webkit-text-size-adjust:100%;scroll-padding-top:var(--navh)}
 body{margin:0;background:var(--bg);color:var(--tx);
   font:17px/1.62 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
-@font-face{font-family:"BC Fallback";src:local("Arial Narrow"),local("Arial");
+@font-face{font-family:"BC Fallback";src:local("Arial Narrow");
   size-adjust:82%;ascent-override:100%;descent-override:22%;line-gap-override:0%}
-h1,h2,.mast .m2,.mc-rib,.mc-score,.aw h3{
-  font-family:"Barlow Condensed","BC Fallback","Arial Narrow",Arial,sans-serif}
-.wrap{max-width:var(--maxw);margin:0 auto;padding:0 16px 72px}
+@font-face{font-family:"BC Fallback 2";src:local("Roboto Condensed"),local("Helvetica Neue Condensed"),local("Arial");
+  size-adjust:89%;ascent-override:100%;descent-override:22%;line-gap-override:0%}
+h1,h2,.mast .m2,.mc-rib,.mc-score,.aw h3,.call-n{
+  font-family:"Barlow Condensed","BC Fallback","BC Fallback 2","Arial Narrow",Arial,sans-serif}
+.wrap{max-width:var(--maxw);margin:0 auto;padding:0 16px}
+main.wrap{padding-bottom:12px}
 p{margin:0 0 13px}
 a{color:var(--blue);text-decoration:none}
 a:hover{text-decoration:underline}
 :focus-visible{outline:3px solid var(--gold);outline-offset:2px}
 .sr{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0}
+.skip{position:absolute;left:-9999px;top:0;z-index:70}
+.skip:focus{left:8px;top:8px;background:var(--gold);color:#12161d;padding:11px 14px;
+  border-radius:8px;font-weight:700;text-decoration:none}
 
 #prog{position:fixed;top:0;left:0;height:3px;width:0;background:var(--gold);z-index:60}
 
@@ -70,16 +75,25 @@ a:hover{text-decoration:underline}
   .mast .m2{font-size:23px}
   .mast .m3{margin-left:0;width:100%;text-align:left;border-top:1px solid var(--hair);padding-top:9px}
 }
+.crumb{font-size:12.5px;color:var(--dim);letter-spacing:.05em;padding:11px 0 0}
+.crumb a{color:var(--mut)}
+.crumb a:hover{color:#fff}
 
 /* ---- nav ---- */
 .nav{position:sticky;top:0;z-index:50;background:rgba(11,14,19,.94);
   -webkit-backdrop-filter:saturate(1.4) blur(9px);backdrop-filter:saturate(1.4) blur(9px);
-  border-bottom:1px solid var(--hair);margin:0 -16px 26px;padding:6px 16px;
-  -webkit-mask-image:linear-gradient(90deg,#000 calc(100% - 26px),transparent);
-  mask-image:linear-gradient(90deg,#000 calc(100% - 26px),transparent)}
+  border-bottom:1px solid var(--hair);margin:14px -16px 26px;padding:6px 16px}
+@supports not ((backdrop-filter:blur(9px)) or (-webkit-backdrop-filter:blur(9px))){
+  .nav{background:#0b0e13}}
+@media (prefers-reduced-transparency:reduce){
+  .nav{background:var(--bg);-webkit-backdrop-filter:none;backdrop-filter:none}}
 .nav ul{display:flex;gap:7px;list-style:none;margin:0;padding:0;overflow-x:auto;
   scrollbar-width:none;-webkit-overflow-scrolling:touch;scroll-snap-type:x proximity}
 .nav ul::-webkit-scrollbar{display:none}
+.nav::after{content:"";position:absolute;top:0;bottom:1px;right:0;width:28px;pointer-events:none;
+  background:linear-gradient(90deg,rgba(11,14,19,0),rgba(11,14,19,.96));opacity:1}
+.nav.at-end::after{opacity:0}
+@media (prefers-reduced-motion:no-preference){.nav::after{transition:opacity .2s}}
 .nav a{flex:none;display:block;font-size:12px;font-weight:700;letter-spacing:.11em;
   text-transform:uppercase;color:var(--mut);border:1px solid var(--line);border-radius:999px;
   padding:11px 14px;white-space:nowrap;scroll-snap-align:start}
@@ -100,25 +114,32 @@ h3{font-size:16px;margin:0 0 8px;color:#fff}
 .bcom{border-left:3px solid var(--line2);background:var(--surf);border-radius:0 9px 9px 0;
   padding:11px 14px;margin:0 0 13px}
 .bcom p:last-child{margin-bottom:0}
-.bcom-good{border-left-color:var(--green);background:#12211a}
-.bcom-bad{border-left-color:var(--red);background:#211517}
+.bcom-good{border-left-color:var(--green);background:#14241c}
+.bcom-bad{border-left-color:var(--red);background:#241719}
 
 /* ---- matchup card ---- */
 .mcard{border:1px solid var(--hair);border-radius:14px;background:var(--surf);
-  padding:15px 16px 13px;margin:24px 0 14px}
+  padding:15px 16px 13px;margin:24px 0 14px;position:relative}
+@supports (content-visibility:auto){
+  .mcard{content-visibility:auto;contain-intrinsic-size:auto 430px}}
 .mcard:target{border-color:var(--gold);box-shadow:0 0 0 3px rgba(255,207,122,.16)}
-.mc-top{display:flex;align-items:center;gap:9px;margin:0 0 14px}
+.mc-top{display:flex;align-items:flex-start;gap:9px;margin:0 0 14px}
 .mc-rib{font-size:15px;font-weight:700;letter-spacing:.17em;text-transform:uppercase;
-  line-height:1.15;margin:0;display:flex;align-items:center;gap:9px;min-width:0}
-.mc-rib::before{content:"";flex:none;width:4px;height:16px;border-radius:2px;background:currentColor}
-.mc-lnk{margin-left:auto;flex:none;background:none;border:1px solid var(--line);color:var(--dim);
-  border-radius:7px;font-family:inherit;font-weight:700;font-size:11px;line-height:1;
-  letter-spacing:.09em;text-transform:uppercase;padding:10px 12px;min-height:40px;cursor:pointer}
+  line-height:1.15;margin:0;display:flex;align-items:flex-start;gap:9px;min-width:0}
+.mc-rib::before{content:"";flex:none;width:4px;height:1.15em;margin-top:.04em;border-radius:2px;
+  background:currentColor}
+.mc-lnk{display:none;margin-left:auto;flex:none;background:none;border:1px solid var(--line);
+  color:var(--mut);border-radius:7px;font-family:inherit;font-weight:700;font-size:11px;
+  line-height:1;letter-spacing:.09em;text-transform:uppercase;padding:10px 12px;min-height:40px;
+  min-width:68px;text-align:center;cursor:pointer}
+html.js .mc-lnk{display:block}
 .mc-lnk:hover{color:#fff;border-color:var(--line2)}
-.mc-row{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:baseline;
-  column-gap:12px;margin-bottom:13px;scroll-margin-top:calc(var(--navh) + 8px)}
+.mc-url{flex:1 0 100%;margin-top:9px;font:12px/1.4 ui-monospace,Menlo,monospace;
+  background:var(--surf2);color:var(--tx);border:1px solid var(--line2);border-radius:7px;padding:9px}
+.mc-row{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:baseline;column-gap:12px;
+  margin-bottom:13px;scroll-margin-top:calc(var(--navh) + 10px);border-radius:9px}
 .mc-name{font-size:19px;font-weight:700;color:#fff;line-height:1.2;min-width:0;overflow-wrap:anywhere}
-.mc-sub{grid-column:1;font-size:13px;color:var(--dim);margin-top:2px}
+.mc-sub{grid-column:1;font-size:13px;color:var(--mut);margin-top:2px}
 .mc-score{font-size:30px;font-weight:700;color:#fff;white-space:nowrap;
   font-variant-numeric:tabular-nums;line-height:1}
 .mc-row.win .mc-score::after{content:" W";font-size:.5em;color:var(--green);vertical-align:.55em;
@@ -126,16 +147,28 @@ h3{font-size:16px;margin:0 0 8px;color:#fff}
 .mc-row.lose .mc-name,.mc-row.lose .mc-score{color:#a9b3c2}
 .mc-left{grid-column:2;font-size:12.5px;color:var(--red);text-align:right;margin-top:3px;
   font-variant-numeric:tabular-nums;white-space:nowrap}
-.mc-track{grid-column:1/-1;position:relative;height:12px;border-radius:7px;background:#2a3344;
+.mc-track{grid-column:1/-1;position:relative;height:12px;border-radius:7px;background:#39445a;
   overflow:hidden;margin-top:9px;border:1px solid var(--line)}
 .mc-fill,.mc-tail{position:absolute;top:0;bottom:0}
 .mc-fill{left:0;background:linear-gradient(90deg,#5f95e6,#8fbcff)}
-.mc-row.lose .mc-fill{background:linear-gradient(90deg,#7c8798,#9aa6b8)}
-.mc-tail{background:repeating-linear-gradient(135deg,#d08a90 0 3px,#8f4f56 3px 6px);min-width:5px}
-.mc-note{border-top:1px solid var(--hair);padding-top:12px;margin:3px 0 8px;font-size:15.5px;
-  line-height:1.48;color:#cfd7e3}
-.mc-key{margin:0;font-size:13px;line-height:1.42;color:var(--mut)}
+.mc-row.lose .mc-fill{background:linear-gradient(90deg,#818d9f,#9fabbd)}
+.mc-tail{background:repeating-linear-gradient(135deg,#e09aa0 0 3px,#9a5a60 3px 6px);min-width:5px}
+.mc-note{border-top:1px solid var(--hair);padding-top:12px;margin:3px 0 4px;font-size:15.5px;
+  line-height:1.48;color:#d5dce7}
+.mc-row.lit{box-shadow:0 0 0 3px rgba(255,207,122,.22);margin-left:-7px;margin-right:-7px;
+  padding:0 7px}
+@media (prefers-reduced-motion:no-preference){.mc-row.lit{transition:box-shadow .3s}}
 @media (min-width:560px){.mc-name{font-size:21px}.mc-score{font-size:34px}}
+.key{border:1px solid var(--hair);border-radius:11px;background:var(--surf);padding:12px 14px;
+  margin:0 0 6px;font-size:13.5px;line-height:1.45;color:var(--mut)}
+
+/* ---- the calls ---- */
+.call{display:grid;grid-template-columns:auto minmax(0,1fr);gap:0 13px;border:1px solid var(--hair);
+  border-radius:12px;background:var(--surf);padding:13px 15px;margin:0 0 11px}
+.call-n{grid-row:1/3;font-size:30px;font-weight:700;color:var(--gold);line-height:.95;
+  font-variant-numeric:tabular-nums}
+.call-t{font-size:16.5px;font-weight:700;color:#fff;margin:0 0 4px;line-height:1.35}
+.call-s{margin:0;font-size:14.5px;color:var(--mut);line-height:1.45}
 
 /* ---- audio ---- */
 .au{display:flex;align-items:center;gap:12px;border:1px solid var(--line);background:var(--surf2);
@@ -144,18 +177,19 @@ h3{font-size:16px;margin:0 0 8px;color:#fff}
   color:#12161d;cursor:pointer;display:grid;place-items:center;padding:0}
 .au-btn svg{width:18px;height:18px;display:block}
 .au-btn:hover{filter:brightness(1.08)}
-.au-m{min-width:0;flex:1}
+.au-m{min-width:0;flex:1;padding-bottom:2px}
 .au-t{font-size:13px;font-weight:700;letter-spacing:.11em;text-transform:uppercase;color:var(--tx);
-  margin:0 0 5px;line-height:1.25;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
-.au-bar{position:relative;height:5px;border-radius:3px;background:#46536b;overflow:visible;cursor:pointer}
-.au-bar i{display:block;height:100%;width:0;background:var(--gold);border-radius:3px}
-.au-bar::after{content:"";position:absolute;left:0;right:0;top:-18px;bottom:-18px}
+  margin:0 0 6px;line-height:1.3;overflow:hidden;display:-webkit-box;-webkit-line-clamp:2;
+  -webkit-box-orient:vertical}
+.au-bar{position:relative;height:7px;border-radius:4px;background:#6b7a94;overflow:visible;cursor:pointer}
+.au-bar i{display:block;height:100%;width:0;background:var(--gold);border-radius:4px}
+.au-bar::after{content:"";position:absolute;left:0;right:0;top:-9px;bottom:-11px}
 .au-time{flex:none;font-size:12px;color:var(--mut);font-variant-numeric:tabular-nums;
   min-width:38px;text-align:right}
-.au audio{width:100%}
-.au.big{background:linear-gradient(135deg,#1c2331,#141922);border-color:var(--line2);padding:13px 14px}
+.au audio:not(.sr){width:100%}
+.au.big{background:linear-gradient(135deg,#1f2736,#171d27);border-color:var(--line2);padding:13px 14px}
 .au.big .au-btn{width:52px;height:52px}
-.au.big .au-t{font-size:14px;white-space:normal}
+.au.big .au-t{font-size:14px}
 .au.dead .au-btn{opacity:.45;cursor:default}
 
 /* ---- awards ---- */
@@ -169,6 +203,14 @@ h3{font-size:16px;margin:0 0 8px;color:#fff}
 /* ---- lists / misc ---- */
 ol{padding-left:22px;margin:0 0 13px}
 ol li{margin-bottom:9px}
+.led{width:100%;border-collapse:collapse;font-size:15px;margin:0 0 13px}
+.led caption{text-align:left;color:var(--mut);font-size:13.5px;padding:0 0 9px}
+.led th{text-align:left;font-size:11.5px;letter-spacing:.13em;text-transform:uppercase;
+  color:var(--mut);font-weight:700;padding:0 0 7px;border-bottom:1px solid var(--hair)}
+.led td{padding:8px 0;border-bottom:1px solid #232b39;font-variant-numeric:tabular-nums}
+.led td:first-child{width:1%;padding-right:12px;color:var(--dim);white-space:nowrap}
+.led td:last-child,.led th:last-child{text-align:right}
+.led tr:first-child td{color:#fff;font-weight:700}
 .note{color:var(--mut);font-size:14.5px}
 .jump{display:none;align-items:center;gap:10px;flex-wrap:wrap;border:1px solid var(--hair);
   border-radius:11px;background:var(--surf);padding:11px 13px;margin:0 0 6px}
@@ -176,7 +218,8 @@ html.js .jump{display:flex}
 .jump label{font-size:12px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--mut)}
 .jump select{flex:1;min-width:190px;background:var(--surf2);color:var(--tx);
   border:1px solid var(--line2);border-radius:8px;padding:10px;font:inherit;font-size:16px}
-.foot{margin-top:48px;padding-top:18px;border-top:1px solid var(--hair);color:var(--mut);font-size:14.5px}
+.foot{padding:18px 0 64px;margin-top:38px;border-top:1px solid var(--hair);color:var(--mut);font-size:14.5px}
+.foot a{display:inline-block;padding:9px 0}
 
 @media (prefers-reduced-motion:no-preference){
   @keyframes grow{to{transform:scaleX(1)}}
@@ -189,31 +232,40 @@ html.js .jump{display:flex}
   .mc-fill{background:Highlight;forced-color-adjust:none}
   .mc-tail{background:GrayText;forced-color-adjust:none}
   .mc-track{border:1px solid CanvasText}
-  .mcard,.aw,.au,.nav a{border-color:CanvasText}
+  .mcard,.aw,.au,.nav a,.call{border-color:CanvasText}
   .au-btn{background:ButtonFace;color:ButtonText;border:1px solid ButtonText}
+  .bcom{border-left-style:solid;border-left-width:5px}
+  .bcom-good,.aw.good{border-left-style:double;border-left-width:6px}
+  .bcom-bad,.aw.bad{border-left-style:dashed;border-left-width:6px}
 }
 @media print{
   :root{--bg:#fff;--surf:#fff;--surf2:#fff;--tx:#000;--mut:#444;--dim:#555;
         --line:#999;--line2:#999;--hair:#bbb;
         --gold:#8a5a00;--green:#12603a;--red:#9b1c1c;--blue:#123f8a}
   body{background:#fff;color:#000;font-size:11pt}
-  h1,h3,.mast .m2,.mc-name,.mc-score,.aw .win{color:#000!important}
+  h1,.mast .m2,.mc-name,.mc-score,.aw .win,.call-t{color:#000!important}
   .mc-row.lose .mc-name,.mc-row.lose .mc-score{color:#555!important}
+  .mc-row.lose .mc-fill{background:#888!important}
   .mc-note{color:#222!important}
+  .aw.good h3{color:#12603a!important} .aw.bad h3{color:#9b1c1c!important}
   .bcom,.bcom-good,.bcom-bad{background:#fff!important;border-left-color:#999!important}
   .mc-track{background:#fff!important;border-color:#999!important}
-  #prog,.nav,.au,.mc-lnk,.jump{display:none!important}
+  #prog,.nav,.au,.mc-lnk,.jump,.crumb,.skip{display:none!important}
+  .mcard{content-visibility:visible!important}
   .mc-fill,.mc-tail{animation:none!important;transform:none!important;
     -webkit-print-color-adjust:exact;print-color-adjust:exact}
   h2{color:#000;page-break-after:avoid}
-  .mcard,.aw{page-break-inside:avoid;border:1px solid #bbb}
-  a[href^="http"]::after{content:" (" attr(href) ")";font-size:8pt;color:#555}
+  .mcard,.aw,.call{page-break-inside:avoid;border:1px solid #bbb}
+  a[href]:not([href^="#"])::after{content:" (" attr(href) ")";font-size:8pt;color:#555;word-break:break-all}
 }
 </style>
+<script>document.documentElement.className+=' js';</script>
 </head>
 <body>
+<a class="skip" href="#main">Skip to the week</a>
 <div id="prog" aria-hidden="true"></div>
-<main class="wrap">
+<p class="sr" id="cplive" role="status" aria-live="polite"></p>
+<main class="wrap" id="main" tabindex="-1">
 <header class="mast"><svg class="mark" viewBox="0 0 120 120" role="img" aria-label="The Weekly Booth">
 <rect x="6" y="6" width="108" height="108" rx="26" fill="#141922" stroke="#2a3342" stroke-width="2"/>
 <g fill="none" stroke="#8fbcff" stroke-width="4" stroke-linecap="round" opacity=".55">
@@ -226,50 +278,61 @@ html.js .jump{display:flex}
 <path d="M45 62c0 8.3 6.7 15 15 15s15-6.7 15-15" fill="none" stroke="#ffcf7a" stroke-width="4" stroke-linecap="round"/>
 <path d="M60 77v11" stroke="#ffcf7a" stroke-width="4" stroke-linecap="round"/>
 <path d="M48 92h24" stroke="#ffcf7a" stroke-width="4" stroke-linecap="round"/>
-</svg><div class="mt"><p class="m1">Gil Prather &amp; Boomer Latour</p><p class="m2">The Weekly Booth</p></div><div class="m3">2026 season<br>Every Tuesday</div></header>
+</svg><div class="mt"><p class="m1">Gil Prather &amp; Boomer Latour</p><p class="m2">The Weekly Booth</p></div><div class="m3">2026 season<br>New every Tuesday</div></header>
 <h1>Two leagues. Twenty-three teams. One booth.</h1>
-<p class="dek">Gil Prather calls it straight. Boomer Latour says what everybody is thinking. Every Tuesday of the 2026 season, both leagues, every matchup, with the audio if you would rather listen than read.</p>
+<p class="dek">Gil Prather calls it straight. Boomer Latour says what everybody else is thinking. Every matchup, five pieces of hardware, a running bench ledger, and four calls a week that get graded in public.</p>
 <h2 id="issues">This Week</h2>
-<section class="mcard"><div class="mc-top"><h3 class="mc-rib" style="color:var(--gold)">Dewart Lake FFL · Week 1</h3></div><div class="mc-row win"><span class="mc-name"><a href="dlffl/week-1.html">The Coutures Went One And Two In This League. Next Sunday They Have To Play Each Other.</a></span><span class="mc-sub">12 teams · snake · 0.5 PPR</span></div><p class="mc-note">Owner of the Week: Beth Couture. Worst Owner: Scott Howard, who left 46 points on his bench.</p></section>
-<section class="mcard"><div class="mc-top"><h3 class="mc-rib" style="color:var(--blue)">Friends of Herb · Week 1</h3></div><div class="mc-row win"><span class="mc-name"><a href="foh/week-1.html">Bob Dorsch Filed Seven Tight End Claims, Started None Of Them, And Lost By Half A Point.</a></span><span class="mc-sub">11 teams · auction · 0.5 PPR</span></div><p class="mc-note">Owner of the Week: Aron Rogers. Worst Owner: Bob Dorsch, beaten by his own bench by 0.46.</p></section>
+<section class="mcard"><div class="mc-top"><h3 class="mc-rib" style="color:var(--gold)">Dewart Lake FFL · Week 1</h3></div><div class="mc-row win"><span class="mc-name"><a href="dlffl/week-1.html">A Husband And Wife Put Up The Two Biggest Scores In This League. Next Sunday They Play Each Other.</a></span><span class="mc-sub">12 teams · snake · 0.5 PPR</span></div><p class="mc-note">Owner of the Week: Mama Beth. Worst Owner: Scott Howard, who left 46 points on his bench.</p><p class="note"><a href="dlffl/">All Dewart Lake installments</a></p></section>
+<section class="mcard"><div class="mc-top"><h3 class="mc-rib" style="color:var(--blue)">Friends of Herb · Week 1</h3></div><div class="mc-row win"><span class="mc-name"><a href="foh/week-1.html">Bob Dorsch Filed Seven Tight End Claims, Started None Of Them, And Lost By Half A Point.</a></span><span class="mc-sub">11 teams · auction · 0.5 PPR</span></div><p class="mc-note">Owner of the Week: Aron Rogers. Worst Owner: Bob Dorsch, who filed seven tight end claims and started none of them.</p><p class="note"><a href="foh/">All Friends of Herb installments</a></p></section>
 <h2 id="about">The Booth</h2>
-<p><span class="who">GIL:</span> Gil Prather has the play-by-play. Every number on these pages is pulled from the league and checked before it is spoken.</p>
-<div class="bcom"><p><span class="who">BOOMER:</span> And I am here to tell twenty-three people what they did wrong on Sunday. Somebody has to.</p></div>
-<footer class="foot"><p>THE WEEKLY BOOTH — 2026 season. New every Tuesday.</p></footer>
+<p><span class="who">GIL:</span> Every number on these pages is pulled from the league and checked before it is spoken.</p>
+<div class="bcom"><p><span class="who">BOOMER:</span> And I am here to tell twenty-two people what they did wrong on Sunday. One of them plays in both of these leagues, so he gets told twice. Somebody has to.</p></div>
 </main>
+<footer class="wrap foot">
+<p>THE WEEKLY BOOTH — 2026 season. Gil Prather and Boomer Latour.</p><p><a href="dlffl/">Dewart Lake FFL</a> &nbsp; <a href="foh/">Friends of Herb</a></p>
+</footer>
 <script>
-document.documentElement.className+=' js';
 (function(){
  var p=document.getElementById('prog');
  if(p){var t=function(){var d=document.documentElement,
    h=d.scrollHeight-d.clientHeight;p.style.width=(h>0?(d.scrollTop/h*100):0)+'%';};
   addEventListener('scroll',t,{passive:true});addEventListener('resize',t);t();}
 
+ var NAVH=parseInt(getComputedStyle(document.documentElement).getPropertyValue('--navh'),10)||58;
  var cards=[].slice.call(document.querySelectorAll('.mcard'));
  if('IntersectionObserver' in window){
   var io=new IntersectionObserver(function(es){es.forEach(function(e){
     if(e.isIntersecting){e.target.classList.add('on');io.unobserve(e.target);}});},{threshold:.15});
   cards.forEach(function(c){io.observe(c);});
-  // section nav highlight
   var heads=[].slice.call(document.querySelectorAll('h2[id]'));
   var pills={}; [].forEach.call(document.querySelectorAll('.nav a'),function(a){
-    pills[a.getAttribute('href').slice(1)]=a;});
-  if(heads.length){
+    var h=a.getAttribute('href')||''; if(h.charAt(0)==='#') pills[h.slice(1)]=a;});
+  if(heads.length&&Object.keys(pills).length){
    var nio=new IntersectionObserver(function(es){es.forEach(function(e){
      if(!e.isIntersecting) return;
      for(var k in pills) pills[k].removeAttribute('aria-current');
      var a=pills[e.target.id]; if(a) a.setAttribute('aria-current','location');
-   });},{rootMargin:'-62px 0px -70% 0px'});
+   });},{rootMargin:'-'+NAVH+'px 0px -70% 0px'});
    heads.forEach(function(h){nio.observe(h);});
   }
  }else{cards.forEach(function(c){c.classList.add('on');});}
 
+ var nu=document.querySelector('.nav ul');
+ if(nu&&nu.parentNode){
+   var edge=function(){nu.parentNode.classList.toggle('at-end',
+     nu.scrollLeft+nu.clientWidth>=nu.scrollWidth-2);};
+   nu.addEventListener('scroll',edge,{passive:true});addEventListener('resize',edge);edge();
+ }
+
+ var live=document.getElementById('cplive');
  [].forEach.call(document.querySelectorAll('.mc-lnk'),function(b){
    var label=b.textContent, timer=null;
-   var done=function(){b.textContent='Copied';clearTimeout(timer);
-     timer=setTimeout(function(){b.textContent=label;},1500);};
+   var done=function(){b.textContent='Copied';if(live)live.textContent='Link copied';
+     clearTimeout(timer);timer=setTimeout(function(){b.textContent=label;},1500);};
    b.addEventListener('click',function(){
      var u=location.origin+location.pathname+'#'+b.getAttribute('data-a');
+     var old=b.parentNode.querySelector('.mc-url'); if(old)old.remove();
+     if(navigator.share){navigator.share({url:u}).then(done,function(){});return;}
      if(navigator.clipboard&&navigator.clipboard.writeText){
        navigator.clipboard.writeText(u).then(done,function(){fb(u);});
      } else fb(u);
@@ -281,9 +344,12 @@ document.documentElement.className+=' js';
        try{i.setSelectionRange(0,u.length);}catch(e){}
        var ok=false; try{ok=document.execCommand('copy');}catch(e){}
        i.remove();
-       if(ok){done();}
-       else{b.textContent='Press & hold to copy';clearTimeout(timer);
-            timer=setTimeout(function(){b.textContent=label;},2200);}
+       if(ok){done();return;}
+       var f=document.createElement('input');
+       f.readOnly=true; f.value=u; f.className='mc-url';
+       f.setAttribute('aria-label','Link to this game, select and copy');
+       b.parentNode.appendChild(f); f.select();
+       if(live)live.textContent='Copy the link from the box below';
      }
    });
  });
@@ -296,7 +362,10 @@ document.documentElement.className+=' js';
      el.scrollIntoView({behavior:rm?'auto':'smooth',block:'start'});
      el.setAttribute('tabindex','-1');
      try{el.focus({preventScroll:true});}catch(e){}
+     [].forEach.call(document.querySelectorAll('.lit'),function(x){x.classList.remove('lit');});
+     el.classList.add('lit');
      if(history.replaceState)history.replaceState(null,'','#'+j.value);
+     j.selectedIndex=0;
    });
  }
 
@@ -310,7 +379,7 @@ document.documentElement.className+=' js';
    var mid=box.querySelector('.au-m'); if(!mid) return;
    a.removeAttribute('controls'); a.classList.add('sr');
    var ttl=box.querySelector('.au-t');
-   var name=ttl?ttl.textContent:'audio';
+   var name=box.getAttribute('data-label')||(ttl?ttl.textContent:'audio');
    var btn=document.createElement('button');
    btn.type='button'; btn.className='au-btn'; btn.innerHTML=PLAY;
    btn.setAttribute('aria-label','Play: '+name);
@@ -329,14 +398,18 @@ document.documentElement.className+=' js';
      if(failed)return; failed=true;
      box.classList.add('dead');
      btn.disabled=true; btn.setAttribute('aria-label','Audio unavailable');
-     bar.style.display='none'; tm.style.minWidth='0'; tm.textContent='Coming soon';
+     bar.style.display='none'; tm.style.minWidth='0'; tm.textContent='Unavailable';
    };
    a.addEventListener('error',fail);
 
    btn.addEventListener('click',function(){
      if(a.paused){
        all.forEach(function(o){var x=o.querySelector('audio'); if(x&&x!==a)x.pause();});
-       var pr=a.play(); if(pr&&pr.catch)pr.catch(function(){fail();});
+       var pr=a.play();
+       if(pr&&pr.catch)pr.catch(function(err){
+         if(err&&(err.name==='AbortError'||err.name==='NotAllowedError'))return;
+         fail();
+       });
      } else a.pause();
    });
    var seek=function(f){if(a.duration)a.currentTime=Math.min(a.duration,Math.max(0,f*a.duration));};
@@ -353,7 +426,11 @@ document.documentElement.className+=' js';
    a.addEventListener('pause',function(){btn.innerHTML=PLAY;btn.setAttribute('aria-label','Play: '+name);});
    a.addEventListener('waiting',function(){btn.style.opacity='.55';});
    a.addEventListener('playing',function(){btn.style.opacity='';});
-   a.addEventListener('loadedmetadata',function(){tm.textContent=fmt(a.duration);});
+   a.addEventListener('loadedmetadata',function(){
+     tm.textContent=fmt(a.duration);
+     try{var v=+sessionStorage.getItem('wb:'+a.src);
+         if(v>3&&v<a.duration-3)a.currentTime=v;}catch(e){}
+   });
    a.addEventListener('timeupdate',function(){
      if(!a.duration) return;
      var pct=a.currentTime/a.duration*100;
@@ -361,8 +438,10 @@ document.documentElement.className+=' js';
      bar.setAttribute('aria-valuenow',Math.round(pct));
      bar.setAttribute('aria-valuetext',fmt(a.currentTime)+' of '+fmt(a.duration));
      tm.textContent=fmt(a.duration-a.currentTime);
+     if(Math.floor(a.currentTime)%5===0){try{sessionStorage.setItem('wb:'+a.src,a.currentTime);}catch(e){}}
    });
-   a.addEventListener('ended',function(){fil.style.width='0%';tm.textContent=fmt(a.duration);});
+   a.addEventListener('ended',function(){fil.style.width='0%';tm.textContent=fmt(a.duration);
+     try{sessionStorage.removeItem('wb:'+a.src);}catch(e){}});
  });
 })();
 </script>
