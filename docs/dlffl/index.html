@@ -321,7 +321,7 @@ html.js .jump{display:flex}
 <p class="dek">Every installment of The Weekly Booth for this league, newest first.</p>
 <div class="bcom"><p><span class="who">BOOMER:</span> Twelve teams, and I have a call on every one of them. They get graded here every week, in public, whether I like the answer or not.</p></div>
 <h2 id="issues">Installments</h2>
-<section class="mcard"><div class="mc-top"><h3 class="mc-rib" style="color:var(--gold)">Week 1</h3></div><div class="mc-row win"><span class="mc-name"><a href="week-1.html">A Husband And Wife Put Up The Two Biggest Scores In This League. Next Sunday They Play Each Other.</a></span><span class="mc-sub">September 16, 2026</span></div><p class="mc-note">Six games, five pieces of hardware, the Bench Ledger, and a graded call on all twelve teams. With audio.</p></section>
+<section class="mcard"><div class="mc-top"><h3 class="mc-rib" style="color:var(--gold)">Week 1</h3></div><div class="mc-row win"><span class="mc-name"><a href="week-1.html">A Husband And Wife Put Up The Two Biggest Scores In This League. Next Sunday They Play Each Other.</a></span><span class="mc-sub">September 16, 2026</span></div><p class="mc-note">Six games, five pieces of hardware, the Bench Ledger, and a graded call on all twelve teams.</p></section>
 <h2 id="season">The Bench Ledger</h2>
 <table class="led"><caption>Week 1: points left on the bench, and whether it cost the game</caption><thead><tr><th scope="col"><span class="sr">Rank</span></th><th scope="col">Owner</th><th scope="col">Benched</th><th scope="col">Cost him?</th></tr></thead><tbody><tr><td>1</td><th scope="row">Scott Howard</th><td>46.00</td><td class="led-v yes">Yes, by 16.14</td></tr><tr><td>2</td><th scope="row">Geoff Cavender</th><td>28.98</td><td class="led-v">No, won</td></tr><tr><td>3</td><th scope="row">Spencer Lentz</th><td>18.90</td><td class="led-v">No, lost by 42.84</td></tr><tr><td>4</td><th scope="row">Ryan Reed</th><td>18.64</td><td class="led-v">No, lost by 21.18</td></tr><tr><td>5</td><th scope="row">Casey Couture</th><td>16.30</td><td class="led-v">No, won</td></tr><tr><td>6</td><th scope="row">Scott Reisert</th><td>14.80</td><td class="led-v">No, won</td></tr><tr><td>7</td><th scope="row">Adam Hershberger</th><td>14.40</td><td class="led-v">No, lost by 50.96</td></tr><tr><td>8</td><th scope="row">Kent Frenger</th><td>7.40</td><td class="led-v">No, won</td></tr><tr><td>9</td><th scope="row">Adam Calvelage</th><td>6.64</td><td class="led-v">No, lost by 29.48</td></tr><tr><td>10</td><th scope="row">Mama Beth</th><td>3.90</td><td class="led-v">No, won</td></tr><tr><td>11</td><th scope="row">Doug Fields</th><td>3.90</td><td class="led-v">No, lost by 52.16</td></tr><tr><td>12</td><th scope="row">DA</th><td>3.70</td><td class="led-v">No, won</td></tr></tbody></table>
 <p class="note">Updated every week. In December I read the total back to all twelve of you.</p>
@@ -418,9 +418,16 @@ html.js .jump{display:flex}
        if(y===lastY)return; lastY=y;
        hTgt.scrollIntoView({behavior:'auto',block:'start'});
      };
-     var tries=0,iv=setInterval(function(){aim();if(++tries>20||userMoved)clearInterval(iv);},120);
+     // Content above the target keeps growing for several seconds as fonts land and
+     // the audio players report their durations, and Chrome's scroll anchoring then
+     // slides the target back out of view. Keep re-aiming until it stops moving.
+     var tries=0,iv=setInterval(function(){aim();if(++tries>70||userMoved)clearInterval(iv);},120);
      addEventListener('load',aim);
      if(document.fonts&&document.fonts.ready)document.fonts.ready.then(aim);
+     [].forEach.call(document.querySelectorAll('audio'),function(a){
+       a.addEventListener('loadedmetadata',function(){lastY=-1;aim();});
+       a.addEventListener('canplay',function(){lastY=-1;aim();});
+     });
    }
  }
 
