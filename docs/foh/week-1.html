@@ -460,9 +460,16 @@ html.js .jump{display:flex}
        if(y===lastY)return; lastY=y;
        hTgt.scrollIntoView({behavior:'auto',block:'start'});
      };
-     var tries=0,iv=setInterval(function(){aim();if(++tries>20||userMoved)clearInterval(iv);},120);
+     // Content above the target keeps growing for several seconds as fonts land and
+     // the audio players report their durations, and Chrome's scroll anchoring then
+     // slides the target back out of view. Keep re-aiming until it stops moving.
+     var tries=0,iv=setInterval(function(){aim();if(++tries>70||userMoved)clearInterval(iv);},120);
      addEventListener('load',aim);
      if(document.fonts&&document.fonts.ready)document.fonts.ready.then(aim);
+     [].forEach.call(document.querySelectorAll('audio'),function(a){
+       a.addEventListener('loadedmetadata',function(){lastY=-1;aim();});
+       a.addEventListener('canplay',function(){lastY=-1;aim();});
+     });
    }
  }
 
