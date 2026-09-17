@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Friends of Herb — Week 1 | The Weekly Booth</title>
+<title>Friends of Herb , Week 1 | The Weekly Booth</title>
 <meta name="description" content="Gil and Boomer call Week 1 of Friends of Herb: the defending champion lost by 0.46 to his own bench, a kicker settled another game by 0.34, and a team on bye outscored five teams that played.">
 <meta name="author" content="The Weekly Booth">
 <link rel="canonical" href="https://slentz9090.github.io/weekly-booth/foh/week-1.html">
@@ -11,19 +11,19 @@
 <meta property="og:type" content="article">
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="The Weekly Booth">
-<meta property="og:title" content="Bob Dorsch Filed Seven Tight End Claims, Started None Of Them, And Lost By Half A Point.">
+<meta property="og:title" content="Seven Tight End Claims, None Of Them Started, And He Lost By Half A Point.">
 <meta property="og:description" content="Gil and Boomer call Week 1 of Friends of Herb: the defending champion lost by 0.46 to his own bench, a kicker settled another game by 0.34, and a team on bye outscored five teams that played.">
 <meta property="og:url" content="https://slentz9090.github.io/weekly-booth/foh/week-1.html">
 <meta property="og:image" content="https://slentz9090.github.io/weekly-booth/og/foh-week-1.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
-<meta property="og:image:alt" content="Bob Dorsch Filed Seven Tight End Claims, Started None Of Them, And Lost By Half A Point.">
+<meta property="og:image:alt" content="Seven Tight End Claims, None Of Them Started, And He Lost By Half A Point.">
 <meta property="article:published_time" content="2026-09-16T09:00:00-04:00">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Bob Dorsch Filed Seven Tight End Claims, Started None Of Them, And Lost By Half A Point.">
+<meta name="twitter:title" content="Seven Tight End Claims, None Of Them Started, And He Lost By Half A Point.">
 <meta name="twitter:description" content="Gil and Boomer call Week 1 of Friends of Herb: the defending champion lost by 0.46 to his own bench, a kicker settled another game by 0.34, and a team on bye outscored five teams that played.">
 <meta name="twitter:image" content="https://slentz9090.github.io/weekly-booth/og/foh-week-1.png">
-<meta name="twitter:image:alt" content="Bob Dorsch Filed Seven Tight End Claims, Started None Of Them, And Lost By Half A Point.">
+<meta name="twitter:image:alt" content="Seven Tight End Claims, None Of Them Started, And He Lost By Half A Point.">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Crect width='24' height='24' rx='6' fill='%23141922'/%3E%3Crect x='9.5' y='4' width='5' height='9' rx='2.5' fill='%23ffcf7a'/%3E%3Cpath d='M7.5 11a4.5 4.5 0 0 0 9 0M12 15.5V19M9 19h6' stroke='%23ffcf7a' stroke-width='1.7' fill='none' stroke-linecap='round'/%3E%3C/svg%3E">
 <link rel="apple-touch-icon" href="https://slentz9090.github.io/weekly-booth/og/booth-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -33,7 +33,7 @@
 :root{
   color-scheme:dark;
   --bg:#0b0e13; --surf:#171d27; --surf2:#1c2432; --line:#6b7a94; --line2:#7d8ca6;
-  --hair:#3d4759;
+  --hair:#4d5a70;
   --tx:#e6eaf0; --mut:#9aa4b2; --dim:#8b95a5;
   --blue:#8fbcff; --gold:#ffcf7a; --green:#7ceaae; --red:#ff9c9c;
   --maxw:760px; --navh:58px;
@@ -54,6 +54,7 @@ p{margin:0 0 13px}
 a{color:var(--blue);text-decoration:none}
 a:hover{text-decoration:underline}
 :focus-visible{outline:3px solid var(--gold);outline-offset:2px}
+#main:focus,#main:focus-visible{outline:none}
 .sr{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0}
 .skip{position:absolute;left:-9999px;top:0;z-index:70}
 .skip:focus{left:8px;top:8px;background:var(--gold);color:#12161d;padding:11px 14px;
@@ -76,9 +77,11 @@ a:hover{text-decoration:underline}
   .mast .m2{font-size:23px}
   .mast .m3{margin-left:0;width:100%;text-align:left;border-top:1px solid var(--hair);padding-top:9px}
 }
-.crumb{font-size:12.5px;color:var(--dim);letter-spacing:.05em;padding:11px 0 0}
-.crumb a{color:var(--mut)}
+.crumb{font-size:12.5px;color:var(--dim);letter-spacing:.05em;padding:4px 0 0}
+.crumb a{color:var(--blue);text-decoration:underline;text-underline-offset:3px;
+  display:inline-block;padding:9px 2px;min-height:40px}
 .crumb a:hover{color:#fff}
+.crumb > span[aria-current]{display:inline-block;padding:9px 2px}
 
 /* ---- nav ---- */
 .nav{position:sticky;top:0;z-index:50;background:rgba(11,14,19,.94);
@@ -91,7 +94,7 @@ a:hover{text-decoration:underline}
 .nav ul{display:flex;gap:7px;list-style:none;margin:0;padding:0;overflow-x:auto;
   scrollbar-width:none;-webkit-overflow-scrolling:touch;scroll-snap-type:x proximity}
 .nav ul::-webkit-scrollbar{display:none}
-.nav::after{content:"";position:absolute;top:0;bottom:1px;right:0;width:28px;pointer-events:none;
+html.js .nav::after{content:"";position:absolute;top:0;bottom:1px;right:0;width:28px;pointer-events:none;
   background:linear-gradient(90deg,rgba(11,14,19,0),rgba(11,14,19,.96));opacity:1}
 .nav.at-end::after{opacity:0}
 @media (prefers-reduced-motion:no-preference){.nav::after{transition:opacity .2s}}
@@ -99,6 +102,7 @@ a:hover{text-decoration:underline}
   text-transform:uppercase;color:var(--mut);border:1px solid var(--line);border-radius:999px;
   padding:11px 14px;white-space:nowrap;scroll-snap-align:start}
 .nav a:hover{color:#fff;border-color:var(--line2);text-decoration:none}
+.nav a:focus-visible{outline-offset:-3px}
 .nav a[aria-current]{color:#fff;border-color:var(--gold)}
 
 /* ---- headline ---- */
@@ -109,6 +113,7 @@ h2{font-size:15px;letter-spacing:.2em;text-transform:uppercase;color:var(--blue)
   margin:42px 0 14px;padding-bottom:8px;border-bottom:1px solid var(--hair);font-weight:700}
 h3{font-size:16px;margin:0 0 8px;color:#fff}
 @media (max-width:430px){h1{font-size:34px}body{font-size:16px}}
+@media (max-width:400px){.au-t{letter-spacing:.06em;font-size:12.5px;-webkit-line-clamp:3}.au{gap:10px}}
 
 /* ---- speakers ---- */
 .who{color:var(--gold);font-weight:700}
@@ -122,53 +127,59 @@ h3{font-size:16px;margin:0 0 8px;color:#fff}
 .mcard{border:1px solid var(--hair);border-radius:14px;background:var(--surf);
   padding:15px 16px 13px;margin:24px 0 14px;position:relative}
 @supports (content-visibility:auto){
-  .mcard{content-visibility:auto;contain-intrinsic-size:auto 430px}}
+  .mcard{content-visibility:auto;contain-intrinsic-size:auto 480px}}
 .mcard:target{border-color:var(--gold);box-shadow:0 0 0 3px rgba(255,207,122,.16)}
-.mc-top{display:flex;align-items:flex-start;gap:9px;margin:0 0 14px}
+.mc-top{display:flex;flex-wrap:wrap;align-items:flex-start;gap:9px;margin:0 0 14px}
 .mc-rib{font-size:15px;font-weight:700;letter-spacing:.17em;text-transform:uppercase;
-  line-height:1.15;margin:0;display:flex;align-items:flex-start;gap:9px;min-width:0}
+  line-height:1.15;margin:0;display:flex;align-items:flex-start;gap:9px;min-width:0;
+  flex:1 1 0}
 .mc-rib::before{content:"";flex:none;width:4px;height:1.15em;margin-top:.04em;border-radius:2px;
   background:currentColor}
 .mc-lnk{display:none;margin-left:auto;flex:none;background:none;border:1px solid var(--line);
   color:var(--mut);border-radius:7px;font-family:inherit;font-weight:700;font-size:11px;
-  line-height:1;letter-spacing:.09em;text-transform:uppercase;padding:10px 12px;min-height:40px;
+  line-height:1;letter-spacing:.09em;text-transform:uppercase;padding:10px 12px;min-height:44px;
   min-width:68px;text-align:center;cursor:pointer}
 html.js .mc-lnk{display:block}
 .mc-lnk:hover{color:#fff;border-color:var(--line2)}
-.mc-url{flex:1 0 100%;margin-top:9px;font:12px/1.4 ui-monospace,Menlo,monospace;
+.mc-url{flex:1 0 100%;min-width:0;margin-top:9px;font:16px/1.4 ui-monospace,Menlo,monospace;
   background:var(--surf2);color:var(--tx);border:1px solid var(--line2);border-radius:7px;padding:9px}
 .mc-row{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:baseline;column-gap:12px;
-  margin-bottom:13px;scroll-margin-top:calc(var(--navh) + 10px);border-radius:9px}
+  margin-bottom:13px;scroll-margin-top:10px;border-radius:9px}
 .mc-name{font-size:19px;font-weight:700;color:#fff;line-height:1.2;min-width:0;overflow-wrap:anywhere}
 .mc-sub{grid-column:1;font-size:13px;color:var(--mut);margin-top:2px}
 .mc-score{font-size:30px;font-weight:700;color:#fff;white-space:nowrap;
   font-variant-numeric:tabular-nums;line-height:1}
-.mc-row.win .mc-score::after{content:" W";font-size:.5em;color:var(--green);vertical-align:.55em;
+.mc-row.win:not(.bye) .mc-score::after{content:" W";font-size:.5em;color:var(--green);vertical-align:.55em;
   letter-spacing:.06em}
 .mc-row.lose .mc-name,.mc-row.lose .mc-score{color:#a9b3c2}
 .mc-left{grid-column:2;font-size:12.5px;color:var(--red);text-align:right;margin-top:3px;
   font-variant-numeric:tabular-nums;white-space:nowrap}
-.mc-track{grid-column:1/-1;position:relative;height:12px;border-radius:7px;background:#39445a;
+.mc-track{grid-column:1/-1;position:relative;height:12px;border-radius:7px;background:#2a3345;
   overflow:hidden;margin-top:9px;border:1px solid var(--line)}
 .mc-fill,.mc-tail{position:absolute;top:0;bottom:0}
 .mc-fill{left:0;background:linear-gradient(90deg,#5f95e6,#8fbcff)}
-.mc-row.lose .mc-fill{background:linear-gradient(90deg,#818d9f,#9fabbd)}
+.mc-row.lose .mc-fill{background:linear-gradient(90deg,#94a1b5,#b2bdcd)}
 .mc-tail{background:repeating-linear-gradient(135deg,#e09aa0 0 3px,#9a5a60 3px 6px);min-width:5px}
 .mc-note{border-top:1px solid var(--hair);padding-top:12px;margin:3px 0 4px;font-size:15.5px;
   line-height:1.48;color:#d5dce7}
-.mc-row.lit{box-shadow:0 0 0 3px rgba(255,207,122,.22);margin-left:-7px;margin-right:-7px;
-  padding:0 7px}
+.mc-row.lit,.mc-row:target{box-shadow:0 0 0 3px rgba(255,207,122,.22);margin-left:-7px;
+  margin-right:-7px;padding:0 7px}
 @media (prefers-reduced-motion:no-preference){.mc-row.lit{transition:box-shadow .3s}}
 @media (min-width:560px){.mc-name{font-size:21px}.mc-score{font-size:34px}}
-.key{border:1px solid var(--hair);border-radius:11px;background:var(--surf);padding:12px 14px;
-  margin:0 0 6px;font-size:13.5px;line-height:1.45;color:var(--mut)}
+.mc-key{margin:0;font-size:13px;line-height:1.45;color:var(--mut);
+  border-top:1px solid var(--hair);padding-top:10px}
 
 /* ---- the calls ---- */
-.call{display:grid;grid-template-columns:auto minmax(0,1fr);gap:0 13px;border:1px solid var(--hair);
-  border-radius:12px;background:var(--surf);padding:13px 15px;margin:0 0 11px}
-.call-n{grid-row:1/3;font-size:30px;font-weight:700;color:var(--gold);line-height:.95;
-  font-variant-numeric:tabular-nums}
-.call-t{font-size:16.5px;font-weight:700;color:#fff;margin:0 0 4px;line-height:1.35}
+ol.calls{counter-reset:call;list-style:none;padding:0;margin:0}
+.call{counter-increment:call;display:grid;grid-template-columns:auto minmax(0,1fr);gap:0 13px;
+  border:1px solid var(--hair);border-radius:12px;background:var(--surf);padding:13px 15px;
+  margin:0 0 11px}
+.call::before{content:counter(call);grid-row:1/3;align-self:start;
+  font-family:"Barlow Condensed","BC Fallback","BC Fallback 2","Arial Narrow",Arial,sans-serif;
+  font-size:30px;font-weight:700;color:var(--gold);line-height:1;font-variant-numeric:tabular-nums;
+  min-width:1.1em}
+.call-t{font-size:16.5px;color:#fff;margin:0 0 4px;line-height:1.38}
+.call-t strong{color:var(--gold);font-weight:700}
 .call-s{margin:0;font-size:14.5px;color:var(--mut);line-height:1.45}
 
 /* ---- audio ---- */
@@ -182,9 +193,9 @@ html.js .mc-lnk{display:block}
 .au-t{font-size:13px;font-weight:700;letter-spacing:.11em;text-transform:uppercase;color:var(--tx);
   margin:0 0 6px;line-height:1.3;overflow:hidden;display:-webkit-box;-webkit-line-clamp:2;
   -webkit-box-orient:vertical}
-.au-bar{position:relative;height:7px;border-radius:4px;background:#6b7a94;overflow:visible;cursor:pointer}
+.au-bar{position:relative;height:7px;border-radius:4px;background:#565f74;overflow:visible;cursor:pointer}
 .au-bar i{display:block;height:100%;width:0;background:var(--gold);border-radius:4px}
-.au-bar::after{content:"";position:absolute;left:0;right:0;top:-9px;bottom:-11px}
+.au-bar::after{content:"";position:absolute;left:0;right:0;top:-14px;bottom:-14px}
 .au-time{flex:none;font-size:12px;color:var(--mut);font-variant-numeric:tabular-nums;
   min-width:38px;text-align:right}
 .au audio:not(.sr){width:100%}
@@ -206,13 +217,22 @@ ol{padding-left:22px;margin:0 0 13px}
 ol li{margin-bottom:9px}
 .led{width:100%;border-collapse:collapse;font-size:15px;margin:0 0 13px}
 .led caption{text-align:left;color:var(--mut);font-size:13.5px;padding:0 0 9px}
-.led th{text-align:left;font-size:11.5px;letter-spacing:.13em;text-transform:uppercase;
-  color:var(--mut);font-weight:700;padding:0 0 7px;border-bottom:1px solid var(--hair)}
-.led td{padding:8px 0;border-bottom:1px solid #232b39;font-variant-numeric:tabular-nums}
-.led td:first-child{width:1%;padding-right:12px;color:var(--dim);white-space:nowrap}
-.led td:last-child,.led th:last-child{text-align:right}
-.led tr:first-child td{color:#fff;font-weight:700}
+.led thead th{text-align:left;font-size:11.5px;letter-spacing:.13em;text-transform:uppercase;
+  color:var(--mut);font-weight:700;padding:0 10px 7px 0;border-bottom:1px solid var(--hair)}
+.led td{padding:8px 10px 8px 0;border-bottom:1px solid var(--hair);font-variant-numeric:tabular-nums}
+.led tbody th[scope=row]{text-align:left;font:inherit;color:inherit;letter-spacing:0;
+  text-transform:none;padding:8px 10px 8px 0;border-bottom:1px solid var(--hair);
+  overflow-wrap:anywhere}
+.led td:first-child{width:1%;padding-right:10px;color:var(--dim);white-space:nowrap}
+.led td:nth-child(3){width:1%;text-align:right;white-space:nowrap}
+.led th:nth-child(3){text-align:right}
+.led .led-v{width:1%;white-space:nowrap;text-align:right;padding-right:0;color:var(--mut);
+  font-size:13.5px}
+.led th:last-child{text-align:right;padding-right:0}
+.led tbody tr:first-child th,.led tbody tr:first-child td{color:#fff;font-weight:700}
+.led .led-v.yes{color:var(--red);font-weight:700}
 .note{color:var(--mut);font-size:14.5px}
+.note a{display:inline-block;padding:10px 0;min-height:40px}
 .jump{display:none;align-items:center;gap:10px;flex-wrap:wrap;border:1px solid var(--hair);
   border-radius:11px;background:var(--surf);padding:11px 13px;margin:0 0 6px}
 html.js .jump{display:flex}
@@ -223,10 +243,10 @@ html.js .jump{display:flex}
 .foot a{display:inline-block;padding:9px 0}
 
 @media (prefers-reduced-motion:no-preference){
-  @keyframes grow{to{transform:scaleX(1)}}
-  html.js .mc-fill,html.js .mc-tail{transform:scaleX(0);transform-origin:left center;
-    animation:grow .85s cubic-bezier(.2,.85,.25,1) both;animation-play-state:paused}
-  html.js .mcard.on .mc-fill,html.js .mcard.on .mc-tail{animation-play-state:running}
+  @keyframes grow{from{transform:scaleX(0)}to{transform:scaleX(1)}}
+  html.js .mc-fill,html.js .mc-tail{transform-origin:left center}
+  html.js .mcard.on .mc-fill,html.js .mcard.on .mc-tail{
+    animation:grow .85s cubic-bezier(.2,.85,.25,1) both}
 }
 @media (prefers-reduced-motion:reduce){.mc-fill,.mc-tail{transform:none;animation:none}}
 @media (forced-colors:active){
@@ -235,6 +255,9 @@ html.js .jump{display:flex}
   .mc-track{border:1px solid CanvasText}
   .mcard,.aw,.au,.nav a,.call{border-color:CanvasText}
   .au-btn{background:ButtonFace;color:ButtonText;border:1px solid ButtonText}
+  .nav{background:Canvas;-webkit-backdrop-filter:none;backdrop-filter:none}
+  .mc-rib::before{background:CanvasText;forced-color-adjust:none}
+  #prog{background:Highlight;forced-color-adjust:none}
   .bcom{border-left-style:solid;border-left-width:5px}
   .bcom-good,.aw.good{border-left-style:double;border-left-width:6px}
   .bcom-bad,.aw.bad{border-left-style:dashed;border-left-width:6px}
@@ -257,7 +280,7 @@ html.js .jump{display:flex}
     -webkit-print-color-adjust:exact;print-color-adjust:exact}
   h2{color:#000;page-break-after:avoid}
   .mcard,.aw,.call{page-break-inside:avoid;border:1px solid #bbb}
-  a[href]:not([href^="#"])::after{content:" (" attr(href) ")";font-size:8pt;color:#555;word-break:break-all}
+  a[href^="http"]::after{content:" (" attr(href) ")";font-size:8pt;color:#555;word-break:break-all}
 }
 </style>
 <script>document.documentElement.className+=' js';</script>
@@ -283,75 +306,70 @@ html.js .jump{display:flex}
 <path d="M56.4 47h7.2M57.8 44.6v4.8M60 43.9v6.2M62.2 44.6v4.8" stroke="#0d1118" stroke-width="1.5" stroke-linecap="round" opacity=".85"/>
 </svg><div class="mt"><p class="m1">The Weekly Booth</p><p class="m2">Friends of Herb</p></div><div class="m3">Week 1 · 2026<br>Gil Prather &amp; Boomer Latour</div></header>
 <nav class="crumb" aria-label="Breadcrumb"><a href="https://slentz9090.github.io/weekly-booth/">The Weekly Booth</a> <span aria-hidden="true">&#8250;</span> <a href="./">Friends of Herb</a> <span aria-hidden="true">&#8250;</span> <span aria-current="page">Week 1</span></nav>
-<nav class="nav" aria-label="Sections"><ul><li><a href="#calls">On The Record</a></li><li><a href="#board">The Scoreboard</a></li><li><a href="#hardware">The Hardware</a></li><li><a href="#rule">The Freiermuth Rule</a></li><li><a href="#ledger">The Bench Ledger</a></li><li><a href="#wire">The Waiver Wire</a></li><li><a href="#ranks">Power Rankings</a></li></ul></nav>
-<h1>Bob Dorsch Filed Seven Tight End Claims, Started None Of Them, And Lost By Half A Point.</h1>
-<p class="dek">The defending champion chased six different tight ends on the wire. One claim landed. He started Sam LaPorta instead and lost 114.12 to 113.66. Two games in this league were decided by a combined eight tenths of a point.</p>
+<nav class="nav" aria-label="Sections"><ul><li><a href="#board">The Scoreboard</a></li><li><a href="#calls">On The Record</a></li><li><a href="#hardware">The Hardware</a></li><li><a href="#rule">The Freiermuth Rule</a></li><li><a href="#ledger">The Bench Ledger</a></li><li><a href="#wire">The Waiver Wire</a></li><li><a href="#next">Next Sunday</a></li></ul></nav>
+<h1>Seven Tight End Claims, None Of Them Started, And He Lost By Half A Point.</h1>
+<p class="dek">Bob Dorsch, the defending champion, chased six different tight ends on the wire in Week 1. One claim landed. He started Sam LaPorta instead and lost 114.12 to 113.66. Two games in this league were decided by a combined eight tenths of a point.</p>
 <div class="au big" data-label="Gil and Boomer recap Week 1 of Friends of Herb"><div class="au-m"><p class="au-t">The whole week in 30 seconds</p><audio controls preload="metadata" src="../audio/foh-w1-recap.mp3"></audio></div></div>
-<div class="jump"><label for="jump">Jump to your team</label><select id="jump"><option value="">Pick one…</option><option value="t-balls-deep">Balls Deep — Spencer Lentz</option><option value="t-colorado-narcoleptic-kestrels">Colorado Narcoleptic Kestrels — Eric Olson</option><option value="t-croup">| croup — Aaron Jezioro</option><option value="t-dallas-dawgs">Dallas Dawgs — Matt Davis</option><option value="t-i-loved-you-tom-brady">I Loved You Tom Brady — Billy Norton</option><option value="t-kim-jong-un-pleasure-squad">Kim Jong Un Pleasure Squad — Aron Rogers</option><option value="t-midget-grinders">Midget Grinders — Michael Smith</option><option value="t-napoleon-s-army">Napoleon's Army — Michael Turner</option><option value="t-old-man-smashers">Old Man Smashers — Ryan Kelly</option><option value="t-pack-up">Pack Up — Rahul Pahuja</option><option value="t-wpb-steel-city">WPB Steel City — Bob Dorsch</option></select></div>
-<h2 id="calls">On The Record</h2>
-<div class="bcom"><p><span class="who">BOOMER:</span> Four calls, up top where nobody can say I hid them. Every one gets graded in this spot next week, in public, and when I am wrong I say so before I say anything else.</p></div>
-<div class="call"><p class="call-n">1</p><p class="call-t">Bob Dorsch wins Week 2 with Pat Freiermuth in his lineup.</p><p class="call-s">He has the answer now. He filed seven claims to get it. Whether he actually plays it is the only thing I am interested in.</p></div>
-<div class="call"><p class="call-n">2</p><p class="call-t">Rahul Pahuja leaves twenty or more behind again, and this time it costs him.</p><p class="call-s">He won by 0.46 with 38.30 on his bench and released a 34.8-point receiver in the same week. Nobody gets away with that twice.</p></div>
-<div class="call"><p class="call-n">3</p><p class="call-t">Michael Turner loses another one by under five points before Halloween.</p><p class="call-s">He owns the highest single week in the history of this league and he lost by a third of a point to a kicker. That is not a coincidence, that is a personality.</p></div>
-<div class="call"><p class="call-n">4</p><p class="call-t">Billy Norton clears 130 in Week 2.</p><p class="call-s">Four titles and a 108.84. DJ Moore, Dalton Kincaid and Ladd McConkey all cleared 16 and it still added up to nothing. That roster is better than that number.</p></div>
-<p><span class="who">GIL:</span> Recorded, all four.</p>
+<div class="jump"><label for="jump">Jump to your team</label><select id="jump"><option value="">Pick one…</option><option value="t-balls-deep">Balls Deep · Spencer Lentz</option><option value="t-colorado-narcoleptic-kestrels">Colorado Narcoleptic Kestrels · Eric Olson</option><option value="t-croup">| croup · Aaron Jezioro</option><option value="t-dallas-dawgs">Dallas Dawgs · Matt Davis</option><option value="t-i-loved-you-tom-brady">I Loved You Tom Brady · Billy Norton</option><option value="t-kim-jong-un-pleasure-squad">Kim Jong Un Pleasure Squad · Aron Rogers</option><option value="t-midget-grinders">Midget Grinders · Michael Smith</option><option value="t-napoleon-s-army">Napoleon's Army · Michael Turner</option><option value="t-old-man-smashers">Old Man Smashers · Ryan Kelly</option><option value="t-pack-up">Pack Up · Rahul Pahuja</option><option value="t-wpb-steel-city">WPB Steel City · Bob Dorsch</option></select></div>
 <h2 id="board">The Scoreboard</h2>
-<p class="key">Solid = the points you started. Hatched = the points you left behind, meaning your best possible lineup minus the one you turned in. Every bar on this page is drawn to the same scale.</p>
-<section class="mcard" id="m-dorsch" aria-label="Pack Up beat WPB Steel City, 114.12 to 113.66"><div class="mc-top"><h3 class="mc-rib" style="color:var(--gold)">Pahuja survives by 0.46</h3><button class="mc-lnk" type="button" data-a="m-dorsch" aria-label="Copy a link to Pack Up versus WPB Steel City">Link</button></div><div class="mc-row win" id="t-pack-up"><span class="mc-name">Pack Up</span><span class="mc-score">114.12</span><span class="mc-sub">Rahul Pahuja</span><span class="mc-left">38.30 left behind</span><div class="mc-track" aria-hidden="true"><div class="mc-fill" style="width:62.77%"></div><div class="mc-tail" style="left:62.77%;width:21.06%"></div></div></div><div class="mc-row lose" id="t-wpb-steel-city"><span class="mc-name">WPB Steel City</span><span class="mc-score">113.66</span><span class="mc-sub">Bob Dorsch</span><span class="mc-left">10.70 left behind</span><div class="mc-track" aria-hidden="true"><div class="mc-fill" style="width:62.51%"></div><div class="mc-tail" style="left:62.51%;width:5.88%"></div></div></div><p class="mc-note">Rahul Pahuja won it while leaving 38.30 behind, the most in the league. Bob Dorsch had 124.36 available and turned in 113.66.</p><div class="au" data-label="Gil and Boomer on Pack Up versus WPB Steel City"><div class="au-m"><p class="au-t">Listen: Pack Up vs WPB Steel City</p><audio controls preload="metadata" src="../audio/foh-g1.mp3"></audio></div></div></section>
+<section class="mcard" id="m-dorsch" aria-labelledby="m-dorsch-h"><div class="mc-top"><h3 class="mc-rib" id="m-dorsch-h" style="color:var(--gold)">Pahuja survives by 0.46</h3><button class="mc-lnk" type="button" data-a="m-dorsch" aria-label="Share or copy a link to Pack Up versus WPB Steel City">Link</button></div><div class="mc-row win" id="t-pack-up"><span class="mc-name">Pack Up</span><span class="mc-score">114.12</span><span class="mc-sub">Rahul Pahuja</span><span class="mc-left">38.30 left behind</span><div class="mc-track" aria-hidden="true"><div class="mc-fill" style="width:62.77%"></div><div class="mc-tail" style="left:62.77%;width:21.06%"></div></div></div><div class="mc-row lose" id="t-wpb-steel-city"><span class="mc-name">WPB Steel City</span><span class="mc-score">113.66</span><span class="mc-sub">Bob Dorsch</span><span class="mc-left">10.70 left behind</span><div class="mc-track" aria-hidden="true"><div class="mc-fill" style="width:62.51%"></div><div class="mc-tail" style="left:62.51%;width:5.88%"></div></div></div><p class="mc-note">Rahul Pahuja won it while leaving 38.30 behind, the most in the league. Bob Dorsch had 124.36 available and turned in 113.66.</p><p class="mc-key">Solid = the points you started. Hatched = the points you left behind, meaning your best possible lineup minus the one you turned in. Every bar on this page is on the same scale.</p><div class="au" data-label="Gil and Boomer on Pack Up versus WPB Steel City"><div class="au-m"><p class="au-t">Listen: Pahuja vs Dorsch</p><audio controls preload="metadata" src="../audio/foh-g1.mp3"></audio></div></div></section>
 <p><span class="who">GIL:</span> Dorsch filed seven tight end claims this week. Terrance Ferguson failed. Hunter Henry canceled. Michael Mayer failed. Juwan Johnson failed. T.J. Hockenson failed. He claimed Pat Freiermuth twice, canceled one, and the other went through. Freiermuth scored 13.1. Dorsch started Sam LaPorta for 7.3.</p>
-<div class="bcom bcom-bad"><p><span class="who">BOOMER:</span> He hunted a tight end seven separate times, finally caught one, and left it in the truck. The defending champion of this league lost by less than half a point with the answer sitting on his own bench in a coat.</p></div>
+<div class="bcom bcom-bad"><p><span class="who">BOOMER:</span> Four of those seven failed on roster limit, Gil. He never dropped anybody. He stood there trying to shove six tight ends into a full car. Then he finally got one in, and left it in the truck. The defending champion lost by less than half a point with the answer on his own bench in a coat.</p></div>
 <p><span class="who">GIL:</span> Pahuja got 27.4 from David Montgomery and 25.2 from Jaxon Smith-Njigba, and left Isaiah Likely and 23.8 on the bench.</p>
-<div class="bcom"><p><span class="who">BOOMER:</span> Both of these men had the win in their hands all afternoon. One of them happened to be holding slightly more of it.</p></div>
-<section class="mcard" id="m-kicker" aria-label="Kim Jong Un Pleasure Squad beat Napoleon&#x27;s Army, 131.50 to 131.16"><div class="mc-top"><h3 class="mc-rib" style="color:var(--gold)">Rogers survives by 0.34</h3><button class="mc-lnk" type="button" data-a="m-kicker" aria-label="Copy a link to Kim Jong Un Pleasure Squad versus Napoleon&#x27;s Army">Link</button></div><div class="mc-row win" id="t-kim-jong-un-pleasure-squad"><span class="mc-name">Kim Jong Un Pleasure Squad</span><span class="mc-score">131.50</span><span class="mc-sub">Aron Rogers</span><span class="mc-left">2.00 left behind</span><div class="mc-track" aria-hidden="true"><div class="mc-fill" style="width:72.32%"></div><div class="mc-tail" style="left:72.32%;width:1.10%"></div></div></div><div class="mc-row lose" id="t-napoleon-s-army"><span class="mc-name">Napoleon's Army</span><span class="mc-score">131.16</span><span class="mc-sub">Michael Turner</span><span class="mc-left">3.60 left behind</span><div class="mc-track" aria-hidden="true"><div class="mc-fill" style="width:72.14%"></div><div class="mc-tail" style="left:72.14%;width:1.98%"></div></div></div><p class="mc-note">Closest game of the week. Aron Rogers left 2.00 behind, the cleanest lineup in the league. Michael Turner's kicker scored 2.</p><div class="au" data-label="Gil and Boomer on Kim Jong Un Pleasure Squad versus Napoleon&#x27;s Army"><div class="au-m"><p class="au-t">Listen: Kim Jong Un vs Napoleon's Army</p><audio controls preload="metadata" src="../audio/foh-g2.mp3"></audio></div></div></section>
+<div class="bcom"><p><span class="who">BOOMER:</span> Rahul Pahuja won this game with 38.30 sitting in his pocket and Bob Dorsch lost it with 10.70 in his. The man who wasted three and a half times as much is the one who gets the W. Put that on the league constitution.</p></div>
+<section class="mcard" id="m-kicker" aria-labelledby="m-kicker-h"><div class="mc-top"><h3 class="mc-rib" id="m-kicker-h" style="color:var(--gold)">Turner's kicker gives it away by 0.34</h3><button class="mc-lnk" type="button" data-a="m-kicker" aria-label="Share or copy a link to Kim Jong Un Pleasure Squad versus Napoleon&#x27;s Army">Link</button></div><div class="mc-row win" id="t-kim-jong-un-pleasure-squad"><span class="mc-name">Kim Jong Un Pleasure Squad</span><span class="mc-score">131.50</span><span class="mc-sub">Aron Rogers</span><span class="mc-left">2.00 left behind</span><div class="mc-track" aria-hidden="true"><div class="mc-fill" style="width:72.32%"></div><div class="mc-tail" style="left:72.32%;width:1.10%"></div></div></div><div class="mc-row lose" id="t-napoleon-s-army"><span class="mc-name">Napoleon's Army</span><span class="mc-score">131.16</span><span class="mc-sub">Michael Turner</span><span class="mc-left">3.60 left behind</span><div class="mc-track" aria-hidden="true"><div class="mc-fill" style="width:72.14%"></div><div class="mc-tail" style="left:72.14%;width:1.98%"></div></div></div><p class="mc-note">Closest game of the week, 0.34. Aron Rogers left 2.00 behind, the cleanest lineup in the league. Cameron Dicker scored 2 for Michael Turner.</p><div class="au" data-label="Gil and Boomer on Kim Jong Un Pleasure Squad versus Napoleon&#x27;s Army"><div class="au-m"><p class="au-t">Listen: Rogers vs Turner</p><audio controls preload="metadata" src="../audio/foh-g2.mp3"></audio></div></div></section>
 <p><span class="who">GIL:</span> Rogers got 33.9 from D'Andre Swift and 32.6 from Jaxson Dart, and started 98.5 percent of the points available to him. Across his career he has started 89.6 percent of the points he owned, the best figure of anyone still in this league.</p>
 <div class="bcom bcom-good"><p><span class="who">BOOMER:</span> Ninety-eight and a half percent of everything he owned, and he needed all of it. Aron Rogers does not win football games, Gil. He audits them.</p></div>
-<p><span class="who">GIL:</span> Turner had Lamar Jackson at 27.96, Chris Olave at 25.2 and Dallas Goedert at 22.7. Cameron Dicker gave him 2. He also owns the highest single week ever recorded in this league, 197.6 in 2016.</p>
-<div class="bcom"><p><span class="who">BOOMER:</span> The man who holds the league record lost by a third of a point to a kicker. There is no lesson in that. There is only therapy.</p></div>
-<section class="mcard" id="m-lentz" aria-label="Balls Deep beat | croup, 171.92 to 88.20"><div class="mc-top"><h3 class="mc-rib" style="color:var(--gold)">Lentz leads the league at 171.92</h3><button class="mc-lnk" type="button" data-a="m-lentz" aria-label="Copy a link to Balls Deep versus | croup">Link</button></div><div class="mc-row win" id="t-balls-deep"><span class="mc-name">Balls Deep</span><span class="mc-score">171.92</span><span class="mc-sub">Spencer Lentz</span><span class="mc-left">9.90 left behind</span><div class="mc-track" aria-hidden="true"><div class="mc-fill" style="width:94.56%"></div><div class="mc-tail" style="left:94.56%;width:5.44%"></div></div></div><div class="mc-row lose" id="t-croup"><span class="mc-name">| croup</span><span class="mc-score">88.20</span><span class="mc-sub">Aaron Jezioro</span><span class="mc-left">4.00 left behind</span><div class="mc-track" aria-hidden="true"><div class="mc-fill" style="width:48.51%"></div><div class="mc-tail" style="left:48.51%;width:2.20%"></div></div></div><p class="mc-note">Derrick Henry 36.8, Kenneth Walker 34.6, Jalen Hurts 30.72. Biggest margin of the week at 83.72.</p><div class="au" data-label="Gil and Boomer on Balls Deep versus | croup"><div class="au-m"><p class="au-t">Listen: Balls Deep vs croup</p><audio controls preload="metadata" src="../audio/foh-g5.mp3"></audio></div></div></section>
+<p><span class="who">GIL:</span> Turner had Lamar Jackson at 27.96, Chris Olave at 25.2 and Dallas Goedert at 22.7. He also owns the highest single week ever recorded in this league, 197.6 in 2016.</p>
+<div class="bcom"><p><span class="who">BOOMER:</span> The man who holds the league record lost by a third of a point. There is no lesson in that. There is only therapy.</p></div>
+<section class="mcard" id="m-lentz" aria-labelledby="m-lentz-h"><div class="mc-top"><h3 class="mc-rib" id="m-lentz-h" style="color:var(--gold)">Lentz leads the league at 171.92</h3><button class="mc-lnk" type="button" data-a="m-lentz" aria-label="Share or copy a link to Balls Deep versus | croup">Link</button></div><div class="mc-row win" id="t-balls-deep"><span class="mc-name">Balls Deep</span><span class="mc-score">171.92</span><span class="mc-sub">Spencer Lentz</span><span class="mc-left">9.90 left behind</span><div class="mc-track" aria-hidden="true"><div class="mc-fill" style="width:94.56%"></div><div class="mc-tail" style="left:94.56%;width:5.44%"></div></div></div><div class="mc-row lose" id="t-croup"><span class="mc-name">| croup</span><span class="mc-score">88.20</span><span class="mc-sub">Aaron Jezioro</span><span class="mc-left">4.00 left behind</span><div class="mc-track" aria-hidden="true"><div class="mc-fill" style="width:48.51%"></div><div class="mc-tail" style="left:48.51%;width:2.20%"></div></div></div><p class="mc-note">Derrick Henry 36.8, Kenneth Walker 34.6, Jalen Hurts 30.72. Biggest margin of the week at 83.72.</p><div class="au" data-label="Gil and Boomer on Balls Deep versus | croup"><div class="au-m"><p class="au-t">Listen: Lentz vs Jezioro</p><audio controls preload="metadata" src="../audio/foh-g5.mp3"></audio></div></div></section>
 <p><span class="who">GIL:</span> Spencer Lentz outscores all ten opponents. He finished third in this league in 2006 and runner-up in 2009, and he has never won it.</p>
-<div class="bcom"><p><span class="who">BOOMER:</span> Twenty-one years, two trips to the podium, no ring, and he opens by putting the biggest number in the league on the board. That is either the start of something or the most expensive Sunday he will ever waste.</p></div>
+<div class="bcom"><p><span class="who">BOOMER:</span> Twenty-two years, seven trips to the podium, no ring, and he opens by putting the biggest number in the league on the board. That is either the start of something or the most expensive Sunday he will ever waste.</p></div>
 <p><span class="who">GIL:</span> Aaron Jezioro started Trevor Lawrence for 34.1 and Ja'Marr Chase for 2.2. He also dropped Tyler Shough, who scored 30.2, and left Brock Purdy and 27.1 on the bench.</p>
-<div class="bcom bcom-bad"><p><span class="who">BOOMER:</span> Ja'Marr Chase gave 2.2 to the last-place team in this league and 2.2 to the defending champion of the other one, on the same afternoon, and only one of those two men lost. Jezioro three-peated here in 2007, 2008 and 2009. Nobody else ever has. Seventeen years on he had the whole quarterback position cornered and he still found a way to sell at the bottom.</p></div>
-<section class="mcard" id="m-olson" aria-label="Colorado Narcoleptic Kestrels beat I Loved You Tom Brady, 144.86 to 108.84"><div class="mc-top"><h3 class="mc-rib" style="color:var(--gold)">Olson wins by 36 with 33 on the bench</h3><button class="mc-lnk" type="button" data-a="m-olson" aria-label="Copy a link to Colorado Narcoleptic Kestrels versus I Loved You Tom Brady">Link</button></div><div class="mc-row win" id="t-colorado-narcoleptic-kestrels"><span class="mc-name">Colorado Narcoleptic Kestrels</span><span class="mc-score">144.86</span><span class="mc-sub">Eric Olson</span><span class="mc-left">33.30 left behind</span><div class="mc-track" aria-hidden="true"><div class="mc-fill" style="width:79.67%"></div><div class="mc-tail" style="left:79.67%;width:18.31%"></div></div></div><div class="mc-row lose" id="t-i-loved-you-tom-brady"><span class="mc-name">I Loved You Tom Brady</span><span class="mc-score">108.84</span><span class="mc-sub">Billy Norton</span><span class="mc-left">6.70 left behind</span><div class="mc-track" aria-hidden="true"><div class="mc-fill" style="width:59.86%"></div><div class="mc-tail" style="left:59.86%;width:3.68%"></div></div></div><p class="mc-note">Josh Allen 40.66 and Ashton Jeanty 31.7 carried it. A.J. Brown started for 4.1 while Christian Watson scored 34.7 on the bench.</p><div class="au" data-label="Gil and Boomer on Colorado Narcoleptic Kestrels versus I Loved You Tom Brady"><div class="au-m"><p class="au-t">Listen: Colorado vs Tom Brady</p><audio controls preload="metadata" src="../audio/foh-g4.mp3"></audio></div></div></section>
+<div class="bcom bcom-bad"><p><span class="who">BOOMER:</span> The only man who ever won three of these in a row released a thirty point quarterback and benched a twenty seven on the same afternoon, and finished last by 6.20. Seventeen years, Gil, and that is what is left of a dynasty.</p></div>
+<section class="mcard" id="m-olson" aria-labelledby="m-olson-h"><div class="mc-top"><h3 class="mc-rib" id="m-olson-h" style="color:var(--gold)">Olson wins by 36 with 33 on the bench</h3><button class="mc-lnk" type="button" data-a="m-olson" aria-label="Share or copy a link to Colorado Narcoleptic Kestrels versus I Loved You Tom Brady">Link</button></div><div class="mc-row win" id="t-colorado-narcoleptic-kestrels"><span class="mc-name">Colorado Narcoleptic Kestrels</span><span class="mc-score">144.86</span><span class="mc-sub">Eric Olson</span><span class="mc-left">33.30 left behind</span><div class="mc-track" aria-hidden="true"><div class="mc-fill" style="width:79.67%"></div><div class="mc-tail" style="left:79.67%;width:18.31%"></div></div></div><div class="mc-row lose" id="t-i-loved-you-tom-brady"><span class="mc-name">I Loved You Tom Brady</span><span class="mc-score">108.84</span><span class="mc-sub">Billy Norton</span><span class="mc-left">6.70 left behind</span><div class="mc-track" aria-hidden="true"><div class="mc-fill" style="width:59.86%"></div><div class="mc-tail" style="left:59.86%;width:3.68%"></div></div></div><p class="mc-note">Josh Allen 40.66 and Ashton Jeanty 31.7 carried it. A.J. Brown started for 4.1 while Christian Watson scored 34.7 on the bench.</p><div class="au" data-label="Gil and Boomer on Colorado Narcoleptic Kestrels versus I Loved You Tom Brady"><div class="au-m"><p class="au-t">Listen: Olson vs Norton</p><audio controls preload="metadata" src="../audio/foh-g4.mp3"></audio></div></div></section>
 <p><span class="who">GIL:</span> Eric Olson won this league in 2005 with a team called the Blind Squirrels. Bob Dorsch finished second to him that year. His last recorded game before this season was in 2014.</p>
 <div class="bcom"><p><span class="who">BOOMER:</span> Eleven seasons gone. Comes back, makes the single worst lineup decision in the league, and wins by thirty six. Some men are protected by forces the rest of us do not have access to.</p></div>
-<p><span class="who">GIL:</span> Billy Norton has four titles here, tied for the most anybody has. DJ Moore 21.5, Dalton Kincaid 17.5, Ladd McConkey 16.7, and it totalled 108.84.</p>
-<div class="bcom"><p><span class="who">BOOMER:</span> Four rings on the wall and this week he beat one team that showed up. He would have lost to the one that did not.</p></div>
-<section class="mcard" id="m-davis" aria-label="Dallas Dawgs beat Midget Grinders, 117.26 to 94.40"><div class="mc-top"><h3 class="mc-rib" style="color:var(--gold)">Davis wins without a receiver</h3><button class="mc-lnk" type="button" data-a="m-davis" aria-label="Copy a link to Dallas Dawgs versus Midget Grinders">Link</button></div><div class="mc-row win" id="t-dallas-dawgs"><span class="mc-name">Dallas Dawgs</span><span class="mc-score">117.26</span><span class="mc-sub">Matt Davis</span><span class="mc-left">4.10 left behind</span><div class="mc-track" aria-hidden="true"><div class="mc-fill" style="width:64.49%"></div><div class="mc-tail" style="left:64.49%;width:2.25%"></div></div></div><div class="mc-row lose" id="t-midget-grinders"><span class="mc-name">Midget Grinders</span><span class="mc-score">94.40</span><span class="mc-sub">Michael Smith</span><span class="mc-left">11.00 left behind</span><div class="mc-track" aria-hidden="true"><div class="mc-fill" style="width:51.92%"></div><div class="mc-tail" style="left:51.92%;width:6.05%"></div></div></div><p class="mc-note">Jahmyr Gibbs 33.1, the Steelers defense 17, Bucky Irving 16.8. No wide receiver in the top three.</p><div class="au" data-label="Gil and Boomer on Dallas Dawgs versus Midget Grinders"><div class="au-m"><p class="au-t">Listen: Dallas Dawgs vs Midget Grinders</p><audio controls preload="metadata" src="../audio/foh-g3.mp3"></audio></div></div></section>
+<p><span class="who">GIL:</span> Billy Norton has four titles here. He, Ryan Kelly and Bob Dorsch are tied for the most anybody has. DJ Moore 21.5, Dalton Kincaid 17.5, Ladd McConkey 16.7, and it added up to 108.84.</p>
+<div class="bcom"><p><span class="who">BOOMER:</span> One hundred and eight point eight four, Gil, which is his career median to the hundredth. Two hundred and three games in this league and he landed on the exact middle of himself. Nobody on that roster had a bad game. Nobody had a game.</p></div>
+<section class="mcard" id="m-davis" aria-labelledby="m-davis-h"><div class="mc-top"><h3 class="mc-rib" id="m-davis-h" style="color:var(--gold)">Davis wins without a receiver</h3><button class="mc-lnk" type="button" data-a="m-davis" aria-label="Share or copy a link to Dallas Dawgs versus Midget Grinders">Link</button></div><div class="mc-row win" id="t-dallas-dawgs"><span class="mc-name">Dallas Dawgs</span><span class="mc-score">117.26</span><span class="mc-sub">Matt Davis</span><span class="mc-left">4.10 left behind</span><div class="mc-track" aria-hidden="true"><div class="mc-fill" style="width:64.49%"></div><div class="mc-tail" style="left:64.49%;width:2.25%"></div></div></div><div class="mc-row lose" id="t-midget-grinders"><span class="mc-name">Midget Grinders</span><span class="mc-score">94.40</span><span class="mc-sub">Michael Smith</span><span class="mc-left">11.00 left behind</span><div class="mc-track" aria-hidden="true"><div class="mc-fill" style="width:51.92%"></div><div class="mc-tail" style="left:51.92%;width:6.05%"></div></div></div><p class="mc-note">Jahmyr Gibbs 33.1, the Steelers defense 17, Bucky Irving 16.8. No wide receiver in the top three.</p><div class="au" data-label="Gil and Boomer on Dallas Dawgs versus Midget Grinders"><div class="au-m"><p class="au-t">Listen: Davis vs Smith</p><audio controls preload="metadata" src="../audio/foh-g3.mp3"></audio></div></div></section>
 <p><span class="who">GIL:</span> Matt Davis won this league in 2006 and again in 2023, seventeen years apart. There is a 2004 title the old email record points at and never actually confirms, and in twenty-two years nobody has heard him correct anybody about it.</p>
 <div class="bcom"><p><span class="who">BOOMER:</span> Two running backs and the Pittsburgh defense. That is not a 2026 roster, Gil, that is a 1974 highlight reel.</p></div>
 <p><span class="who">GIL:</span> Michael Smith got 23.6 from Jonathan Taylor, scored 94.4, and left Deebo Samuel and 15 points on the bench.</p>
-<div class="bcom"><p><span class="who">BOOMER:</span> Smith is the unluckiest owner in the recorded history of this league, nearly seven wins below what his scores deserved. This week he did not need luck. He needed to look at his own bench.</p></div>
-<section class="mcard" id="m-bye" aria-label="Old Man Smashers scored 115.66 on a bye week"><div class="mc-top"><h3 class="mc-rib" style="color:var(--blue)">A bye beat five teams</h3><button class="mc-lnk" type="button" data-a="m-bye" aria-label="Copy a link to Old Man Smashers">Link</button></div><div class="mc-row win" id="t-old-man-smashers"><span class="mc-name">Old Man Smashers</span><span class="mc-score">115.66</span><span class="mc-sub">Ryan Kelly · no opponent</span><span class="mc-left">8.90 left behind</span><div class="mc-track" aria-hidden="true"><div class="mc-fill" style="width:63.61%"></div></div></div><p class="mc-note">Pack Up, WPB Steel City, I Loved You Tom Brady, Midget Grinders and | croup all played a real game and scored less than this.</p><div class="au" data-label="Gil and Boomer on Old Man Smashers"><div class="au-m"><p class="au-t">Listen: Old Man Smashers</p><audio controls preload="metadata" src="../audio/foh-g6.mp3"></audio></div></div></section>
-<p><span class="who">GIL:</span> Caleb Williams gave Ryan Kelly 41.26, the biggest number any player put up in this league this week. Kelly has four titles here, tied for the most, and by the numbers he is the best drafter in the league.</p>
+<div class="bcom"><p><span class="who">BOOMER:</span> Smith scored 0.0 in Week 14 of 2023 and 7.2 two weeks later, and he has a ring from 2020. This league makes no sense and he is the proof.</p></div>
+<section class="mcard" id="m-bye" aria-labelledby="m-bye-h"><div class="mc-top"><h3 class="mc-rib" id="m-bye-h" style="color:var(--blue)">A bye beat five teams</h3><button class="mc-lnk" type="button" data-a="m-bye" aria-label="Share or copy a link to Old Man Smashers">Link</button></div><div class="mc-row win bye" id="t-old-man-smashers"><span class="mc-name">Old Man Smashers</span><span class="mc-score">115.66</span><span class="mc-sub">Ryan Kelly · no opponent</span><span class="mc-left">8.90 left behind</span><div class="mc-track" aria-hidden="true"><div class="mc-fill" style="width:63.61%"></div><div class="mc-tail" style="left:63.61%;width:4.89%"></div></div></div><p class="mc-note">Pack Up, WPB Steel City, I Loved You Tom Brady, Midget Grinders and | croup all played a real game and scored less than this.</p><div class="au" data-label="Gil and Boomer on Old Man Smashers"><div class="au-m"><p class="au-t">Listen: Kelly on bye</p><audio controls preload="metadata" src="../audio/foh-g6.mp3"></audio></div></div></section>
+<p><span class="who">GIL:</span> Caleb Williams gave Ryan Kelly 41.26, the biggest number any player put up in this league this week. Kelly has four titles, level with Billy Norton and Bob Dorsch, and by the numbers he is the best drafter in the league.</p>
 <div class="bcom"><p><span class="who">BOOMER:</span> Forty-one points and no opponent. The schedule mugged him in broad daylight and there is nobody to file the report with.</p></div>
+<h2 id="calls">On The Record</h2>
+<div class="bcom"><p><span class="who">BOOMER:</span> A call on every team, in the order I would rather own these rosters right now. Eleven on the board, none of them graded yet. Next week I read every one of them back, and when I am wrong I say so before I say anything else.</p></div>
+<ol class="calls"><li class="call"><p class="call-t"><strong>Balls Deep.</strong> Spencer Lentz posts 150 or more again in Week 2.</p><p class="call-s">The only roster in this league with three starters over 30. If Hurts holds up, nobody here has the ceiling to trade punches with it.</p></li><li class="call"><p class="call-t"><strong>Colorado Narcoleptic Kestrels.</strong> Eric Olson starts Christian Watson in Week 2.</p><p class="call-s">Sixty-six career games here, fewer than anybody else in this league, and the highest career average in it at 116.63. He has never once stayed long enough for that to matter.</p></li><li class="call"><p class="call-t"><strong>Kim Jong Un Pleasure Squad.</strong> Aron Rogers leaves under five on his bench again.</p><p class="call-s">Jaxson Dart put up 32.6 for him. That was on nobody's list in August, and Rogers is the one man here who was never going to waste it.</p></li><li class="call"><p class="call-t"><strong>WPB Steel City.</strong> Bob Dorsch wins Week 2 with Pat Freiermuth in his lineup.</p><p class="call-s">He has won 61.3 percent of everything he has ever played here, and this league's own book calls him its best manager. He is 0 and 1 in the week he did more work than anybody and less with it than anybody. He has the answer now. Whether he plays it is all I am interested in.</p></li><li class="call"><p class="call-t"><strong>Napoleon's Army.</strong> Michael Turner loses another one by under five points before Halloween.</p><p class="call-s">He is 16 and 16 against Aaron Jezioro across 32 games, the longest rivalry in this league and still exactly level. Losing by 0.34 is not a coincidence for this man. It is a personality.</p></li><li class="call"><p class="call-t"><strong>Old Man Smashers.</strong> Ryan Kelly beats Aaron Jezioro by more than twenty.</p><p class="call-s">He has started the smallest share of the points he owned of anybody here, 85.4 percent of them, and he has four titles anyway. Nobody has ever been this successful while paying this little attention.</p></li><li class="call"><p class="call-t"><strong>Pack Up.</strong> Rahul Pahuja leaves twenty or more behind again, and this time it costs him.</p><p class="call-s">He won by 0.46 with 38.30 on his bench and released a 34.8-point receiver in the same week. Nobody gets away with that twice.</p></li><li class="call"><p class="call-t"><strong>Dallas Dawgs.</strong> Matt Davis gets a wide receiver into his top three scorers in Week 2.</p><p class="call-s">He swings less week to week than anybody in this league, and he has four runner-up finishes and three titles across two different websites. Nobody here has spent more time within one good Sunday of the trophy.</p></li><li class="call"><p class="call-t"><strong>I Loved You Tom Brady.</strong> Billy Norton scores 130 or more in Week 2.</p><p class="call-s">Nothing on that roster went wrong and nothing went right, which is the hardest kind of bad week to fix and the easiest to stop repeating. He gets Aron Rogers on Sunday, the man I just handed Owner of the Week. Four rings says he is not scared of him.</p></li><li class="call"><p class="call-t"><strong>Midget Grinders.</strong> Michael Smith beats Spencer Lentz on Sunday.</p><p class="call-s">Yes, the 94.4 against the 171.92, and yes, that means I need Smith to find fifty points he has found five times in fifteen years while I am also calling Lentz for 150. One of those two is going down and I have written both of them here in ink. Smith has been owed wins by this league since roughly the Obama administration, nearly seven of them by the arithmetic. Somewhere the tab comes due.</p></li><li class="call"><p class="call-t"><strong>| croup.</strong> Aaron Jezioro beats Ryan Kelly on Sunday.</p><p class="call-s">Yes, I know what I said five calls ago. Trevor Lawrence went for 34.1, the fifth-biggest start in the league, and everything else he put in the lineup added up to 54.1. A man with that quarterback and four titles across the table is exactly where I want to be wrong.</p></li></ol>
 <h2 id="hardware">The Hardware</h2>
-<div class="aw good"><h3>Owner of the Week</h3><p class="win">Aron Rogers — Kim Jong Un Pleasure Squad</p><p><span class="who">GIL:</span> 131.50 scored, 133.50 available. He left 2.00 behind, the least of anyone in the league, and won by 0.34.</p><p><span class="who">BOOMER:</span> Take one name out of one slot and he loses this game. He did not take it out. That is the whole award and he earned every hundredth of it.</p></div>
-<div class="aw bad"><h3>Worst Owner of the Week</h3><p class="win">Bob Dorsch — WPB Steel City</p><p><span class="who">GIL:</span> Seven tight end claims, one executed, and he started somebody else. Lost by 0.46.</p><p><span class="who">BOOMER:</span> He did the homework and turned in a blank page.</p></div>
-<div class="aw good"><h3>Start of the Week</h3><p class="win">Ryan Kelly — Caleb Williams, 41.26</p><p><span class="who">GIL:</span> Biggest score any player posted in this league this week, on a roster that had no game scheduled.</p><p><span class="who">BOOMER:</span> Forty-one points, filed in the one week nobody was playing him. Gil, that is the purest waste this sport offers.</p></div>
-<div class="aw bad"><h3>Sit of the Week</h3><p class="win">Eric Olson — Christian Watson, 34.7 on the bench</p><p><span class="who">GIL:</span> Started A.J. Brown for 4.1 in that slot. A 30.6-point swing.</p><p><span class="who">BOOMER:</span> Biggest single mistake made in this league this week, made by the only man who could afford it. He will look at that W and learn absolutely nothing.</p></div>
-<div class="aw bad"><h3>Waste of the Week</h3><p class="win">Rahul Pahuja — 38.30 points left behind</p><p><span class="who">GIL:</span> 152.42 available, 114.12 started. Isaiah Likely scored 23.8 from the bench while Harold Fannin Jr. started for 3.1.</p><p><span class="who">BOOMER:</span> He won the game, so nobody is going to say a word to him. I am saying it. He is one bad Sunday away from losing a game with the win still sitting on his bench.</p></div>
+<div class="aw good"><h3>Owner of the Week</h3><p class="win">Aron Rogers · Kim Jong Un Pleasure Squad</p><p><span class="who">GIL:</span> 131.50 scored, 133.50 available. He left 2.00 behind, the least of anyone in the league, and won by 0.34.</p><p><span class="who">BOOMER:</span> Take one name out of one slot and he loses this game. He did not take it out. That is the whole award and he earned every hundredth of it.</p></div>
+<div class="aw bad"><h3>Worst Owner of the Week</h3><p class="win">Bob Dorsch · WPB Steel City</p><p><span class="who">GIL:</span> One claim landed out of seven. He started somebody else. Lost by 0.46.</p><p><span class="who">BOOMER:</span> He did the homework and turned in a blank page.</p></div>
+<div class="aw good"><h3>Start of the Week</h3><p class="win">Ryan Kelly · Caleb Williams, 41.26</p><p><span class="who">GIL:</span> Nobody in this league scored more than Williams did, and the roster he did it for had no game scheduled.</p><p><span class="who">BOOMER:</span> Best quarterback day anybody had in either of these two leagues, and it went into a week with an empty chair across from it. Ryan Kelly beat nobody by forty-one.</p></div>
+<div class="aw bad"><h3>Sit of the Week</h3><p class="win">Eric Olson · Christian Watson, 34.7 on the bench</p><p><span class="who">GIL:</span> Started A.J. Brown for 4.1 in that slot. A 30.6-point swing.</p><p><span class="who">BOOMER:</span> Biggest single mistake made in this league this week, made by the only man who could afford it. He will look at that W and learn absolutely nothing.</p></div>
+<div class="aw bad"><h3>Waste of the Week</h3><p class="win">Rahul Pahuja · 38.30 points left behind</p><p><span class="who">GIL:</span> 152.42 available, 114.12 started. Isaiah Likely scored 23.8 from the bench while Harold Fannin Jr. started for 3.1.</p><p><span class="who">BOOMER:</span> Thirty-eight point three. That is more than Aron Rogers, Michael Turner, Matt Davis, Ryan Kelly and Bob Dorsch left behind put together, and four of those five outscored him.</p></div>
+<p><span class="who">GIL:</span> I will push back there, Boomer. Pahuja's 38.30 was Isaiah Likely having the week of his life at the one position nobody predicts. Bob Dorsch chased that exact outcome seven times and caught it. One of those two men got lucky and lost anyway.</p>
+<div class="bcom"><p><span class="who">BOOMER:</span> Fine. Then this league is not a competition, Gil, it is a weather system.</p></div>
 <h2 id="rule">The Freiermuth Rule</h2>
-<div class="bcom"><p><span class="who">BOOMER:</span> New this year, and Bob Dorsch named it for us in week one. <strong>Do not leave the answer on your own bench.</strong> I do not care whether you chased it across the wire seven times or it has been sitting on your roster since the auction. If you own it and it is not in your lineup, you broke the rule.</p></div>
+<div class="bcom"><p><span class="who">BOOMER:</span> New this year, and Bob Dorsch bought the naming rights in Week 1. <strong>Do not leave the answer on your own bench.</strong> I do not care whether you chased it across the wire seven times or it has been sitting on your roster since the auction. If you own it and it is not in your lineup, you broke the rule.</p></div>
 <ol><li><strong>Bob Dorsch.</strong> Seven claims to solve one slot. Solved it. Benched Pat Freiermuth and his 13.1. Lost by 0.46.</li><li><strong>Rahul Pahuja.</strong> Started Harold Fannin Jr. for 3.1 with Isaiah Likely and 23.8 in his pocket. Won by 0.46.</li></ol>
 <div class="bcom"><p><span class="who">BOOMER:</span> Same slot, same mistake, same afternoon, and the scoreboard handed one of them a W for it. That is this league in a sentence.</p></div>
 <h2 id="ledger">The Bench Ledger</h2>
-<div class="bcom"><p><span class="who">BOOMER:</span> Running all season, all eleven of you, and I read the total back to every one of you in December.</p></div>
-<table class="led"><caption>Week 1 — points left on the bench, all eleven teams</caption><thead><tr><th scope="col"><span class="sr">Rank</span></th><th scope="col">Owner</th><th scope="col">Points benched</th></tr></thead><tbody><tr><td>1</td><td>Rahul Pahuja</td><td>38.30</td></tr><tr><td>2</td><td>Eric Olson</td><td>33.30</td></tr><tr><td>3</td><td>Michael Smith</td><td>11.00</td></tr><tr><td>4</td><td>Bob Dorsch</td><td>10.70</td></tr><tr><td>5</td><td>Spencer Lentz</td><td>9.90</td></tr><tr><td>6</td><td>Ryan Kelly</td><td>8.90</td></tr><tr><td>7</td><td>Billy Norton</td><td>6.70</td></tr><tr><td>8</td><td>Matt Davis</td><td>4.10</td></tr><tr><td>9</td><td>Aaron Jezioro</td><td>4.00</td></tr><tr><td>10</td><td>Michael Turner</td><td>3.60</td></tr><tr><td>11</td><td>Aron Rogers</td><td>2.00</td></tr></tbody></table>
-<p><span class="who">GIL:</span> Ryan Kelly has left 5,448 points on his bench across fifteen seasons here, more than anybody still playing in this league. Bob Dorsch is second at 5,277.</p>
-<div class="bcom"><p><span class="who">BOOMER:</span> The best drafter in this league is also the man who has thrown away the most points in it, and he has four rings. Gil, I do not know what to do with that either.</p></div>
+<div class="bcom"><p><span class="who">BOOMER:</span> All eleven of you, every week, all season, and the last column is the only one that can convict you.</p></div>
+<table class="led"><caption>Week 1: points left on the bench, and whether it actually cost the game</caption><thead><tr><th scope="col"><span class="sr">Rank</span></th><th scope="col">Owner</th><th scope="col">Benched</th><th scope="col">Cost him?</th></tr></thead><tbody><tr><td>1</td><th scope="row">Rahul Pahuja</th><td>38.30</td><td class="led-v">No, won</td></tr><tr><td>2</td><th scope="row">Eric Olson</th><td>33.30</td><td class="led-v">No, won</td></tr><tr><td>3</td><th scope="row">Michael Smith</th><td>11.00</td><td class="led-v">No, lost by 22.86</td></tr><tr><td>4</td><th scope="row">Bob Dorsch</th><td>10.70</td><td class="led-v yes">Yes, by 0.46</td></tr><tr><td>5</td><th scope="row">Spencer Lentz</th><td>9.90</td><td class="led-v">No, won</td></tr><tr><td>6</td><th scope="row">Ryan Kelly</th><td>8.90</td><td class="led-v">No game</td></tr><tr><td>7</td><th scope="row">Billy Norton</th><td>6.70</td><td class="led-v">No, lost by 36.02</td></tr><tr><td>8</td><th scope="row">Matt Davis</th><td>4.10</td><td class="led-v">No, won</td></tr><tr><td>9</td><th scope="row">Aaron Jezioro</th><td>4.00</td><td class="led-v">No, lost by 83.72</td></tr><tr><td>10</td><th scope="row">Michael Turner</th><td>3.60</td><td class="led-v yes">Yes, by 0.34</td></tr><tr><td>11</td><th scope="row">Aron Rogers</th><td>2.00</td><td class="led-v">No, won</td></tr></tbody></table>
+<p><span class="who">GIL:</span> Two of eleven, and both of them lost by less than half a point.</p>
+<div class="bcom"><p><span class="who">BOOMER:</span> That is the cruelty of this league in one column, Gil. Rahul Pahuja left 38.30 behind and got a W. Michael Turner left 3.60 and got beaten. Ryan Kelly has left 5,448 points on his bench since we started counting in 2018, more than anybody still playing, and he has four rings for it. The best drafter in this league is also the man who has thrown away the most points in it. I do not know what to do with that either.</p></div>
 <h2 id="wire">The Waiver Wire</h2>
-<p><span class="who">GIL:</span> <strong>Worst move:</strong> Rahul Pahuja dropping Jalen Coker, who scored 34.8, to add Tre Tucker, who scored 3.7. A 31.1-point swing, the worst in the league. Aaron Jezioro is second, Tyler Shough out for Tyrone Tracy Jr., 30.8.</p>
-<p><span class="who">GIL:</span> <strong>Best move:</strong> Eric Olson swapping the Rams defense, which scored 2, for the Jaguars, which scored 12.</p>
-<div class="bcom"><p><span class="who">BOOMER:</span> Pahuja left 38.30 on his bench and released another 31 off his roster, in the same week he won a football game by 0.46. Nobody has made a trade in this league in eight years — the wire is the only place any of you can still hurt yourselves, and look at the craftsmanship.</p></div>
-<h2 id="ranks">Boomer's Power Rankings</h2>
-<div class="bcom"><p><span class="who">BOOMER:</span> Eleven teams. My order. One line each, and every line is something I have not already said.</p></div>
-<ol><li><strong>Balls Deep.</strong> The only roster in the league with three starters over 30. If Hurts holds up, nobody here has the ceiling to trade punches with it.</li><li><strong>Colorado Narcoleptic Kestrels.</strong> Eleven years away and he walks in with Josh Allen and Ashton Jeanty. Somebody explain to me how that happened.</li><li><strong>Kim Jong Un Pleasure Squad.</strong> Jaxson Dart put up 32.6 for him. That was not on anybody's list in August, and Rogers is the one man here who will not waste it.</li><li><strong>WPB Steel City.</strong> The best manager rating in this league at 61.3 percent lifetime, and he is 0 and 1 on the one week he stopped managing.</li><li><strong>Napoleon’s Army.</strong> Three starters over 22 and a kicker who cost him the game. Michael Turner is going to be furious all season and he has earned it.</li><li><strong>Old Man Smashers.</strong> Four rings, best drafter in the league, and the schedule gave him a week off to watch his quarterback throw for 41.</li><li><strong>Dallas Dawgs.</strong> Won a game in 2026 with two running backs and a defense. The receivers have to show up eventually or that is the season.</li><li><strong>Pack Up.</strong> 1 and 0 and the most wasted points in the league. He is playing with his eyes shut and it worked exactly once.</li><li><strong>I Loved You Tom Brady.</strong> Nothing on his roster went wrong and nothing went right. That is the hardest kind of bad week to fix.</li><li><strong>Midget Grinders.</strong> Jonathan Taylor at 23.6 and then a long quiet walk down the rest of the lineup.</li><li><strong>| croup.</strong> Started the fifth-biggest score in the league and finished last. Nobody manages to do both of those in the same afternoon.</li></ol>
-<p><span class="who">GIL:</span> Next Sunday: Matt Davis at Bob Dorsch, Spencer Lentz at Michael Smith, Ryan Kelly at Aaron Jezioro, Aron Rogers at Billy Norton, and Eric Olson at Rahul Pahuja. Michael Turner has the bye.</p>
-<div class="bcom"><p><span class="who">BOOMER:</span> Turner loses by a third of a point and then gets a week off to think about it. I would not wish that on anybody.</p></div>
+<p><span class="who">GIL:</span> <strong>Worst move:</strong> 31.1 points of swing on one transaction, more than anybody. Rahul Pahuja dropped Jalen Coker, who scored 34.8, for Tre Tucker, who scored 3.7. Aaron Jezioro came second the hard way at 30.8, releasing Tyler Shough for a running back who finished the day at negative six tenths.</p>
+<p><span class="who">GIL:</span> <strong>Best move:</strong> Bob Dorsch's one successful claim, Pat Freiermuth for 13.1 with nobody dropped. The biggest add in the league and the only one that cost its owner nothing. Eric Olson is second, the Rams defense out for the Jaguars, 10.0.</p>
+<div class="bcom"><p><span class="who">BOOMER:</span> Nobody has made a trade in this league in eight years, Gil. The wire is the only place any of you can still hurt yourselves, and look at the craftsmanship.</p></div>
+<h2 id="next">Next Sunday</h2>
+<p><span class="who">GIL:</span> Matt Davis at Bob Dorsch, Spencer Lentz at Michael Smith, Ryan Kelly at Aaron Jezioro, Aron Rogers at Billy Norton, Eric Olson at Rahul Pahuja. Michael Turner has the bye.</p>
+<div class="bcom"><p><span class="who">BOOMER:</span> Turner gets a week off now. Seven days, no opponent, and 0.34 to sit with. I would not wish that on anybody.</p></div>
 </main>
 <footer class="wrap foot">
-<p>THE WEEKLY BOOTH — Friends of Herb, Week 1, 2026. Gil Prather and Boomer Latour. Every number on this page is pulled from the league and checked before it is spoken.</p><p class="note">Scores are computed under each league’s own settings, so the same player can be worth different numbers in two different buildings.</p><p><a href="../">The Weekly Booth</a> &nbsp; <a href="./">Friends of Herb, 2026</a> &nbsp; <a href="../dlffl/week-1.html">Dewart Lake FFL, Week 1</a></p>
+<p>THE WEEKLY BOOTH: Friends of Herb, Week 1, 2026. Gil Prather and Boomer Latour. Every number on this page is pulled from the league and checked before it is spoken.</p><p class="note">Scores are computed under each league’s own settings, so the same player can be worth different numbers in two different buildings.</p><p><a href="https://slentz9090.github.io/weekly-booth/">The Weekly Booth</a> &nbsp; <a href="https://slentz9090.github.io/weekly-booth/foh/">Friends of Herb, 2026</a> &nbsp; <a href="https://slentz9090.github.io/weekly-booth/dlffl/week-1.html">Dewart Lake FFL, Week 1</a></p>
 </footer>
 <script>
 (function(){
@@ -394,10 +412,18 @@ html.js .jump{display:flex}
    b.addEventListener('click',function(){
      var u=location.origin+location.pathname+'#'+b.getAttribute('data-a');
      var old=b.parentNode.querySelector('.mc-url'); if(old)old.remove();
-     if(navigator.share){navigator.share({url:u}).then(done,function(){});return;}
-     if(navigator.clipboard&&navigator.clipboard.writeText){
-       navigator.clipboard.writeText(u).then(done,function(){fb(u);});
-     } else fb(u);
+     function clip(){
+       if(navigator.clipboard&&navigator.clipboard.writeText){
+         navigator.clipboard.writeText(u).then(done,function(){fb(u);});
+       } else fb(u);
+     }
+     if(navigator.share){
+       navigator.share({url:u}).then(done,function(err){
+         if(!err||err.name!=='AbortError')clip();
+       });
+       return;
+     }
+     clip();
      function fb(u){
        var i=document.createElement('textarea');
        i.value=u; i.setAttribute('readonly','');
@@ -415,6 +441,9 @@ html.js .jump{display:flex}
      }
    });
  });
+
+ if(location.hash){var h0=document.getElementById(location.hash.slice(1));
+   if(h0&&h0.classList.contains('mc-row'))h0.classList.add('lit');}
 
  var j=document.getElementById('jump');
  if(j){
@@ -466,6 +495,8 @@ html.js .jump{display:flex}
 
    btn.addEventListener('click',function(){
      if(a.paused){
+       if(!a.currentTime){try{var v=+sessionStorage.getItem('wb:'+a.src);
+         if(v>3&&(!a.duration||v<a.duration-3))a.currentTime=v;}catch(e){}}
        all.forEach(function(o){var x=o.querySelector('audio'); if(x&&x!==a)x.pause();});
        var pr=a.play();
        if(pr&&pr.catch)pr.catch(function(err){
@@ -488,11 +519,15 @@ html.js .jump{display:flex}
    a.addEventListener('pause',function(){btn.innerHTML=PLAY;btn.setAttribute('aria-label','Play: '+name);});
    a.addEventListener('waiting',function(){btn.style.opacity='.55';});
    a.addEventListener('playing',function(){btn.style.opacity='';});
-   a.addEventListener('loadedmetadata',function(){
-     tm.textContent=fmt(a.duration);
-     try{var v=+sessionStorage.getItem('wb:'+a.src);
-         if(v>3&&v<a.duration-3)a.currentTime=v;}catch(e){}
-   });
+   a.addEventListener('loadedmetadata',function(){tm.textContent=fmt(a.duration);});
+   var lastSave=0;
+   var save=function(){try{
+     if(a.currentTime>3&&a.duration&&a.currentTime<a.duration-3)
+       sessionStorage.setItem('wb:'+a.src,a.currentTime);
+     else sessionStorage.removeItem('wb:'+a.src);
+   }catch(e){}};
+   a.addEventListener('pause',save);
+   addEventListener('pagehide',save);
    a.addEventListener('timeupdate',function(){
      if(!a.duration) return;
      var pct=a.currentTime/a.duration*100;
@@ -500,7 +535,7 @@ html.js .jump{display:flex}
      bar.setAttribute('aria-valuenow',Math.round(pct));
      bar.setAttribute('aria-valuetext',fmt(a.currentTime)+' of '+fmt(a.duration));
      tm.textContent=fmt(a.duration-a.currentTime);
-     if(Math.floor(a.currentTime)%5===0){try{sessionStorage.setItem('wb:'+a.src,a.currentTime);}catch(e){}}
+     if(a.currentTime-lastSave>4){lastSave=a.currentTime;save();}
    });
    a.addEventListener('ended',function(){fil.style.width='0%';tm.textContent=fmt(a.duration);
      try{sessionStorage.removeItem('wb:'+a.src);}catch(e){}});

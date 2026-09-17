@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Friends of Herb — The Weekly Booth</title>
+<title>Friends of Herb , The Weekly Booth</title>
 <meta name="description" content="Gil and Boomer call Week 1 of Friends of Herb: the defending champion lost by 0.46 to his own bench, a kicker settled another game by 0.34, and a team on bye outscored five teams that played.">
 <meta name="author" content="The Weekly Booth">
 <link rel="canonical" href="https://slentz9090.github.io/weekly-booth/foh/">
@@ -11,18 +11,18 @@
 <meta property="og:type" content="website">
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="The Weekly Booth">
-<meta property="og:title" content="Friends of Herb — The Weekly Booth">
+<meta property="og:title" content="Friends of Herb , The Weekly Booth">
 <meta property="og:description" content="Gil and Boomer call Week 1 of Friends of Herb: the defending champion lost by 0.46 to his own bench, a kicker settled another game by 0.34, and a team on bye outscored five teams that played.">
 <meta property="og:url" content="https://slentz9090.github.io/weekly-booth/foh/">
 <meta property="og:image" content="https://slentz9090.github.io/weekly-booth/og/foh-week-1.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
-<meta property="og:image:alt" content="Friends of Herb — The Weekly Booth">
+<meta property="og:image:alt" content="Friends of Herb , The Weekly Booth">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Friends of Herb — The Weekly Booth">
+<meta name="twitter:title" content="Friends of Herb , The Weekly Booth">
 <meta name="twitter:description" content="Gil and Boomer call Week 1 of Friends of Herb: the defending champion lost by 0.46 to his own bench, a kicker settled another game by 0.34, and a team on bye outscored five teams that played.">
 <meta name="twitter:image" content="https://slentz9090.github.io/weekly-booth/og/foh-week-1.png">
-<meta name="twitter:image:alt" content="Friends of Herb — The Weekly Booth">
+<meta name="twitter:image:alt" content="Friends of Herb , The Weekly Booth">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Crect width='24' height='24' rx='6' fill='%23141922'/%3E%3Crect x='9.5' y='4' width='5' height='9' rx='2.5' fill='%23ffcf7a'/%3E%3Cpath d='M7.5 11a4.5 4.5 0 0 0 9 0M12 15.5V19M9 19h6' stroke='%23ffcf7a' stroke-width='1.7' fill='none' stroke-linecap='round'/%3E%3C/svg%3E">
 <link rel="apple-touch-icon" href="https://slentz9090.github.io/weekly-booth/og/booth-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -32,7 +32,7 @@
 :root{
   color-scheme:dark;
   --bg:#0b0e13; --surf:#171d27; --surf2:#1c2432; --line:#6b7a94; --line2:#7d8ca6;
-  --hair:#3d4759;
+  --hair:#4d5a70;
   --tx:#e6eaf0; --mut:#9aa4b2; --dim:#8b95a5;
   --blue:#8fbcff; --gold:#ffcf7a; --green:#7ceaae; --red:#ff9c9c;
   --maxw:760px; --navh:58px;
@@ -53,6 +53,7 @@ p{margin:0 0 13px}
 a{color:var(--blue);text-decoration:none}
 a:hover{text-decoration:underline}
 :focus-visible{outline:3px solid var(--gold);outline-offset:2px}
+#main:focus,#main:focus-visible{outline:none}
 .sr{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0}
 .skip{position:absolute;left:-9999px;top:0;z-index:70}
 .skip:focus{left:8px;top:8px;background:var(--gold);color:#12161d;padding:11px 14px;
@@ -75,9 +76,11 @@ a:hover{text-decoration:underline}
   .mast .m2{font-size:23px}
   .mast .m3{margin-left:0;width:100%;text-align:left;border-top:1px solid var(--hair);padding-top:9px}
 }
-.crumb{font-size:12.5px;color:var(--dim);letter-spacing:.05em;padding:11px 0 0}
-.crumb a{color:var(--mut)}
+.crumb{font-size:12.5px;color:var(--dim);letter-spacing:.05em;padding:4px 0 0}
+.crumb a{color:var(--blue);text-decoration:underline;text-underline-offset:3px;
+  display:inline-block;padding:9px 2px;min-height:40px}
 .crumb a:hover{color:#fff}
+.crumb > span[aria-current]{display:inline-block;padding:9px 2px}
 
 /* ---- nav ---- */
 .nav{position:sticky;top:0;z-index:50;background:rgba(11,14,19,.94);
@@ -90,7 +93,7 @@ a:hover{text-decoration:underline}
 .nav ul{display:flex;gap:7px;list-style:none;margin:0;padding:0;overflow-x:auto;
   scrollbar-width:none;-webkit-overflow-scrolling:touch;scroll-snap-type:x proximity}
 .nav ul::-webkit-scrollbar{display:none}
-.nav::after{content:"";position:absolute;top:0;bottom:1px;right:0;width:28px;pointer-events:none;
+html.js .nav::after{content:"";position:absolute;top:0;bottom:1px;right:0;width:28px;pointer-events:none;
   background:linear-gradient(90deg,rgba(11,14,19,0),rgba(11,14,19,.96));opacity:1}
 .nav.at-end::after{opacity:0}
 @media (prefers-reduced-motion:no-preference){.nav::after{transition:opacity .2s}}
@@ -98,6 +101,7 @@ a:hover{text-decoration:underline}
   text-transform:uppercase;color:var(--mut);border:1px solid var(--line);border-radius:999px;
   padding:11px 14px;white-space:nowrap;scroll-snap-align:start}
 .nav a:hover{color:#fff;border-color:var(--line2);text-decoration:none}
+.nav a:focus-visible{outline-offset:-3px}
 .nav a[aria-current]{color:#fff;border-color:var(--gold)}
 
 /* ---- headline ---- */
@@ -108,6 +112,7 @@ h2{font-size:15px;letter-spacing:.2em;text-transform:uppercase;color:var(--blue)
   margin:42px 0 14px;padding-bottom:8px;border-bottom:1px solid var(--hair);font-weight:700}
 h3{font-size:16px;margin:0 0 8px;color:#fff}
 @media (max-width:430px){h1{font-size:34px}body{font-size:16px}}
+@media (max-width:400px){.au-t{letter-spacing:.06em;font-size:12.5px;-webkit-line-clamp:3}.au{gap:10px}}
 
 /* ---- speakers ---- */
 .who{color:var(--gold);font-weight:700}
@@ -121,53 +126,59 @@ h3{font-size:16px;margin:0 0 8px;color:#fff}
 .mcard{border:1px solid var(--hair);border-radius:14px;background:var(--surf);
   padding:15px 16px 13px;margin:24px 0 14px;position:relative}
 @supports (content-visibility:auto){
-  .mcard{content-visibility:auto;contain-intrinsic-size:auto 430px}}
+  .mcard{content-visibility:auto;contain-intrinsic-size:auto 480px}}
 .mcard:target{border-color:var(--gold);box-shadow:0 0 0 3px rgba(255,207,122,.16)}
-.mc-top{display:flex;align-items:flex-start;gap:9px;margin:0 0 14px}
+.mc-top{display:flex;flex-wrap:wrap;align-items:flex-start;gap:9px;margin:0 0 14px}
 .mc-rib{font-size:15px;font-weight:700;letter-spacing:.17em;text-transform:uppercase;
-  line-height:1.15;margin:0;display:flex;align-items:flex-start;gap:9px;min-width:0}
+  line-height:1.15;margin:0;display:flex;align-items:flex-start;gap:9px;min-width:0;
+  flex:1 1 0}
 .mc-rib::before{content:"";flex:none;width:4px;height:1.15em;margin-top:.04em;border-radius:2px;
   background:currentColor}
 .mc-lnk{display:none;margin-left:auto;flex:none;background:none;border:1px solid var(--line);
   color:var(--mut);border-radius:7px;font-family:inherit;font-weight:700;font-size:11px;
-  line-height:1;letter-spacing:.09em;text-transform:uppercase;padding:10px 12px;min-height:40px;
+  line-height:1;letter-spacing:.09em;text-transform:uppercase;padding:10px 12px;min-height:44px;
   min-width:68px;text-align:center;cursor:pointer}
 html.js .mc-lnk{display:block}
 .mc-lnk:hover{color:#fff;border-color:var(--line2)}
-.mc-url{flex:1 0 100%;margin-top:9px;font:12px/1.4 ui-monospace,Menlo,monospace;
+.mc-url{flex:1 0 100%;min-width:0;margin-top:9px;font:16px/1.4 ui-monospace,Menlo,monospace;
   background:var(--surf2);color:var(--tx);border:1px solid var(--line2);border-radius:7px;padding:9px}
 .mc-row{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:baseline;column-gap:12px;
-  margin-bottom:13px;scroll-margin-top:calc(var(--navh) + 10px);border-radius:9px}
+  margin-bottom:13px;scroll-margin-top:10px;border-radius:9px}
 .mc-name{font-size:19px;font-weight:700;color:#fff;line-height:1.2;min-width:0;overflow-wrap:anywhere}
 .mc-sub{grid-column:1;font-size:13px;color:var(--mut);margin-top:2px}
 .mc-score{font-size:30px;font-weight:700;color:#fff;white-space:nowrap;
   font-variant-numeric:tabular-nums;line-height:1}
-.mc-row.win .mc-score::after{content:" W";font-size:.5em;color:var(--green);vertical-align:.55em;
+.mc-row.win:not(.bye) .mc-score::after{content:" W";font-size:.5em;color:var(--green);vertical-align:.55em;
   letter-spacing:.06em}
 .mc-row.lose .mc-name,.mc-row.lose .mc-score{color:#a9b3c2}
 .mc-left{grid-column:2;font-size:12.5px;color:var(--red);text-align:right;margin-top:3px;
   font-variant-numeric:tabular-nums;white-space:nowrap}
-.mc-track{grid-column:1/-1;position:relative;height:12px;border-radius:7px;background:#39445a;
+.mc-track{grid-column:1/-1;position:relative;height:12px;border-radius:7px;background:#2a3345;
   overflow:hidden;margin-top:9px;border:1px solid var(--line)}
 .mc-fill,.mc-tail{position:absolute;top:0;bottom:0}
 .mc-fill{left:0;background:linear-gradient(90deg,#5f95e6,#8fbcff)}
-.mc-row.lose .mc-fill{background:linear-gradient(90deg,#818d9f,#9fabbd)}
+.mc-row.lose .mc-fill{background:linear-gradient(90deg,#94a1b5,#b2bdcd)}
 .mc-tail{background:repeating-linear-gradient(135deg,#e09aa0 0 3px,#9a5a60 3px 6px);min-width:5px}
 .mc-note{border-top:1px solid var(--hair);padding-top:12px;margin:3px 0 4px;font-size:15.5px;
   line-height:1.48;color:#d5dce7}
-.mc-row.lit{box-shadow:0 0 0 3px rgba(255,207,122,.22);margin-left:-7px;margin-right:-7px;
-  padding:0 7px}
+.mc-row.lit,.mc-row:target{box-shadow:0 0 0 3px rgba(255,207,122,.22);margin-left:-7px;
+  margin-right:-7px;padding:0 7px}
 @media (prefers-reduced-motion:no-preference){.mc-row.lit{transition:box-shadow .3s}}
 @media (min-width:560px){.mc-name{font-size:21px}.mc-score{font-size:34px}}
-.key{border:1px solid var(--hair);border-radius:11px;background:var(--surf);padding:12px 14px;
-  margin:0 0 6px;font-size:13.5px;line-height:1.45;color:var(--mut)}
+.mc-key{margin:0;font-size:13px;line-height:1.45;color:var(--mut);
+  border-top:1px solid var(--hair);padding-top:10px}
 
 /* ---- the calls ---- */
-.call{display:grid;grid-template-columns:auto minmax(0,1fr);gap:0 13px;border:1px solid var(--hair);
-  border-radius:12px;background:var(--surf);padding:13px 15px;margin:0 0 11px}
-.call-n{grid-row:1/3;font-size:30px;font-weight:700;color:var(--gold);line-height:.95;
-  font-variant-numeric:tabular-nums}
-.call-t{font-size:16.5px;font-weight:700;color:#fff;margin:0 0 4px;line-height:1.35}
+ol.calls{counter-reset:call;list-style:none;padding:0;margin:0}
+.call{counter-increment:call;display:grid;grid-template-columns:auto minmax(0,1fr);gap:0 13px;
+  border:1px solid var(--hair);border-radius:12px;background:var(--surf);padding:13px 15px;
+  margin:0 0 11px}
+.call::before{content:counter(call);grid-row:1/3;align-self:start;
+  font-family:"Barlow Condensed","BC Fallback","BC Fallback 2","Arial Narrow",Arial,sans-serif;
+  font-size:30px;font-weight:700;color:var(--gold);line-height:1;font-variant-numeric:tabular-nums;
+  min-width:1.1em}
+.call-t{font-size:16.5px;color:#fff;margin:0 0 4px;line-height:1.38}
+.call-t strong{color:var(--gold);font-weight:700}
 .call-s{margin:0;font-size:14.5px;color:var(--mut);line-height:1.45}
 
 /* ---- audio ---- */
@@ -181,9 +192,9 @@ html.js .mc-lnk{display:block}
 .au-t{font-size:13px;font-weight:700;letter-spacing:.11em;text-transform:uppercase;color:var(--tx);
   margin:0 0 6px;line-height:1.3;overflow:hidden;display:-webkit-box;-webkit-line-clamp:2;
   -webkit-box-orient:vertical}
-.au-bar{position:relative;height:7px;border-radius:4px;background:#6b7a94;overflow:visible;cursor:pointer}
+.au-bar{position:relative;height:7px;border-radius:4px;background:#565f74;overflow:visible;cursor:pointer}
 .au-bar i{display:block;height:100%;width:0;background:var(--gold);border-radius:4px}
-.au-bar::after{content:"";position:absolute;left:0;right:0;top:-9px;bottom:-11px}
+.au-bar::after{content:"";position:absolute;left:0;right:0;top:-14px;bottom:-14px}
 .au-time{flex:none;font-size:12px;color:var(--mut);font-variant-numeric:tabular-nums;
   min-width:38px;text-align:right}
 .au audio:not(.sr){width:100%}
@@ -205,13 +216,22 @@ ol{padding-left:22px;margin:0 0 13px}
 ol li{margin-bottom:9px}
 .led{width:100%;border-collapse:collapse;font-size:15px;margin:0 0 13px}
 .led caption{text-align:left;color:var(--mut);font-size:13.5px;padding:0 0 9px}
-.led th{text-align:left;font-size:11.5px;letter-spacing:.13em;text-transform:uppercase;
-  color:var(--mut);font-weight:700;padding:0 0 7px;border-bottom:1px solid var(--hair)}
-.led td{padding:8px 0;border-bottom:1px solid #232b39;font-variant-numeric:tabular-nums}
-.led td:first-child{width:1%;padding-right:12px;color:var(--dim);white-space:nowrap}
-.led td:last-child,.led th:last-child{text-align:right}
-.led tr:first-child td{color:#fff;font-weight:700}
+.led thead th{text-align:left;font-size:11.5px;letter-spacing:.13em;text-transform:uppercase;
+  color:var(--mut);font-weight:700;padding:0 10px 7px 0;border-bottom:1px solid var(--hair)}
+.led td{padding:8px 10px 8px 0;border-bottom:1px solid var(--hair);font-variant-numeric:tabular-nums}
+.led tbody th[scope=row]{text-align:left;font:inherit;color:inherit;letter-spacing:0;
+  text-transform:none;padding:8px 10px 8px 0;border-bottom:1px solid var(--hair);
+  overflow-wrap:anywhere}
+.led td:first-child{width:1%;padding-right:10px;color:var(--dim);white-space:nowrap}
+.led td:nth-child(3){width:1%;text-align:right;white-space:nowrap}
+.led th:nth-child(3){text-align:right}
+.led .led-v{width:1%;white-space:nowrap;text-align:right;padding-right:0;color:var(--mut);
+  font-size:13.5px}
+.led th:last-child{text-align:right;padding-right:0}
+.led tbody tr:first-child th,.led tbody tr:first-child td{color:#fff;font-weight:700}
+.led .led-v.yes{color:var(--red);font-weight:700}
 .note{color:var(--mut);font-size:14.5px}
+.note a{display:inline-block;padding:10px 0;min-height:40px}
 .jump{display:none;align-items:center;gap:10px;flex-wrap:wrap;border:1px solid var(--hair);
   border-radius:11px;background:var(--surf);padding:11px 13px;margin:0 0 6px}
 html.js .jump{display:flex}
@@ -222,10 +242,10 @@ html.js .jump{display:flex}
 .foot a{display:inline-block;padding:9px 0}
 
 @media (prefers-reduced-motion:no-preference){
-  @keyframes grow{to{transform:scaleX(1)}}
-  html.js .mc-fill,html.js .mc-tail{transform:scaleX(0);transform-origin:left center;
-    animation:grow .85s cubic-bezier(.2,.85,.25,1) both;animation-play-state:paused}
-  html.js .mcard.on .mc-fill,html.js .mcard.on .mc-tail{animation-play-state:running}
+  @keyframes grow{from{transform:scaleX(0)}to{transform:scaleX(1)}}
+  html.js .mc-fill,html.js .mc-tail{transform-origin:left center}
+  html.js .mcard.on .mc-fill,html.js .mcard.on .mc-tail{
+    animation:grow .85s cubic-bezier(.2,.85,.25,1) both}
 }
 @media (prefers-reduced-motion:reduce){.mc-fill,.mc-tail{transform:none;animation:none}}
 @media (forced-colors:active){
@@ -234,6 +254,9 @@ html.js .jump{display:flex}
   .mc-track{border:1px solid CanvasText}
   .mcard,.aw,.au,.nav a,.call{border-color:CanvasText}
   .au-btn{background:ButtonFace;color:ButtonText;border:1px solid ButtonText}
+  .nav{background:Canvas;-webkit-backdrop-filter:none;backdrop-filter:none}
+  .mc-rib::before{background:CanvasText;forced-color-adjust:none}
+  #prog{background:Highlight;forced-color-adjust:none}
   .bcom{border-left-style:solid;border-left-width:5px}
   .bcom-good,.aw.good{border-left-style:double;border-left-width:6px}
   .bcom-bad,.aw.bad{border-left-style:dashed;border-left-width:6px}
@@ -256,7 +279,7 @@ html.js .jump{display:flex}
     -webkit-print-color-adjust:exact;print-color-adjust:exact}
   h2{color:#000;page-break-after:avoid}
   .mcard,.aw,.call{page-break-inside:avoid;border:1px solid #bbb}
-  a[href]:not([href^="#"])::after{content:" (" attr(href) ")";font-size:8pt;color:#555;word-break:break-all}
+  a[href^="http"]::after{content:" (" attr(href) ")";font-size:8pt;color:#555;word-break:break-all}
 }
 </style>
 <script>document.documentElement.className+=' js';</script>
@@ -284,11 +307,15 @@ html.js .jump{display:flex}
 <nav class="crumb" aria-label="Breadcrumb"><a href="https://slentz9090.github.io/weekly-booth/">The Weekly Booth</a> <span aria-hidden="true">&#8250;</span> <span aria-current="page">Friends of Herb</span></nav>
 <h1>Friends of Herb, 2026</h1>
 <p class="dek">Every installment of The Weekly Booth for this league, newest first.</p>
+<div class="bcom"><p><span class="who">BOOMER:</span> Eleven teams, a rule named after a tight end, and a call on every one of you that gets graded here next week.</p></div>
 <h2 id="issues">Installments</h2>
-<section class="mcard"><div class="mc-top"><h3 class="mc-rib" style="color:var(--gold)">Week 1</h3></div><div class="mc-row win"><span class="mc-name"><a href="week-1.html">Bob Dorsch Filed Seven Tight End Claims, Started None Of Them, And Lost By Half A Point.</a></span><span class="mc-sub">September 16, 2026</span></div><p class="mc-note">Five games, a bye that beat five teams, the Freiermuth Rule, the Bench Ledger, four calls on the record, and all eleven teams ranked. With audio.</p></section>
+<section class="mcard"><div class="mc-top"><h3 class="mc-rib" style="color:var(--gold)">Week 1</h3></div><div class="mc-row win"><span class="mc-name"><a href="week-1.html">Seven Tight End Claims, None Of Them Started, And He Lost By Half A Point.</a></span><span class="mc-sub">September 16, 2026</span></div><p class="mc-note">Five games, a bye that beat five teams, the Freiermuth Rule, the Bench Ledger, and a graded call on all eleven teams. With audio.</p></section>
+<h2 id="season">The Bench Ledger</h2>
+<table class="led"><caption>Week 1: points left on the bench, and whether it cost the game</caption><thead><tr><th scope="col"><span class="sr">Rank</span></th><th scope="col">Owner</th><th scope="col">Benched</th><th scope="col">Cost him?</th></tr></thead><tbody><tr><td>1</td><th scope="row">Rahul Pahuja</th><td>38.30</td><td class="led-v">No, won</td></tr><tr><td>2</td><th scope="row">Eric Olson</th><td>33.30</td><td class="led-v">No, won</td></tr><tr><td>3</td><th scope="row">Michael Smith</th><td>11.00</td><td class="led-v">No, lost by 22.86</td></tr><tr><td>4</td><th scope="row">Bob Dorsch</th><td>10.70</td><td class="led-v yes">Yes, by 0.46</td></tr><tr><td>5</td><th scope="row">Spencer Lentz</th><td>9.90</td><td class="led-v">No, won</td></tr><tr><td>6</td><th scope="row">Ryan Kelly</th><td>8.90</td><td class="led-v">No game</td></tr><tr><td>7</td><th scope="row">Billy Norton</th><td>6.70</td><td class="led-v">No, lost by 36.02</td></tr><tr><td>8</td><th scope="row">Matt Davis</th><td>4.10</td><td class="led-v">No, won</td></tr><tr><td>9</td><th scope="row">Aaron Jezioro</th><td>4.00</td><td class="led-v">No, lost by 83.72</td></tr><tr><td>10</td><th scope="row">Michael Turner</th><td>3.60</td><td class="led-v yes">Yes, by 0.34</td></tr><tr><td>11</td><th scope="row">Aron Rogers</th><td>2.00</td><td class="led-v">No, won</td></tr></tbody></table>
+<p class="note">Updated every week. In December I read the total back to all eleven of you.</p>
 </main>
 <footer class="wrap foot">
-<p>THE WEEKLY BOOTH — 2026 season.</p><p><a href="../">The Weekly Booth</a> &nbsp; <a href="../dlffl/">Dewart Lake FFL</a></p>
+<p>THE WEEKLY BOOTH: 2026 season.</p><p><a href="../">The Weekly Booth</a> &nbsp; <a href="../dlffl/">Dewart Lake FFL</a></p>
 </footer>
 <script>
 (function(){
@@ -331,10 +358,18 @@ html.js .jump{display:flex}
    b.addEventListener('click',function(){
      var u=location.origin+location.pathname+'#'+b.getAttribute('data-a');
      var old=b.parentNode.querySelector('.mc-url'); if(old)old.remove();
-     if(navigator.share){navigator.share({url:u}).then(done,function(){});return;}
-     if(navigator.clipboard&&navigator.clipboard.writeText){
-       navigator.clipboard.writeText(u).then(done,function(){fb(u);});
-     } else fb(u);
+     function clip(){
+       if(navigator.clipboard&&navigator.clipboard.writeText){
+         navigator.clipboard.writeText(u).then(done,function(){fb(u);});
+       } else fb(u);
+     }
+     if(navigator.share){
+       navigator.share({url:u}).then(done,function(err){
+         if(!err||err.name!=='AbortError')clip();
+       });
+       return;
+     }
+     clip();
      function fb(u){
        var i=document.createElement('textarea');
        i.value=u; i.setAttribute('readonly','');
@@ -352,6 +387,9 @@ html.js .jump{display:flex}
      }
    });
  });
+
+ if(location.hash){var h0=document.getElementById(location.hash.slice(1));
+   if(h0&&h0.classList.contains('mc-row'))h0.classList.add('lit');}
 
  var j=document.getElementById('jump');
  if(j){
@@ -403,6 +441,8 @@ html.js .jump{display:flex}
 
    btn.addEventListener('click',function(){
      if(a.paused){
+       if(!a.currentTime){try{var v=+sessionStorage.getItem('wb:'+a.src);
+         if(v>3&&(!a.duration||v<a.duration-3))a.currentTime=v;}catch(e){}}
        all.forEach(function(o){var x=o.querySelector('audio'); if(x&&x!==a)x.pause();});
        var pr=a.play();
        if(pr&&pr.catch)pr.catch(function(err){
@@ -425,11 +465,15 @@ html.js .jump{display:flex}
    a.addEventListener('pause',function(){btn.innerHTML=PLAY;btn.setAttribute('aria-label','Play: '+name);});
    a.addEventListener('waiting',function(){btn.style.opacity='.55';});
    a.addEventListener('playing',function(){btn.style.opacity='';});
-   a.addEventListener('loadedmetadata',function(){
-     tm.textContent=fmt(a.duration);
-     try{var v=+sessionStorage.getItem('wb:'+a.src);
-         if(v>3&&v<a.duration-3)a.currentTime=v;}catch(e){}
-   });
+   a.addEventListener('loadedmetadata',function(){tm.textContent=fmt(a.duration);});
+   var lastSave=0;
+   var save=function(){try{
+     if(a.currentTime>3&&a.duration&&a.currentTime<a.duration-3)
+       sessionStorage.setItem('wb:'+a.src,a.currentTime);
+     else sessionStorage.removeItem('wb:'+a.src);
+   }catch(e){}};
+   a.addEventListener('pause',save);
+   addEventListener('pagehide',save);
    a.addEventListener('timeupdate',function(){
      if(!a.duration) return;
      var pct=a.currentTime/a.duration*100;
@@ -437,7 +481,7 @@ html.js .jump{display:flex}
      bar.setAttribute('aria-valuenow',Math.round(pct));
      bar.setAttribute('aria-valuetext',fmt(a.currentTime)+' of '+fmt(a.duration));
      tm.textContent=fmt(a.duration-a.currentTime);
-     if(Math.floor(a.currentTime)%5===0){try{sessionStorage.setItem('wb:'+a.src,a.currentTime);}catch(e){}}
+     if(a.currentTime-lastSave>4){lastSave=a.currentTime;save();}
    });
    a.addEventListener('ended',function(){fil.style.width='0%';tm.textContent=fmt(a.duration);
      try{sessionStorage.removeItem('wb:'+a.src);}catch(e){}});
