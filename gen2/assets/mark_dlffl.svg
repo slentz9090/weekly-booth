@@ -1,0 +1,27 @@
+<svg class="mark" viewBox="0 0 120 120" role="img" aria-label="Dewart Lake Fantasy Football League">
+<defs>
+<linearGradient id="dlWater" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2b4a72"/><stop offset="1" stop-color="#101827"/></linearGradient>
+<clipPath id="dlClip"><circle cx="60" cy="60" r="50"/></clipPath>
+</defs>
+<circle cx="60" cy="60" r="56" fill="#0b0e13"/>
+<g clip-path="url(#dlClip)">
+  <rect x="0" y="0" width="120" height="66" fill="#16243c"/>
+  <rect x="0" y="66" width="120" height="54" fill="url(#dlWater)"/>
+  <g transform="translate(60,52) rotate(-24)">
+    <ellipse rx="25" ry="15.5" fill="#e8a24a"/>
+    <path d="M-25 0h50" stroke="#0b0e13" stroke-width="2.4" opacity=".55"/>
+    <path d="M-9 0h18M-6 -5.5v11M-2 -6.6v13.2M2 -6.6v13.2M6 -5.5v11" stroke="#0b0e13" stroke-width="2.4" stroke-linecap="round" opacity=".8"/>
+  </g>
+  <g opacity=".3" transform="translate(60,84) rotate(24) scale(1,-.55)">
+    <ellipse rx="25" ry="15.5" fill="#e8a24a"/>
+  </g>
+  <g stroke="#8fbcff" stroke-linecap="round" fill="none" opacity=".75">
+    <path d="M16 78h26M54 78h22M86 78h18" stroke-width="2.6"/>
+    <path d="M10 92h34M58 92h20M90 92h20" stroke-width="2.6" opacity=".7"/>
+    <path d="M22 105h28M62 105h30" stroke-width="2.6" opacity=".45"/>
+  </g>
+  <rect x="0" y="64.5" width="120" height="2" fill="#e8a24a" opacity=".5"/>
+</g>
+<circle cx="60" cy="60" r="50" fill="none" stroke="#8fbcff" stroke-width="3"/>
+<circle cx="60" cy="60" r="55" fill="none" stroke="#2a3342" stroke-width="2"/>
+</svg>
