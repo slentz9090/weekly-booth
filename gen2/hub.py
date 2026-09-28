@@ -105,6 +105,9 @@ def league_index(league):
 
 
 def homepage():
+    """Disabled 2026-09-28. The root page stays neutral and never lists either league:
+    the two leagues are separate audiences and must never link to each other."""
+    return
     path = os.path.join(DOCS, "index.html")
     h = open(path, encoding="utf-8").read()
     for league in ("dlffl", "foh"):

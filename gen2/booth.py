@@ -240,7 +240,8 @@ NAV = (
 )
 
 
-def page(league, week, headline, dek, sections, meta_desc, og_image, other_link, nav=None):
+def page(league, week, headline, dek, sections, meta_desc, og_image, other_link=None, nav=None):
+    # other_link is ignored: the two leagues are separate audiences and never link to each other.
     """Assemble the whole page. `sections` is the body HTML between the dek and
     the footer, already built by the league module."""
     L = LEAGUES[league]
@@ -289,14 +290,14 @@ def page(league, week, headline, dek, sections, meta_desc, og_image, other_link,
 <p class="sr" id="cplive" role="status" aria-live="polite"></p>
 <main class="wrap" id="main" tabindex="-1">
 <header class="mast">{mark}<div class="mt"><p class="m1">The Weekly Booth</p><p class="m2">{esc(L['name'])}</p></div><div class="m3">Week {week} · 2026<br>Gil Prather &amp; Boomer Latour</div></header>
-<nav class="crumb" aria-label="Breadcrumb"><a href="{SITE}/">The Weekly Booth</a> <span aria-hidden="true">&#8250;</span> <a href="./">{esc(L['name'])}</a> <span aria-hidden="true">&#8250;</span> <span aria-current="page">Week {week}</span></nav>
+<nav class="crumb" aria-label="Breadcrumb"><span>The Weekly Booth</span> <span aria-hidden="true">&#8250;</span> <a href="./">{esc(L['name'])}</a> <span aria-hidden="true">&#8250;</span> <span aria-current="page">Week {week}</span></nav>
 {nav or NAV}
 <h1>{esc(headline)}</h1>
 <p class="dek">{dek}</p>
 {sections}
 </main>
 <footer class="wrap foot">
-<p>THE WEEKLY BOOTH: {esc(L['name'])}, Week {week}, 2026. Gil Prather and Boomer Latour. Every number on this page is pulled from the league and checked before it is spoken.</p><p class="note">Scores are computed under each league's own settings, so the same player can be worth different numbers in two different buildings.</p><p><a href="{SITE}/">The Weekly Booth</a> &nbsp; <a href="{SITE}/{L['dir']}/">{esc(L['name'])}, 2026</a> &nbsp; <a href="{other_link[0]}">{esc(other_link[1])}</a></p>
+<p>THE WEEKLY BOOTH: {esc(L['name'])}, Week {week}, 2026. Gil Prather and Boomer Latour. Every number on this page is pulled from the league and checked before it is spoken.</p><p><a href="{SITE}/{L['dir']}/">{esc(L['name'])}, 2026</a></p>
 </footer>
 <script>
 {script}
