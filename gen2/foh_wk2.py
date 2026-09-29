@@ -26,16 +26,9 @@ SEASON = load("foh_season.json")
 T = by_owner(FACTS)
 SCALE = max(t["score"] + t["left"] for t in FACTS["perTeam"])  # 152.30
 
-HEADLINE = "Michael Turner Benched 37 Points In A Game He Was Not Playing"
-DEK = (
-    "Turner sat Davante Adams and his 37.50 on the one Sunday of the year he had no opponent, which is the safest "
-    "possible week to make the worst possible decision. Elsewhere Rahul Pahuja took the week at 130.20, Bob Dorsch "
-    "released Pat Freiermuth, and Boomer went 4 and 6."
-)
-META = (
-    "Gil and Boomer call Week 2 of Friends of Herb: Michael Turner benched 37.50 on his bye, Rahul Pahuja led the "
-    "league at 130.20, and Bob Dorsch dropped Pat Freiermuth."
-)
+HEADLINE = "Eric Olson Got 46 Points Out Of Josh Allen And Lost Anyway"
+DEK = "Allen went for 46.82, the biggest number any player put up in Friends of Herb this week, and Olson lost by 18.98 to Rahul Pahuja's 130.20. Elsewhere Bob Dorsch released Pat Freiermuth, Michael Turner benched 37.50 on his bye, and Boomer went 4 and 6 on last week's calls."
+META = "Gil and Boomer call Week 2 of Friends of Herb: Josh Allen went for 46.82 in a loss, Rahul Pahuja led the league at 130.20, and Bob Dorsch dropped Pat Freiermuth."
 
 
 def card_rows(win_owner, lose_owner):
@@ -116,7 +109,7 @@ def build():
     parts.append(mcard(
         "m-jezioro", "Jezioro wins it with 26.82 still on the bench", w, l,
         "Ja'Marr Chase 23.00 for Aaron Jezioro, and Brock Purdy's 32.48 never left the bench. Ryan Kelly's 52.52 "
-        "is the lowest score in either league this season.", SCALE))
+        "is the lowest score in the league this season.", SCALE))
     parts.append(gil(
         "Aaron Jezioro wins 77.96 to 52.52. He started Trevor Lawrence for 6.16 with Brock Purdy and 32.48 "
         "benched, a 26.32-point swing, and won by 25.44 anyway."))
@@ -125,7 +118,7 @@ def build():
         "managed in this league all year and lost to a man who benched his best quarterback. I was not just "
         "wrong, I was wrong about the wrong team."))
     parts.append(gil(
-        "Ryan Kelly scored 52.52 with 65.72 available. De'Von Achane led him at 10.80 and his defense scored "
+        "Ryan Kelly scored 52.52 with 64.72 available. De'Von Achane led him at 10.80 and his defense scored "
         "negative one."))
     parts.append(boomer(
         "Nobody in this league has had a Sunday like that yet this season, and he still only lost by 25 because "
@@ -211,7 +204,7 @@ def build():
          "130.20 and 114.12 to open the year with Smith-Njigba at 43.00, and he added Jordan Love off the wire for "
          "a 15.90-point swing, the best move in the league this week."),
         ("Kim Jong Un Pleasure Squad", "Aron Rogers leaves under ten behind again in Week 3.",
-         "2.00 and 3.70 in his first two weeks, 5.70 all season, the tidiest manager in either league. He beats "
+         "2.00 and 3.70 in his first two weeks, 5.70 all season, the tidiest manager in the league. He beats "
          "people with a quarterback who scored 0.80."),
         ("Dallas Dawgs", "Matt Davis gets a receiver into his top three. Again.",
          "I said it last week and I am saying it louder. He owns Xavier Worthy at 11.00 off the bench and Terry "
@@ -252,12 +245,12 @@ def build():
         "5.70 wasted in total. Nobody else in this league is inside twenty."))
     parts.append(award(
         "bad", "Worst Owner of the Week", "Ryan Kelly · Old Man Smashers",
-        "52.52 scored, the lowest in either league this season, with 65.72 available.",
+        "52.52 scored, the lowest in the league this season, with 64.72 available.",
         "His defense scored negative one, his best player got him 10.80, and TreVeyon Henderson put up 13.60 on "
         "the bench, which is a quarter of the whole team's output sitting down."))
     parts.append(award(
         "good", "Start of the Week", "Eric Olson · Josh Allen, 46.82",
-        "The highest single score by any player in either league this week, 20.50 above his projection. Jaxon "
+        "The highest single score by any player in Friends of Herb this week, 20.50 above his projection. Jaxon "
         "Smith-Njigba is second at 43.00.",
         "Forty-six points from one man and Olson lost by 18.98. Gil will tell you that is how a schedule works. I "
         "will tell you it is why people quit this hobby in October."))

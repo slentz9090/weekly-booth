@@ -237,7 +237,7 @@ def build():
     parts.append(award(
         "good", "Owner of the Week", "Scott Reisert · Simba St. Gibbs Lion Kings",
         "142.08 scored, 142.08 available. Nothing on his bench could have improved his lineup.",
-        "He owned 142.08 worth of football and started every point of it. Nobody in either league did that, and the "
+        "He owned 142.08 worth of football and started every point of it. Nobody else in the league did that, and the "
         "call I made that he could not reach 120 died on the way to the podium."))
     parts.append(award(
         "bad", "Worst Owner of the Week", "Adam Hershberger · Holy Rollers",
