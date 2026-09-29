@@ -302,8 +302,8 @@
     {
      "week": 2,
      "score": 52.52,
-     "benchPoints": 13.2,
-     "optimal": 65.72,
+     "benchPoints": 12.2,
+     "optimal": 64.72,
      "allPlayW": 0,
      "allPlayL": 10,
      "result": "lost",
@@ -320,7 +320,7 @@
    ],
    "totals": {
     "pointsFor": 168.18,
-    "benchPoints": 22.1,
+    "benchPoints": 21.1,
     "allPlayW": 5,
     "allPlayL": 15,
     "weeksPlayed": 2
