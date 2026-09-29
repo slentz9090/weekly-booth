@@ -4,8 +4,9 @@ from booth import gil, boomer, mcard
 
 RED = "#ff6b6b"
 HEAD = "Aron Rogers Needs A Bear To Outrun His Own Teammate"
-DEK = ("Monday night in Friends of Herb comes down to one backfield. Rahul Pahuja leads by 4.58 and the only two "
-       "players left are both Chicago Bears running backs. A Monday Night Special, because last week's Booth was late.")
+DEK = ("Rahul Pahuja and Aron Rogers came into Monday night both unbeaten, fifteen meetings deep, with Aron up 10 and 5 "
+       "lifetime. Rahul leads by 4.58 and the only two players left are both Chicago Bears running backs. A Monday "
+       "Night Special, because last week's Booth was late.")
 META = ("A Monday Night Special from Gil and Boomer: Rahul Pahuja leads Aron Rogers by 4.58 and it comes down to two "
         "Bears running backs in the same backfield.")
 
@@ -23,23 +24,46 @@ body = "".join([
     '<h2 id="booth">From The Booth</h2>',
     gil("We owe you one. Last week's Booth showed up after Week 3 had already kicked off. Consider this the makeup call."),
     boomer("Late is late, Gil. I've been late to two weddings and one of 'em was mine."),
-    gil("Monday night comes down to one backfield. Rahul leads Aron by 4.58, and the only two players left are both "
-        "Bears running backs. Swift for Aron. Monangai for Rahul."),
+    gil("Here's the table. Rahul Pahuja and Aron Rogers both came into Monday night 2 and 0. Rahul leads 116.04 to "
+        "111.46. Whoever wins walks out the only unbeaten team in Friends of Herb."),
+    boomer("Two undefeated teams, Gil, and it comes down to two running backs who share a locker room."),
+    gil("Two players left, both Chicago Bears running backs. Swift for Aron. Monangai for Rahul."),
     boomer("Same huddle. Same helmet. Same damn position coach. One of those boys is gonna shit all over somebody's "
            "week, then slap his buddy's ass on the sideline like nothing happened. Aron is rooting for a man to outrun "
            "his own teammate. That's not a matchup, that's a sibling fight at Thanksgiving."),
+    '<h2 id="rivalry">The Rivalry</h2>',
+    gil("And these two have history. Fifteen meetings since 2012. Aron leads the series 10 and 5."),
+    boomer("Ten and five! Aron's got Rahul's number, his address, and a key to the side door."),
+    gil("Aron won six straight from 2020 into 2023, including a playoff game in 2022."),
+    boomer("Six in a row. Rahul spent three years losing to this man like a gym membership he forgot to cancel."),
+    gil("One of those six was Week 7 of 2023. Aron won it by 0.90."),
+    boomer("Hold on. Rahul won Week 1 this year by 0.46. Man doesn't win games, he wins rounding errors. And he lost "
+           "one by 0.90? To Aron? The decimals switched sides, Gil. Even the math has quit on him."),
+    gil("Rahul got it back in the 2023 playoffs. 125.88 to 86.90. He snapped the streak by 38.98."),
+    boomer("Thirty-nine points in a playoff game. That's not snapping a streak. That's backing the truck over it, "
+           "then putting it in reverse."),
+    gil("Rahul won again in 2024. Aron took last year's. Each man has exactly one title. Rahul in 2013, Aron in 2019."),
+    boomer("One ring apiece and fourteen years of this shit. It's Ali and Frazier, if Ali and Frazier sat on their "
+           "asses and yelled at their phones."),
     gil("If Swift beats Monangai by exactly 4.58, it's a tie. This league doesn't break them."),
-    boomer("Rahul won Week 1 by 0.46. Man doesn't win games, he wins rounding errors. Somebody check his pockets for decimals."),
+    boomer("Fourteen years of blood and it ends 2, 0 and 1. Like kissing your sister, if your sister played running "
+           "back for the Bears."),
+    '<h2 id="league">Around The League</h2>',
     gil("Olson beat Davis by 0.76. I'm told computers were involved."),
-    boomer("The robots are fighting, Gil. Tomorrow we find out whose robot is a dumbass."),
+    boomer("Oh, computers were involved. Friends of Herb has an AI arms race now, Gil. Grown men asking chatbots who "
+           "to start. One robot got it right. One robot got a man beat by less than a point."),
+    gil("We know which robot. We are not telling you tonight."),
+    boomer("Tomorrow we find out whose robot is a dumbass, and which dumbass listened to it. And one of those robots "
+           "already made a pick for next week. We'll be grading that too."),
     gil("And Spencer is down 2 with his own quarterback playing tonight. From his bench. Throwing to Dorsch's guys."),
     boomer("Seven podiums, zero titles, and now his own damn quarterback is working for the other side. Hurts is on "
-           "Spencer's bench feeding Barkley and Smith. That's not a benching, that's treason with extra steps."),
+           "Spencer's bench feeding Barkley and Smith. That's not a benching, that's treason with extra steps. Dorsch "
+           "already owns him 18 and 8 lifetime. He did not need the help."),
     gil("Full Week 3 Booth coming. Boomer's extra frisky tonight, folks."),
     boomer("Hell of a Monday, Gil."),
     boomer("...Wait. It is Monday, right?"),
 ])
-NAV = '<nav class="nav" aria-label="Sections"><ul><li><a href="#m-mnf">The Game</a></li><li><a href="#booth">From The Booth</a></li></ul></nav>'
+NAV = '<nav class="nav" aria-label="Sections"><ul><li><a href="#m-mnf">The Game</a></li><li><a href="#booth">From The Booth</a></li><li><a href="#rivalry">The Rivalry</a></li><li><a href="#league">Around The League</a></li></ul></nav>'
 doc = booth.page("foh", 3, HEAD, DEK, body, META, "foh-mnf-week-3.png", nav=NAV)
 doc = (doc.replace("/foh/week-3.html", "/foh/mnf-week-3.html")
           .replace("Friends of Herb, Week 3 | The Weekly Booth", "Friends of Herb, Monday Night Special | The Weekly Booth")
