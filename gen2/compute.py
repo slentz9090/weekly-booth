@@ -9,7 +9,7 @@ import json
 import os
 import sys
 
-DATA = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "wb", "docs", "data")
+DATA = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "docs", "data")
 
 
 def load(name):
@@ -227,7 +227,7 @@ def waiver_swings(facts):
 
 
 def main(league):
-    facts = load(f"{league}_wk2_facts.json")
+    facts = load(f"{league}_wk{os.environ.get('WEEK', '2')}_facts.json")
     season = load(f"{league}_season.json")
     print("=" * 70)
     print(league.upper(), "week", facts["week"])

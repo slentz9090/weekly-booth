@@ -84,7 +84,7 @@ NOTE = (
 
 
 def run(league):
-    facts = load(f"{league}_wk2_facts.json")
+    facts = load(f"{league}_wk{os.environ.get('WEEK', '2')}_facts.json")
     season = load(f"{league}_season.json")
     wk = facts["week"]
 

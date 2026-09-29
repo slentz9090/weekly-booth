@@ -11,7 +11,7 @@ import re
 
 from compute import DATA, load
 
-DOCS = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "wb", "docs")
+DOCS = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "docs")
 SITE = "https://slentz9090.github.io/weekly-booth"
 
 HEAD = {

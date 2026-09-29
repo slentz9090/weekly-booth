@@ -314,7 +314,7 @@ if __name__ == "__main__":
         (f"{booth.SITE}/foh/week-2.html", "Friends of Herb, Week 2"),
     )
     booth.sweep(doc)
-    out = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "wb", "docs", "dlffl", "week-2.html")
+    out = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "docs", "dlffl", "week-2.html")
     with open(out, "w", encoding="utf-8") as fh:
         fh.write(doc)
     print("wrote", out, len(doc), "bytes")

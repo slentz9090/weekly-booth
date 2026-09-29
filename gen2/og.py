@@ -7,7 +7,7 @@ import os
 
 from PIL import Image, ImageDraw, ImageFont
 
-OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "wb", "docs", "og")
+OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "docs", "og")
 FONTS = "/usr/share/fonts/truetype/dejavu"
 COND_B = os.path.join(FONTS, "DejaVuSansCondensed-Bold.ttf")
 SANS = os.path.join(FONTS, "DejaVuSans.ttf")
