@@ -1,0 +1,1586 @@
+{
+ "league": "foh",
+ "week": 3,
+ "tiers": {
+  "HEADLINE": 0,
+  "PROMOTE": 5,
+  "SUPPORT": 24,
+  "SUPPRESS": 30
+ },
+ "insights": [
+  {
+   "kind": "lifetime_series",
+   "owners": [
+    "Eric Olson",
+    "Matt Davis"
+   ],
+   "value": "8-1",
+   "z": 1.66,
+   "tier": "PROMOTE",
+   "direction": "high",
+   "rarity": "the league sees this about 1 week in 21",
+   "plain": "Eric Olson leads Matt Davis 8-1 all time (since 2011). By coin flip that lopsided a series is about 1 in 26.",
+   "baseline": "50/50 coin flip",
+   "scope": "since 2011",
+   "games": 9,
+   "unitsPerWeek": 5,
+   "zUnit": 2.33,
+   "duplicate": false
+  },
+  {
+   "kind": "nail_biter",
+   "owners": [
+    "Eric Olson",
+    "Matt Davis"
+   ],
+   "value": 0.7599999999999909,
+   "z": 1.46,
+   "tier": "PROMOTE",
+   "direction": "high",
+   "rarity": "the league sees this about 1 week in 14",
+   "plain": "Eric Olson beat Matt Davis by 0.76, the 20th-closest game in 1,305 since 2011.",
+   "baseline": "1,305 margins",
+   "scope": "since 2011",
+   "unitsPerWeek": 5,
+   "zUnit": 2.17,
+   "duplicate": false
+  },
+  {
+   "kind": "score_vs_league_all_time",
+   "owners": [
+    "Ryan Kelly"
+   ],
+   "value": 54.52,
+   "z": -1.41,
+   "tier": "PROMOTE",
+   "direction": "low",
+   "rarity": "the league sees this about 1 week in 13",
+   "plain": "Ryan Kelly's 54.52 is the 22nd-lowest score in 2,609 team-weeks since 2011.",
+   "baseline": "2,609 single-week scores",
+   "scope": "since 2011",
+   "rankHigh": 2587,
+   "rankLow": 22,
+   "unitsPerWeek": 10,
+   "zUnit": -2.4,
+   "duplicate": false
+  },
+  {
+   "kind": "lifetime_series",
+   "owners": [
+    "Bob Dorsch",
+    "Spencer Lentz"
+   ],
+   "value": "19-8",
+   "z": 1.39,
+   "tier": "PROMOTE",
+   "direction": "high",
+   "rarity": "the league sees this about 1 week in 12",
+   "plain": "Bob Dorsch leads Spencer Lentz 19-8 all time (since 2011). By coin flip that lopsided a series is about 1 in 19.",
+   "baseline": "50/50 coin flip",
+   "scope": "since 2011",
+   "games": 27,
+   "unitsPerWeek": 5,
+   "zUnit": 2.12,
+   "duplicate": false
+  },
+  {
+   "kind": "score_vs_own_career",
+   "owners": [
+    "Ryan Kelly"
+   ],
+   "value": 54.52,
+   "z": -0.94,
+   "tier": "PROMOTE",
+   "direction": "low",
+   "rarity": "ordinary",
+   "plain": "Ryan Kelly scored 54.52, the 4th-worst game of 235 in a career since 2011.",
+   "baseline": "own career mean 109.1, n=234",
+   "scope": "since 2011",
+   "rankHigh": 232,
+   "rankLow": 4,
+   "games": 235,
+   "unitsPerWeek": 10,
+   "zUnit": -2.08,
+   "duplicate": true
+  },
+  {
+   "kind": "blowout",
+   "owners": [
+    "Michael Turner",
+    "Billy Norton"
+   ],
+   "value": 71.76,
+   "z": 0.87,
+   "tier": "SUPPORT",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "Michael Turner beat Billy Norton by 71.76, the 55th-biggest margin in 1,305 games since 2011.",
+   "baseline": "1,305 margins",
+   "scope": "since 2011",
+   "unitsPerWeek": 5,
+   "zUnit": 1.73,
+   "duplicate": false
+  },
+  {
+   "kind": "nail_biter",
+   "owners": [
+    "Aron Rogers",
+    "Rahul Pahuja"
+   ],
+   "value": 2.1200000000000045,
+   "z": 0.8,
+   "tier": "SUPPORT",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "Aron Rogers beat Rahul Pahuja by 2.12, the 61st-closest game in 1,305 since 2011.",
+   "baseline": "1,305 margins",
+   "scope": "since 2011",
+   "unitsPerWeek": 5,
+   "zUnit": 1.68,
+   "duplicate": false
+  },
+  {
+   "kind": "benched_the_win",
+   "owners": [
+    "Rahul Pahuja"
+   ],
+   "value": 19.38,
+   "z": 0.78,
+   "tier": "SUPPORT",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "Rahul Pahuja lost by 2.12 with 21.50 on the bench (started Isaiah Likely for 2.3, benched Harold Fannin Jr. for 20.6).",
+   "baseline": "losses where the bench held the margin",
+   "scope": "since 2018",
+   "decisive": true,
+   "unitsPerWeek": 10,
+   "zUnit": 1.97,
+   "duplicate": false
+  },
+  {
+   "kind": "benched_the_win",
+   "owners": [
+    "Matt Davis"
+   ],
+   "value": 18.02,
+   "z": 0.65,
+   "tier": "SUPPORT",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "Matt Davis lost by 0.76 with 18.78 on the bench (started Tetairoa McMillan for 2.7, benched Terry McLaurin for 16.7).",
+   "baseline": "losses where the bench held the margin",
+   "scope": "since 2018",
+   "decisive": true,
+   "unitsPerWeek": 10,
+   "zUnit": 1.89,
+   "duplicate": false
+  },
+  {
+   "kind": "lifetime_series",
+   "owners": [
+    "Aron Rogers",
+    "Rahul Pahuja"
+   ],
+   "value": "11-5",
+   "z": 0.55,
+   "tier": "SUPPORT",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "Aron Rogers leads Rahul Pahuja 11-5 all time (since 2011). By coin flip that lopsided a series is about 1 in 5.",
+   "baseline": "50/50 coin flip",
+   "scope": "since 2011",
+   "games": 16,
+   "unitsPerWeek": 5,
+   "zUnit": 1.5,
+   "duplicate": false
+  },
+  {
+   "kind": "high_score_in_a_loss",
+   "owners": [
+    "Matt Davis",
+    "Eric Olson"
+   ],
+   "value": 125.2,
+   "z": 0.53,
+   "tier": "SUPPORT",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "Matt Davis lost with 125.20, the 90th-most points in a loss in 1,305 games since 2011.",
+   "baseline": "1,305 losing scores",
+   "scope": "since 2011",
+   "unitsPerWeek": 5,
+   "zUnit": 1.49,
+   "duplicate": true
+  },
+  {
+   "kind": "top_start_in_a_loss",
+   "owners": [
+    "Matt Davis"
+   ],
+   "value": 37.9,
+   "z": 0.51,
+   "tier": "PROMOTE",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "Matt Davis lost anyway with Jahmyr Gibbs putting up 37.90, the 40th-most by one starter in a loss in 4,963 since 2018.",
+   "baseline": "4,963 starts in losses",
+   "scope": "since 2018",
+   "player": "Jahmyr Gibbs",
+   "unitsPerWeek": 45.5,
+   "zUnit": 2.41,
+   "duplicate": false
+  },
+  {
+   "kind": "score_vs_league_all_time",
+   "owners": [
+    "Billy Norton"
+   ],
+   "value": 66.48,
+   "z": -0.42,
+   "tier": "SUPPORT",
+   "direction": "low",
+   "rarity": "ordinary",
+   "plain": "Billy Norton's 66.48 is the 105th-lowest score in 2,609 team-weeks since 2011.",
+   "baseline": "2,609 single-week scores",
+   "scope": "since 2011",
+   "rankHigh": 2504,
+   "rankLow": 105,
+   "unitsPerWeek": 10,
+   "zUnit": -1.75,
+   "duplicate": false
+  },
+  {
+   "kind": "score_vs_own_career",
+   "owners": [
+    "Billy Norton"
+   ],
+   "value": 66.48,
+   "z": -0.36,
+   "tier": "SUPPORT",
+   "direction": "low",
+   "rarity": "ordinary",
+   "plain": "Billy Norton scored 66.48, the 11th-worst game of 205 in a career since 2011.",
+   "baseline": "own career mean 110.1, n=204",
+   "scope": "since 2011",
+   "rankHigh": 195,
+   "rankLow": 11,
+   "games": 205,
+   "unitsPerWeek": 10,
+   "zUnit": -1.71,
+   "duplicate": true
+  },
+  {
+   "kind": "blowout",
+   "owners": [
+    "Michael Smith",
+    "Ryan Kelly"
+   ],
+   "value": 55.12,
+   "z": 0.18,
+   "tier": "SUPPORT",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "Michael Smith beat Ryan Kelly by 55.12, the 138th-biggest margin in 1,305 games since 2011.",
+   "baseline": "1,305 margins",
+   "scope": "since 2011",
+   "unitsPerWeek": 5,
+   "zUnit": 1.25,
+   "duplicate": false
+  },
+  {
+   "kind": "bust",
+   "owners": [
+    "Ryan Kelly"
+   ],
+   "value": -16.3,
+   "z": -0.11,
+   "tier": "SUPPORT",
+   "direction": "low",
+   "rarity": "ordinary",
+   "plain": "De'Von Achane was projected 18.0 and gave Ryan Kelly 1.70, the 67th-worst miss by a projected 10-point starter in 6,479 since 2018.",
+   "baseline": "6,479 starts projected 10+",
+   "scope": "since 2018",
+   "player": "De'Von Achane",
+   "unitsPerWeek": 59.4,
+   "zUnit": -2.32,
+   "duplicate": false
+  },
+  {
+   "kind": "score_vs_own_career",
+   "owners": [
+    "Michael Turner"
+   ],
+   "value": 138.24,
+   "z": 0.09,
+   "tier": "SUPPORT",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "Michael Turner scored 138.24, the 16th-best game of 233 in a career since 2011.",
+   "baseline": "own career mean 103.1, n=232",
+   "scope": "since 2011",
+   "rankHigh": 16,
+   "rankLow": 218,
+   "games": 233,
+   "unitsPerWeek": 10,
+   "zUnit": 1.55,
+   "duplicate": false
+  },
+  {
+   "kind": "high_score_in_a_loss",
+   "owners": [
+    "Rahul Pahuja",
+    "Aron Rogers"
+   ],
+   "value": 119.14,
+   "z": 0.05,
+   "tier": "SUPPORT",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "Rahul Pahuja lost with 119.14, the 160th-most points in a loss in 1,305 games since 2011.",
+   "baseline": "1,305 losing scores",
+   "scope": "since 2011",
+   "unitsPerWeek": 5,
+   "zUnit": 1.16,
+   "duplicate": true
+  },
+  {
+   "kind": "active_streak",
+   "owners": [
+    "Eric Olson",
+    "Matt Davis"
+   ],
+   "value": 3,
+   "z": 0.03,
+   "tier": "SUPPORT",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "Eric Olson has now beaten Matt Davis 3 straight times.",
+   "baseline": "coin flip per game",
+   "scope": "since 2011",
+   "unitsPerWeek": 5,
+   "zUnit": 1.15,
+   "duplicate": false
+  },
+  {
+   "kind": "score_vs_league_all_time",
+   "owners": [
+    "Michael Turner"
+   ],
+   "value": 138.24,
+   "z": 0.0,
+   "tier": "SUPPORT",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "Michael Turner's 138.24 is the 326th-highest score in 2,609 team-weeks since 2011.",
+   "baseline": "2,609 single-week scores",
+   "scope": "since 2011",
+   "rankHigh": 326,
+   "rankLow": 2283,
+   "unitsPerWeek": 10,
+   "zUnit": 1.15,
+   "duplicate": true
+  },
+  {
+   "kind": "score_vs_own_career",
+   "owners": [
+    "Spencer Lentz"
+   ],
+   "value": 117.24,
+   "z": 0.0,
+   "tier": "SUPPRESS",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "Spencer Lentz scored 117.24, the 99th-best game of 238 in a career since 2011.",
+   "baseline": "own career mean 114.8, n=237",
+   "scope": "since 2011",
+   "rankHigh": 99,
+   "rankLow": 140,
+   "games": 238,
+   "unitsPerWeek": 10,
+   "zUnit": 0.09,
+   "duplicate": false
+  },
+  {
+   "kind": "score_vs_league_all_time",
+   "owners": [
+    "Spencer Lentz"
+   ],
+   "value": 117.24,
+   "z": 0.0,
+   "tier": "SUPPRESS",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "Spencer Lentz's 117.24 is the 960th-highest score in 2,609 team-weeks since 2011.",
+   "baseline": "2,609 single-week scores",
+   "scope": "since 2011",
+   "rankHigh": 960,
+   "rankLow": 1650,
+   "unitsPerWeek": 10,
+   "zUnit": 0.34,
+   "duplicate": true
+  },
+  {
+   "kind": "score_vs_own_career",
+   "owners": [
+    "Matt Davis"
+   ],
+   "value": 125.2,
+   "z": 0.0,
+   "tier": "SUPPRESS",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "Matt Davis scored 125.20, the 75th-best game of 237 in a career since 2011.",
+   "baseline": "own career mean 115.3, n=236",
+   "scope": "since 2011",
+   "rankHigh": 75,
+   "rankLow": 163,
+   "games": 237,
+   "unitsPerWeek": 10,
+   "zUnit": 0.42,
+   "duplicate": false
+  },
+  {
+   "kind": "score_vs_league_all_time",
+   "owners": [
+    "Matt Davis"
+   ],
+   "value": 125.2,
+   "z": 0.0,
+   "tier": "SUPPRESS",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "Matt Davis's 125.20 is the 677th-highest score in 2,609 team-weeks since 2011.",
+   "baseline": "2,609 single-week scores",
+   "scope": "since 2011",
+   "rankHigh": 677,
+   "rankLow": 1933,
+   "unitsPerWeek": 10,
+   "zUnit": 0.65,
+   "duplicate": true
+  },
+  {
+   "kind": "score_vs_own_career",
+   "owners": [
+    "Bob Dorsch"
+   ],
+   "value": 132.3,
+   "z": 0.0,
+   "tier": "SUPPRESS",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "Bob Dorsch scored 132.30, the 58th-best game of 236 in a career since 2011.",
+   "baseline": "own career mean 116.4, n=235",
+   "scope": "since 2011",
+   "rankHigh": 58,
+   "rankLow": 179,
+   "games": 236,
+   "unitsPerWeek": 10,
+   "zUnit": 0.66,
+   "duplicate": false
+  },
+  {
+   "kind": "score_vs_league_all_time",
+   "owners": [
+    "Bob Dorsch"
+   ],
+   "value": 132.3,
+   "z": 0.0,
+   "tier": "SUPPRESS",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "Bob Dorsch's 132.30 is the 444th-highest score in 2,609 team-weeks since 2011.",
+   "baseline": "2,609 single-week scores",
+   "scope": "since 2011",
+   "rankHigh": 444,
+   "rankLow": 2165,
+   "unitsPerWeek": 10,
+   "zUnit": 0.95,
+   "duplicate": true
+  },
+  {
+   "kind": "score_vs_own_career",
+   "owners": [
+    "Michael Smith"
+   ],
+   "value": 109.64,
+   "z": 0.0,
+   "tier": "SUPPRESS",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "Michael Smith scored 109.64, the 112th-best game of 237 in a career since 2011.",
+   "baseline": "own career mean 106.6, n=236",
+   "scope": "since 2011",
+   "rankHigh": 112,
+   "rankLow": 126,
+   "games": 237,
+   "unitsPerWeek": 10,
+   "zUnit": 0.12,
+   "duplicate": false
+  },
+  {
+   "kind": "score_vs_league_all_time",
+   "owners": [
+    "Michael Smith"
+   ],
+   "value": 109.64,
+   "z": 0.0,
+   "tier": "SUPPRESS",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "Michael Smith's 109.64 is the 1264th-highest score in 2,609 team-weeks since 2011.",
+   "baseline": "2,609 single-week scores",
+   "scope": "since 2011",
+   "rankHigh": 1264,
+   "rankLow": 1346,
+   "unitsPerWeek": 10,
+   "zUnit": 0.04,
+   "duplicate": true
+  },
+  {
+   "kind": "score_vs_own_career",
+   "owners": [
+    "Rahul Pahuja"
+   ],
+   "value": 119.14,
+   "z": 0.0,
+   "tier": "SUPPRESS",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "Rahul Pahuja scored 119.14, the 77th-best game of 237 in a career since 2011.",
+   "baseline": "own career mean 110.0, n=236",
+   "scope": "since 2011",
+   "rankHigh": 77,
+   "rankLow": 161,
+   "games": 237,
+   "unitsPerWeek": 10,
+   "zUnit": 0.38,
+   "duplicate": false
+  },
+  {
+   "kind": "score_vs_league_all_time",
+   "owners": [
+    "Rahul Pahuja"
+   ],
+   "value": 119.14,
+   "z": 0.0,
+   "tier": "SUPPRESS",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "Rahul Pahuja's 119.14 is the 897th-highest score in 2,609 team-weeks since 2011.",
+   "baseline": "2,609 single-week scores",
+   "scope": "since 2011",
+   "rankHigh": 897,
+   "rankLow": 1712,
+   "unitsPerWeek": 10,
+   "zUnit": 0.4,
+   "duplicate": true
+  },
+  {
+   "kind": "score_vs_own_career",
+   "owners": [
+    "Aron Rogers"
+   ],
+   "value": 121.26,
+   "z": 0.0,
+   "tier": "SUPPRESS",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "Aron Rogers scored 121.26, the 52nd-best game of 159 in a career since 2011.",
+   "baseline": "own career mean 111.1, n=158",
+   "scope": "since 2011",
+   "rankHigh": 52,
+   "rankLow": 108,
+   "games": 159,
+   "unitsPerWeek": 10,
+   "zUnit": 0.42,
+   "duplicate": false
+  },
+  {
+   "kind": "score_vs_league_all_time",
+   "owners": [
+    "Aron Rogers"
+   ],
+   "value": 121.26,
+   "z": 0.0,
+   "tier": "SUPPRESS",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "Aron Rogers's 121.26 is the 814th-highest score in 2,609 team-weeks since 2011.",
+   "baseline": "2,609 single-week scores",
+   "scope": "since 2011",
+   "rankHigh": 814,
+   "rankLow": 1795,
+   "unitsPerWeek": 10,
+   "zUnit": 0.49,
+   "duplicate": true
+  },
+  {
+   "kind": "score_vs_own_career",
+   "owners": [
+    "Eric Olson"
+   ],
+   "value": 125.96,
+   "z": 0.0,
+   "tier": "SUPPRESS",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "Eric Olson scored 125.96, the 21st-best game of 64 in a career since 2011.",
+   "baseline": "own career mean 117.4, n=63",
+   "scope": "since 2011",
+   "rankHigh": 21,
+   "rankLow": 44,
+   "games": 64,
+   "unitsPerWeek": 10,
+   "zUnit": 0.39,
+   "duplicate": false
+  },
+  {
+   "kind": "score_vs_league_all_time",
+   "owners": [
+    "Eric Olson"
+   ],
+   "value": 125.96,
+   "z": 0.0,
+   "tier": "SUPPRESS",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "Eric Olson's 125.96 is the 652nd-highest score in 2,609 team-weeks since 2011.",
+   "baseline": "2,609 single-week scores",
+   "scope": "since 2011",
+   "rankHigh": 652,
+   "rankLow": 1958,
+   "unitsPerWeek": 10,
+   "zUnit": 0.68,
+   "duplicate": true
+  },
+  {
+   "kind": "high_score_in_a_loss",
+   "owners": [
+    "Billy Norton",
+    "Michael Turner"
+   ],
+   "value": 66.48,
+   "z": 0.0,
+   "tier": "SUPPRESS",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "Billy Norton lost with 66.48, the 1203rd-most points in a loss in 1,305 games since 2011.",
+   "baseline": "1,305 losing scores",
+   "scope": "since 2011",
+   "unitsPerWeek": 5,
+   "zUnit": -0.0,
+   "duplicate": true
+  },
+  {
+   "kind": "low_score_in_a_win",
+   "owners": [
+    "Michael Turner",
+    "Billy Norton"
+   ],
+   "value": 138.24,
+   "z": 0.0,
+   "tier": "SUPPRESS",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "Michael Turner won with 138.24, the 997th-fewest points in a win in 1,305 games since 2011.",
+   "baseline": "1,305 winning scores",
+   "scope": "since 2011",
+   "unitsPerWeek": 5,
+   "zUnit": -0.0,
+   "duplicate": true
+  },
+  {
+   "kind": "lifetime_series",
+   "owners": [
+    "Michael Turner",
+    "Billy Norton"
+   ],
+   "value": "9-8",
+   "z": 0.0,
+   "tier": "SUPPRESS",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "Michael Turner leads Billy Norton 9-8 all time (since 2011). By coin flip that lopsided a series is about 1 in 1.",
+   "baseline": "50/50 coin flip",
+   "scope": "since 2011",
+   "games": 17,
+   "unitsPerWeek": 5,
+   "zUnit": 0.24,
+   "duplicate": false
+  },
+  {
+   "kind": "high_score_in_a_loss",
+   "owners": [
+    "Ryan Kelly",
+    "Michael Smith"
+   ],
+   "value": 54.52,
+   "z": 0.0,
+   "tier": "SUPPRESS",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "Ryan Kelly lost with 54.52, the 1283rd-most points in a loss in 1,305 games since 2011.",
+   "baseline": "1,305 losing scores",
+   "scope": "since 2011",
+   "unitsPerWeek": 5,
+   "zUnit": -0.0,
+   "duplicate": true
+  },
+  {
+   "kind": "low_score_in_a_win",
+   "owners": [
+    "Michael Smith",
+    "Ryan Kelly"
+   ],
+   "value": 109.64,
+   "z": 0.0,
+   "tier": "SUPPRESS",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "Michael Smith won with 109.64, the 361st-fewest points in a win in 1,305 games since 2011.",
+   "baseline": "1,305 winning scores",
+   "scope": "since 2011",
+   "unitsPerWeek": 5,
+   "zUnit": 0.59,
+   "duplicate": true
+  },
+  {
+   "kind": "lifetime_series",
+   "owners": [
+    "Ryan Kelly",
+    "Michael Smith"
+   ],
+   "value": "14-10",
+   "z": 0.0,
+   "tier": "SUPPRESS",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "Ryan Kelly leads Michael Smith 14-10 all time (since 2011). By coin flip that lopsided a series is about 1 in 2.",
+   "baseline": "50/50 coin flip",
+   "scope": "since 2011",
+   "games": 24,
+   "unitsPerWeek": 5,
+   "zUnit": 0.82,
+   "duplicate": false
+  },
+  {
+   "kind": "low_score_in_a_win",
+   "owners": [
+    "Aron Rogers",
+    "Rahul Pahuja"
+   ],
+   "value": 121.26,
+   "z": 0.0,
+   "tier": "SUPPRESS",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "Aron Rogers won with 121.26, the 627th-fewest points in a win in 1,305 games since 2011.",
+   "baseline": "1,305 winning scores",
+   "scope": "since 2011",
+   "unitsPerWeek": 5,
+   "zUnit": 0.05,
+   "duplicate": true
+  },
+  {
+   "kind": "nail_biter",
+   "owners": [
+    "Bob Dorsch",
+    "Spencer Lentz"
+   ],
+   "value": 15.060000000000016,
+   "z": 0.0,
+   "tier": "SUPPRESS",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "Bob Dorsch beat Spencer Lentz by 15.06, the 443rd-closest game in 1,305 since 2011.",
+   "baseline": "1,305 margins",
+   "scope": "since 2011",
+   "unitsPerWeek": 5,
+   "zUnit": 0.41,
+   "duplicate": false
+  },
+  {
+   "kind": "high_score_in_a_loss",
+   "owners": [
+    "Spencer Lentz",
+    "Bob Dorsch"
+   ],
+   "value": 117.24,
+   "z": 0.0,
+   "tier": "SUPPORT",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "Spencer Lentz lost with 117.24, the 182nd-most points in a loss in 1,305 games since 2011.",
+   "baseline": "1,305 losing scores",
+   "scope": "since 2011",
+   "unitsPerWeek": 5,
+   "zUnit": 1.08,
+   "duplicate": true
+  },
+  {
+   "kind": "low_score_in_a_win",
+   "owners": [
+    "Bob Dorsch",
+    "Spencer Lentz"
+   ],
+   "value": 132.3,
+   "z": 0.0,
+   "tier": "SUPPRESS",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "Bob Dorsch won with 132.30, the 895th-fewest points in a win in 1,305 games since 2011.",
+   "baseline": "1,305 winning scores",
+   "scope": "since 2011",
+   "unitsPerWeek": 5,
+   "zUnit": -0.0,
+   "duplicate": true
+  },
+  {
+   "kind": "low_score_in_a_win",
+   "owners": [
+    "Eric Olson",
+    "Matt Davis"
+   ],
+   "value": 125.96,
+   "z": 0.0,
+   "tier": "SUPPRESS",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "Eric Olson won with 125.96, the 735th-fewest points in a win in 1,305 games since 2011.",
+   "baseline": "1,305 winning scores",
+   "scope": "since 2011",
+   "unitsPerWeek": 5,
+   "zUnit": -0.0,
+   "duplicate": true
+  },
+  {
+   "kind": "top_start",
+   "owners": [
+    "Michael Turner"
+   ],
+   "value": 25.9,
+   "z": 0.0,
+   "tier": "SUPPORT",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "Drake London gave Michael Turner 25.90, the 971st-best start in 10,316 player-weeks since 2018.",
+   "baseline": "10,316 starts",
+   "scope": "since 2018",
+   "player": "Drake London",
+   "unitsPerWeek": 94.6,
+   "zUnit": 1.32,
+   "duplicate": false
+  },
+  {
+   "kind": "bench_bomb",
+   "owners": [
+    "Michael Turner"
+   ],
+   "value": 19.2,
+   "z": 0.0,
+   "tier": "SUPPORT",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "Michael Turner left Davante Adams on the bench for 19.20, the 593rd-most points by one benched player in 4,816 since 2018.",
+   "baseline": "4,816 bench player-weeks",
+   "scope": "since 2018",
+   "player": "Davante Adams",
+   "unitsPerWeek": 44.2,
+   "zUnit": 1.16,
+   "duplicate": false
+  },
+  {
+   "kind": "bust",
+   "owners": [
+    "Michael Turner"
+   ],
+   "value": -8.09,
+   "z": -0.0,
+   "tier": "SUPPRESS",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "Breece Hall was projected 15.1 and gave Michael Turner 7.00, the 1140th-worst miss by a projected 10-point starter in 6,479 since 2018.",
+   "baseline": "6,479 starts projected 10+",
+   "scope": "since 2018",
+   "player": "Breece Hall",
+   "unitsPerWeek": 59.4,
+   "zUnit": -0.93,
+   "duplicate": false
+  },
+  {
+   "kind": "points_left",
+   "owners": [
+    "Michael Turner"
+   ],
+   "value": 2,
+   "z": 0.0,
+   "tier": "SUPPRESS",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "Michael Turner left 2.00 on the bench, the 972nd-most in 1,157 team-weeks since 2018.",
+   "baseline": "1,157 team-weeks",
+   "scope": "since 2018",
+   "unitsPerWeek": 10,
+   "zUnit": -0.0,
+   "duplicate": false
+  },
+  {
+   "kind": "top_start",
+   "owners": [
+    "Spencer Lentz"
+   ],
+   "value": 21.4,
+   "z": 0.0,
+   "tier": "SUPPRESS",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "Derrick Henry gave Spencer Lentz 21.40, the 1677th-best start in 10,316 player-weeks since 2018.",
+   "baseline": "10,316 starts",
+   "scope": "since 2018",
+   "player": "Derrick Henry",
+   "unitsPerWeek": 94.6,
+   "zUnit": 0.98,
+   "duplicate": false
+  },
+  {
+   "kind": "top_start_in_a_loss",
+   "owners": [
+    "Spencer Lentz"
+   ],
+   "value": 21.4,
+   "z": 0.0,
+   "tier": "SUPPORT",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "Spencer Lentz lost anyway with Derrick Henry putting up 21.40, the 585th-most by one starter in a loss in 4,963 since 2018.",
+   "baseline": "4,963 starts in losses",
+   "scope": "since 2018",
+   "player": "Derrick Henry",
+   "unitsPerWeek": 45.5,
+   "zUnit": 1.19,
+   "duplicate": true
+  },
+  {
+   "kind": "bench_bomb",
+   "owners": [
+    "Spencer Lentz"
+   ],
+   "value": 17.3,
+   "z": 0.0,
+   "tier": "SUPPRESS",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "Spencer Lentz left Javonte Williams on the bench for 17.30, the 774th-most points by one benched player in 4,816 since 2018.",
+   "baseline": "4,816 bench player-weeks",
+   "scope": "since 2018",
+   "player": "Javonte Williams",
+   "unitsPerWeek": 44.2,
+   "zUnit": 0.99,
+   "duplicate": false
+  },
+  {
+   "kind": "points_left",
+   "owners": [
+    "Spencer Lentz"
+   ],
+   "value": 4.3,
+   "z": 0.0,
+   "tier": "SUPPRESS",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "Spencer Lentz left 4.30 on the bench, the 882nd-most in 1,157 team-weeks since 2018.",
+   "baseline": "1,157 team-weeks",
+   "scope": "since 2018",
+   "unitsPerWeek": 10,
+   "zUnit": -0.0,
+   "duplicate": false
+  },
+  {
+   "kind": "top_start",
+   "owners": [
+    "Matt Davis"
+   ],
+   "value": 37.9,
+   "z": 0.0,
+   "tier": "SUPPORT",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "Jahmyr Gibbs gave Matt Davis 37.90, the 166th-best start in 10,316 player-weeks since 2018.",
+   "baseline": "10,316 starts",
+   "scope": "since 2018",
+   "player": "Jahmyr Gibbs",
+   "unitsPerWeek": 94.6,
+   "zUnit": 2.14,
+   "duplicate": true
+  },
+  {
+   "kind": "bench_bomb",
+   "owners": [
+    "Matt Davis"
+   ],
+   "value": 28.58,
+   "z": 0.0,
+   "tier": "SUPPORT",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "Matt Davis left Joe Burrow on the bench for 28.58, the 170th-most points by one benched player in 4,816 since 2018.",
+   "baseline": "4,816 bench player-weeks",
+   "scope": "since 2018",
+   "player": "Joe Burrow",
+   "unitsPerWeek": 44.2,
+   "zUnit": 1.81,
+   "duplicate": false
+  },
+  {
+   "kind": "bust",
+   "owners": [
+    "Matt Davis"
+   ],
+   "value": -9.73,
+   "z": -0.0,
+   "tier": "SUPPORT",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "Tetairoa McMillan was projected 12.4 and gave Matt Davis 2.70, the 717th-worst miss by a projected 10-point starter in 6,479 since 2018.",
+   "baseline": "6,479 starts projected 10+",
+   "scope": "since 2018",
+   "player": "Tetairoa McMillan",
+   "unitsPerWeek": 59.4,
+   "zUnit": -1.22,
+   "duplicate": false
+  },
+  {
+   "kind": "points_left",
+   "owners": [
+    "Matt Davis"
+   ],
+   "value": 18.78,
+   "z": 0.0,
+   "tier": "SUPPRESS",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "Matt Davis left 18.78 on the bench, the 357th-most in 1,157 team-weeks since 2018.",
+   "baseline": "1,157 team-weeks",
+   "scope": "since 2018",
+   "unitsPerWeek": 10,
+   "zUnit": 0.5,
+   "duplicate": true
+  },
+  {
+   "kind": "top_start",
+   "owners": [
+    "Bob Dorsch"
+   ],
+   "value": 36.3,
+   "z": 0.0,
+   "tier": "SUPPORT",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "Bijan Robinson gave Bob Dorsch 36.30, the 230th-best start in 10,316 player-weeks since 2018.",
+   "baseline": "10,316 starts",
+   "scope": "since 2018",
+   "player": "Bijan Robinson",
+   "unitsPerWeek": 94.6,
+   "zUnit": 2.01,
+   "duplicate": false
+  },
+  {
+   "kind": "bench_bomb",
+   "owners": [
+    "Bob Dorsch"
+   ],
+   "value": 14.74,
+   "z": 0.0,
+   "tier": "SUPPRESS",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "Bob Dorsch left Justin Herbert on the bench for 14.74, the 1052nd-most points by one benched player in 4,816 since 2018.",
+   "baseline": "4,816 bench player-weeks",
+   "scope": "since 2018",
+   "player": "Justin Herbert",
+   "unitsPerWeek": 44.2,
+   "zUnit": 0.78,
+   "duplicate": false
+  },
+  {
+   "kind": "bust",
+   "owners": [
+    "Bob Dorsch"
+   ],
+   "value": -5.56,
+   "z": -0.0,
+   "tier": "SUPPRESS",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "Jaylen Waddle was projected 11.0 and gave Bob Dorsch 5.40, the 1942nd-worst miss by a projected 10-point starter in 6,479 since 2018.",
+   "baseline": "6,479 starts projected 10+",
+   "scope": "since 2018",
+   "player": "Jaylen Waddle",
+   "unitsPerWeek": 59.4,
+   "zUnit": -0.53,
+   "duplicate": false
+  },
+  {
+   "kind": "perfect_lineup",
+   "owners": [
+    "Bob Dorsch"
+   ],
+   "value": 0,
+   "z": 0.0,
+   "tier": "SUPPORT",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "Bob Dorsch set a perfect lineup, which happens in 11% of team-weeks since 2018.",
+   "baseline": "1,157 team-weeks",
+   "scope": "since 2018",
+   "unitsPerWeek": 10,
+   "zUnit": 1.2,
+   "duplicate": false
+  },
+  {
+   "kind": "top_start",
+   "owners": [
+    "Michael Smith"
+   ],
+   "value": 20.94,
+   "z": 0.0,
+   "tier": "SUPPRESS",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "Dak Prescott gave Michael Smith 20.94, the 1775th-best start in 10,316 player-weeks since 2018.",
+   "baseline": "10,316 starts",
+   "scope": "since 2018",
+   "player": "Dak Prescott",
+   "unitsPerWeek": 94.6,
+   "zUnit": 0.95,
+   "duplicate": false
+  },
+  {
+   "kind": "bench_bomb",
+   "owners": [
+    "Michael Smith"
+   ],
+   "value": 9.9,
+   "z": 0.0,
+   "tier": "SUPPRESS",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "Michael Smith left Daniel Jones on the bench for 9.90, the 1700th-most points by one benched player in 4,816 since 2018.",
+   "baseline": "4,816 bench player-weeks",
+   "scope": "since 2018",
+   "player": "Daniel Jones",
+   "unitsPerWeek": 44.2,
+   "zUnit": 0.38,
+   "duplicate": false
+  },
+  {
+   "kind": "bust",
+   "owners": [
+    "Michael Smith"
+   ],
+   "value": -11.77,
+   "z": -0.0,
+   "tier": "SUPPORT",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "Jonathan Taylor was projected 20.0 and gave Michael Smith 8.20, the 354th-worst miss by a projected 10-point starter in 6,479 since 2018.",
+   "baseline": "6,479 starts projected 10+",
+   "scope": "since 2018",
+   "player": "Jonathan Taylor",
+   "unitsPerWeek": 59.4,
+   "zUnit": -1.6,
+   "duplicate": false
+  },
+  {
+   "kind": "perfect_lineup",
+   "owners": [
+    "Michael Smith"
+   ],
+   "value": 0,
+   "z": 0.0,
+   "tier": "SUPPORT",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "Michael Smith set a perfect lineup, which happens in 11% of team-weeks since 2018.",
+   "baseline": "1,157 team-weeks",
+   "scope": "since 2018",
+   "unitsPerWeek": 10,
+   "zUnit": 1.2,
+   "duplicate": false
+  },
+  {
+   "kind": "top_start",
+   "owners": [
+    "Ryan Kelly"
+   ],
+   "value": 12.42,
+   "z": 0.0,
+   "tier": "SUPPRESS",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "Kyler Murray gave Ryan Kelly 12.42, the 4236th-best start in 10,316 player-weeks since 2018.",
+   "baseline": "10,316 starts",
+   "scope": "since 2018",
+   "player": "Kyler Murray",
+   "unitsPerWeek": 94.6,
+   "zUnit": 0.23,
+   "duplicate": false
+  },
+  {
+   "kind": "top_start_in_a_loss",
+   "owners": [
+    "Ryan Kelly"
+   ],
+   "value": 12.42,
+   "z": 0.0,
+   "tier": "SUPPRESS",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "Ryan Kelly lost anyway with Kyler Murray putting up 12.42, the 1728th-most by one starter in a loss in 4,963 since 2018.",
+   "baseline": "4,963 starts in losses",
+   "scope": "since 2018",
+   "player": "Kyler Murray",
+   "unitsPerWeek": 45.5,
+   "zUnit": 0.39,
+   "duplicate": true
+  },
+  {
+   "kind": "bench_bomb",
+   "owners": [
+    "Ryan Kelly"
+   ],
+   "value": 15.9,
+   "z": 0.0,
+   "tier": "SUPPRESS",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "Ryan Kelly left Jakobi Meyers on the bench for 15.90, the 921st-most points by one benched player in 4,816 since 2018.",
+   "baseline": "4,816 bench player-weeks",
+   "scope": "since 2018",
+   "player": "Jakobi Meyers",
+   "unitsPerWeek": 44.2,
+   "zUnit": 0.87,
+   "duplicate": false
+  },
+  {
+   "kind": "points_left",
+   "owners": [
+    "Ryan Kelly"
+   ],
+   "value": 14.2,
+   "z": 0.0,
+   "tier": "SUPPRESS",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "Ryan Kelly left 14.20 on the bench, the 497th-most in 1,157 team-weeks since 2018.",
+   "baseline": "1,157 team-weeks",
+   "scope": "since 2018",
+   "unitsPerWeek": 10,
+   "zUnit": 0.18,
+   "duplicate": false
+  },
+  {
+   "kind": "top_start",
+   "owners": [
+    "Rahul Pahuja"
+   ],
+   "value": 32.36,
+   "z": 0.0,
+   "tier": "SUPPORT",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "Jaxon Smith-Njigba gave Rahul Pahuja 32.36, the 419th-best start in 10,316 player-weeks since 2018.",
+   "baseline": "10,316 starts",
+   "scope": "since 2018",
+   "player": "Jaxon Smith-Njigba",
+   "unitsPerWeek": 94.6,
+   "zUnit": 1.74,
+   "duplicate": false
+  },
+  {
+   "kind": "top_start_in_a_loss",
+   "owners": [
+    "Rahul Pahuja"
+   ],
+   "value": 32.36,
+   "z": 0.0,
+   "tier": "SUPPORT",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "Rahul Pahuja lost anyway with Jaxon Smith-Njigba putting up 32.36, the 110th-most by one starter in a loss in 4,963 since 2018.",
+   "baseline": "4,963 starts in losses",
+   "scope": "since 2018",
+   "player": "Jaxon Smith-Njigba",
+   "unitsPerWeek": 45.5,
+   "zUnit": 2.01,
+   "duplicate": true
+  },
+  {
+   "kind": "bench_bomb",
+   "owners": [
+    "Rahul Pahuja"
+   ],
+   "value": 20.6,
+   "z": 0.0,
+   "tier": "SUPPORT",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "Rahul Pahuja left Harold Fannin Jr. on the bench for 20.60, the 519th-most points by one benched player in 4,816 since 2018.",
+   "baseline": "4,816 bench player-weeks",
+   "scope": "since 2018",
+   "player": "Harold Fannin Jr.",
+   "unitsPerWeek": 44.2,
+   "zUnit": 1.24,
+   "duplicate": false
+  },
+  {
+   "kind": "bust",
+   "owners": [
+    "Rahul Pahuja"
+   ],
+   "value": -7.9,
+   "z": -0.0,
+   "tier": "SUPPRESS",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "Isaiah Likely was projected 10.2 and gave Rahul Pahuja 2.30, the 1201st-worst miss by a projected 10-point starter in 6,479 since 2018.",
+   "baseline": "6,479 starts projected 10+",
+   "scope": "since 2018",
+   "player": "Isaiah Likely",
+   "unitsPerWeek": 59.4,
+   "zUnit": -0.9,
+   "duplicate": false
+  },
+  {
+   "kind": "points_left",
+   "owners": [
+    "Rahul Pahuja"
+   ],
+   "value": 21.5,
+   "z": 0.0,
+   "tier": "SUPPRESS",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "Rahul Pahuja left 21.50 on the bench, the 281st-most in 1,157 team-weeks since 2018.",
+   "baseline": "1,157 team-weeks",
+   "scope": "since 2018",
+   "unitsPerWeek": 10,
+   "zUnit": 0.7,
+   "duplicate": true
+  },
+  {
+   "kind": "top_start",
+   "owners": [
+    "Billy Norton"
+   ],
+   "value": 21.4,
+   "z": 0.0,
+   "tier": "SUPPRESS",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "James Cook III gave Billy Norton 21.40, the 1677th-best start in 10,316 player-weeks since 2018.",
+   "baseline": "10,316 starts",
+   "scope": "since 2018",
+   "player": "James Cook III",
+   "unitsPerWeek": 94.6,
+   "zUnit": 0.98,
+   "duplicate": false
+  },
+  {
+   "kind": "top_start_in_a_loss",
+   "owners": [
+    "Billy Norton"
+   ],
+   "value": 21.4,
+   "z": 0.0,
+   "tier": "SUPPORT",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "Billy Norton lost anyway with James Cook III putting up 21.40, the 585th-most by one starter in a loss in 4,963 since 2018.",
+   "baseline": "4,963 starts in losses",
+   "scope": "since 2018",
+   "player": "James Cook III",
+   "unitsPerWeek": 45.5,
+   "zUnit": 1.19,
+   "duplicate": true
+  },
+  {
+   "kind": "bench_bomb",
+   "owners": [
+    "Billy Norton"
+   ],
+   "value": 9.7,
+   "z": 0.0,
+   "tier": "SUPPRESS",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "Billy Norton left DJ Moore on the bench for 9.70, the 1743rd-most points by one benched player in 4,816 since 2018.",
+   "baseline": "4,816 bench player-weeks",
+   "scope": "since 2018",
+   "player": "DJ Moore",
+   "unitsPerWeek": 44.2,
+   "zUnit": 0.35,
+   "duplicate": false
+  },
+  {
+   "kind": "bust",
+   "owners": [
+    "Billy Norton"
+   ],
+   "value": -10.88,
+   "z": -0.0,
+   "tier": "SUPPORT",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "Jadarian Price was projected 11.6 and gave Billy Norton 0.70, the 503rd-worst miss by a projected 10-point starter in 6,479 since 2018.",
+   "baseline": "6,479 starts projected 10+",
+   "scope": "since 2018",
+   "player": "Jadarian Price",
+   "unitsPerWeek": 59.4,
+   "zUnit": -1.42,
+   "duplicate": false
+  },
+  {
+   "kind": "points_left",
+   "owners": [
+    "Billy Norton"
+   ],
+   "value": 11.6,
+   "z": 0.0,
+   "tier": "SUPPRESS",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "Billy Norton left 11.60 on the bench, the 602nd-most in 1,157 team-weeks since 2018.",
+   "baseline": "1,157 team-weeks",
+   "scope": "since 2018",
+   "unitsPerWeek": 10,
+   "zUnit": -0.0,
+   "duplicate": false
+  },
+  {
+   "kind": "top_start",
+   "owners": [
+    "Aron Rogers"
+   ],
+   "value": 23.36,
+   "z": 0.0,
+   "tier": "SUPPORT",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "Jared Goff gave Aron Rogers 23.36, the 1374th-best start in 10,316 player-weeks since 2018.",
+   "baseline": "10,316 starts",
+   "scope": "since 2018",
+   "player": "Jared Goff",
+   "unitsPerWeek": 94.6,
+   "zUnit": 1.11,
+   "duplicate": false
+  },
+  {
+   "kind": "bench_bomb",
+   "owners": [
+    "Aron Rogers"
+   ],
+   "value": 28.14,
+   "z": 0.0,
+   "tier": "SUPPORT",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "Aron Rogers left Bo Nix on the bench for 28.14, the 178th-most points by one benched player in 4,816 since 2018.",
+   "baseline": "4,816 bench player-weeks",
+   "scope": "since 2018",
+   "player": "Bo Nix",
+   "unitsPerWeek": 44.2,
+   "zUnit": 1.79,
+   "duplicate": false
+  },
+  {
+   "kind": "points_left",
+   "owners": [
+    "Aron Rogers"
+   ],
+   "value": 5.08,
+   "z": 0.0,
+   "tier": "SUPPRESS",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "Aron Rogers left 5.08 on the bench, the 853rd-most in 1,157 team-weeks since 2018.",
+   "baseline": "1,157 team-weeks",
+   "scope": "since 2018",
+   "unitsPerWeek": 10,
+   "zUnit": -0.0,
+   "duplicate": false
+  },
+  {
+   "kind": "top_start",
+   "owners": [
+    "Eric Olson"
+   ],
+   "value": 19.4,
+   "z": 0.0,
+   "tier": "SUPPRESS",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "Jeremiyah Love gave Eric Olson 19.40, the 2073rd-best start in 10,316 player-weeks since 2018.",
+   "baseline": "10,316 starts",
+   "scope": "since 2018",
+   "player": "Jeremiyah Love",
+   "unitsPerWeek": 94.6,
+   "zUnit": 0.84,
+   "duplicate": false
+  },
+  {
+   "kind": "bench_bomb",
+   "owners": [
+    "Eric Olson"
+   ],
+   "value": 20.4,
+   "z": 0.0,
+   "tier": "SUPPORT",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "Eric Olson left Michael Wilson on the bench for 20.40, the 532nd-most points by one benched player in 4,816 since 2018.",
+   "baseline": "4,816 bench player-weeks",
+   "scope": "since 2018",
+   "player": "Michael Wilson",
+   "unitsPerWeek": 44.2,
+   "zUnit": 1.22,
+   "duplicate": false
+  },
+  {
+   "kind": "bust",
+   "owners": [
+    "Eric Olson"
+   ],
+   "value": -2.17,
+   "z": -0.0,
+   "tier": "SUPPRESS",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "Emeka Egbuka was projected 10.9 and gave Eric Olson 8.70, the 3037th-worst miss by a projected 10-point starter in 6,479 since 2018.",
+   "baseline": "6,479 starts projected 10+",
+   "scope": "since 2018",
+   "player": "Emeka Egbuka",
+   "unitsPerWeek": 59.4,
+   "zUnit": -0.08,
+   "duplicate": false
+  },
+  {
+   "kind": "points_left",
+   "owners": [
+    "Eric Olson"
+   ],
+   "value": 17.2,
+   "z": 0.0,
+   "tier": "SUPPRESS",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "Eric Olson left 17.20 on the bench, the 399th-most in 1,157 team-weeks since 2018.",
+   "baseline": "1,157 team-weeks",
+   "scope": "since 2018",
+   "unitsPerWeek": 10,
+   "zUnit": 0.4,
+   "duplicate": false
+  }
+ ],
+ "note": "Generated by gen2/insights.py. The page never prints z or sigma; use `plain` and `rarity`."
+}

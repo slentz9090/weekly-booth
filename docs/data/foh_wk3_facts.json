@@ -1,0 +1,1600 @@
+{
+ "league": "foh",
+ "leagueId": 757898,
+ "leagueName": "Friends of Herb",
+ "week": 3,
+ "generatedAt": "2026-09-29T13:04:57.049Z",
+ "matchups": [
+  {
+   "homeId": 1,
+   "home": "Napoleon's Army",
+   "homeOwner": "Michael Turner",
+   "homeScore": 138.24,
+   "awayId": 14,
+   "away": "I Loved You Tom Brady",
+   "awayOwner": "Billy Norton",
+   "awayScore": 66.48,
+   "winnerId": 1,
+   "winner": "Napoleon's Army",
+   "loserId": 14,
+   "margin": 71.76
+  },
+  {
+   "homeId": 10,
+   "home": "Old Man Smashers",
+   "homeOwner": "Ryan Kelly",
+   "homeScore": 54.52,
+   "awayId": 9,
+   "away": "Midget Grinders",
+   "awayOwner": "Michael Smith",
+   "awayScore": 109.64,
+   "winnerId": 9,
+   "winner": "Midget Grinders",
+   "loserId": 10,
+   "margin": 55.12
+  },
+  {
+   "homeId": 15,
+   "home": "Kim Jong Un Pleasure Squad",
+   "homeOwner": "Aron Rogers",
+   "homeScore": 121.26,
+   "awayId": 11,
+   "away": "Pack Up",
+   "awayOwner": "Rahul Pahuja",
+   "awayScore": 119.14,
+   "winnerId": 15,
+   "winner": "Kim Jong Un Pleasure Squad",
+   "loserId": 11,
+   "margin": 2.12
+  },
+  {
+   "homeId": 2,
+   "home": "Balls Deep",
+   "homeOwner": "Spencer Lentz",
+   "homeScore": 117.24,
+   "awayId": 7,
+   "away": "WPB Steel City",
+   "awayOwner": "Bob Dorsch",
+   "awayScore": 132.3,
+   "winnerId": 7,
+   "winner": "WPB Steel City",
+   "loserId": 2,
+   "margin": 15.06
+  },
+  {
+   "homeId": 16,
+   "home": "Colorado Narcoleptic Kestrels",
+   "homeOwner": "Eric Olson",
+   "homeScore": 125.96,
+   "awayId": 6,
+   "away": "Dallas Dawgs",
+   "awayOwner": "Matt Davis",
+   "awayScore": 125.2,
+   "winnerId": 16,
+   "winner": "Colorado Narcoleptic Kestrels",
+   "loserId": 6,
+   "margin": 0.76
+  }
+ ],
+ "byes": [
+  {
+   "teamId": 5,
+   "name": "| croup",
+   "owner": "Aaron Jezioro",
+   "score": 109.08
+  }
+ ],
+ "perTeam": [
+  {
+   "teamId": 1,
+   "name": "Napoleon's Army",
+   "owner": "Michael Turner",
+   "score": 138.24,
+   "actual": 138.24,
+   "optimal": 140.24,
+   "left": 2,
+   "eff": 98.6,
+   "worst": {
+    "delta": 2,
+    "slot": "FLEX",
+    "started": "Chris Olave",
+    "startedPts": 17.2,
+    "benched": "Davante Adams",
+    "benchedPts": 19.2
+   },
+   "top": [
+    {
+     "n": "Drake London",
+     "pos": "WR",
+     "pts": 25.9,
+     "proj": 13.08
+    },
+    {
+     "n": "Lamar Jackson",
+     "pos": "QB",
+     "pts": 24.44,
+     "proj": 24.81
+    },
+    {
+     "n": "Garrett Wilson",
+     "pos": "WR",
+     "pts": 23.7,
+     "proj": 13.7
+    }
+   ],
+   "bust": {
+    "n": "Breece Hall",
+    "pos": "RB",
+    "pts": 7,
+    "proj": 15.09,
+    "miss": -8.09
+   },
+   "bestBench": {
+    "n": "Davante Adams",
+    "pos": "WR",
+    "pts": 19.2
+   },
+   "benchTop": [
+    {
+     "n": "Davante Adams",
+     "pos": "WR",
+     "pts": 19.2,
+     "proj": 13.61
+    },
+    {
+     "n": "J.K. Dobbins",
+     "pos": "RB",
+     "pts": 5.8,
+     "proj": 10.62
+    }
+   ],
+   "starterLow": [
+    {
+     "n": "Dalton Schultz",
+     "pos": "TE",
+     "slot": "TE",
+     "pts": 4.5,
+     "proj": 8.79
+    },
+    {
+     "n": "Breece Hall",
+     "pos": "RB",
+     "slot": "RB",
+     "pts": 7,
+     "proj": 15.09
+    }
+   ],
+   "allPlay": "10-0",
+   "expWins": 1
+  },
+  {
+   "teamId": 2,
+   "name": "Balls Deep",
+   "owner": "Spencer Lentz",
+   "score": 117.24,
+   "actual": 117.24,
+   "optimal": 121.54,
+   "left": 4.3,
+   "eff": 96.5,
+   "worst": {
+    "delta": 4.3,
+    "slot": "RB",
+    "started": "Chuba Hubbard",
+    "startedPts": 13,
+    "benched": "Javonte Williams",
+    "benchedPts": 17.3
+   },
+   "top": [
+    {
+     "n": "Derrick Henry",
+     "pos": "RB",
+     "pts": 21.4,
+     "proj": 17.89
+    },
+    {
+     "n": "Kenneth Walker III",
+     "pos": "RB",
+     "pts": 20.3,
+     "proj": 20.16
+    },
+    {
+     "n": "Patrick Mahomes",
+     "pos": "QB",
+     "pts": 19.94,
+     "proj": 23.86
+    }
+   ],
+   "bust": {
+    "n": "Seahawks D/ST",
+    "pos": "D/ST",
+    "pts": 2,
+    "proj": 7.64,
+    "miss": -5.64
+   },
+   "bestBench": {
+    "n": "Javonte Williams",
+    "pos": "RB",
+    "pts": 17.3
+   },
+   "benchTop": [
+    {
+     "n": "Javonte Williams",
+     "pos": "RB",
+     "pts": 17.3,
+     "proj": 14.18
+    },
+    {
+     "n": "Jalen Hurts",
+     "pos": "QB",
+     "pts": 12.62,
+     "proj": 23.12
+    }
+   ],
+   "starterLow": [
+    {
+     "n": "Seahawks D/ST",
+     "pos": "D/ST",
+     "slot": "D/ST",
+     "pts": 2,
+     "proj": 7.64
+    },
+    {
+     "n": "Colston Loveland",
+     "pos": "TE",
+     "slot": "TE",
+     "pts": 5.1,
+     "proj": 7.89
+    }
+   ],
+   "allPlay": "4-6",
+   "expWins": 0.4
+  },
+  {
+   "teamId": 5,
+   "name": "| croup",
+   "owner": "Aaron Jezioro",
+   "score": 109.08,
+   "actual": 109.08,
+   "optimal": 141.08,
+   "left": 32,
+   "eff": 77.3,
+   "worst": {
+    "delta": 21.8,
+    "slot": "FLEX",
+    "started": "Jalen Coker",
+    "startedPts": 2.8,
+    "benched": "Brock Bowers",
+    "benchedPts": 24.6
+   },
+   "top": [
+    {
+     "n": "Brock Purdy",
+     "pos": "QB",
+     "pts": 39.28,
+     "proj": 25.44
+    },
+    {
+     "n": "Jaylen Warren",
+     "pos": "RB",
+     "pts": 21.1,
+     "proj": 14.68
+    },
+    {
+     "n": "Ja'Marr Chase",
+     "pos": "WR",
+     "pts": 20.3,
+     "proj": 16.05
+    }
+   ],
+   "bust": {
+    "n": "Jalen Coker",
+    "pos": "WR",
+    "pts": 2.8,
+    "proj": 11.52,
+    "miss": -8.72
+   },
+   "bestBench": {
+    "n": "Trevor Lawrence",
+    "pos": "QB",
+    "pts": 25.78
+   },
+   "benchTop": [
+    {
+     "n": "Trevor Lawrence",
+     "pos": "QB",
+     "pts": 25.78,
+     "proj": 20.86
+    },
+    {
+     "n": "Brock Bowers",
+     "pos": "TE",
+     "pts": 24.6,
+     "proj": 11.49
+    }
+   ],
+   "starterLow": [
+    {
+     "n": "Khalil Shakir",
+     "pos": "WR",
+     "slot": "WR",
+     "pts": 1.1,
+     "proj": 8.58
+    },
+    {
+     "n": "Jalen Coker",
+     "pos": "WR",
+     "slot": "FLEX",
+     "pts": 2.8,
+     "proj": 11.52
+    }
+   ],
+   "allPlay": "2-8",
+   "expWins": 0.2
+  },
+  {
+   "teamId": 6,
+   "name": "Dallas Dawgs",
+   "owner": "Matt Davis",
+   "score": 125.2,
+   "actual": 125.2,
+   "optimal": 143.98,
+   "left": 18.78,
+   "eff": 87,
+   "worst": {
+    "delta": 14,
+    "slot": "WR",
+    "started": "Tetairoa McMillan",
+    "startedPts": 2.7,
+    "benched": "Terry McLaurin",
+    "benchedPts": 16.7
+   },
+   "top": [
+    {
+     "n": "Jahmyr Gibbs",
+     "pos": "RB",
+     "pts": 37.9,
+     "proj": 24.53
+    },
+    {
+     "n": "Matthew Stafford",
+     "pos": "QB",
+     "pts": 25.9,
+     "proj": 19.31
+    },
+    {
+     "n": "Kyren Williams",
+     "pos": "RB",
+     "pts": 18.8,
+     "proj": 12.07
+    }
+   ],
+   "bust": {
+    "n": "Tetairoa McMillan",
+    "pos": "WR",
+    "pts": 2.7,
+    "proj": 12.43,
+    "miss": -9.73
+   },
+   "bestBench": {
+    "n": "Joe Burrow",
+    "pos": "QB",
+    "pts": 28.58
+   },
+   "benchTop": [
+    {
+     "n": "Joe Burrow",
+     "pos": "QB",
+     "pts": 28.58,
+     "proj": 19.73
+    },
+    {
+     "n": "Terry McLaurin",
+     "pos": "WR",
+     "pts": 16.7,
+     "proj": 10.06
+    }
+   ],
+   "starterLow": [
+    {
+     "n": "Tetairoa McMillan",
+     "pos": "WR",
+     "slot": "WR",
+     "pts": 2.7,
+     "proj": 12.43
+    },
+    {
+     "n": "Steelers D/ST",
+     "pos": "D/ST",
+     "slot": "D/ST",
+     "pts": 5,
+     "proj": 7.09
+    }
+   ],
+   "allPlay": "7-3",
+   "expWins": 0.7
+  },
+  {
+   "teamId": 7,
+   "name": "WPB Steel City",
+   "owner": "Bob Dorsch",
+   "score": 132.3,
+   "actual": 132.3,
+   "optimal": 132.3,
+   "left": 0,
+   "eff": 100,
+   "worst": null,
+   "top": [
+    {
+     "n": "Bijan Robinson",
+     "pos": "RB",
+     "pts": 36.3,
+     "proj": 17.94
+    },
+    {
+     "n": "Tyler Shough",
+     "pos": "QB",
+     "pts": 31.8,
+     "proj": 22.59
+    },
+    {
+     "n": "Vikings D/ST",
+     "pos": "D/ST",
+     "pts": 17,
+     "proj": 7.29
+    }
+   ],
+   "bust": {
+    "n": "Saquon Barkley",
+    "pos": "RB",
+    "pts": 8.5,
+    "proj": 16.84,
+    "miss": -8.34
+   },
+   "bestBench": {
+    "n": "Justin Herbert",
+    "pos": "QB",
+    "pts": 14.74
+   },
+   "benchTop": [
+    {
+     "n": "Justin Herbert",
+     "pos": "QB",
+     "pts": 14.74,
+     "proj": 20.56
+    },
+    {
+     "n": "Devaughn Vele",
+     "pos": "WR",
+     "pts": 5.4,
+     "proj": 9.61
+    }
+   ],
+   "starterLow": [
+    {
+     "n": "Ka'imi Fairbairn",
+     "pos": "K",
+     "slot": "K",
+     "pts": 5,
+     "proj": 9.48
+    },
+    {
+     "n": "Jaylen Waddle",
+     "pos": "WR",
+     "slot": "WR",
+     "pts": 5.4,
+     "proj": 10.96
+    }
+   ],
+   "allPlay": "9-1",
+   "expWins": 0.9
+  },
+  {
+   "teamId": 9,
+   "name": "Midget Grinders",
+   "owner": "Michael Smith",
+   "score": 109.64,
+   "actual": 109.64,
+   "optimal": 109.64,
+   "left": 0,
+   "eff": 100,
+   "worst": null,
+   "top": [
+    {
+     "n": "Dak Prescott",
+     "pos": "QB",
+     "pts": 20.94,
+     "proj": 20.7
+    },
+    {
+     "n": "Deebo Samuel Sr.",
+     "pos": "WR",
+     "pts": 18.4,
+     "proj": 10.79
+    },
+    {
+     "n": "Harrison Mevis",
+     "pos": "K",
+     "pts": 16,
+     "proj": 8.43
+    }
+   ],
+   "bust": {
+    "n": "Jonathan Taylor",
+    "pos": "RB",
+    "pts": 8.2,
+    "proj": 19.97,
+    "miss": -11.77
+   },
+   "bestBench": {
+    "n": "Daniel Jones",
+    "pos": "QB",
+    "pts": 9.9
+   },
+   "benchTop": [
+    {
+     "n": "Daniel Jones",
+     "pos": "QB",
+     "pts": 9.9,
+     "proj": 16.45
+    },
+    {
+     "n": "Jake Ferguson",
+     "pos": "TE",
+     "pts": 7.8,
+     "proj": 6.83
+    }
+   ],
+   "starterLow": [
+    {
+     "n": "Eagles D/ST",
+     "pos": "D/ST",
+     "slot": "D/ST",
+     "pts": 0,
+     "proj": 8
+    },
+    {
+     "n": "Jonathan Taylor",
+     "pos": "RB",
+     "slot": "RB",
+     "pts": 8.2,
+     "proj": 19.97
+    }
+   ],
+   "allPlay": "3-7",
+   "expWins": 0.3
+  },
+  {
+   "teamId": 10,
+   "name": "Old Man Smashers",
+   "owner": "Ryan Kelly",
+   "score": 54.52,
+   "actual": 54.52,
+   "optimal": 68.72,
+   "left": 14.2,
+   "eff": 79.3,
+   "worst": {
+    "delta": 12.5,
+    "slot": "FLEX",
+    "started": "TreVeyon Henderson",
+    "startedPts": 3.4,
+    "benched": "Jakobi Meyers",
+    "benchedPts": 15.9
+   },
+   "top": [
+    {
+     "n": "Kyler Murray",
+     "pos": "QB",
+     "pts": 12.42,
+     "proj": 20.31
+    },
+    {
+     "n": "Rashee Rice",
+     "pos": "WR",
+     "pts": 12.3,
+     "proj": 10.77
+    },
+    {
+     "n": "Cairo Santos",
+     "pos": "K",
+     "pts": 10,
+     "proj": 8.06
+    }
+   ],
+   "bust": {
+    "n": "De'Von Achane",
+    "pos": "RB",
+    "pts": 1.7,
+    "proj": 18,
+    "miss": -16.3
+   },
+   "bestBench": {
+    "n": "Jakobi Meyers",
+    "pos": "WR",
+    "pts": 15.9
+   },
+   "benchTop": [
+    {
+     "n": "Jakobi Meyers",
+     "pos": "WR",
+     "pts": 15.9,
+     "proj": 7.66
+    },
+    {
+     "n": "Kenny Gainwell",
+     "pos": "RB",
+     "pts": 2,
+     "proj": 6.52
+    }
+   ],
+   "starterLow": [
+    {
+     "n": "Kyle Pitts Sr.",
+     "pos": "TE",
+     "slot": "TE",
+     "pts": 1,
+     "proj": 8.04
+    },
+    {
+     "n": "De'Von Achane",
+     "pos": "RB",
+     "slot": "RB",
+     "pts": 1.7,
+     "proj": 18
+    }
+   ],
+   "allPlay": "0-10",
+   "expWins": 0
+  },
+  {
+   "teamId": 11,
+   "name": "Pack Up",
+   "owner": "Rahul Pahuja",
+   "score": 119.14,
+   "actual": 119.14,
+   "optimal": 140.64,
+   "left": 21.5,
+   "eff": 84.7,
+   "worst": {
+    "delta": 18.3,
+    "slot": "TE",
+    "started": "Isaiah Likely",
+    "startedPts": 2.3,
+    "benched": "Harold Fannin Jr.",
+    "benchedPts": 20.6
+   },
+   "top": [
+    {
+     "n": "Jaxon Smith-Njigba",
+     "pos": "WR",
+     "pts": 32.36,
+     "proj": 18.12
+    },
+    {
+     "n": "Jordan Love",
+     "pos": "QB",
+     "pts": 23.48,
+     "proj": 21.18
+    },
+    {
+     "n": "Matthew Golden",
+     "pos": "WR",
+     "pts": 20.5,
+     "proj": 9.76
+    }
+   ],
+   "bust": {
+    "n": "Isaiah Likely",
+    "pos": "TE",
+    "pts": 2.3,
+    "proj": 10.2,
+    "miss": -7.9
+   },
+   "bestBench": {
+    "n": "Harold Fannin Jr.",
+    "pos": "TE",
+    "pts": 20.6
+   },
+   "benchTop": [
+    {
+     "n": "Harold Fannin Jr.",
+     "pos": "TE",
+     "pts": 20.6,
+     "proj": 7.86
+    },
+    {
+     "n": "Bryce Young",
+     "pos": "QB",
+     "pts": 15.64,
+     "proj": 20.06
+    }
+   ],
+   "starterLow": [
+    {
+     "n": "Patriots D/ST",
+     "pos": "D/ST",
+     "slot": "D/ST",
+     "pts": 0,
+     "proj": 6.14
+    },
+    {
+     "n": "Isaiah Likely",
+     "pos": "TE",
+     "slot": "TE",
+     "pts": 2.3,
+     "proj": 10.2
+    }
+   ],
+   "allPlay": "5-5",
+   "expWins": 0.5
+  },
+  {
+   "teamId": 14,
+   "name": "I Loved You Tom Brady",
+   "owner": "Billy Norton",
+   "score": 66.48,
+   "actual": 66.48,
+   "optimal": 78.08,
+   "left": 11.6,
+   "eff": 85.1,
+   "worst": {
+    "delta": 9,
+    "slot": "FLEX",
+    "started": "Jadarian Price",
+    "startedPts": 0.7,
+    "benched": "DJ Moore",
+    "benchedPts": 9.7
+   },
+   "top": [
+    {
+     "n": "James Cook III",
+     "pos": "RB",
+     "pts": 21.4,
+     "proj": 16.58
+    },
+    {
+     "n": "Baker Mayfield",
+     "pos": "QB",
+     "pts": 13.28,
+     "proj": 18.54
+    },
+    {
+     "n": "Ladd McConkey",
+     "pos": "WR",
+     "pts": 8.6,
+     "proj": 11.4
+    }
+   ],
+   "bust": {
+    "n": "Jadarian Price",
+    "pos": "RB",
+    "pts": 0.7,
+    "proj": 11.58,
+    "miss": -10.88
+   },
+   "bestBench": {
+    "n": "DJ Moore",
+    "pos": "WR",
+    "pts": 9.7
+   },
+   "benchTop": [
+    {
+     "n": "DJ Moore",
+     "pos": "WR",
+     "pts": 9.7,
+     "proj": 10.82
+    },
+    {
+     "n": "RJ Harvey",
+     "pos": "RB",
+     "pts": 7.7,
+     "proj": 7.71
+    }
+   ],
+   "starterLow": [
+    {
+     "n": "Jadarian Price",
+     "pos": "RB",
+     "slot": "FLEX",
+     "pts": 0.7,
+     "proj": 11.58
+    },
+    {
+     "n": "Dalton Kincaid",
+     "pos": "TE",
+     "slot": "TE",
+     "pts": 2.8,
+     "proj": 9.67
+    }
+   ],
+   "allPlay": "1-9",
+   "expWins": 0.1
+  },
+  {
+   "teamId": 15,
+   "name": "Kim Jong Un Pleasure Squad",
+   "owner": "Aron Rogers",
+   "score": 121.26,
+   "actual": 121.26,
+   "optimal": 126.34,
+   "left": 5.08,
+   "eff": 96,
+   "worst": {
+    "delta": 4.78,
+    "slot": "QB",
+    "started": "Jared Goff",
+    "startedPts": 23.36,
+    "benched": "Bo Nix",
+    "benchedPts": 28.14
+   },
+   "top": [
+    {
+     "n": "Jared Goff",
+     "pos": "QB",
+     "pts": 23.36,
+     "proj": 20.69
+    },
+    {
+     "n": "George Kittle",
+     "pos": "TE",
+     "pts": 23.2,
+     "proj": 10.87
+    },
+    {
+     "n": "CeeDee Lamb",
+     "pos": "WR",
+     "pts": 18.7,
+     "proj": 14.66
+    }
+   ],
+   "bust": {
+    "n": "Amon-Ra St. Brown",
+    "pos": "WR",
+    "pts": 9.9,
+    "proj": 16.97,
+    "miss": -7.07
+   },
+   "bestBench": {
+    "n": "Bo Nix",
+    "pos": "QB",
+    "pts": 28.14
+   },
+   "benchTop": [
+    {
+     "n": "Bo Nix",
+     "pos": "QB",
+     "pts": 28.14,
+     "proj": 19.72
+    },
+    {
+     "n": "Josh Downs",
+     "pos": "WR",
+     "pts": 10.2,
+     "proj": 9.81
+    }
+   ],
+   "starterLow": [
+    {
+     "n": "Harrison Butker",
+     "pos": "K",
+     "slot": "K",
+     "pts": 6,
+     "proj": 9.15
+    },
+    {
+     "n": "Chiefs D/ST",
+     "pos": "D/ST",
+     "slot": "D/ST",
+     "pts": 7,
+     "proj": 7.67
+    }
+   ],
+   "allPlay": "6-4",
+   "expWins": 0.6
+  },
+  {
+   "teamId": 16,
+   "name": "Colorado Narcoleptic Kestrels",
+   "owner": "Eric Olson",
+   "score": 125.96,
+   "actual": 125.96,
+   "optimal": 143.16,
+   "left": 17.2,
+   "eff": 88,
+   "worst": {
+    "delta": 11.7,
+    "slot": "WR",
+    "started": "Emeka Egbuka",
+    "startedPts": 8.7,
+    "benched": "Michael Wilson",
+    "benchedPts": 20.4
+   },
+   "top": [
+    {
+     "n": "Jeremiyah Love",
+     "pos": "RB",
+     "pts": 19.4,
+     "proj": 11.45
+    },
+    {
+     "n": "Christian Watson",
+     "pos": "WR",
+     "pts": 19.1,
+     "proj": 12.6
+    },
+    {
+     "n": "Josh Allen",
+     "pos": "QB",
+     "pts": 16.96,
+     "proj": 27.34
+    }
+   ],
+   "bust": {
+    "n": "Josh Allen",
+    "pos": "QB",
+    "pts": 16.96,
+    "proj": 27.34,
+    "miss": -10.38
+   },
+   "bestBench": {
+    "n": "Michael Wilson",
+    "pos": "WR",
+    "pts": 20.4
+   },
+   "benchTop": [
+    {
+     "n": "Michael Wilson",
+     "pos": "WR",
+     "pts": 20.4,
+     "proj": 9.26
+    },
+    {
+     "n": "Luther Burden III",
+     "pos": "WR",
+     "pts": 16.3,
+     "proj": 9.13
+    }
+   ],
+   "starterLow": [
+    {
+     "n": "Emeka Egbuka",
+     "pos": "WR",
+     "slot": "WR",
+     "pts": 8.7,
+     "proj": 10.87
+    },
+    {
+     "n": "Jason Myers",
+     "pos": "K",
+     "slot": "K",
+     "pts": 9,
+     "proj": 9.61
+    }
+   ],
+   "allPlay": "8-2",
+   "expWins": 0.8
+  }
+ ],
+ "standings": [
+  {
+   "teamId": 15,
+   "name": "Kim Jong Un Pleasure Squad",
+   "owner": "Aron Rogers",
+   "w": 3,
+   "l": 0,
+   "tie": 0,
+   "pf": 377.96,
+   "pa": 343.48,
+   "seed": 1,
+   "eff": 96,
+   "allPlay": "6-4"
+  },
+  {
+   "teamId": 16,
+   "name": "Colorado Narcoleptic Kestrels",
+   "owner": "Eric Olson",
+   "w": 2,
+   "l": 1,
+   "tie": 0,
+   "pf": 382.04,
+   "pa": 364.24,
+   "seed": 2,
+   "eff": 88,
+   "allPlay": "8-2"
+  },
+  {
+   "teamId": 6,
+   "name": "Dallas Dawgs",
+   "owner": "Matt Davis",
+   "w": 2,
+   "l": 1,
+   "tie": 0,
+   "pf": 364.64,
+   "pa": 313.14,
+   "seed": 3,
+   "eff": 87,
+   "allPlay": "7-3"
+  },
+  {
+   "teamId": 11,
+   "name": "Pack Up",
+   "owner": "Rahul Pahuja",
+   "w": 2,
+   "l": 1,
+   "tie": 0,
+   "pf": 363.46,
+   "pa": 346.14,
+   "seed": 4,
+   "eff": 84.7,
+   "allPlay": "5-5"
+  },
+  {
+   "teamId": 9,
+   "name": "Midget Grinders",
+   "owner": "Michael Smith",
+   "w": 2,
+   "l": 1,
+   "tie": 0,
+   "pf": 326.7,
+   "pa": 275.54,
+   "seed": 5,
+   "eff": 100,
+   "allPlay": "3-7"
+  },
+  {
+   "teamId": 1,
+   "name": "Napoleon's Army",
+   "owner": "Michael Turner",
+   "w": 1,
+   "l": 1,
+   "tie": 0,
+   "pf": 269.4,
+   "pa": 197.98,
+   "seed": 6,
+   "eff": 98.6,
+   "allPlay": "10-0"
+  },
+  {
+   "teamId": 5,
+   "name": "| croup",
+   "owner": "Aaron Jezioro",
+   "w": 1,
+   "l": 1,
+   "tie": 0,
+   "pf": 166.16,
+   "pa": 224.44,
+   "seed": 7,
+   "eff": 77.3,
+   "allPlay": "2-8"
+  },
+  {
+   "teamId": 2,
+   "name": "Balls Deep",
+   "owner": "Spencer Lentz",
+   "w": 1,
+   "l": 2,
+   "tie": 0,
+   "pf": 392.92,
+   "pa": 343.16,
+   "seed": 8,
+   "eff": 96.5,
+   "allPlay": "4-6"
+  },
+  {
+   "teamId": 7,
+   "name": "WPB Steel City",
+   "owner": "Bob Dorsch",
+   "w": 1,
+   "l": 2,
+   "tie": 0,
+   "pf": 338.74,
+   "pa": 353.54,
+   "seed": 9,
+   "eff": 100,
+   "allPlay": "9-1"
+  },
+  {
+   "teamId": 14,
+   "name": "I Loved You Tom Brady",
+   "owner": "Billy Norton",
+   "w": 0,
+   "l": 3,
+   "tie": 0,
+   "pf": 268.5,
+   "pa": 408.3,
+   "seed": 10,
+   "eff": 85.1,
+   "allPlay": "1-9"
+  },
+  {
+   "teamId": 10,
+   "name": "Old Man Smashers",
+   "owner": "Ryan Kelly",
+   "w": 0,
+   "l": 2,
+   "tie": 0,
+   "pf": 107.04,
+   "pa": 187.6,
+   "seed": 11,
+   "eff": 79.3,
+   "allPlay": "0-10"
+  }
+ ],
+ "moves": [
+  {
+   "type": "FREEAGENT",
+   "sp": 3,
+   "team": "Kim Jong Un Pleasure Squad",
+   "owner": "Aron Rogers",
+   "added": [
+    {
+     "n": "Bo Nix",
+     "pos": "QB",
+     "pts": 28.14
+    }
+   ],
+   "dropped": [
+    {
+     "n": "Jaxson Dart",
+     "pos": "QB",
+     "pts": 0
+    }
+   ]
+  },
+  {
+   "type": "WAIVER",
+   "sp": 3,
+   "team": "WPB Steel City",
+   "owner": "Bob Dorsch",
+   "added": [
+    {
+     "n": "Devaughn Vele",
+     "pos": "WR",
+     "pts": 5.4
+    }
+   ],
+   "dropped": [
+    {
+     "n": "Tank Bigsby",
+     "pos": "RB",
+     "pts": -1
+    }
+   ]
+  },
+  {
+   "type": "WAIVER",
+   "sp": 3,
+   "team": "WPB Steel City",
+   "owner": "Bob Dorsch",
+   "added": [
+    {
+     "n": "Jonah Coleman",
+     "pos": "RB",
+     "pts": 0
+    }
+   ],
+   "dropped": [
+    {
+     "n": "Rico Dowdle",
+     "pos": "RB",
+     "pts": 0
+    }
+   ]
+  },
+  {
+   "type": "WAIVER",
+   "sp": 3,
+   "team": "WPB Steel City",
+   "owner": "Bob Dorsch",
+   "added": [
+    {
+     "n": "Devaughn Vele",
+     "pos": "WR",
+     "pts": 5.4
+    }
+   ],
+   "dropped": [
+    {
+     "n": "Buccaneers D/ST",
+     "pos": "D/ST",
+     "pts": 5
+    }
+   ]
+  },
+  {
+   "type": "FREEAGENT",
+   "sp": 3,
+   "team": "Pack Up",
+   "owner": "Rahul Pahuja",
+   "added": [
+    {
+     "n": "Bryce Young",
+     "pos": "QB",
+     "pts": 15.64
+    }
+   ],
+   "dropped": [
+    {
+     "n": "Drake Maye",
+     "pos": "QB",
+     "pts": 3.76
+    }
+   ]
+  },
+  {
+   "type": "FREEAGENT",
+   "sp": 3,
+   "team": "Kim Jong Un Pleasure Squad",
+   "owner": "Aron Rogers",
+   "added": [
+    {
+     "n": "Jacory Croskey-Merritt",
+     "pos": "RB",
+     "pts": 4.8
+    }
+   ],
+   "dropped": [
+    {
+     "n": "Travis Hunter",
+     "pos": "WR",
+     "pts": 0
+    }
+   ]
+  },
+  {
+   "type": "FREEAGENT",
+   "sp": 3,
+   "team": "Napoleon's Army",
+   "owner": "Michael Turner",
+   "added": [
+    {
+     "n": "Dalton Schultz",
+     "pos": "TE",
+     "pts": 4.5
+    }
+   ],
+   "dropped": [
+    {
+     "n": "Tyler Allgeier",
+     "pos": "RB",
+     "pts": 2.9
+    }
+   ]
+  },
+  {
+   "type": "FREEAGENT",
+   "sp": 3,
+   "team": "WPB Steel City",
+   "owner": "Bob Dorsch",
+   "added": [
+    {
+     "n": "Rashod Bateman",
+     "pos": "WR",
+     "pts": 4.7
+    }
+   ],
+   "dropped": [
+    {
+     "n": "Jonah Coleman",
+     "pos": "RB",
+     "pts": 0
+    }
+   ]
+  },
+  {
+   "type": "WAIVER",
+   "sp": 3,
+   "team": "Balls Deep",
+   "owner": "Spencer Lentz",
+   "added": [
+    {
+     "n": "Drake Maye",
+     "pos": "QB",
+     "pts": 3.76
+    }
+   ],
+   "dropped": [
+    {
+     "n": "Bo Nix",
+     "pos": "QB",
+     "pts": 28.14
+    }
+   ]
+  },
+  {
+   "type": "FREEAGENT",
+   "sp": 3,
+   "team": "WPB Steel City",
+   "owner": "Bob Dorsch",
+   "added": [
+    {
+     "n": "Dontayvion Wicks",
+     "pos": "WR",
+     "pts": 4.2
+    }
+   ],
+   "dropped": [
+    {
+     "n": "Devaughn Vele",
+     "pos": "WR",
+     "pts": 5.4
+    }
+   ]
+  },
+  {
+   "type": "FREEAGENT",
+   "sp": 3,
+   "team": "Old Man Smashers",
+   "owner": "Ryan Kelly",
+   "added": [
+    {
+     "n": "Kyler Murray",
+     "pos": "QB",
+     "pts": 12.42
+    }
+   ],
+   "dropped": [
+    {
+     "n": "Rachaad White",
+     "pos": "RB",
+     "pts": 10.6
+    }
+   ]
+  },
+  {
+   "type": "FREEAGENT",
+   "sp": 3,
+   "team": "Colorado Narcoleptic Kestrels",
+   "owner": "Eric Olson",
+   "added": [
+    {
+     "n": "Michael Wilson",
+     "pos": "WR",
+     "pts": 20.4
+    }
+   ],
+   "dropped": [
+    {
+     "n": "Jonah Coleman",
+     "pos": "RB",
+     "pts": 0
+    }
+   ]
+  },
+  {
+   "type": "WAIVER",
+   "sp": 3,
+   "team": "WPB Steel City",
+   "owner": "Bob Dorsch",
+   "added": [
+    {
+     "n": "Tank Bigsby",
+     "pos": "RB",
+     "pts": -1
+    }
+   ],
+   "dropped": [
+    {
+     "n": "Jacory Croskey-Merritt",
+     "pos": "RB",
+     "pts": 4.8
+    }
+   ]
+  },
+  {
+   "type": "FREEAGENT",
+   "sp": 3,
+   "team": "I Loved You Tom Brady",
+   "owner": "Billy Norton",
+   "added": [
+    {
+     "n": "Panthers D/ST",
+     "pos": "D/ST",
+     "pts": 4
+    }
+   ],
+   "dropped": [
+    {
+     "n": "Ravens D/ST",
+     "pos": "D/ST",
+     "pts": 4
+    }
+   ]
+  },
+  {
+   "type": "WAIVER",
+   "sp": 3,
+   "team": "WPB Steel City",
+   "owner": "Bob Dorsch",
+   "added": [
+    {
+     "n": "Tyler Shough",
+     "pos": "QB",
+     "pts": 31.8
+    }
+   ],
+   "dropped": [
+    {
+     "n": "Chris Godwin Jr.",
+     "pos": "WR",
+     "pts": 4
+    }
+   ]
+  },
+  {
+   "type": "FREEAGENT",
+   "sp": 3,
+   "team": "WPB Steel City",
+   "owner": "Bob Dorsch",
+   "added": [
+    {
+     "n": "Vikings D/ST",
+     "pos": "D/ST",
+     "pts": 17
+    }
+   ],
+   "dropped": [
+    {
+     "n": "Texans D/ST",
+     "pos": "D/ST",
+     "pts": 10
+    }
+   ]
+  },
+  {
+   "type": "FREEAGENT",
+   "sp": 3,
+   "team": "Kim Jong Un Pleasure Squad",
+   "owner": "Aron Rogers",
+   "added": [
+    {
+     "n": "Rico Dowdle",
+     "pos": "RB",
+     "pts": 0
+    }
+   ],
+   "dropped": [
+    {
+     "n": "Wan'Dale Robinson",
+     "pos": "WR",
+     "pts": 15.2
+    }
+   ]
+  },
+  {
+   "type": "FREEAGENT",
+   "sp": 3,
+   "team": "Colorado Narcoleptic Kestrels",
+   "owner": "Eric Olson",
+   "added": [
+    {
+     "n": "Jonah Coleman",
+     "pos": "RB",
+     "pts": 0
+    }
+   ],
+   "dropped": [
+    {
+     "n": "Jonathon Brooks",
+     "pos": "RB",
+     "pts": 0
+    }
+   ]
+  },
+  {
+   "type": "FREEAGENT",
+   "sp": 3,
+   "team": "| croup",
+   "owner": "Aaron Jezioro",
+   "added": [
+    {
+     "n": "Denzel Boston",
+     "pos": "WR",
+     "pts": 7.1
+    }
+   ],
+   "dropped": [
+    {
+     "n": "Mike Washington Jr.",
+     "pos": "RB",
+     "pts": 11.4
+    }
+   ]
+  },
+  {
+   "type": "WAIVER",
+   "sp": 3,
+   "team": "Kim Jong Un Pleasure Squad",
+   "owner": "Aron Rogers",
+   "added": [
+    {
+     "n": "Jared Goff",
+     "pos": "QB",
+     "pts": 23.36
+    }
+   ],
+   "dropped": [
+    {
+     "n": "De'Zhaun Stribling",
+     "pos": "WR",
+     "pts": 0
+    }
+   ]
+  }
+ ],
+ "nextWeek": [
+  {
+   "home": "I Loved You Tom Brady",
+   "homeOwner": "Billy Norton",
+   "away": null,
+   "awayOwner": null
+  },
+  {
+   "home": "Midget Grinders",
+   "homeOwner": "Michael Smith",
+   "away": "| croup",
+   "awayOwner": "Aaron Jezioro"
+  },
+  {
+   "home": "Pack Up",
+   "homeOwner": "Rahul Pahuja",
+   "away": "Napoleon's Army",
+   "awayOwner": "Michael Turner"
+  },
+  {
+   "home": "WPB Steel City",
+   "homeOwner": "Bob Dorsch",
+   "away": "Old Man Smashers",
+   "awayOwner": "Ryan Kelly"
+  },
+  {
+   "home": "Dallas Dawgs",
+   "homeOwner": "Matt Davis",
+   "away": "Kim Jong Un Pleasure Squad",
+   "awayOwner": "Aron Rogers"
+  },
+  {
+   "home": "Colorado Narcoleptic Kestrels",
+   "homeOwner": "Eric Olson",
+   "away": "Balls Deep",
+   "awayOwner": "Spencer Lentz"
+  }
+ ],
+ "high": {
+  "name": "Napoleon's Army",
+  "owner": "Michael Turner",
+  "score": 138.24
+ },
+ "low": {
+  "name": "Old Man Smashers",
+  "owner": "Ryan Kelly",
+  "score": 54.52
+ },
+ "biggestMargin": {
+  "homeId": 1,
+  "home": "Napoleon's Army",
+  "homeOwner": "Michael Turner",
+  "homeScore": 138.24,
+  "awayId": 14,
+  "away": "I Loved You Tom Brady",
+  "awayOwner": "Billy Norton",
+  "awayScore": 66.48,
+  "winnerId": 1,
+  "winner": "Napoleon's Army",
+  "loserId": 14,
+  "margin": 71.76
+ },
+ "closest": {
+  "homeId": 16,
+  "home": "Colorado Narcoleptic Kestrels",
+  "homeOwner": "Eric Olson",
+  "homeScore": 125.96,
+  "awayId": 6,
+  "away": "Dallas Dawgs",
+  "awayOwner": "Matt Davis",
+  "awayScore": 125.2,
+  "winnerId": 16,
+  "winner": "Colorado Narcoleptic Kestrels",
+  "loserId": 6,
+  "margin": 0.76
+ }
+}
