@@ -14,42 +14,53 @@ from compute import DATA, load
 DOCS = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "docs")
 SITE = "https://slentz9090.github.io/weekly-booth"
 
+WK = int(os.environ.get("WEEK", "3"))
+
 HEAD = {
     "dlffl": {
         "league": "Dewart Lake FFL",
-        "headline": "DA Put 140 On His Wife And Boomer Had Her Winning",
+        "headline": "Scott Howard Has Played Doug Fields 13 Times And Lost All 13",
         "accent": "var(--gold)",
         "meta": "12 teams · snake · 0.5 PPR",
-        "note": ("Owner of the Week: Scott Reisert, 142.08 with a perfect lineup. Worst Owner: Adam Hershberger, "
-                 "58.86, the lowest score in that league."),
-        "date": "September 24, 2026",
-        "sub": "Six games, five pieces of hardware, the Bench Ledger, and twelve calls graded in public.",
+        "note": ("Owner of the Week: Scott Reisert, 160.76, second-best game of his career. Worst Owner: Casey "
+                 "Couture, 76.18, with 30.66 on the bench."),
+        "date": "September 29, 2026",
+        "sub": "Six games, a 13 and 0 rivalry, five pieces of hardware, the Bench Ledger, and twelve calls graded in public.",
     },
     "foh": {
         "league": "Friends of Herb",
-        "headline": "Michael Turner Benched 37 Points In A Game He Was Not Playing",
+        "headline": "Matt Davis Asked A Robot Who To Start And Lost By 0.76",
         "accent": "var(--blue)",
         "indexAccent": "var(--gold)",
         "meta": "11 teams · auction · 0.5 PPR",
-        "note": ("Owner of the Week: Aron Rogers, 125.20 with 3.70 wasted. Worst Owner: Ryan Kelly, 52.52, the "
-                 "lowest score of the season."),
-        "date": "September 24, 2026",
-        "sub": "Five games, a bye, the Freiermuth Rule, and eleven calls graded in public.",
+        "note": ("Owner of the Week: Michael Turner, 138.24. Worst Owner: Ryan Kelly, 54.52, for the second "
+                 "straight week."),
+        "date": "September 29, 2026",
+        "sub": "Five games, a bye, the robot reveal, the Freiermuth Rule, and ten calls graded in public.",
     },
 }
 
+EXTRA_CARDS = {
+    # published between issues; inserted above the previous week, below the new one
+    "foh": [(
+        "mnf-week-3.html", "Week 3 · Monday Night Special",
+        "Aron Rogers Needs A Bear To Outrun His Own Teammate", "September 28, 2026",
+        "Two unbeaten teams, fifteen meetings deep, down to two Chicago Bears running backs on Monday night.",
+    )],
+}
+
 TEASERS = {
-    "dlffl": """Gil and Boomer have Week 2 of the Dewart Lake FFL.
+    "dlffl": """Gil and Boomer have Week 3 of the Dewart Lake FFL.
 
-DA put 140.02 on Mama Beth, who left Patrick Mahomes and 31.98 on her bench, and Boomer had her winning that game. He went 4 and 8 on last week's calls and reads every one of them back at the top. Scott Reisert turned in a perfect lineup, one of you scored 58.86 and would have lost to the entire league, and the bench ledger now carries a running season total for all twelve of you.
+Doug Fields beat Scott Howard again. They have played 13 times and Fields has won all 13, which a fair coin does about once in 4,096 tries. Scott Reisert put up 160.76, the second-best game of his career, Casey Couture benched a quarterback who scored 30.66 in a game he lost by 12.86, and Mama Beth scored 77.92 one week after scoring 77.96. Boomer went 6 and 6 and reads every call back, right and wrong.
 
-{site}/dlffl/week-2.html
+{site}/dlffl/week-3.html
 """,
-    "foh": """Gil and Boomer have Week 2 of Friends of Herb.
+    "foh": """Gil and Boomer have Week 3 of Friends of Herb.
 
-Michael Turner benched Davante Adams and 37.50 on the one Sunday he had no opponent. Bob Dorsch released Pat Freiermuth, which has its own section for reasons everybody here understands. Rahul Pahuja took the week at 130.20, Josh Allen went for 46.82 in a loss, and Boomer went 4 and 6 and reads all of it back at the top.
+On Monday they promised to tell you whose robot lost Matt Davis his game by 0.76, and which call. Now they tell you, and it gets a little awkward for the booth. Aron Rogers is the last unbeaten team after Monday night, Michael Turner put up the week's best score, and Eric Olson's robot has already picked his Week 4 game. Boomer took the other side.
 
-{site}/foh/week-2.html
+{site}/foh/week-3.html
 """,
 }
 
@@ -66,7 +77,7 @@ def season_table(league, teams_note):
             f"<td style=\"text-align:right\">{t['pointsFor']:.2f}</td>"
             f"<td style=\"text-align:right;padding-right:0\">{t['allPlayW']}-{t['allPlayL']}</td></tr>"
         )
-    cap = f"Season through Week 2: points left on the bench, points scored, and record against the whole league"
+    cap = f"Season through Week {WK}: points left on the bench, points scored, and record against the whole league"
     return (
         f'<table class="led"><caption>{cap}</caption><thead><tr>'
         f'<th scope="col"><span class="sr">Rank</span></th><th scope="col">Owner</th>'
@@ -80,23 +91,36 @@ def league_index(league):
     path = os.path.join(DOCS, league, "index.html")
     h = open(path, encoding="utf-8").read()
     spec = HEAD[league]
-    card = (
-        f'<section class="mcard"><div class="mc-top"><h3 class="mc-rib" style="color:{spec.get("indexAccent", spec["accent"])}">Week 2</h3></div>'
-        f'<div class="mc-row win"><span class="mc-name"><a href="week-2.html">{spec["headline"]}</a></span>'
-        f'<span class="mc-sub">{spec["date"]}</span></div>'
-        f'<p class="mc-note">{spec["sub"]}</p></section>'
-    )
-    if 'href="week-2.html"' not in h:
-        h = h.replace('<h2 id="issues">Installments</h2>', '<h2 id="issues">Installments</h2>\n' + card, 1)
+    def mk(href, label, headline, date, sub):
+        return (
+            f'<section class="mcard"><div class="mc-top"><h3 class="mc-rib" style="color:{spec.get("indexAccent", spec["accent"])}">{label}</h3></div>'
+            f'<div class="mc-row win"><span class="mc-name"><a href="{href}">{headline}</a></span>'
+            f'<span class="mc-sub">{date}</span></div>'
+            f'<p class="mc-note">{sub}</p></section>'
+        )
+    cards = [mk(f"week-{WK}.html", f"Week {WK}", spec["headline"], spec["date"], spec["sub"])]
+    cards += [mk(*c) for c in EXTRA_CARDS.get(league, []) if f'href="{c[0]}"' not in h]
+    if f'href="week-{WK}.html"' not in h:
+        h = h.replace('<h2 id="issues">Installments</h2>', '<h2 id="issues">Installments</h2>\n' + "\n".join(cards), 1)
     # swap the Week 1 ledger table for the season table
     note = ("Bench points are your best possible lineup minus the one you turned in. All-play is your record "
             "against every other team every week.")
     h = re.sub(r'<table class="led">.*?</table>', lambda _m: season_table(league, note), h, count=1, flags=re.S)
+    dup = f'<p class="note">{note}</p>'
+    while dup + dup in h:
+        h = h.replace(dup + dup, dup)
+    # social tags follow the newest week
+    desc = {"dlffl": "Gil and Boomer call the Dewart Lake FFL every week of the 2026 season. Latest: " + spec["headline"] + ".",
+            "foh": "Gil and Boomer call Friends of Herb every week of the 2026 season. Latest: " + spec["headline"] + "."}[league]
+    h = re.sub(r'(<meta (?:name="description"|property="og:description"|name="twitter:description") content=")[^"]*(")',
+               lambda m_: m_.group(1) + desc + m_.group(2), h)
+    h = re.sub(r'og/' + league + r'-week-\d+\.png', f'og/{league}-week-{WK}.png', h)
     h = h.replace('<h2 id="season">The Bench Ledger</h2>',
                   '<h2 id="season">The Bench Ledger, Season To Date</h2>', 1)
     # the index pages embed the stylesheet they shipped with, so the Week 2
     # additions have to be injected here too
-    h = h.replace("</style>",
+    if ".led th:nth-child(4){text-align:right" not in h:
+      h = h.replace("</style>",
                   ".led th:nth-child(4){text-align:right;padding-right:0}\n"
                   "@media print{.led tbody tr:first-child th,"
                   ".led tbody tr:first-child td{color:#000 !important}}\n</style>", 1)

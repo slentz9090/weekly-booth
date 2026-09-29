@@ -111,8 +111,13 @@ def mcard(anchor, ribbon, win, lose, note, scale, key=False, ribbon_color="var(-
     for side, t in (("win", win), ("lose", lose)):
         fill = t["score"] / scale * 100
         tail = t["left"] / scale * 100
-        tail_div = (f'<div class="mc-tail" style="left:{fill:.2f}%;width:{tail:.2f}%"></div>'
-                    if t["left"] > 0 else "")
+        if t["left"] <= 0:
+            tail_div = ""
+        elif fill + tail > 97:
+            # a sliver at the far end would be clipped by the track: anchor it to the right edge
+            tail_div = f'<div class="mc-tail" style="right:0;width:{tail:.2f}%"></div>'
+        else:
+            tail_div = f'<div class="mc-tail" style="left:{fill:.2f}%;width:{tail:.2f}%"></div>'
         rows.append(
             f'<div class="mc-row {side}" id="t-{slug(t["team"])}">'
             f'<span class="mc-name">{esc(t["team"])}</span>'
@@ -240,7 +245,8 @@ NAV = (
 )
 
 
-def page(league, week, headline, dek, sections, meta_desc, og_image, other_link=None, nav=None):
+def page(league, week, headline, dek, sections, meta_desc, og_image, other_link=None, nav=None,
+         published="2026-09-24T09:00:00-04:00"):
     # other_link is ignored: the two leagues are separate audiences and never link to each other.
     """Assemble the whole page. `sections` is the body HTML between the dek and
     the footer, already built by the league module."""
@@ -279,7 +285,7 @@ def page(league, week, headline, dek, sections, meta_desc, og_image, other_link=
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700&display=swap">
-<meta property="article:published_time" content="2026-09-24T09:00:00-04:00">
+<meta property="article:published_time" content="{published}">
 <meta name="twitter:image:alt" content="{esc(headline)}">
 <style>{style}{EXTRA_CSS}</style>
 <script>document.documentElement.className+=' js';</script>

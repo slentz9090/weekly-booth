@@ -21,21 +21,21 @@ TX = "#e6eaf0"
 MUT = "#9aa4b2"
 
 CARDS = {
-    "dlffl-week-2.png": {
+    "dlffl-week-3.png": {
         "league": "Dewart Lake FFL",
-        "week": "Week 2 · 2026",
+        "week": "Week 3 · 2026",
         "accent": GOLD,
-        "headline": "DA Put 140 On His Own Wife And Boomer Had Her Winning",
-        "owner": "Owner of the Week · Scott Reisert, a perfect 142.08",
-        "worst": "Worst Owner · Adam Hershberger, 58.86",
+        "headline": "Scott Howard Has Played Doug Fields 13 Times And Lost All 13",
+        "owner": "Owner of the Week · Scott Reisert, 160.76",
+        "worst": "Worst Owner · Casey Couture, 76.18",
     },
-    "foh-week-2.png": {
+    "foh-week-3.png": {
         "league": "Friends of Herb",
-        "week": "Week 2 · 2026",
+        "week": "Week 3 · 2026",
         "accent": BLUE,
-        "headline": "Michael Turner Benched 37 Points In A Game Nobody Was Playing",
-        "owner": "Owner of the Week · Aron Rogers, 3.70 wasted",
-        "worst": "Worst Owner · Ryan Kelly, 52.52",
+        "headline": "Matt Davis Asked A Robot Who To Start And Lost By 0.76",
+        "owner": "Owner of the Week · Michael Turner, 138.24",
+        "worst": "Worst Owner · Ryan Kelly, 54.52",
     },
 }
 

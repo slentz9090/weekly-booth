@@ -205,7 +205,10 @@ def run(league, week):
             z = (w + 0.5 * t_ - n3 / 2) / math.sqrt(n3 / 4)
             lead, trail = (W, L) if w >= l else (L, W)
             lw, ll = max(w, l), min(w, l)
-            p_coin = 2 * (1 - N.cdf(abs(z))) or 1e-9
+            # exact two-sided binomial (ties count as half a game each way, rounded down):
+            # the normal approximation overstated rarity badly for short series (8-1 read 1 in 51, exact is 1 in 26)
+            _k, _n = max(w, l) + t_ // 2, w + l + 2 * (t_ // 2)
+            p_coin = min(1.0, 2 * sum(math.comb(_n, i) for i in range(_k, _n + 1)) / 2 ** _n) or 1e-9
             add("lifetime_series", [lead, trail], f"{lw}-{ll}" + (f"-{t_}" if t_ else ""), abs(z),
                 f"{D(lead)} leads {D(trail)} {lw}-{ll}" + (f"-{t_}" if t_ else "") +
                 f" all time ({span}). By coin flip that lopsided a series is about 1 in {round(1 / p_coin):,}.",
@@ -230,8 +233,9 @@ def run(league, week):
         if prev_streak_L >= 3:
             z = z_from_upper_tail(0.5 ** prev_streak_L)
             add("streak_snapped", [W, L], prev_streak_L, z,
-                f"{D(W)} beat {D(L)} for the first time in {prev_streak_L + 1} meetings, snapping a "
-                f"{prev_streak_L}-game streak.", "coin flip per game", span)
+                # "first time in N meetings" read as first-ever win on the Week 3 draft; say it plainly
+                f"{D(W)} beat {D(L)}, snapping {D(L)}'s {prev_streak_L}-game winning streak in the series "
+                f"(series now {w}-{l}" + (f"-{t_}" if t_ else "") + ").", "coin flip per game", span)
         if w == 1 and n3 >= 5:
             add("first_ever_win", [W, L], n3, z_from_upper_tail(0.5 ** (n3 - 1)),
                 f"{D(W)}'s first win over {D(L)} in {n3} meetings.", "coin flip per game", span)
