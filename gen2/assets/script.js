@@ -105,7 +105,13 @@
    var rm=window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches;
    j.addEventListener('change',function(){
      var el=j.value&&document.getElementById(j.value); if(!el)return;
+     // content-visibility placeholders (480px) collapse to real heights mid-scroll and the smooth
+     // scroll overshoots, so render every card first and re-aim once the scroll settles.
+     [].forEach.call(document.querySelectorAll('.mcard'),function(c){c.style.contentVisibility='visible';});
      el.scrollIntoView({behavior:rm?'auto':'smooth',block:'start'});
+     var re=function(){el.scrollIntoView({behavior:'auto',block:'start'});};
+     if('onscrollend' in window){window.addEventListener('scrollend',re,{once:true});}
+     setTimeout(re,rm?60:700);setTimeout(re,rm?120:1300);
      el.setAttribute('tabindex','-1');
      try{el.focus({preventScroll:true});}catch(e){}
      [].forEach.call(document.querySelectorAll('.lit'),function(x){x.classList.remove('lit');});
