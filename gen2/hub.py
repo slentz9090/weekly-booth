@@ -14,29 +14,29 @@ from compute import DATA, load
 DOCS = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "docs")
 SITE = "https://slentz9090.github.io/weekly-booth"
 
-WK = int(os.environ.get("WEEK", "3"))
+WK = int(os.environ.get("WEEK", "4"))
 
 HEAD = {
     "dlffl": {
         "league": "Dewart Lake FFL",
-        "headline": "Scott Howard Has Played Doug Fields 13 Times And Lost All 13",
+        "headline": "Geoff Cavender Is 4 And 0 And Nobody He Has Played Has Scored 93",
         "accent": "var(--gold)",
         "meta": "12 teams · snake · 0.5 PPR",
-        "note": ("Owner of the Week: Scott Reisert, 160.76, second-best game of his career. Worst Owner: Casey "
-                 "Couture, 76.18, with 30.66 on the bench."),
-        "date": "September 29, 2026",
-        "sub": "Six games, a 13 and 0 rivalry, five pieces of hardware, the Bench Ledger, and twelve calls graded in public.",
+        "note": ("Owner of the Week: Spencer Lentz, 165.18, the high score of the season. Worst Owner: Casey "
+                 "Couture, 87.82, for the second straight week."),
+        "date": "October 6, 2026",
+        "sub": "Six games, an unbeaten team that has not faced a 93, five pieces of hardware, the Bench Ledger, and twelve calls graded in public.",
     },
     "foh": {
         "league": "Friends of Herb",
-        "headline": "Matt Davis Asked A Robot Who To Start And Lost By 0.76",
+        "headline": "Eric Olson's Robot Told Him He Would Lose. He Lost By 57.",
         "accent": "var(--blue)",
         "indexAccent": "var(--gold)",
         "meta": "11 teams · auction · 0.5 PPR",
-        "note": ("Owner of the Week: Michael Turner, 138.24. Worst Owner: Ryan Kelly, 54.52, for the second "
-                 "straight week."),
-        "date": "September 29, 2026",
-        "sub": "Five games, a bye, the robot reveal, the Freiermuth Rule, and ten calls graded in public.",
+        "note": ("Owner of the Week: Michael Smith, 129.30 with a tenth of a point left behind. Worst Owner: "
+                 "Aaron Jezioro, who started a flex projected for zero."),
+        "date": "October 6, 2026",
+        "sub": "Five games, a bye, the robot's victory lap, the Freiermuth Rule, and eleven calls graded in public.",
     },
 }
 
@@ -50,17 +50,17 @@ EXTRA_CARDS = {
 }
 
 TEASERS = {
-    "dlffl": """Gil and Boomer have Week 3 of the Dewart Lake FFL.
+    "dlffl": """Gil and Boomer have Week 4 of the Dewart Lake FFL.
 
-Doug Fields beat Scott Howard again. They have played 13 times and Fields has won all 13, which a fair coin does about once in 4,096 tries. Scott Reisert put up 160.76, the second-best game of his career, Casey Couture benched a quarterback who scored 30.66 in a game he lost by 12.86, and Mama Beth scored 77.92 one week after scoring 77.96. Boomer went 6 and 6 and reads every call back, right and wrong.
+Geoff Cavender is 4 and 0 and seventh in the league in points. Nobody he has played has scored 93. Scott Howard lost to DA by 2.54 with two winning answers on his bench. Casey Couture signed the right player and benched him, again. Spencer Lentz took Owner of the Week and Waste of the Week on the same Sunday. Boomer had his first winning week and reads every call back.
 
-{site}/dlffl/week-3.html
+{site}/dlffl/week-4.html
 """,
-    "foh": """Gil and Boomer have Week 3 of Friends of Herb.
+    "foh": """Gil and Boomer have Week 4 of Friends of Herb.
 
-On Monday they promised to tell you whose robot lost Matt Davis his game by 0.76, and which call. Now they tell you, and it gets a little awkward for the booth. Aron Rogers is the last unbeaten team after Monday night, Michael Turner put up the week's best score, and Eric Olson's robot has already picked his Week 4 game. Boomer took the other side.
+Eric Olson built a robot. The robot told him he would lose to Spencer. Boomer took Olson anyway. Olson lost by 57, and the five players on Spencer's bench outscored Olson's nine starters. Matt Davis started the quarterback Boomer begged him to and ended Aron Rogers's unbeaten run, and Michael Turner set his best possible lineup and lost by 5.08. Boomer went 4 and 7 and is taking it personally.
 
-{site}/foh/week-3.html
+{site}/foh/week-4.html
 """,
 }
 
@@ -110,8 +110,8 @@ def league_index(league):
     while dup + dup in h:
         h = h.replace(dup + dup, dup)
     # social tags follow the newest week
-    desc = {"dlffl": "Gil and Boomer call the Dewart Lake FFL every week of the 2026 season. Latest: " + spec["headline"] + ".",
-            "foh": "Gil and Boomer call Friends of Herb every week of the 2026 season. Latest: " + spec["headline"] + "."}[league]
+    desc = {"dlffl": "Gil and Boomer call the Dewart Lake FFL every week of the 2026 season. Latest: " + spec["headline"].rstrip(".!?") + ".",
+            "foh": "Gil and Boomer call Friends of Herb every week of the 2026 season. Latest: " + spec["headline"].rstrip(".!?") + "."}[league]
     h = re.sub(r'(<meta (?:name="description"|property="og:description"|name="twitter:description") content=")[^"]*(")',
                lambda m_: m_.group(1) + desc + m_.group(2), h)
     h = re.sub(r'og/' + league + r'-week-\d+\.png', f'og/{league}-week-{WK}.png', h)

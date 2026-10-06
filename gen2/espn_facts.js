@@ -110,6 +110,9 @@ async function boothFacts(league, week) {
         bestBench: benchSorted[0] ? { n: benchSorted[0].n, pos: benchSorted[0].pos, pts: benchSorted[0].pts } : null,
         benchTop: benchSorted.slice(0, 2).map(p => ({ n: p.n, pos: p.pos, pts: p.pts, proj: p.proj })),
         starterLow: [...starters].sort((a, b) => a.pts - b.pts).slice(0, 2).map(p => ({ n: p.n, pos: p.pos, slot: p.slot, pts: p.pts, proj: p.proj })),
+        // additive since Week 4: the full lineup, so every claim on the page can be audited
+        starters: starters.map(p => ({ n: p.n, pos: p.pos, slot: p.slot, pts: p.pts, proj: p.proj })),
+        bench: bench.map(p => ({ n: p.n, pos: p.pos, pts: p.pts, proj: p.proj })),
       };
     }
   }

@@ -53,10 +53,12 @@ EXTRA_CSS = """
 .led td:nth-child(5),.led th:nth-child(5){text-align:right;white-space:nowrap;width:1%}
 .led td:nth-child(5){color:var(--mut)}
 .gr-open{color:var(--mut)}
-.led th:nth-child(4){text-align:right;padding-right:0}
+.led th:nth-child(4),.led .led-v{text-align:right;padding-right:10px}
+.led tbody th[scope=row]{overflow-wrap:break-word}
 .led td:nth-child(5){padding-right:0}
-@media (max-width:380px){.led{font-size:14px}.led td,.led th{padding-right:7px}
-  .led .led-v{white-space:normal}}
+@media (max-width:380px){.led{font-size:14px}.led td,.led th{padding-right:7px}}
+@media (max-width:384px){.led .led-v{white-space:normal}}
+@media (max-width:340px){.led td:first-child,.led thead th:first-child{display:none}}
 @media print{.led tbody tr:first-child th,.led tbody tr:first-child td{color:#000 !important}}
 @media print{.grade{border-color:#000;color:#000}}
 @media (forced-colors:active){.mc-row.lose .mc-fill{background:CanvasText}}

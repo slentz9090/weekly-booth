@@ -41,6 +41,10 @@ def score_rank(facts, owner):
 
 def player_pts(team, name):
     """Points for a named player on that team, from whichever list carries him."""
+    for key in ("starters", "bench"):          # full lineups, in the facts from Week 4 on
+        for p in team.get(key) or []:
+            if p["n"] == name:
+                return p["pts"]
     for key in ("top", "benchTop", "starterLow"):
         for p in team.get(key) or []:
             if p["n"] == name:
@@ -60,6 +64,8 @@ def player_pts(team, name):
 
 def started(team, name):
     """True if the player appears among that team's starters in the facts."""
+    if "starters" in team:
+        return any(p["n"] == name for p in team["starters"])
     for p in (team.get("top") or []) + (team.get("starterLow") or []):
         if p["n"] == name:
             return True
@@ -73,6 +79,8 @@ def started(team, name):
 
 
 def benched(team, name):
+    if "bench" in team:
+        return any(p["n"] == name for p in team["bench"])
     for p in team.get("benchTop") or []:
         if p["n"] == name:
             return True
@@ -112,6 +120,8 @@ def grade(pred, facts):
         a, b = owners[c["owner"]]["score"], owners[c["other"]]["score"]
         return ("RIGHT" if a > b else "WRONG", f"{a:.2f} to {b:.2f}")
     if t == "playerAtLeast":
+        if "starters" in team and not started(team, c["player"]):
+            return ("WRONG", f"{c['player']} did not start for {o}")
         p = player_pts(team, c["player"])
         if p is None:
             return (None, f"{c['player']} not in the week's top or bench lines for {o}")
@@ -185,7 +195,7 @@ def ledger_rows(facts, season):
         elif t["left"] > margin:
             verdict, cls = f"Yes, by {margin:.2f}", "yes"
         else:
-            verdict, cls = f"No, lost by {margin:.2f}", ""
+            verdict, cls = "No, lost", ""   # the margin is on the card; a long verdict wrapped to four lines on a phone
         rows.append((season["owners"].get(owner, {}).get("display", owner), t["left"], verdict, cls, total))
     return rows
 

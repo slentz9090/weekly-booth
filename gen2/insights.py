@@ -112,11 +112,10 @@ def run(league, week):
             w, l = ("home", "away") if g["winner"] == "home" else ("away", "home")
             loser_scores.append(g[l + "Score"])
             winner_scores.append(g[w + "Score"])
-    # this season's earlier weeks join the owner baselines (not the week being judged)
-    for o, v in season["owners"].items():
-        for wk in v["weeks"]:
-            if wk["week"] < week and wk.get("result") not in (None, "bye"):
-                own_scores[canon(o, owners_hist)].append(wk["score"])
+    # this season's earlier weeks are already in the game log: append_current.py adds them before
+    # the scan, so owner, league, margin, series and player-week ranks all count them.
+    assert any(g["year"] == SEASON for g in games) or week == 1, "run gen2/append_current.py first"
+    assert not any(g["year"] == SEASON and g["period"] >= week for g in games), "game log includes the week being judged"
     first_year = min(g["year"] for g in games)
     span = f"since {first_year}"
 

@@ -21,21 +21,21 @@ TX = "#e6eaf0"
 MUT = "#9aa4b2"
 
 CARDS = {
-    "dlffl-week-3.png": {
+    "dlffl-week-4.png": {
         "league": "Dewart Lake FFL",
-        "week": "Week 3 · 2026",
+        "week": "Week 4 · 2026",
         "accent": GOLD,
-        "headline": "Scott Howard Has Played Doug Fields 13 Times And Lost All 13",
-        "owner": "Owner of the Week · Scott Reisert, 160.76",
-        "worst": "Worst Owner · Casey Couture, 76.18",
+        "headline": "Geoff Cavender Is 4 And 0 And Nobody He Has Played Has Scored 93",
+        "owner": "Owner of the Week · Spencer Lentz, 165.18",
+        "worst": "Worst Owner · Casey Couture, 87.82",
     },
-    "foh-week-3.png": {
+    "foh-week-4.png": {
         "league": "Friends of Herb",
-        "week": "Week 3 · 2026",
+        "week": "Week 4 · 2026",
         "accent": BLUE,
-        "headline": "Matt Davis Asked A Robot Who To Start And Lost By 0.76",
-        "owner": "Owner of the Week · Michael Turner, 138.24",
-        "worst": "Worst Owner · Ryan Kelly, 54.52",
+        "headline": "Eric Olson's Robot Told Him He Would Lose. He Lost By 57.",
+        "owner": "Owner of the Week · Michael Smith, 129.30",
+        "worst": "Worst Owner · Aaron Jezioro, 115.12",
     },
 }
 
@@ -71,6 +71,11 @@ def card(name, spec):
     d.text((1136 - wk_w, 70), spec["week"], font=f_kicker, fill=spec["accent"])
 
     lines = wrap(d, spec["headline"], f_head, 1072)
+    # balance: never leave one short word alone on the last line
+    width = 1072
+    while len(lines) > 1 and len(lines[-1].split()) < 2 and width > 700:
+        width -= 40
+        lines = wrap(d, spec["headline"], f_head, width)
     y = 196
     for ln in lines[:4]:
         d.text((64, y), ln, font=f_head, fill=TX)
