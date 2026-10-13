@@ -1,0 +1,1971 @@
+{
+ "league": "dlffl",
+ "week": 5,
+ "tiers": {
+  "HEADLINE": 2,
+  "PROMOTE": 2,
+  "SUPPORT": 39,
+  "SUPPRESS": 34
+ },
+ "insights": [
+  {
+   "kind": "score_vs_own_career",
+   "owners": [
+    "Scott Howard"
+   ],
+   "value": 173.32,
+   "z": 1.92,
+   "tier": "HEADLINE",
+   "direction": "high",
+   "rarity": "the league sees this about once every 3 seasons",
+   "plain": "Scott Howard scored 173.32, the 1st-best game of 101 in a career since 2009.",
+   "baseline": "own career mean 105.8, n=100",
+   "scope": "since 2009",
+   "rankHigh": 1,
+   "rankLow": 101,
+   "games": 101,
+   "unitsPerWeek": 12,
+   "zUnit": 2.83,
+   "duplicate": false
+  },
+  {
+   "kind": "score_vs_league_all_time",
+   "owners": [
+    "Spencer Lentz"
+   ],
+   "value": 192.66,
+   "z": 1.81,
+   "tier": "HEADLINE",
+   "direction": "high",
+   "rarity": "the league sees this about once every 2 seasons",
+   "plain": "Spencer Lentz's 192.66 is the 9th-highest score in 2,839 team-weeks since 2009.",
+   "baseline": "2,839 single-week scores",
+   "scope": "since 2009",
+   "rankHigh": 9,
+   "rankLow": 2831,
+   "unitsPerWeek": 12,
+   "zUnit": 2.75,
+   "duplicate": false
+  },
+  {
+   "kind": "score_vs_own_career",
+   "owners": [
+    "Spencer Lentz"
+   ],
+   "value": 192.66,
+   "z": 1.78,
+   "tier": "HEADLINE",
+   "direction": "high",
+   "rarity": "the league sees this about 1 week in 27",
+   "plain": "Spencer Lentz scored 192.66, the 4th-best game of 249 in a career since 2009.",
+   "baseline": "own career mean 118.4, n=248",
+   "scope": "since 2009",
+   "rankHigh": 4,
+   "rankLow": 246,
+   "games": 249,
+   "unitsPerWeek": 12,
+   "zUnit": 2.73,
+   "duplicate": true
+  },
+  {
+   "kind": "blowout",
+   "owners": [
+    "Spencer Lentz",
+    "Adam Hershberger"
+   ],
+   "value": 84.11999999999999,
+   "z": 1.14,
+   "tier": "PROMOTE",
+   "direction": "high",
+   "rarity": "the league sees this about 1 week in 8",
+   "plain": "Spencer Lentz beat Adam Hershberger by 84.12, the 32nd-biggest margin in 1,420 games since 2009.",
+   "baseline": "1,420 margins",
+   "scope": "since 2009",
+   "unitsPerWeek": 6,
+   "zUnit": 2.01,
+   "duplicate": false
+  },
+  {
+   "kind": "score_vs_league_all_time",
+   "owners": [
+    "Scott Howard"
+   ],
+   "value": 173.32,
+   "z": 0.96,
+   "tier": "PROMOTE",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "Scott Howard's 173.32 is the 44th-highest score in 2,839 team-weeks since 2009.",
+   "baseline": "2,839 single-week scores",
+   "scope": "since 2009",
+   "rankHigh": 44,
+   "rankLow": 2796,
+   "unitsPerWeek": 12,
+   "zUnit": 2.16,
+   "duplicate": true
+  },
+  {
+   "kind": "bust",
+   "owners": [
+    "Kent Frenger"
+   ],
+   "value": -17.53,
+   "z": -0.79,
+   "tier": "PROMOTE",
+   "direction": "low",
+   "rarity": "ordinary",
+   "plain": "Tyler Shough was projected 17.4 and gave Kent Frenger -0.16, the 28th-worst miss by a projected 10-point starter in 7,403 since 2018.",
+   "baseline": "7,403 starts projected 10+",
+   "scope": "since 2018",
+   "player": "Tyler Shough",
+   "unitsPerWeek": 65.5,
+   "zUnit": -2.68,
+   "duplicate": false
+  },
+  {
+   "kind": "high_score_in_a_loss",
+   "owners": [
+    "Geoff Cavender",
+    "Dennis Couture"
+   ],
+   "value": 131.12,
+   "z": 0.59,
+   "tier": "SUPPORT",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "Geoff Cavender lost with 131.12, the 75th-most points in a loss in 1,418 games since 2009.",
+   "baseline": "1,418 losing scores",
+   "scope": "since 2009",
+   "unitsPerWeek": 6,
+   "zUnit": 1.62,
+   "duplicate": false
+  },
+  {
+   "kind": "score_vs_own_career",
+   "owners": [
+    "Dennis Couture"
+   ],
+   "value": 151.1,
+   "z": 0.57,
+   "tier": "SUPPORT",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "DA scored 151.10, the 9th-best game of 252 in a career since 2009.",
+   "baseline": "own career mean 104.5, n=251",
+   "scope": "since 2009",
+   "rankHigh": 9,
+   "rankLow": 244,
+   "games": 252,
+   "unitsPerWeek": 12,
+   "zUnit": 1.92,
+   "duplicate": false
+  },
+  {
+   "kind": "blowout",
+   "owners": [
+    "Scott Howard",
+    "Adam Calvelage"
+   ],
+   "value": 71.46,
+   "z": 0.56,
+   "tier": "SUPPORT",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "Scott Howard beat Adam Calvelage by 71.46, the 78th-biggest margin in 1,420 games since 2009.",
+   "baseline": "1,420 margins",
+   "scope": "since 2009",
+   "unitsPerWeek": 6,
+   "zUnit": 1.6,
+   "duplicate": false
+  },
+  {
+   "kind": "top_start_in_a_loss",
+   "owners": [
+    "Adam Calvelage"
+   ],
+   "value": 35.26,
+   "z": 0.49,
+   "tier": "SUPPORT",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "Adam Calvelage lost anyway with Jayden Daniels putting up 35.26, the 43rd-most by one starter in a loss in 6,079 since 2018.",
+   "baseline": "6,079 starts in losses",
+   "scope": "since 2018",
+   "player": "Jayden Daniels",
+   "unitsPerWeek": 53.8,
+   "zUnit": 2.46,
+   "duplicate": false
+  },
+  {
+   "kind": "score_vs_own_career",
+   "owners": [
+    "Beth Couture"
+   ],
+   "value": 66.7,
+   "z": -0.46,
+   "tier": "SUPPORT",
+   "direction": "low",
+   "rarity": "ordinary",
+   "plain": "Mama Beth scored 66.70, the 5th-worst game of 219 in a career since 2009.",
+   "baseline": "own career mean 111.8, n=218",
+   "scope": "since 2009",
+   "rankHigh": 215,
+   "rankLow": 5,
+   "games": 219,
+   "unitsPerWeek": 12,
+   "zUnit": -1.85,
+   "duplicate": false
+  },
+  {
+   "kind": "top_start",
+   "owners": [
+    "Spencer Lentz"
+   ],
+   "value": 42.46,
+   "z": 0.38,
+   "tier": "SUPPORT",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "Drake Maye gave Spencer Lentz 42.46, the 49th-best start in 12,171 player-weeks since 2018.",
+   "baseline": "12,171 starts",
+   "scope": "since 2018",
+   "player": "Drake Maye",
+   "unitsPerWeek": 107.7,
+   "zUnit": 2.65,
+   "duplicate": false
+  },
+  {
+   "kind": "low_score_in_a_win",
+   "owners": [
+    "Doug Fields",
+    "Casey Couture"
+   ],
+   "value": 92,
+   "z": 0.37,
+   "tier": "SUPPORT",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "Doug Fields won with 92.00, the 101st-fewest points in a win in 1,418 games since 2009.",
+   "baseline": "1,418 winning scores",
+   "scope": "since 2009",
+   "unitsPerWeek": 6,
+   "zUnit": 1.47,
+   "duplicate": false
+  },
+  {
+   "kind": "score_vs_league_all_time",
+   "owners": [
+    "Beth Couture"
+   ],
+   "value": 66.7,
+   "z": -0.34,
+   "tier": "SUPPORT",
+   "direction": "low",
+   "rarity": "ordinary",
+   "plain": "Mama Beth's 66.70 is the 107th-lowest score in 2,839 team-weeks since 2009.",
+   "baseline": "2,839 single-week scores",
+   "scope": "since 2009",
+   "rankHigh": 2733,
+   "rankLow": 107,
+   "unitsPerWeek": 12,
+   "zUnit": -1.78,
+   "duplicate": true
+  },
+  {
+   "kind": "blowout",
+   "owners": [
+    "Scott Reisert",
+    "Beth Couture"
+   ],
+   "value": 58.53999999999999,
+   "z": 0.11,
+   "tier": "SUPPORT",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "Scott Reisert beat Mama Beth by 58.54, the 139th-biggest margin in 1,420 games since 2009.",
+   "baseline": "1,420 margins",
+   "scope": "since 2009",
+   "unitsPerWeek": 6,
+   "zUnit": 1.3,
+   "duplicate": false
+  },
+  {
+   "kind": "season_luck",
+   "owners": [
+    "Geoff Cavender"
+   ],
+   "value": 1.64,
+   "z": 0.06,
+   "tier": "SUPPORT",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "Geoff Cavender is 4-1 with an all-play record of 26-29: 1.6 wins lucky so far.",
+   "baseline": "all-play expected wins",
+   "scope": "2026 season",
+   "unitsPerWeek": 12,
+   "zUnit": 1.62,
+   "duplicate": false
+  },
+  {
+   "kind": "lifetime_series",
+   "owners": [
+    "Spencer Lentz",
+    "Adam Hershberger"
+   ],
+   "value": "7-3",
+   "z": 0.05,
+   "tier": "SUPPORT",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "Spencer Lentz leads Adam Hershberger 7-3 all time (since 2009). By coin flip that lopsided a series is about 1 in 3.",
+   "baseline": "50/50 coin flip",
+   "scope": "since 2009",
+   "games": 10,
+   "unitsPerWeek": 6,
+   "zUnit": 1.26,
+   "duplicate": false
+  },
+  {
+   "kind": "score_vs_league_all_time",
+   "owners": [
+    "Dennis Couture"
+   ],
+   "value": 151.1,
+   "z": 0.0,
+   "tier": "SUPPORT",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "DA's 151.10 is the 179th-highest score in 2,839 team-weeks since 2009.",
+   "baseline": "2,839 single-week scores",
+   "scope": "since 2009",
+   "rankHigh": 179,
+   "rankLow": 2661,
+   "unitsPerWeek": 12,
+   "zUnit": 1.53,
+   "duplicate": true
+  },
+  {
+   "kind": "score_vs_own_career",
+   "owners": [
+    "Kent Frenger"
+   ],
+   "value": 97.34,
+   "z": -0.0,
+   "tier": "SUPPRESS",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "Kent Frenger scored 97.34, the 68th-worst game of 265 in a career since 2009.",
+   "baseline": "own career mean 112.6, n=264",
+   "scope": "since 2009",
+   "rankHigh": 198,
+   "rankLow": 68,
+   "games": 265,
+   "unitsPerWeek": 12,
+   "zUnit": -0.63,
+   "duplicate": false
+  },
+  {
+   "kind": "score_vs_league_all_time",
+   "owners": [
+    "Kent Frenger"
+   ],
+   "value": 97.34,
+   "z": -0.0,
+   "tier": "SUPPRESS",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "Kent Frenger's 97.34 is the 963rd-lowest score in 2,839 team-weeks since 2009.",
+   "baseline": "2,839 single-week scores",
+   "scope": "since 2009",
+   "rankHigh": 1877,
+   "rankLow": 963,
+   "unitsPerWeek": 12,
+   "zUnit": -0.42,
+   "duplicate": true
+  },
+  {
+   "kind": "score_vs_own_career",
+   "owners": [
+    "Casey Couture"
+   ],
+   "value": 73.9,
+   "z": -0.0,
+   "tier": "SUPPORT",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "Casey Couture scored 73.90, the 10th-worst game of 251 in a career since 2009.",
+   "baseline": "own career mean 114.8, n=250",
+   "scope": "since 2009",
+   "rankHigh": 242,
+   "rankLow": 10,
+   "games": 251,
+   "unitsPerWeek": 12,
+   "zUnit": -1.5,
+   "duplicate": false
+  },
+  {
+   "kind": "score_vs_league_all_time",
+   "owners": [
+    "Casey Couture"
+   ],
+   "value": 73.9,
+   "z": -0.0,
+   "tier": "SUPPORT",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "Casey Couture's 73.90 is the 203rd-lowest score in 2,839 team-weeks since 2009.",
+   "baseline": "2,839 single-week scores",
+   "scope": "since 2009",
+   "rankHigh": 2637,
+   "rankLow": 203,
+   "unitsPerWeek": 12,
+   "zUnit": -1.47,
+   "duplicate": true
+  },
+  {
+   "kind": "score_vs_own_career",
+   "owners": [
+    "Adam Calvelage"
+   ],
+   "value": 101.86,
+   "z": 0.0,
+   "tier": "SUPPRESS",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "Adam Calvelage scored 101.86, the 31st-best game of 61 in a career since 2009.",
+   "baseline": "own career mean 100.6, n=60",
+   "scope": "since 2009",
+   "rankHigh": 31,
+   "rankLow": 31,
+   "games": 61,
+   "unitsPerWeek": 12,
+   "zUnit": 0.06,
+   "duplicate": false
+  },
+  {
+   "kind": "score_vs_league_all_time",
+   "owners": [
+    "Adam Calvelage"
+   ],
+   "value": 101.86,
+   "z": -0.0,
+   "tier": "SUPPRESS",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "Adam Calvelage's 101.86 is the 1172nd-lowest score in 2,839 team-weeks since 2009.",
+   "baseline": "2,839 single-week scores",
+   "scope": "since 2009",
+   "rankHigh": 1667,
+   "rankLow": 1172,
+   "unitsPerWeek": 12,
+   "zUnit": -0.22,
+   "duplicate": true
+  },
+  {
+   "kind": "score_vs_own_career",
+   "owners": [
+    "Adam Hershberger"
+   ],
+   "value": 108.54,
+   "z": 0.0,
+   "tier": "SUPPRESS",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "Adam Hershberger scored 108.54, the 49th-best game of 117 in a career since 2009.",
+   "baseline": "own career mean 105.2, n=116",
+   "scope": "since 2009",
+   "rankHigh": 49,
+   "rankLow": 69,
+   "games": 117,
+   "unitsPerWeek": 12,
+   "zUnit": 0.13,
+   "duplicate": false
+  },
+  {
+   "kind": "score_vs_league_all_time",
+   "owners": [
+    "Adam Hershberger"
+   ],
+   "value": 108.54,
+   "z": 0.0,
+   "tier": "SUPPRESS",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "Adam Hershberger's 108.54 is the 1377th-highest score in 2,839 team-weeks since 2009.",
+   "baseline": "2,839 single-week scores",
+   "scope": "since 2009",
+   "rankHigh": 1377,
+   "rankLow": 1463,
+   "unitsPerWeek": 12,
+   "zUnit": 0.04,
+   "duplicate": true
+  },
+  {
+   "kind": "score_vs_own_career",
+   "owners": [
+    "Geoff Cavender"
+   ],
+   "value": 131.12,
+   "z": 0.0,
+   "tier": "SUPPORT",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "Geoff Cavender scored 131.12, the 4th-best game of 33 in a career since 2009.",
+   "baseline": "own career mean 102.1, n=32",
+   "scope": "since 2009",
+   "rankHigh": 4,
+   "rankLow": 30,
+   "games": 33,
+   "unitsPerWeek": 12,
+   "zUnit": 1.28,
+   "duplicate": false
+  },
+  {
+   "kind": "score_vs_league_all_time",
+   "owners": [
+    "Geoff Cavender"
+   ],
+   "value": 131.12,
+   "z": 0.0,
+   "tier": "SUPPRESS",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "Geoff Cavender's 131.12 is the 528th-highest score in 2,839 team-weeks since 2009.",
+   "baseline": "2,839 single-week scores",
+   "scope": "since 2009",
+   "rankHigh": 528,
+   "rankLow": 2312,
+   "unitsPerWeek": 12,
+   "zUnit": 0.89,
+   "duplicate": true
+  },
+  {
+   "kind": "score_vs_own_career",
+   "owners": [
+    "Scott Reisert"
+   ],
+   "value": 125.24,
+   "z": 0.0,
+   "tier": "SUPPRESS",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "Scott Reisert scored 125.24, the 15th-best game of 61 in a career since 2009.",
+   "baseline": "own career mean 107.3, n=60",
+   "scope": "since 2009",
+   "rankHigh": 15,
+   "rankLow": 47,
+   "games": 61,
+   "unitsPerWeek": 12,
+   "zUnit": 0.73,
+   "duplicate": false
+  },
+  {
+   "kind": "score_vs_league_all_time",
+   "owners": [
+    "Scott Reisert"
+   ],
+   "value": 125.24,
+   "z": 0.0,
+   "tier": "SUPPRESS",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "Scott Reisert's 125.24 is the 710th-highest score in 2,839 team-weeks since 2009.",
+   "baseline": "2,839 single-week scores",
+   "scope": "since 2009",
+   "rankHigh": 710,
+   "rankLow": 2130,
+   "unitsPerWeek": 12,
+   "zUnit": 0.67,
+   "duplicate": true
+  },
+  {
+   "kind": "score_vs_own_career",
+   "owners": [
+    "Doug Fields"
+   ],
+   "value": 92,
+   "z": -0.0,
+   "tier": "SUPPRESS",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "Doug Fields scored 92.00, the 25th-worst game of 127 in a career since 2009.",
+   "baseline": "own career mean 113.9, n=126",
+   "scope": "since 2009",
+   "rankHigh": 103,
+   "rankLow": 25,
+   "games": 127,
+   "unitsPerWeek": 12,
+   "zUnit": -0.85,
+   "duplicate": false
+  },
+  {
+   "kind": "score_vs_league_all_time",
+   "owners": [
+    "Doug Fields"
+   ],
+   "value": 92,
+   "z": -0.0,
+   "tier": "SUPPRESS",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "Doug Fields's 92.00 is the 738th-lowest score in 2,839 team-weeks since 2009.",
+   "baseline": "2,839 single-week scores",
+   "scope": "since 2009",
+   "rankHigh": 2095,
+   "rankLow": 738,
+   "unitsPerWeek": 12,
+   "zUnit": -0.64,
+   "duplicate": true
+  },
+  {
+   "kind": "score_vs_own_career",
+   "owners": [
+    "Ryan Reed"
+   ],
+   "value": 91.88,
+   "z": -0.0,
+   "tier": "SUPPRESS",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "Ryan Reed scored 91.88, the 26th-worst game of 80 in a career since 2009.",
+   "baseline": "own career mean 104.2, n=79",
+   "scope": "since 2009",
+   "rankHigh": 55,
+   "rankLow": 26,
+   "games": 80,
+   "unitsPerWeek": 12,
+   "zUnit": -0.5,
+   "duplicate": false
+  },
+  {
+   "kind": "score_vs_league_all_time",
+   "owners": [
+    "Ryan Reed"
+   ],
+   "value": 91.88,
+   "z": -0.0,
+   "tier": "SUPPRESS",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "Ryan Reed's 91.88 is the 735th-lowest score in 2,839 team-weeks since 2009.",
+   "baseline": "2,839 single-week scores",
+   "scope": "since 2009",
+   "rankHigh": 2104,
+   "rankLow": 735,
+   "unitsPerWeek": 12,
+   "zUnit": -0.65,
+   "duplicate": true
+  },
+  {
+   "kind": "high_score_in_a_loss",
+   "owners": [
+    "Adam Hershberger",
+    "Spencer Lentz"
+   ],
+   "value": 108.54,
+   "z": 0.0,
+   "tier": "SUPPRESS",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "Adam Hershberger lost with 108.54, the 355th-most points in a loss in 1,418 games since 2009.",
+   "baseline": "1,418 losing scores",
+   "scope": "since 2009",
+   "unitsPerWeek": 6,
+   "zUnit": 0.67,
+   "duplicate": true
+  },
+  {
+   "kind": "low_score_in_a_win",
+   "owners": [
+    "Spencer Lentz",
+    "Adam Hershberger"
+   ],
+   "value": 192.66,
+   "z": 0.0,
+   "tier": "SUPPRESS",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "Spencer Lentz won with 192.66, the 1410th-fewest points in a win in 1,418 games since 2009.",
+   "baseline": "1,418 winning scores",
+   "scope": "since 2009",
+   "unitsPerWeek": 6,
+   "zUnit": -0.0,
+   "duplicate": true
+  },
+  {
+   "kind": "active_streak",
+   "owners": [
+    "Spencer Lentz",
+    "Adam Hershberger"
+   ],
+   "value": 3,
+   "z": 0.0,
+   "tier": "SUPPORT",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "Spencer Lentz has now beaten Adam Hershberger 3 straight times.",
+   "baseline": "coin flip per game",
+   "scope": "since 2009",
+   "unitsPerWeek": 6,
+   "zUnit": 1.15,
+   "duplicate": false
+  },
+  {
+   "kind": "nail_biter",
+   "owners": [
+    "Doug Fields",
+    "Casey Couture"
+   ],
+   "value": 18.099999999999994,
+   "z": 0.0,
+   "tier": "SUPPRESS",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "Doug Fields beat Casey Couture by 18.10, the 570th-closest game in 1,420 since 2009.",
+   "baseline": "1,420 margins",
+   "scope": "since 2009",
+   "unitsPerWeek": 6,
+   "zUnit": 0.25,
+   "duplicate": true
+  },
+  {
+   "kind": "high_score_in_a_loss",
+   "owners": [
+    "Casey Couture",
+    "Doug Fields"
+   ],
+   "value": 73.9,
+   "z": 0.0,
+   "tier": "SUPPRESS",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "Casey Couture lost with 73.90, the 1224th-most points in a loss in 1,418 games since 2009.",
+   "baseline": "1,418 losing scores",
+   "scope": "since 2009",
+   "unitsPerWeek": 6,
+   "zUnit": -0.0,
+   "duplicate": true
+  },
+  {
+   "kind": "lifetime_series",
+   "owners": [
+    "Casey Couture",
+    "Doug Fields"
+   ],
+   "value": "7-6",
+   "z": 0.0,
+   "tier": "SUPPRESS",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "Casey Couture leads Doug Fields 7-6 all time (since 2009). By coin flip that lopsided a series is about 1 in 1.",
+   "baseline": "50/50 coin flip",
+   "scope": "since 2009",
+   "games": 13,
+   "unitsPerWeek": 6,
+   "zUnit": 0.28,
+   "duplicate": false
+  },
+  {
+   "kind": "high_score_in_a_loss",
+   "owners": [
+    "Beth Couture",
+    "Scott Reisert"
+   ],
+   "value": 66.7,
+   "z": 0.0,
+   "tier": "SUPPRESS",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "Mama Beth lost with 66.70, the 1315th-most points in a loss in 1,418 games since 2009.",
+   "baseline": "1,418 losing scores",
+   "scope": "since 2009",
+   "unitsPerWeek": 6,
+   "zUnit": -0.0,
+   "duplicate": true
+  },
+  {
+   "kind": "low_score_in_a_win",
+   "owners": [
+    "Scott Reisert",
+    "Beth Couture"
+   ],
+   "value": 125.24,
+   "z": 0.0,
+   "tier": "SUPPRESS",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "Scott Reisert won with 125.24, the 814th-fewest points in a win in 1,418 games since 2009.",
+   "baseline": "1,418 winning scores",
+   "scope": "since 2009",
+   "unitsPerWeek": 6,
+   "zUnit": -0.0,
+   "duplicate": true
+  },
+  {
+   "kind": "nail_biter",
+   "owners": [
+    "Dennis Couture",
+    "Geoff Cavender"
+   ],
+   "value": 19.97999999999999,
+   "z": 0.0,
+   "tier": "SUPPRESS",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "DA beat Geoff Cavender by 19.98, the 629th-closest game in 1,420 since 2009.",
+   "baseline": "1,420 margins",
+   "scope": "since 2009",
+   "unitsPerWeek": 6,
+   "zUnit": 0.14,
+   "duplicate": true
+  },
+  {
+   "kind": "low_score_in_a_win",
+   "owners": [
+    "Dennis Couture",
+    "Geoff Cavender"
+   ],
+   "value": 151.1,
+   "z": 0.0,
+   "tier": "SUPPRESS",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "DA won with 151.10, the 1249th-fewest points in a win in 1,418 games since 2009.",
+   "baseline": "1,418 winning scores",
+   "scope": "since 2009",
+   "unitsPerWeek": 6,
+   "zUnit": -0.0,
+   "duplicate": true
+  },
+  {
+   "kind": "streak_snapped",
+   "owners": [
+    "Dennis Couture",
+    "Geoff Cavender"
+   ],
+   "value": 3,
+   "z": 0.0,
+   "tier": "SUPPORT",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "DA beat Geoff Cavender, snapping Geoff Cavender's 3-game winning streak in the series (series now 1-3).",
+   "baseline": "coin flip per game",
+   "scope": "since 2009",
+   "unitsPerWeek": 6,
+   "zUnit": 1.15,
+   "duplicate": false
+  },
+  {
+   "kind": "nail_biter",
+   "owners": [
+    "Kent Frenger",
+    "Ryan Reed"
+   ],
+   "value": 5.460000000000008,
+   "z": 0.0,
+   "tier": "SUPPORT",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "Kent Frenger beat Ryan Reed by 5.46, the 184th-closest game in 1,420 since 2009.",
+   "baseline": "1,420 margins",
+   "scope": "since 2009",
+   "unitsPerWeek": 6,
+   "zUnit": 1.13,
+   "duplicate": false
+  },
+  {
+   "kind": "high_score_in_a_loss",
+   "owners": [
+    "Ryan Reed",
+    "Kent Frenger"
+   ],
+   "value": 91.88,
+   "z": 0.0,
+   "tier": "SUPPRESS",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "Ryan Reed lost with 91.88, the 781st-most points in a loss in 1,418 games since 2009.",
+   "baseline": "1,418 losing scores",
+   "scope": "since 2009",
+   "unitsPerWeek": 6,
+   "zUnit": -0.0,
+   "duplicate": true
+  },
+  {
+   "kind": "low_score_in_a_win",
+   "owners": [
+    "Kent Frenger",
+    "Ryan Reed"
+   ],
+   "value": 97.34,
+   "z": 0.0,
+   "tier": "SUPPORT",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "Kent Frenger won with 97.34, the 172nd-fewest points in a win in 1,418 games since 2009.",
+   "baseline": "1,418 winning scores",
+   "scope": "since 2009",
+   "unitsPerWeek": 6,
+   "zUnit": 1.17,
+   "duplicate": true
+  },
+  {
+   "kind": "high_score_in_a_loss",
+   "owners": [
+    "Adam Calvelage",
+    "Scott Howard"
+   ],
+   "value": 101.86,
+   "z": 0.0,
+   "tier": "SUPPRESS",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "Adam Calvelage lost with 101.86, the 509th-most points in a loss in 1,418 games since 2009.",
+   "baseline": "1,418 losing scores",
+   "scope": "since 2009",
+   "unitsPerWeek": 6,
+   "zUnit": 0.36,
+   "duplicate": true
+  },
+  {
+   "kind": "low_score_in_a_win",
+   "owners": [
+    "Scott Howard",
+    "Adam Calvelage"
+   ],
+   "value": 173.32,
+   "z": 0.0,
+   "tier": "SUPPRESS",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "Scott Howard won with 173.32, the 1375th-fewest points in a win in 1,418 games since 2009.",
+   "baseline": "1,418 winning scores",
+   "scope": "since 2009",
+   "unitsPerWeek": 6,
+   "zUnit": -0.0,
+   "duplicate": true
+  },
+  {
+   "kind": "season_luck",
+   "owners": [
+    "Dennis Couture"
+   ],
+   "value": 0.18,
+   "z": 0.0,
+   "tier": "SUPPRESS",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "DA is 4-1 with an all-play record of 42-13: 0.2 wins lucky so far.",
+   "baseline": "all-play expected wins",
+   "scope": "2026 season",
+   "unitsPerWeek": 12,
+   "zUnit": 0.22,
+   "duplicate": false
+  },
+  {
+   "kind": "season_luck",
+   "owners": [
+    "Beth Couture"
+   ],
+   "value": -0.27,
+   "z": -0.0,
+   "tier": "SUPPRESS",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "Mama Beth is 1-4 with an all-play record of 14-41: 0.3 wins unlucky so far.",
+   "baseline": "all-play expected wins",
+   "scope": "2026 season",
+   "unitsPerWeek": 12,
+   "zUnit": -0.43,
+   "duplicate": false
+  },
+  {
+   "kind": "season_luck",
+   "owners": [
+    "Kent Frenger"
+   ],
+   "value": 0.09,
+   "z": 0.0,
+   "tier": "SUPPRESS",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "Kent Frenger is 3-2 with an all-play record of 32-23: 0.1 wins lucky so far.",
+   "baseline": "all-play expected wins",
+   "scope": "2026 season",
+   "unitsPerWeek": 12,
+   "zUnit": 0.09,
+   "duplicate": false
+  },
+  {
+   "kind": "season_luck",
+   "owners": [
+    "Casey Couture"
+   ],
+   "value": 0.91,
+   "z": 0.0,
+   "tier": "SUPPORT",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "Casey Couture is 2-3 with an all-play record of 12-43: 0.9 wins lucky so far.",
+   "baseline": "all-play expected wins",
+   "scope": "2026 season",
+   "unitsPerWeek": 12,
+   "zUnit": 1.31,
+   "duplicate": false
+  },
+  {
+   "kind": "season_luck",
+   "owners": [
+    "Spencer Lentz"
+   ],
+   "value": -0.91,
+   "z": -0.0,
+   "tier": "SUPPORT",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "Spencer Lentz is 3-2 with an all-play record of 43-12: 0.9 wins unlucky so far.",
+   "baseline": "all-play expected wins",
+   "scope": "2026 season",
+   "unitsPerWeek": 12,
+   "zUnit": -1.23,
+   "duplicate": false
+  },
+  {
+   "kind": "season_luck",
+   "owners": [
+    "Ryan Reed"
+   ],
+   "value": -0.91,
+   "z": -0.0,
+   "tier": "SUPPRESS",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "Ryan Reed is 2-3 with an all-play record of 32-23: 0.9 wins unlucky so far.",
+   "baseline": "all-play expected wins",
+   "scope": "2026 season",
+   "unitsPerWeek": 12,
+   "zUnit": -0.91,
+   "duplicate": false
+  },
+  {
+   "kind": "season_luck",
+   "owners": [
+    "Scott Reisert"
+   ],
+   "value": 0.0,
+   "z": 0.0,
+   "tier": "SUPPRESS",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "Scott Reisert is 4-1 with an all-play record of 44-11: 0.0 wins unlucky so far.",
+   "baseline": "all-play expected wins",
+   "scope": "2026 season",
+   "unitsPerWeek": 12,
+   "zUnit": 0.0,
+   "duplicate": false
+  },
+  {
+   "kind": "season_luck",
+   "owners": [
+    "Doug Fields"
+   ],
+   "value": 0.18,
+   "z": 0.0,
+   "tier": "SUPPRESS",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "Doug Fields is 2-3 with an all-play record of 20-35: 0.2 wins lucky so far.",
+   "baseline": "all-play expected wins",
+   "scope": "2026 season",
+   "unitsPerWeek": 12,
+   "zUnit": 0.18,
+   "duplicate": false
+  },
+  {
+   "kind": "season_luck",
+   "owners": [
+    "Adam Hershberger"
+   ],
+   "value": -0.45,
+   "z": -0.0,
+   "tier": "SUPPRESS",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "Adam Hershberger is 1-4 with an all-play record of 16-39: 0.5 wins unlucky so far.",
+   "baseline": "all-play expected wins",
+   "scope": "2026 season",
+   "unitsPerWeek": 12,
+   "zUnit": -0.49,
+   "duplicate": false
+  },
+  {
+   "kind": "season_luck",
+   "owners": [
+    "Scott Howard"
+   ],
+   "value": -0.73,
+   "z": -0.0,
+   "tier": "SUPPRESS",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "Scott Howard is 1-4 with an all-play record of 19-36: 0.7 wins unlucky so far.",
+   "baseline": "all-play expected wins",
+   "scope": "2026 season",
+   "unitsPerWeek": 12,
+   "zUnit": -0.91,
+   "duplicate": false
+  },
+  {
+   "kind": "season_luck",
+   "owners": [
+    "Adam Calvelage"
+   ],
+   "value": 0.27,
+   "z": 0.0,
+   "tier": "SUPPRESS",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "Adam Calvelage is 3-2 with an all-play record of 30-25: 0.3 wins lucky so far.",
+   "baseline": "all-play expected wins",
+   "scope": "2026 season",
+   "unitsPerWeek": 12,
+   "zUnit": 0.31,
+   "duplicate": false
+  },
+  {
+   "kind": "bench_bomb",
+   "owners": [
+    "Spencer Lentz"
+   ],
+   "value": 20.94,
+   "z": 0.0,
+   "tier": "SUPPORT",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "Spencer Lentz left C.J. Stroud on the bench for 20.94, the 446th-most points by one benched player in 6,487 since 2018.",
+   "baseline": "6,487 bench player-weeks",
+   "scope": "since 2018",
+   "player": "C.J. Stroud",
+   "unitsPerWeek": 57.4,
+   "zUnit": 1.49,
+   "duplicate": false
+  },
+  {
+   "kind": "bust",
+   "owners": [
+    "Spencer Lentz"
+   ],
+   "value": -8.51,
+   "z": -0.0,
+   "tier": "SUPPORT",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "Romeo Doubs was projected 10.6 and gave Spencer Lentz 2.10, the 1165th-worst miss by a projected 10-point starter in 7,403 since 2018.",
+   "baseline": "7,403 starts projected 10+",
+   "scope": "since 2018",
+   "player": "Romeo Doubs",
+   "unitsPerWeek": 65.5,
+   "zUnit": -1.01,
+   "duplicate": false
+  },
+  {
+   "kind": "bust",
+   "owners": [
+    "Spencer Lentz"
+   ],
+   "value": -6.22,
+   "z": -0.0,
+   "tier": "SUPPRESS",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "Nico Collins was projected 14.3 and gave Spencer Lentz 8.10, the 2003rd-worst miss by a projected 10-point starter in 7,403 since 2018.",
+   "baseline": "7,403 starts projected 10+",
+   "scope": "since 2018",
+   "player": "Nico Collins",
+   "unitsPerWeek": 65.5,
+   "zUnit": -0.61,
+   "duplicate": false
+  },
+  {
+   "kind": "points_left",
+   "owners": [
+    "Spencer Lentz"
+   ],
+   "value": 7,
+   "z": 0.0,
+   "tier": "SUPPRESS",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "Spencer Lentz left 7.00 on the bench, the 897th-most in 1,357 team-weeks since 2018.",
+   "baseline": "1,357 team-weeks",
+   "scope": "since 2018",
+   "unitsPerWeek": 12,
+   "zUnit": -0.0,
+   "duplicate": false
+  },
+  {
+   "kind": "top_start",
+   "owners": [
+    "Dennis Couture"
+   ],
+   "value": 33.5,
+   "z": 0.0,
+   "tier": "SUPPORT",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "Josh Allen gave DA 33.50, the 303rd-best start in 12,171 player-weeks since 2018.",
+   "baseline": "12,171 starts",
+   "scope": "since 2018",
+   "player": "Josh Allen",
+   "unitsPerWeek": 107.7,
+   "zUnit": 1.96,
+   "duplicate": false
+  },
+  {
+   "kind": "bench_bomb",
+   "owners": [
+    "Dennis Couture"
+   ],
+   "value": 10.5,
+   "z": 0.0,
+   "tier": "SUPPRESS",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "DA left Woody Marks on the bench for 10.50, the 1760th-most points by one benched player in 6,487 since 2018.",
+   "baseline": "6,487 bench player-weeks",
+   "scope": "since 2018",
+   "player": "Woody Marks",
+   "unitsPerWeek": 57.4,
+   "zUnit": 0.61,
+   "duplicate": false
+  },
+  {
+   "kind": "perfect_lineup",
+   "owners": [
+    "Dennis Couture"
+   ],
+   "value": 0,
+   "z": 0.0,
+   "tier": "SUPPORT",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "DA set a perfect lineup, which happens in 12% of team-weeks since 2018.",
+   "baseline": "1,357 team-weeks",
+   "scope": "since 2018",
+   "unitsPerWeek": 12,
+   "zUnit": 1.2,
+   "duplicate": false
+  },
+  {
+   "kind": "top_start",
+   "owners": [
+    "Kent Frenger"
+   ],
+   "value": 17.1,
+   "z": 0.0,
+   "tier": "SUPPRESS",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "Trey McBride gave Kent Frenger 17.10, the 2920th-best start in 12,171 player-weeks since 2018.",
+   "baseline": "12,171 starts",
+   "scope": "since 2018",
+   "player": "Trey McBride",
+   "unitsPerWeek": 107.7,
+   "zUnit": 0.71,
+   "duplicate": false
+  },
+  {
+   "kind": "bench_bomb",
+   "owners": [
+    "Kent Frenger"
+   ],
+   "value": 1.6,
+   "z": 0.0,
+   "tier": "SUPPRESS",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "Kent Frenger left Alvin Kamara on the bench for 1.60, the 4470th-most points by one benched player in 6,487 since 2018.",
+   "baseline": "6,487 bench player-weeks",
+   "scope": "since 2018",
+   "player": "Alvin Kamara",
+   "unitsPerWeek": 57.4,
+   "zUnit": -0.0,
+   "duplicate": false
+  },
+  {
+   "kind": "bust",
+   "owners": [
+    "Kent Frenger"
+   ],
+   "value": -8.0,
+   "z": -0.0,
+   "tier": "SUPPRESS",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "Tony Pollard was projected 13.2 and gave Kent Frenger 5.20, the 1328th-worst miss by a projected 10-point starter in 7,403 since 2018.",
+   "baseline": "7,403 starts projected 10+",
+   "scope": "since 2018",
+   "player": "Tony Pollard",
+   "unitsPerWeek": 65.5,
+   "zUnit": -0.92,
+   "duplicate": false
+  },
+  {
+   "kind": "points_left",
+   "owners": [
+    "Kent Frenger"
+   ],
+   "value": 0.16,
+   "z": 0.0,
+   "tier": "SUPPRESS",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "Kent Frenger left 0.16 on the bench, the 1197th-most in 1,357 team-weeks since 2018.",
+   "baseline": "1,357 team-weeks",
+   "scope": "since 2018",
+   "unitsPerWeek": 12,
+   "zUnit": -0.0,
+   "duplicate": false
+  },
+  {
+   "kind": "top_start",
+   "owners": [
+    "Casey Couture"
+   ],
+   "value": 15.3,
+   "z": 0.0,
+   "tier": "SUPPRESS",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "D'Andre Swift gave Casey Couture 15.30, the 3593rd-best start in 12,171 player-weeks since 2018.",
+   "baseline": "12,171 starts",
+   "scope": "since 2018",
+   "player": "D'Andre Swift",
+   "unitsPerWeek": 107.7,
+   "zUnit": 0.54,
+   "duplicate": false
+  },
+  {
+   "kind": "top_start_in_a_loss",
+   "owners": [
+    "Casey Couture"
+   ],
+   "value": 15.3,
+   "z": 0.0,
+   "tier": "SUPPRESS",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "Casey Couture lost anyway with D'Andre Swift putting up 15.30, the 1416th-most by one starter in a loss in 6,079 since 2018.",
+   "baseline": "6,079 starts in losses",
+   "scope": "since 2018",
+   "player": "D'Andre Swift",
+   "unitsPerWeek": 53.8,
+   "zUnit": 0.73,
+   "duplicate": true
+  },
+  {
+   "kind": "bench_bomb",
+   "owners": [
+    "Casey Couture"
+   ],
+   "value": 14.4,
+   "z": 0.0,
+   "tier": "SUPPRESS",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "Casey Couture left J.K. Dobbins on the bench for 14.40, the 1110th-most points by one benched player in 6,487 since 2018.",
+   "baseline": "6,487 bench player-weeks",
+   "scope": "since 2018",
+   "player": "J.K. Dobbins",
+   "unitsPerWeek": 57.4,
+   "zUnit": 0.95,
+   "duplicate": false
+  },
+  {
+   "kind": "points_left",
+   "owners": [
+    "Casey Couture"
+   ],
+   "value": 17.9,
+   "z": 0.0,
+   "tier": "SUPPRESS",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "Casey Couture left 17.90 on the bench, the 418th-most in 1,357 team-weeks since 2018.",
+   "baseline": "1,357 team-weeks",
+   "scope": "since 2018",
+   "unitsPerWeek": 12,
+   "zUnit": 0.5,
+   "duplicate": false
+  },
+  {
+   "kind": "top_start",
+   "owners": [
+    "Beth Couture"
+   ],
+   "value": 15.8,
+   "z": 0.0,
+   "tier": "SUPPRESS",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "Justin Jefferson gave Mama Beth 15.80, the 3461st-best start in 12,171 player-weeks since 2018.",
+   "baseline": "12,171 starts",
+   "scope": "since 2018",
+   "player": "Justin Jefferson",
+   "unitsPerWeek": 107.7,
+   "zUnit": 0.57,
+   "duplicate": false
+  },
+  {
+   "kind": "top_start_in_a_loss",
+   "owners": [
+    "Beth Couture"
+   ],
+   "value": 15.8,
+   "z": 0.0,
+   "tier": "SUPPRESS",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "Mama Beth lost anyway with Justin Jefferson putting up 15.80, the 1346th-most by one starter in a loss in 6,079 since 2018.",
+   "baseline": "6,079 starts in losses",
+   "scope": "since 2018",
+   "player": "Justin Jefferson",
+   "unitsPerWeek": 53.8,
+   "zUnit": 0.77,
+   "duplicate": true
+  },
+  {
+   "kind": "bench_bomb",
+   "owners": [
+    "Beth Couture"
+   ],
+   "value": 8.7,
+   "z": 0.0,
+   "tier": "SUPPRESS",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "Mama Beth left Rashod Bateman on the bench for 8.70, the 2157th-most points by one benched player in 6,487 since 2018.",
+   "baseline": "6,487 bench player-weeks",
+   "scope": "since 2018",
+   "player": "Rashod Bateman",
+   "unitsPerWeek": 57.4,
+   "zUnit": 0.43,
+   "duplicate": false
+  },
+  {
+   "kind": "bust",
+   "owners": [
+    "Beth Couture"
+   ],
+   "value": -10.31,
+   "z": -0.0,
+   "tier": "SUPPORT",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "David Montgomery was projected 11.4 and gave Mama Beth 1.10, the 641st-worst miss by a projected 10-point starter in 7,403 since 2018.",
+   "baseline": "7,403 starts projected 10+",
+   "scope": "since 2018",
+   "player": "David Montgomery",
+   "unitsPerWeek": 65.5,
+   "zUnit": -1.36,
+   "duplicate": false
+  },
+  {
+   "kind": "points_left",
+   "owners": [
+    "Beth Couture"
+   ],
+   "value": 7.9,
+   "z": 0.0,
+   "tier": "SUPPRESS",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "Mama Beth left 7.90 on the bench, the 858th-most in 1,357 team-weeks since 2018.",
+   "baseline": "1,357 team-weeks",
+   "scope": "since 2018",
+   "unitsPerWeek": 12,
+   "zUnit": -0.0,
+   "duplicate": false
+  },
+  {
+   "kind": "top_start",
+   "owners": [
+    "Adam Calvelage"
+   ],
+   "value": 35.26,
+   "z": 0.0,
+   "tier": "SUPPORT",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "Jayden Daniels gave Adam Calvelage 35.26, the 231st-best start in 12,171 player-weeks since 2018.",
+   "baseline": "12,171 starts",
+   "scope": "since 2018",
+   "player": "Jayden Daniels",
+   "unitsPerWeek": 107.7,
+   "zUnit": 2.08,
+   "duplicate": true
+  },
+  {
+   "kind": "bench_bomb",
+   "owners": [
+    "Adam Calvelage"
+   ],
+   "value": 16.16,
+   "z": 0.0,
+   "tier": "SUPPORT",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "Adam Calvelage left Brock Purdy on the bench for 16.16, the 892nd-most points by one benched player in 6,487 since 2018.",
+   "baseline": "6,487 bench player-weeks",
+   "scope": "since 2018",
+   "player": "Brock Purdy",
+   "unitsPerWeek": 57.4,
+   "zUnit": 1.09,
+   "duplicate": false
+  },
+  {
+   "kind": "points_left",
+   "owners": [
+    "Adam Calvelage"
+   ],
+   "value": 6.5,
+   "z": 0.0,
+   "tier": "SUPPRESS",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "Adam Calvelage left 6.50 on the bench, the 921st-most in 1,357 team-weeks since 2018.",
+   "baseline": "1,357 team-weeks",
+   "scope": "since 2018",
+   "unitsPerWeek": 12,
+   "zUnit": -0.0,
+   "duplicate": false
+  },
+  {
+   "kind": "top_start",
+   "owners": [
+    "Adam Hershberger"
+   ],
+   "value": 26.6,
+   "z": 0.0,
+   "tier": "SUPPORT",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "Malik Nabers gave Adam Hershberger 26.60, the 881st-best start in 12,171 player-weeks since 2018.",
+   "baseline": "12,171 starts",
+   "scope": "since 2018",
+   "player": "Malik Nabers",
+   "unitsPerWeek": 107.7,
+   "zUnit": 1.46,
+   "duplicate": false
+  },
+  {
+   "kind": "top_start_in_a_loss",
+   "owners": [
+    "Adam Hershberger"
+   ],
+   "value": 26.6,
+   "z": 0.0,
+   "tier": "SUPPORT",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "Adam Hershberger lost anyway with Malik Nabers putting up 26.60, the 251st-most by one starter in a loss in 6,079 since 2018.",
+   "baseline": "6,079 starts in losses",
+   "scope": "since 2018",
+   "player": "Malik Nabers",
+   "unitsPerWeek": 53.8,
+   "zUnit": 1.74,
+   "duplicate": true
+  },
+  {
+   "kind": "bench_bomb",
+   "owners": [
+    "Adam Hershberger"
+   ],
+   "value": 17.7,
+   "z": 0.0,
+   "tier": "SUPPORT",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "Adam Hershberger left Jameson Williams on the bench for 17.70, the 691st-most points by one benched player in 6,487 since 2018.",
+   "baseline": "6,487 bench player-weeks",
+   "scope": "since 2018",
+   "player": "Jameson Williams",
+   "unitsPerWeek": 57.4,
+   "zUnit": 1.25,
+   "duplicate": false
+  },
+  {
+   "kind": "points_left",
+   "owners": [
+    "Adam Hershberger"
+   ],
+   "value": 25.3,
+   "z": 0.0,
+   "tier": "SUPPORT",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "Adam Hershberger left 25.30 on the bench, the 209th-most in 1,357 team-weeks since 2018.",
+   "baseline": "1,357 team-weeks",
+   "scope": "since 2018",
+   "unitsPerWeek": 12,
+   "zUnit": 1.02,
+   "duplicate": false
+  },
+  {
+   "kind": "top_start",
+   "owners": [
+    "Scott Howard"
+   ],
+   "value": 33.5,
+   "z": 0.0,
+   "tier": "SUPPORT",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "Bucky Irving gave Scott Howard 33.50, the 303rd-best start in 12,171 player-weeks since 2018.",
+   "baseline": "12,171 starts",
+   "scope": "since 2018",
+   "player": "Bucky Irving",
+   "unitsPerWeek": 107.7,
+   "zUnit": 1.96,
+   "duplicate": false
+  },
+  {
+   "kind": "bench_bomb",
+   "owners": [
+    "Scott Howard"
+   ],
+   "value": 26.9,
+   "z": 0.0,
+   "tier": "SUPPORT",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "Scott Howard left Isaiah Likely on the bench for 26.90, the 157th-most points by one benched player in 6,487 since 2018.",
+   "baseline": "6,487 bench player-weeks",
+   "scope": "since 2018",
+   "player": "Isaiah Likely",
+   "unitsPerWeek": 57.4,
+   "zUnit": 1.98,
+   "duplicate": false
+  },
+  {
+   "kind": "bust",
+   "owners": [
+    "Scott Howard"
+   ],
+   "value": -9.54,
+   "z": -0.0,
+   "tier": "SUPPORT",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "Michael Wilson was projected 14.8 and gave Scott Howard 5.28, the 851st-worst miss by a projected 10-point starter in 7,403 since 2018.",
+   "baseline": "7,403 starts projected 10+",
+   "scope": "since 2018",
+   "player": "Michael Wilson",
+   "unitsPerWeek": 65.5,
+   "zUnit": -1.2,
+   "duplicate": false
+  },
+  {
+   "kind": "points_left",
+   "owners": [
+    "Scott Howard"
+   ],
+   "value": 21.62,
+   "z": 0.0,
+   "tier": "SUPPRESS",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "Scott Howard left 21.62 on the bench, the 295th-most in 1,357 team-weeks since 2018.",
+   "baseline": "1,357 team-weeks",
+   "scope": "since 2018",
+   "unitsPerWeek": 12,
+   "zUnit": 0.78,
+   "duplicate": false
+  },
+  {
+   "kind": "top_start",
+   "owners": [
+    "Geoff Cavender"
+   ],
+   "value": 30.32,
+   "z": 0.0,
+   "tier": "SUPPORT",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "Matthew Stafford gave Geoff Cavender 30.32, the 514th-best start in 12,171 player-weeks since 2018.",
+   "baseline": "12,171 starts",
+   "scope": "since 2018",
+   "player": "Matthew Stafford",
+   "unitsPerWeek": 107.7,
+   "zUnit": 1.73,
+   "duplicate": false
+  },
+  {
+   "kind": "top_start_in_a_loss",
+   "owners": [
+    "Geoff Cavender"
+   ],
+   "value": 30.32,
+   "z": 0.0,
+   "tier": "SUPPORT",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "Geoff Cavender lost anyway with Matthew Stafford putting up 30.32, the 129th-most by one starter in a loss in 6,079 since 2018.",
+   "baseline": "6,079 starts in losses",
+   "scope": "since 2018",
+   "player": "Matthew Stafford",
+   "unitsPerWeek": 53.8,
+   "zUnit": 2.03,
+   "duplicate": true
+  },
+  {
+   "kind": "bench_bomb",
+   "owners": [
+    "Geoff Cavender"
+   ],
+   "value": 29.28,
+   "z": 0.0,
+   "tier": "SUPPORT",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "Geoff Cavender left Jordan Love on the bench for 29.28, the 100th-most points by one benched player in 6,487 since 2018.",
+   "baseline": "6,487 bench player-weeks",
+   "scope": "since 2018",
+   "player": "Jordan Love",
+   "unitsPerWeek": 57.4,
+   "zUnit": 2.16,
+   "duplicate": false
+  },
+  {
+   "kind": "perfect_lineup",
+   "owners": [
+    "Geoff Cavender"
+   ],
+   "value": 0,
+   "z": 0.0,
+   "tier": "SUPPORT",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "Geoff Cavender set a perfect lineup, which happens in 12% of team-weeks since 2018.",
+   "baseline": "1,357 team-weeks",
+   "scope": "since 2018",
+   "unitsPerWeek": 12,
+   "zUnit": 1.2,
+   "duplicate": false
+  },
+  {
+   "kind": "top_start",
+   "owners": [
+    "Scott Reisert"
+   ],
+   "value": 38.2,
+   "z": 0.0,
+   "tier": "SUPPORT",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "Jahmyr Gibbs gave Scott Reisert 38.20, the 129th-best start in 12,171 player-weeks since 2018.",
+   "baseline": "12,171 starts",
+   "scope": "since 2018",
+   "player": "Jahmyr Gibbs",
+   "unitsPerWeek": 107.7,
+   "zUnit": 2.31,
+   "duplicate": false
+  },
+  {
+   "kind": "bench_bomb",
+   "owners": [
+    "Scott Reisert"
+   ],
+   "value": 18.26,
+   "z": 0.0,
+   "tier": "SUPPORT",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "Scott Reisert left Kyler Murray on the bench for 18.26, the 632nd-most points by one benched player in 6,487 since 2018.",
+   "baseline": "6,487 bench player-weeks",
+   "scope": "since 2018",
+   "player": "Kyler Murray",
+   "unitsPerWeek": 57.4,
+   "zUnit": 1.3,
+   "duplicate": false
+  },
+  {
+   "kind": "bust",
+   "owners": [
+    "Scott Reisert"
+   ],
+   "value": -11.46,
+   "z": -0.0,
+   "tier": "SUPPORT",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "Jeremiyah Love was projected 13.7 and gave Scott Reisert 2.20, the 417th-worst miss by a projected 10-point starter in 7,403 since 2018.",
+   "baseline": "7,403 starts projected 10+",
+   "scope": "since 2018",
+   "player": "Jeremiyah Love",
+   "unitsPerWeek": 65.5,
+   "zUnit": -1.59,
+   "duplicate": false
+  },
+  {
+   "kind": "points_left",
+   "owners": [
+    "Scott Reisert"
+   ],
+   "value": 6.1,
+   "z": 0.0,
+   "tier": "SUPPRESS",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "Scott Reisert left 6.10 on the bench, the 940th-most in 1,357 team-weeks since 2018.",
+   "baseline": "1,357 team-weeks",
+   "scope": "since 2018",
+   "unitsPerWeek": 12,
+   "zUnit": -0.0,
+   "duplicate": false
+  },
+  {
+   "kind": "top_start",
+   "owners": [
+    "Doug Fields"
+   ],
+   "value": 25.3,
+   "z": 0.0,
+   "tier": "SUPPORT",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "James Cook III gave Doug Fields 25.30, the 1071st-best start in 12,171 player-weeks since 2018.",
+   "baseline": "12,171 starts",
+   "scope": "since 2018",
+   "player": "James Cook III",
+   "unitsPerWeek": 107.7,
+   "zUnit": 1.35,
+   "duplicate": false
+  },
+  {
+   "kind": "bench_bomb",
+   "owners": [
+    "Doug Fields"
+   ],
+   "value": 16,
+   "z": 0.0,
+   "tier": "SUPPORT",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "Doug Fields left Rhamondre Stevenson on the bench for 16.00, the 901st-most points by one benched player in 6,487 since 2018.",
+   "baseline": "6,487 bench player-weeks",
+   "scope": "since 2018",
+   "player": "Rhamondre Stevenson",
+   "unitsPerWeek": 57.4,
+   "zUnit": 1.09,
+   "duplicate": false
+  },
+  {
+   "kind": "points_left",
+   "owners": [
+    "Doug Fields"
+   ],
+   "value": 16,
+   "z": 0.0,
+   "tier": "SUPPRESS",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "Doug Fields left 16.00 on the bench, the 501st-most in 1,357 team-weeks since 2018.",
+   "baseline": "1,357 team-weeks",
+   "scope": "since 2018",
+   "unitsPerWeek": 12,
+   "zUnit": 0.33,
+   "duplicate": false
+  },
+  {
+   "kind": "top_start",
+   "owners": [
+    "Ryan Reed"
+   ],
+   "value": 24.78,
+   "z": 0.0,
+   "tier": "SUPPORT",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "Jacoby Brissett gave Ryan Reed 24.78, the 1173rd-best start in 12,171 player-weeks since 2018.",
+   "baseline": "12,171 starts",
+   "scope": "since 2018",
+   "player": "Jacoby Brissett",
+   "unitsPerWeek": 107.7,
+   "zUnit": 1.3,
+   "duplicate": false
+  },
+  {
+   "kind": "top_start_in_a_loss",
+   "owners": [
+    "Ryan Reed"
+   ],
+   "value": 24.78,
+   "z": 0.0,
+   "tier": "SUPPORT",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "Ryan Reed lost anyway with Jacoby Brissett putting up 24.78, the 361st-most by one starter in a loss in 6,079 since 2018.",
+   "baseline": "6,079 starts in losses",
+   "scope": "since 2018",
+   "player": "Jacoby Brissett",
+   "unitsPerWeek": 53.8,
+   "zUnit": 1.56,
+   "duplicate": true
+  },
+  {
+   "kind": "bench_bomb",
+   "owners": [
+    "Ryan Reed"
+   ],
+   "value": 15,
+   "z": 0.0,
+   "tier": "SUPPORT",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "Ryan Reed left Texans D/ST on the bench for 15.00, the 1029th-most points by one benched player in 6,487 since 2018.",
+   "baseline": "6,487 bench player-weeks",
+   "scope": "since 2018",
+   "player": "Texans D/ST",
+   "unitsPerWeek": 57.4,
+   "zUnit": 1.0,
+   "duplicate": false
+  },
+  {
+   "kind": "points_left",
+   "owners": [
+    "Ryan Reed"
+   ],
+   "value": 16.5,
+   "z": 0.0,
+   "tier": "SUPPRESS",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "Ryan Reed left 16.50 on the bench, the 475th-most in 1,357 team-weeks since 2018.",
+   "baseline": "1,357 team-weeks",
+   "scope": "since 2018",
+   "unitsPerWeek": 12,
+   "zUnit": 0.39,
+   "duplicate": false
+  },
+  {
+   "kind": "benched_the_win",
+   "owners": [
+    "Ryan Reed"
+   ],
+   "value": 11.04,
+   "z": 0.0,
+   "tier": "SUPPORT",
+   "direction": "high",
+   "rarity": "ordinary",
+   "plain": "Ryan Reed lost by 5.46 with 16.50 on the bench (started Steelers D/ST for 1, benched Texans D/ST for 15).",
+   "baseline": "losses where the bench held the margin",
+   "scope": "since 2018",
+   "decisive": true,
+   "unitsPerWeek": 12,
+   "zUnit": 1.44,
+   "duplicate": true
+  }
+ ],
+ "note": "Generated by gen2/insights.py. The page never prints z or sigma; use `plain` and `rarity`."
+}

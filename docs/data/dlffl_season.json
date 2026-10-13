@@ -2,9 +2,9 @@
  "league": "dlffl",
  "leagueName": "Dewart Lake FFL",
  "season": 2026,
- "throughWeek": 4,
- "updated": "2026-10-06",
- "note": "Week 4 published 2026-10-06, on time. Boomer went 7 and 5, his first winning week, and is 17 and 19 on the season. Grade every call that resolves at the TOP of the next issue, right or wrong, before anything else, then make a new call on every team at the bottom.",
+ "throughWeek": 5,
+ "updated": "2026-10-13",
+ "note": "Week 5 published 2026-10-13, on time. Boomer went 6 and 6 and is 23 and 25 on the season. From Week 5 Boomer runs at full heat. Grade every call that resolves at the TOP of the next issue, right or wrong, before anything else, then make a new call on every team at the bottom.",
  "owners": {
   "dennis couture": {
    "team": "DA The Badenov's",
@@ -78,20 +78,32 @@
       "startedPts": 14.5,
       "cost": 16
      }
+    },
+    {
+     "week": 5,
+     "score": 151.1,
+     "benchPoints": 0,
+     "optimal": 151.1,
+     "allPlayW": 9,
+     "allPlayL": 2,
+     "result": "won",
+     "margin": 19.98,
+     "opponent": "Geoff Cavender"
     }
    ],
    "totals": {
-    "pointsFor": 518.46,
+    "pointsFor": 669.56,
     "benchPoints": 40.3,
-    "allPlayW": 33,
-    "allPlayL": 11,
-    "weeksPlayed": 4
+    "allPlayW": 42,
+    "allPlayL": 13,
+    "weeksPlayed": 5
    },
    "awards": {
     "ownerOfWeek": [],
     "worstOwner": [],
     "startOfWeek": [
-     1
+     1,
+     5
     ],
     "sitOfWeek": [],
     "wasteOfWeek": []
@@ -169,20 +181,40 @@
       "startedPts": 1.5,
       "cost": 1.1
      }
+    },
+    {
+     "week": 5,
+     "score": 66.7,
+     "benchPoints": 7.9,
+     "optimal": 74.6,
+     "allPlayW": 0,
+     "allPlayL": 11,
+     "result": "lost",
+     "margin": 58.54,
+     "opponent": "Scott Reisert",
+     "worstSit": {
+      "benched": "Dallas Goedert",
+      "pts": 6.8,
+      "started": "Michael Mayer",
+      "startedPts": 0.7,
+      "cost": 6.1
+     }
     }
    ],
    "totals": {
-    "pointsFor": 394.3,
-    "benchPoints": 49.64,
+    "pointsFor": 461.0,
+    "benchPoints": 57.54,
     "allPlayW": 14,
-    "allPlayL": 30,
-    "weeksPlayed": 4
+    "allPlayL": 41,
+    "weeksPlayed": 5
    },
    "awards": {
     "ownerOfWeek": [
      1
     ],
-    "worstOwner": [],
+    "worstOwner": [
+     5
+    ],
     "startOfWeek": [],
     "sitOfWeek": [
      2
@@ -262,14 +294,32 @@
       "startedPts": 10.1,
       "cost": 10.2
      }
+    },
+    {
+     "week": 5,
+     "score": 97.34,
+     "benchPoints": 0.16,
+     "optimal": 97.5,
+     "allPlayW": 4,
+     "allPlayL": 7,
+     "result": "won",
+     "margin": 5.46,
+     "opponent": "Ryan Reed",
+     "worstSit": {
+      "benched": "Caleb Williams",
+      "pts": 0,
+      "started": "Tyler Shough",
+      "startedPts": -0.16,
+      "cost": 0.16
+     }
     }
    ],
    "totals": {
-    "pointsFor": 473.62,
-    "benchPoints": 30.7,
-    "allPlayW": 28,
-    "allPlayL": 16,
-    "weeksPlayed": 4
+    "pointsFor": 570.96,
+    "benchPoints": 30.86,
+    "allPlayW": 32,
+    "allPlayL": 23,
+    "weeksPlayed": 5
    },
    "awards": {
     "ownerOfWeek": [],
@@ -351,14 +401,32 @@
       "startedPts": 6,
       "cost": 15.4
      }
+    },
+    {
+     "week": 5,
+     "score": 73.9,
+     "benchPoints": 17.9,
+     "optimal": 91.8,
+     "allPlayW": 1,
+     "allPlayL": 10,
+     "result": "lost",
+     "margin": 18.1,
+     "opponent": "Doug Fields",
+     "worstSit": {
+      "benched": "Emeka Egbuka",
+      "pts": 14.2,
+      "started": "KC Concepcion",
+      "startedPts": 1,
+      "cost": 13.2
+     }
     }
    ],
    "totals": {
-    "pointsFor": 387.72,
-    "benchPoints": 92.28,
-    "allPlayW": 11,
-    "allPlayL": 33,
-    "weeksPlayed": 4
+    "pointsFor": 461.62,
+    "benchPoints": 110.18,
+    "allPlayW": 12,
+    "allPlayL": 43,
+    "weeksPlayed": 5
    },
    "awards": {
     "ownerOfWeek": [],
@@ -436,18 +504,37 @@
       "startedPts": 1.5,
       "cost": 22.7
      }
+    },
+    {
+     "week": 5,
+     "score": 192.66,
+     "benchPoints": 7,
+     "optimal": 199.66,
+     "allPlayW": 11,
+     "allPlayL": 0,
+     "result": "won",
+     "margin": 84.12,
+     "opponent": "Adam Hershberger",
+     "worstSit": {
+      "benched": "Tucker Kraft",
+      "pts": 9.1,
+      "started": "Romeo Doubs",
+      "startedPts": 2.1,
+      "cost": 7
+     }
     }
    ],
    "totals": {
-    "pointsFor": 509.28,
-    "benchPoints": 52.48,
-    "allPlayW": 32,
+    "pointsFor": 701.94,
+    "benchPoints": 59.48,
+    "allPlayW": 43,
     "allPlayL": 12,
-    "weeksPlayed": 4
+    "weeksPlayed": 5
    },
    "awards": {
     "ownerOfWeek": [
-     4
+     4,
+     5
     ],
     "worstOwner": [],
     "startOfWeek": [
@@ -531,14 +618,32 @@
       "startedPts": 9.56,
       "cost": 4
      }
+    },
+    {
+     "week": 5,
+     "score": 91.88,
+     "benchPoints": 16.5,
+     "optimal": 108.38,
+     "allPlayW": 2,
+     "allPlayL": 9,
+     "result": "lost",
+     "margin": 5.46,
+     "opponent": "Kent Frenger",
+     "worstSit": {
+      "benched": "Texans D/ST",
+      "pts": 15,
+      "started": "Steelers D/ST",
+      "startedPts": 1,
+      "cost": 14
+     }
     }
    ],
    "totals": {
-    "pointsFor": 461.4,
-    "benchPoints": 68.84,
-    "allPlayW": 30,
-    "allPlayL": 14,
-    "weeksPlayed": 4
+    "pointsFor": 553.28,
+    "benchPoints": 85.34,
+    "allPlayW": 32,
+    "allPlayL": 23,
+    "weeksPlayed": 5
    },
    "awards": {
     "ownerOfWeek": [],
@@ -546,7 +651,9 @@
     "startOfWeek": [
      2
     ],
-    "sitOfWeek": [],
+    "sitOfWeek": [
+     5
+    ],
     "wasteOfWeek": [
      2
     ]
@@ -617,14 +724,25 @@
       "startedPts": 5.2,
       "cost": 4.3
      }
+    },
+    {
+     "week": 5,
+     "score": 125.24,
+     "benchPoints": 6.1,
+     "optimal": 131.34,
+     "allPlayW": 7,
+     "allPlayL": 4,
+     "result": "won",
+     "margin": 58.54,
+     "opponent": "Beth Couture"
     }
    ],
    "totals": {
-    "pointsFor": 545.46,
-    "benchPoints": 19.4,
-    "allPlayW": 37,
-    "allPlayL": 7,
-    "weeksPlayed": 4
+    "pointsFor": 670.7,
+    "benchPoints": 25.5,
+    "allPlayW": 44,
+    "allPlayL": 11,
+    "weeksPlayed": 5
    },
    "awards": {
     "ownerOfWeek": [
@@ -709,14 +827,32 @@
       "startedPts": 5.1,
       "cost": 6.4
      }
+    },
+    {
+     "week": 5,
+     "score": 92,
+     "benchPoints": 16,
+     "optimal": 108,
+     "allPlayW": 3,
+     "allPlayL": 8,
+     "result": "won",
+     "margin": 18.1,
+     "opponent": "Casey Couture",
+     "worstSit": {
+      "benched": "Rhamondre Stevenson",
+      "pts": 16,
+      "started": "Keon Coleman",
+      "startedPts": 7.2,
+      "cost": 8.8
+     }
     }
    ],
    "totals": {
-    "pointsFor": 394.94,
-    "benchPoints": 48.5,
-    "allPlayW": 17,
-    "allPlayL": 27,
-    "weeksPlayed": 4
+    "pointsFor": 486.94,
+    "benchPoints": 64.5,
+    "allPlayW": 20,
+    "allPlayL": 35,
+    "weeksPlayed": 5
    },
    "awards": {
     "ownerOfWeek": [],
@@ -800,14 +936,32 @@
       "startedPts": 6,
       "cost": 6.3
      }
+    },
+    {
+     "week": 5,
+     "score": 108.54,
+     "benchPoints": 25.3,
+     "optimal": 133.84,
+     "allPlayW": 6,
+     "allPlayL": 5,
+     "result": "lost",
+     "margin": 84.12,
+     "opponent": "Spencer Lentz",
+     "worstSit": {
+      "benched": "Blake Corum",
+      "pts": 14.7,
+      "started": "Omarion Hampton",
+      "startedPts": 4.4,
+      "cost": 10.3
+     }
     }
    ],
    "totals": {
-    "pointsFor": 342.72,
-    "benchPoints": 55.4,
-    "allPlayW": 10,
-    "allPlayL": 34,
-    "weeksPlayed": 4
+    "pointsFor": 451.26,
+    "benchPoints": 80.7,
+    "allPlayW": 16,
+    "allPlayL": 39,
+    "weeksPlayed": 5
    },
    "awards": {
     "ownerOfWeek": [],
@@ -891,14 +1045,25 @@
       "startedPts": 8.5,
       "cost": 1.6
      }
+    },
+    {
+     "week": 5,
+     "score": 131.12,
+     "benchPoints": 0,
+     "optimal": 131.12,
+     "allPlayW": 8,
+     "allPlayL": 3,
+     "result": "lost",
+     "margin": 19.98,
+     "opponent": "dennis couture"
     }
    ],
    "totals": {
-    "pointsFor": 417.38,
+    "pointsFor": 548.5,
     "benchPoints": 47.84,
-    "allPlayW": 18,
-    "allPlayL": 26,
-    "weeksPlayed": 4
+    "allPlayW": 26,
+    "allPlayL": 29,
+    "weeksPlayed": 5
    },
    "awards": {
     "ownerOfWeek": [],
@@ -982,14 +1147,32 @@
       "startedPts": 6.1,
       "cost": 19.1
      }
+    },
+    {
+     "week": 5,
+     "score": 173.32,
+     "benchPoints": 21.62,
+     "optimal": 194.94,
+     "allPlayW": 10,
+     "allPlayL": 1,
+     "result": "won",
+     "margin": 71.46,
+     "opponent": "Adam Calvelage",
+     "worstSit": {
+      "benched": "Isaiah Likely",
+      "pts": 26.9,
+      "started": "Michael Wilson",
+      "startedPts": 5.28,
+      "cost": 21.62
+     }
     }
    ],
    "totals": {
-    "pointsFor": 352.98,
-    "benchPoints": 141.88,
-    "allPlayW": 9,
-    "allPlayL": 35,
-    "weeksPlayed": 4
+    "pointsFor": 526.3,
+    "benchPoints": 163.5,
+    "allPlayW": 19,
+    "allPlayL": 36,
+    "weeksPlayed": 5
    },
    "awards": {
     "ownerOfWeek": [],
@@ -1002,7 +1185,9 @@
      3,
      4
     ],
-    "wasteOfWeek": []
+    "wasteOfWeek": [
+     5
+    ]
    }
   },
   "Adam Calvelage": {
@@ -1077,14 +1262,32 @@
       "startedPts": 1.3,
       "cost": 7.5
      }
+    },
+    {
+     "week": 5,
+     "score": 101.86,
+     "benchPoints": 6.5,
+     "optimal": 108.36,
+     "allPlayW": 5,
+     "allPlayL": 6,
+     "result": "lost",
+     "margin": 71.46,
+     "opponent": "Scott Howard",
+     "worstSit": {
+      "benched": "Keaton Mitchell",
+      "pts": 4.4,
+      "started": "RJ Harvey",
+      "startedPts": 0.7,
+      "cost": 3.7
+     }
     }
    ],
    "totals": {
-    "pointsFor": 454.8,
-    "benchPoints": 53.18,
-    "allPlayW": 25,
-    "allPlayL": 19,
-    "weeksPlayed": 4
+    "pointsFor": 556.66,
+    "benchPoints": 59.68,
+    "allPlayW": 30,
+    "allPlayL": 25,
+    "weeksPlayed": 5
    },
    "awards": {
     "ownerOfWeek": [],
@@ -1723,14 +1926,15 @@
    "owner": "dennis couture",
    "call": "DA hands Geoff Cavender his first loss.",
    "resolvesWeek": 5,
-   "graded": null,
-   "correct": null,
+   "graded": 5,
+   "correct": true,
    "check": {
     "type": "h2h",
     "winner": "dennis couture",
     "loser": "Geoff Cavender",
     "week": 5
-   }
+   },
+   "evidence": "dennis couture beat Geoff Cavender by 19.98"
   },
   {
    "n": 38,
@@ -1739,14 +1943,15 @@
    "owner": "Geoff Cavender",
    "call": "Geoff Cavender starts Matthew Stafford in Week 5.",
    "resolvesWeek": 5,
-   "graded": null,
-   "correct": null,
+   "graded": 5,
+   "correct": true,
    "check": {
     "type": "startsPlayer",
     "owner": "Geoff Cavender",
     "week": 5,
     "player": "Matthew Stafford"
-   }
+   },
+   "evidence": "Matthew Stafford started for Geoff Cavender"
   },
   {
    "n": 39,
@@ -1755,14 +1960,15 @@
    "owner": "Spencer Lentz",
    "call": "Spencer Lentz leaves under twenty on his bench in Week 5.",
    "resolvesWeek": 5,
-   "graded": null,
-   "correct": null,
+   "graded": 5,
+   "correct": true,
    "check": {
     "type": "benchUnder",
     "owner": "Spencer Lentz",
     "week": 5,
     "value": 20
-   }
+   },
+   "evidence": "left 7.00 behind"
   },
   {
    "n": 40,
@@ -1771,15 +1977,16 @@
    "owner": "Adam Hershberger",
    "call": "Malik Nabers clears 15 again for Adam Hershberger.",
    "resolvesWeek": 5,
-   "graded": null,
-   "correct": null,
+   "graded": 5,
+   "correct": true,
    "check": {
     "type": "playerAtLeast",
     "owner": "Adam Hershberger",
     "week": 5,
     "player": "Malik Nabers",
     "value": 15
-   }
+   },
+   "evidence": "Malik Nabers scored 26.60"
   },
   {
    "n": 41,
@@ -1788,14 +1995,15 @@
    "owner": "Casey Couture",
    "call": "Casey Couture beats Doug Fields.",
    "resolvesWeek": 5,
-   "graded": null,
-   "correct": null,
+   "graded": 5,
+   "correct": false,
    "check": {
     "type": "h2h",
     "winner": "Casey Couture",
     "loser": "Doug Fields",
     "week": 5
-   }
+   },
+   "evidence": "Casey Couture lost to Doug Fields by 18.10"
   },
   {
    "n": 42,
@@ -1804,14 +2012,15 @@
    "owner": "Doug Fields",
    "call": "Doug Fields clears 100 in Week 5.",
    "resolvesWeek": 5,
-   "graded": null,
-   "correct": null,
+   "graded": 5,
+   "correct": false,
    "check": {
     "type": "scoreAtLeast",
     "owner": "Doug Fields",
     "week": 5,
     "value": 100
-   }
+   },
+   "evidence": "scored 92.00"
   },
   {
    "n": 43,
@@ -1820,14 +2029,15 @@
    "owner": "Scott Reisert",
    "call": "Scott Reisert beats Mama Beth by twenty or more.",
    "resolvesWeek": 5,
-   "graded": null,
-   "correct": null,
+   "graded": 5,
+   "correct": true,
    "check": {
     "type": "winsByAtLeast",
     "owner": "Scott Reisert",
     "week": 5,
     "value": 20
-   }
+   },
+   "evidence": "won against Beth Couture by 58.54"
   },
   {
    "n": 44,
@@ -1836,14 +2046,15 @@
    "owner": "Beth Couture",
    "call": "Mama Beth clears 90 in Week 5.",
    "resolvesWeek": 5,
-   "graded": null,
-   "correct": null,
+   "graded": 5,
+   "correct": false,
    "check": {
     "type": "scoreAtLeast",
     "owner": "Beth Couture",
     "week": 5,
     "value": 90
-   }
+   },
+   "evidence": "scored 66.70"
   },
   {
    "n": 45,
@@ -1852,14 +2063,15 @@
    "owner": "Ryan Reed",
    "call": "Ryan Reed beats Kent Frenger.",
    "resolvesWeek": 5,
-   "graded": null,
-   "correct": null,
+   "graded": 5,
+   "correct": false,
    "check": {
     "type": "h2h",
     "winner": "Ryan Reed",
     "loser": "Kent Frenger",
     "week": 5
-   }
+   },
+   "evidence": "Ryan Reed lost to Kent Frenger by 5.46"
   },
   {
    "n": 46,
@@ -1868,14 +2080,15 @@
    "owner": "Kent Frenger",
    "call": "Kent Frenger clears 110 in Week 5.",
    "resolvesWeek": 5,
-   "graded": null,
-   "correct": null,
+   "graded": 5,
+   "correct": false,
    "check": {
     "type": "scoreAtLeast",
     "owner": "Kent Frenger",
     "week": 5,
     "value": 110
-   }
+   },
+   "evidence": "scored 97.34"
   },
   {
    "n": 47,
@@ -1884,14 +2097,15 @@
    "owner": "Scott Howard",
    "call": "Scott Howard wins his first game of the season.",
    "resolvesWeek": 5,
-   "graded": null,
-   "correct": null,
+   "graded": 5,
+   "correct": true,
    "check": {
     "type": "h2h",
     "winner": "Scott Howard",
     "loser": "Adam Calvelage",
     "week": 5
-   }
+   },
+   "evidence": "Scott Howard beat Adam Calvelage by 71.46"
   },
   {
    "n": 48,
@@ -1900,21 +2114,215 @@
    "owner": "Adam Calvelage",
    "call": "CeeDee Lamb clears 20 again for Adam Calvelage.",
    "resolvesWeek": 5,
-   "graded": null,
-   "correct": null,
+   "graded": 5,
+   "correct": false,
    "check": {
     "type": "playerAtLeast",
     "owner": "Adam Calvelage",
     "week": 5,
     "player": "CeeDee Lamb",
     "value": 20
+   },
+   "evidence": "CeeDee Lamb scored 1.90"
+  },
+  {
+   "n": 49,
+   "week": 5,
+   "by": "Boomer",
+   "owner": "dennis couture",
+   "call": "DA beats Casey Couture.",
+   "resolvesWeek": 6,
+   "graded": null,
+   "correct": null,
+   "check": {
+    "type": "h2h",
+    "winner": "dennis couture",
+    "loser": "Casey Couture",
+    "week": 6
+   }
+  },
+  {
+   "n": 50,
+   "week": 5,
+   "by": "Boomer",
+   "owner": "Casey Couture",
+   "call": "Casey Couture leaves under ten on his bench in Week 6.",
+   "resolvesWeek": 6,
+   "graded": null,
+   "correct": null,
+   "check": {
+    "type": "benchUnder",
+    "owner": "Casey Couture",
+    "week": 6,
+    "value": 10
+   }
+  },
+  {
+   "n": 51,
+   "week": 5,
+   "by": "Boomer",
+   "owner": "Beth Couture",
+   "call": "Mama Beth beats Spencer Lentz.",
+   "resolvesWeek": 6,
+   "graded": null,
+   "correct": null,
+   "check": {
+    "type": "h2h",
+    "winner": "Beth Couture",
+    "loser": "Spencer Lentz",
+    "week": 6
+   }
+  },
+  {
+   "n": 52,
+   "week": 5,
+   "by": "Boomer",
+   "owner": "Adam Hershberger",
+   "call": "Adam Hershberger beats Doug Fields.",
+   "resolvesWeek": 6,
+   "graded": null,
+   "correct": null,
+   "check": {
+    "type": "h2h",
+    "winner": "Adam Hershberger",
+    "loser": "Doug Fields",
+    "week": 6
+   }
+  },
+  {
+   "n": 53,
+   "week": 5,
+   "by": "Boomer",
+   "owner": "Doug Fields",
+   "call": "Doug Fields clears 100 in Week 6.",
+   "resolvesWeek": 6,
+   "graded": null,
+   "correct": null,
+   "check": {
+    "type": "scoreAtLeast",
+    "owner": "Doug Fields",
+    "week": 6,
+    "value": 100
+   }
+  },
+  {
+   "n": 54,
+   "week": 5,
+   "by": "Boomer",
+   "owner": "Scott Reisert",
+   "call": "Scott Reisert leaves under ten on his bench in Week 6.",
+   "resolvesWeek": 6,
+   "graded": null,
+   "correct": null,
+   "check": {
+    "type": "benchUnder",
+    "owner": "Scott Reisert",
+    "week": 6,
+    "value": 10
+   }
+  },
+  {
+   "n": 55,
+   "week": 5,
+   "by": "Boomer",
+   "owner": "Ryan Reed",
+   "call": "Ryan Reed beats Scott Reisert.",
+   "resolvesWeek": 6,
+   "graded": null,
+   "correct": null,
+   "check": {
+    "type": "h2h",
+    "winner": "Ryan Reed",
+    "loser": "Scott Reisert",
+    "week": 6
+   }
+  },
+  {
+   "n": 56,
+   "week": 5,
+   "by": "Boomer",
+   "owner": "Geoff Cavender",
+   "call": "Geoff Cavender sets a perfect lineup again.",
+   "resolvesWeek": 6,
+   "graded": null,
+   "correct": null,
+   "check": {
+    "type": "benchUnder",
+    "owner": "Geoff Cavender",
+    "week": 6,
+    "value": 0.01
+   }
+  },
+  {
+   "n": 57,
+   "week": 5,
+   "by": "Boomer",
+   "owner": "Adam Calvelage",
+   "call": "Adam Calvelage beats Geoff Cavender for the first time.",
+   "resolvesWeek": 6,
+   "graded": null,
+   "correct": null,
+   "check": {
+    "type": "h2h",
+    "winner": "Adam Calvelage",
+    "loser": "Geoff Cavender",
+    "week": 6
+   }
+  },
+  {
+   "n": 58,
+   "week": 5,
+   "by": "Boomer",
+   "owner": "Scott Howard",
+   "call": "Scott Howard clears 150 again.",
+   "resolvesWeek": 6,
+   "graded": null,
+   "correct": null,
+   "check": {
+    "type": "scoreAtLeast",
+    "owner": "Scott Howard",
+    "week": 6,
+    "value": 150
+   }
+  },
+  {
+   "n": 59,
+   "week": 5,
+   "by": "Boomer",
+   "owner": "Kent Frenger",
+   "call": "Tyler Shough gets back into double figures for Kent Frenger.",
+   "resolvesWeek": 6,
+   "graded": null,
+   "correct": null,
+   "check": {
+    "type": "playerAtLeast",
+    "owner": "Kent Frenger",
+    "week": 6,
+    "player": "Tyler Shough",
+    "value": 10
+   }
+  },
+  {
+   "n": 60,
+   "week": 5,
+   "by": "Boomer",
+   "owner": "Spencer Lentz",
+   "call": "Spencer Lentz clears 150 for the third straight week.",
+   "resolvesWeek": 6,
+   "graded": null,
+   "correct": null,
+   "check": {
+    "type": "scoreAtLeast",
+    "owner": "Spencer Lentz",
+    "week": 6,
+    "value": 150
    }
   }
  ],
  "record": {
-  "graded": 36,
-  "right": 17,
-  "wrong": 19,
+  "graded": 48,
+  "right": 23,
+  "wrong": 25,
   "open": 12
  },
  "usedInsights": [
