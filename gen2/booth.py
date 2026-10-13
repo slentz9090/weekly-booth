@@ -115,8 +115,8 @@ def mcard(anchor, ribbon, win, lose, note, scale, key=False, ribbon_color="var(-
         tail = t["left"] / scale * 100
         if t["left"] <= 0:
             tail_div = ""
-        elif fill + tail > 97:
-            # a sliver at the far end would be clipped by the track: anchor it to the right edge
+        elif fill + tail >= 99.9:
+            # the page-maximum row: anchor the tail to the right edge so rounding never leaves a gap
             tail_div = f'<div class="mc-tail" style="right:0;width:{tail:.2f}%"></div>'
         else:
             tail_div = f'<div class="mc-tail" style="left:{fill:.2f}%;width:{tail:.2f}%"></div>'

@@ -21,24 +21,23 @@ TX = "#e6eaf0"
 MUT = "#9aa4b2"
 
 CARDS = {
-    "dlffl-week-4.png": {
+    "dlffl-week-5.png": {
         "league": "Dewart Lake FFL",
-        "week": "Week 4 · 2026",
+        "week": "Week 5 · 2026",
         "accent": GOLD,
-        "headline": "Geoff Cavender Is 4 And 0 And Nobody He Has Played Has Scored 93",
-        "owner": "Owner of the Week · Spencer Lentz, 165.18",
-        "worst": "Worst Owner · Casey Couture, 87.82",
+        "headline": "Scott Howard Played The Best Game Of His Life. It Was The Second-Best Score Of The Week.",
+        "owner": "Owner of the Week · Spencer Lentz, 192.66",
+        "worst": "Worst Owner · Mama Beth, 66.70",
     },
-    "foh-week-4.png": {
+    "foh-week-5.png": {
         "league": "Friends of Herb",
-        "week": "Week 4 · 2026",
+        "week": "Week 5 · 2026",
         "accent": BLUE,
-        "headline": "Eric Olson's Robot Told Him He Would Lose. He Lost By 57.",
-        "owner": "Owner of the Week · Michael Smith, 129.30",
-        "worst": "Worst Owner · Aaron Jezioro, 115.12",
+        "headline": "Bob Dorsch Had Beaten Aaron Jezioro 13 Straight Times. Then His Quarterback Scored Less Than Zero.",
+        "owner": "Owner of the Week · Matt Davis, 170.70",
+        "worst": "Worst Owner · Billy Norton, 67.50",
     },
 }
-
 
 def wrap(draw, text, font, width):
     words, lines, line = text.split(), [], ""
@@ -70,16 +69,22 @@ def card(name, spec):
     wk_w = d.textlength(spec["week"], font=f_kicker)
     d.text((1136 - wk_w, 70), spec["week"], font=f_kicker, fill=spec["accent"])
 
-    lines = wrap(d, spec["headline"], f_head, 1072)
-    # balance: never leave one short word alone on the last line
-    width = 1072
-    while len(lines) > 1 and len(lines[-1].split()) < 2 and width > 700:
-        width -= 40
-        lines = wrap(d, spec["headline"], f_head, width)
+    # shrink a long headline until it clears the award panel (top at 470); 74 px fits three lines
+    for size in range(74, 39, -2):
+        f_head = ImageFont.truetype(COND_B, size)
+        lh = round(size * 84 / 74)
+        lines = wrap(d, spec["headline"], f_head, 1072)
+        # balance: never leave one short word alone on the last line
+        width = 1072
+        while len(lines) > 1 and len(lines[-1].split()) < 2 and width > 700:
+            width -= 40
+            lines = wrap(d, spec["headline"], f_head, width)
+        if 196 + len(lines) * lh - (lh - size) <= 452:
+            break
     y = 196
-    for ln in lines[:4]:
+    for ln in lines:
         d.text((64, y), ln, font=f_head, fill=TX)
-        y += 84
+        y += lh
 
     d.text((88, 486), spec["owner"], font=f_small, fill=spec["accent"])
     d.text((88, 524), spec["worst"], font=f_small, fill=MUT)

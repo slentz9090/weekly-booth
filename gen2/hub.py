@@ -14,29 +14,29 @@ from compute import DATA, load
 DOCS = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "docs")
 SITE = "https://slentz9090.github.io/weekly-booth"
 
-WK = int(os.environ.get("WEEK", "4"))
+WK = int(os.environ.get("WEEK", "5"))
 
 HEAD = {
     "dlffl": {
         "league": "Dewart Lake FFL",
-        "headline": "Geoff Cavender Is 4 And 0 And Nobody He Has Played Has Scored 93",
+        "headline": "Scott Howard Played The Best Game Of His Life. It Was The Second-Best Score Of The Week.",
         "accent": "var(--gold)",
         "meta": "12 teams · snake · 0.5 PPR",
-        "note": ("Owner of the Week: Spencer Lentz, 165.18, the high score of the season. Worst Owner: Casey "
-                 "Couture, 87.82, for the second straight week."),
-        "date": "October 6, 2026",
-        "sub": "Six games, an unbeaten team that has not faced a 93, five pieces of hardware, the Bench Ledger, and twelve calls graded in public.",
+        "note": ("Owner of the Week: Spencer Lentz, 192.66, the ninth-highest score in the league since 2009. "
+                 "Worst Owner: Mama Beth, 66.70."),
+        "date": "October 13, 2026",
+        "sub": "Six games, a career night, the last unbeaten team falls, five pieces of hardware, the Bench Ledger, and twelve calls graded in public.",
     },
     "foh": {
         "league": "Friends of Herb",
-        "headline": "Eric Olson's Robot Told Him He Would Lose. He Lost By 57.",
+        "headline": "Bob Dorsch Had Beaten Aaron Jezioro 13 Straight Times. Then His Quarterback Scored Less Than Zero.",
         "accent": "var(--blue)",
         "indexAccent": "var(--gold)",
         "meta": "11 teams · auction · 0.5 PPR",
-        "note": ("Owner of the Week: Michael Smith, 129.30 with a tenth of a point left behind. Worst Owner: "
-                 "Aaron Jezioro, who started a flex projected for zero."),
-        "date": "October 6, 2026",
-        "sub": "Five games, a bye, the robot's victory lap, the Freiermuth Rule, and eleven calls graded in public.",
+        "note": ("Owner of the Week: Matt Davis, 170.70, the high score of the week. Worst Owner: Billy Norton, "
+                 "who started three players projected for zero."),
+        "date": "October 13, 2026",
+        "sub": "Five games, a bye, a 13-game streak snapped, the Freiermuth Rule, and eleven calls graded in public.",
     },
 }
 
@@ -50,17 +50,17 @@ EXTRA_CARDS = {
 }
 
 TEASERS = {
-    "dlffl": """Gil and Boomer have Week 4 of the Dewart Lake FFL.
+    "dlffl": """Gil and Boomer have Week 5 of the Dewart Lake FFL.
 
-Geoff Cavender is 4 and 0 and seventh in the league in points. Nobody he has played has scored 93. Scott Howard lost to DA by 2.54 with two winning answers on his bench. Casey Couture signed the right player and benched him, again. Spencer Lentz took Owner of the Week and Waste of the Week on the same Sunday. Boomer had his first winning week and reads every call back.
+Scott Howard played the best game of his life, 173.32, and it was only the second-best score of the week, because Spencer Lentz put up 192.66. DA set a perfect lineup and ended Geoff Cavender's unbeaten run. His wife, Mama Beth, had a Sunday she would like to forget. Kent Frenger won with a quarterback who went backwards. Boomer is turned all the way up this week, and nobody gets out clean.
 
-{site}/dlffl/week-4.html
+{site}/dlffl/week-5.html
 """,
-    "foh": """Gil and Boomer have Week 4 of Friends of Herb.
+    "foh": """Gil and Boomer have Week 5 of Friends of Herb.
 
-Eric Olson built a robot. The robot told him he would lose to Spencer. Boomer took Olson anyway. Olson lost by 57, and the five players on Spencer's bench outscored Olson's nine starters. Matt Davis started the quarterback Boomer begged him to and ended Aron Rogers's unbeaten run, and Michael Turner set his best possible lineup and lost by 5.08. Boomer went 4 and 7 and is taking it personally.
+Bob Dorsch had beaten Aaron Jezioro 13 straight times. Then his only quarterback scored minus 0.16, and Jezioro won by 40 for his first win in the series since 2016. Matt Davis scored 170.70 and still picked the wrong quarterback. Ryan Kelly started a receiver whose team had the week off. Billy Norton started three players projected for zero. Boomer went 5 and 6 on his calls and is not taking questions.
 
-{site}/foh/week-4.html
+{site}/foh/week-5.html
 """,
 }
 
