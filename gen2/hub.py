@@ -14,29 +14,29 @@ from compute import DATA, load
 DOCS = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "docs")
 SITE = "https://slentz9090.github.io/weekly-booth"
 
-WK = int(os.environ.get("WEEK", "5"))
+WK = int(os.environ.get("WEEK", "6"))
 
 HEAD = {
     "dlffl": {
         "league": "Dewart Lake FFL",
-        "headline": "Scott Howard Played The Best Game Of His Life. It Was The Second-Best Score Of The Week.",
+        "headline": "DA Has Lost To Casey Couture Ten Straight Times. Two Bench Swaps Would Have Won This One By 0.38.",
         "accent": "var(--gold)",
         "meta": "12 teams · snake · 0.5 PPR",
-        "note": ("Owner of the Week: Spencer Lentz, 192.66, the ninth-highest score in the league since 2009. "
-                 "Worst Owner: Mama Beth, 66.70."),
-        "date": "October 13, 2026",
-        "sub": "Six games, a career night, the last unbeaten team falls, five pieces of hardware, the Bench Ledger, and twelve calls graded in public.",
+        "note": ("Owner of the Week: Kent Frenger, 136.90, the high score of the week by 32.76. "
+                 "Worst Owner: Scott Reisert, 68.68, who lost by 0.44 with the winning swap on his bench."),
+        "date": "October 20, 2026",
+        "sub": "Six games, Family Sunday goes to the sons, a 69-point winner, five pieces of hardware, the Bench Ledger, and twelve calls graded in public.",
     },
     "foh": {
         "league": "Friends of Herb",
-        "headline": "Bob Dorsch Had Beaten Aaron Jezioro 13 Straight Times. Then His Quarterback Scored Less Than Zero.",
+        "headline": "Bob Dorsch Cut Tyler Shough For Scoring Less Than Zero. Aron Rogers Signed Him And He Scored 32.96.",
         "accent": "var(--blue)",
         "indexAccent": "var(--gold)",
         "meta": "11 teams · auction · 0.5 PPR",
-        "note": ("Owner of the Week: Matt Davis, 170.70, the high score of the week. Worst Owner: Billy Norton, "
-                 "who started three players projected for zero."),
-        "date": "October 13, 2026",
-        "sub": "Five games, a bye, a 13-game streak snapped, the Freiermuth Rule, and eleven calls graded in public.",
+        "note": ("Owner of the Week: Aron Rogers, 119.46, with a perfect lineup. Worst Owner: Matt Davis, 71.48, "
+                 "a week after scoring 170.70."),
+        "date": "October 20, 2026",
+        "sub": "Five games, a bye, the Freiermuth Rule broken by its namesake, Billy Norton's first win, and eleven calls graded in public.",
     },
 }
 
@@ -50,17 +50,17 @@ EXTRA_CARDS = {
 }
 
 TEASERS = {
-    "dlffl": """Gil and Boomer have Week 5 of the Dewart Lake FFL.
+    "dlffl": """Gil and Boomer have Week 6 of the Dewart Lake FFL.
 
-Scott Howard played the best game of his life, 173.32, and it was only the second-best score of the week, because Spencer Lentz put up 192.66. DA set a perfect lineup and ended Geoff Cavender's unbeaten run. His wife, Mama Beth, had a Sunday she would like to forget. Kent Frenger won with a quarterback who went backwards. Boomer is turned all the way up this week, and nobody gets out clean.
+Family Sunday went to the sons. Casey beat DA for the tenth straight time, and two bench swaps would have won DA the damn game by 0.38. Spencer beat Mama Beth even though the running back he cut this week scored 13.70 for her after she claimed him. Ryan Reed won with 69.12, the fifth-lowest winning score in this league since 2009, because Scott Reisert left a half-point swap on his bench and lost by 0.44. Kent Frenger scored 136.90 and benched a quarterback who scored 26.96. Boomer took both parents and went 4 and 8.
 
-{site}/dlffl/week-5.html
+{site}/dlffl/week-6.html
 """,
-    "foh": """Gil and Boomer have Week 5 of Friends of Herb.
+    "foh": """Gil and Boomer have Week 6 of Friends of Herb.
 
-Bob Dorsch had beaten Aaron Jezioro 13 straight times. Then his only quarterback scored minus 0.16, and Jezioro won by 40 for his first win in the series since 2016. Matt Davis scored 170.70 and still picked the wrong quarterback. Ryan Kelly started a receiver whose team had the week off. Billy Norton started three players projected for zero. Boomer went 5 and 6 on his calls and is not taking questions.
+Bob Dorsch cut Tyler Shough for scoring less than zero. Aron Rogers signed him and he scored 32.96, the most by any quarterback in a lineup this week. The receiver Dorsch signed instead scored 20.20 on Dorsch's bench in a 1.88-point loss, so the man the Freiermuth Rule is named for broke the Freiermuth Rule, with Pat Freiermuth in his lineup. Billy Norton won his first game, over a Matt Davis who scored 71.48 a week after scoring 170.70. Rahul Pahuja scored 136.24, the most in the league, on his bye. Boomer called two of those and still went 5 and 6.
 
-{site}/foh/week-5.html
+{site}/foh/week-6.html
 """,
 }
 

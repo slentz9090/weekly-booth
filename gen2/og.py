@@ -21,21 +21,21 @@ TX = "#e6eaf0"
 MUT = "#9aa4b2"
 
 CARDS = {
-    "dlffl-week-5.png": {
+    "dlffl-week-6.png": {
         "league": "Dewart Lake FFL",
-        "week": "Week 5 · 2026",
+        "week": "Week 6 · 2026",
         "accent": GOLD,
-        "headline": "Scott Howard Played The Best Game Of His Life. It Was The Second-Best Score Of The Week.",
-        "owner": "Owner of the Week · Spencer Lentz, 192.66",
-        "worst": "Worst Owner · Mama Beth, 66.70",
+        "headline": "DA Has Lost To Casey Couture Ten Straight Times. Two Bench Swaps Would Have Won This One By 0.38.",
+        "owner": "Owner of the Week · Kent Frenger, 136.90",
+        "worst": "Worst Owner · Scott Reisert, 68.68",
     },
-    "foh-week-5.png": {
+    "foh-week-6.png": {
         "league": "Friends of Herb",
-        "week": "Week 5 · 2026",
+        "week": "Week 6 · 2026",
         "accent": BLUE,
-        "headline": "Bob Dorsch Had Beaten Aaron Jezioro 13 Straight Times. Then His Quarterback Scored Less Than Zero.",
-        "owner": "Owner of the Week · Matt Davis, 170.70",
-        "worst": "Worst Owner · Billy Norton, 67.50",
+        "headline": "Bob Dorsch Cut Tyler Shough For Scoring Less Than Zero. Aron Rogers Signed Him And He Scored 32.96.",
+        "owner": "Owner of the Week · Aron Rogers, 119.46",
+        "worst": "Worst Owner · Matt Davis, 71.48",
     },
 }
 
