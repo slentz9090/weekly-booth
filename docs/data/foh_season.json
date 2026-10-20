@@ -2,9 +2,9 @@
  "league": "foh",
  "leagueName": "Friends of Herb",
  "season": 2026,
- "throughWeek": 5,
- "updated": "2026-10-13",
- "note": "Week 5 published 2026-10-13, on time. Boomer went 5 and 6 and is 16 and 26 on the season, with one call still open: Michael Turner loses by under five before Halloween. Grade every call that resolves at the TOP of the next issue, right or wrong, before anything else, then make a new call on every team at the bottom.",
+ "throughWeek": 6,
+ "updated": "2026-10-20",
+ "note": "Week 6 published 2026-10-20, on time. Boomer went 5 and 6 and is 21 and 32 on the season, with one call still open: Michael Turner loses by under five before Halloween (resolves by Week 8). Grade every call that resolves at the TOP of the next issue, right or wrong, before anything else, then make a new call on every team at the bottom.",
  "owners": {
   "Spencer Lentz": {
    "team": "Balls Deep",
@@ -96,14 +96,32 @@
       "startedPts": 2.1,
       "cost": 1.1
      }
+    },
+    {
+     "week": 6,
+     "score": 107.2,
+     "benchPoints": 25.4,
+     "optimal": 132.6,
+     "allPlayW": 7,
+     "allPlayL": 3,
+     "result": "won",
+     "margin": 23.2,
+     "opponent": "Michael Turner",
+     "worstSit": {
+      "benched": "Chuba Hubbard",
+      "pts": 20.6,
+      "started": "Derrick Henry",
+      "startedPts": 4.5,
+      "cost": 16.1
+     }
     }
    ],
    "totals": {
-    "pointsFor": 675.08,
-    "benchPoints": 93.48,
-    "allPlayW": 36,
-    "allPlayL": 14,
-    "weeksPlayed": 5
+    "pointsFor": 782.28,
+    "benchPoints": 118.88,
+    "allPlayW": 43,
+    "allPlayL": 17,
+    "weeksPlayed": 6
    },
    "awards": {
     "ownerOfWeek": [],
@@ -113,7 +131,8 @@
     ],
     "sitOfWeek": [],
     "wasteOfWeek": [
-     4
+     4,
+     6
     ]
    }
   },
@@ -207,14 +226,25 @@
       "startedPts": 2.2,
       "cost": 12.6
      }
+    },
+    {
+     "week": 6,
+     "score": 109,
+     "benchPoints": 0,
+     "optimal": 109,
+     "allPlayW": 8,
+     "allPlayL": 2,
+     "result": "won",
+     "margin": 20.14,
+     "opponent": "Aaron Jezioro"
     }
    ],
    "totals": {
-    "pointsFor": 619.24,
+    "pointsFor": 728.24,
     "benchPoints": 92.22,
-    "allPlayW": 34,
-    "allPlayL": 16,
-    "weeksPlayed": 5
+    "allPlayW": 42,
+    "allPlayL": 18,
+    "weeksPlayed": 6
    },
    "awards": {
     "ownerOfWeek": [],
@@ -321,19 +351,31 @@
       "startedPts": 5.2,
       "cost": 9
      }
+    },
+    {
+     "week": 6,
+     "score": 119.46,
+     "benchPoints": 0,
+     "optimal": 119.46,
+     "allPlayW": 9,
+     "allPlayL": 1,
+     "result": "won",
+     "margin": 31.76,
+     "opponent": "Ryan Kelly"
     }
    ],
    "totals": {
-    "pointsFor": 609.28,
+    "pointsFor": 728.74,
     "benchPoints": 31.08,
-    "allPlayW": 33,
-    "allPlayL": 17,
-    "weeksPlayed": 5
+    "allPlayW": 42,
+    "allPlayL": 18,
+    "weeksPlayed": 6
    },
    "awards": {
     "ownerOfWeek": [
      1,
-     2
+     2,
+     6
     ],
     "worstOwner": [],
     "startOfWeek": [],
@@ -424,14 +466,32 @@
       "startedPts": 6.6,
       "cost": 15.3
      }
+    },
+    {
+     "week": 6,
+     "score": 84,
+     "benchPoints": 10.1,
+     "optimal": 94.1,
+     "allPlayW": 1,
+     "allPlayL": 9,
+     "result": "lost",
+     "margin": 23.2,
+     "opponent": "Spencer Lentz",
+     "worstSit": {
+      "benched": "Dallas Goedert",
+      "pts": 9.1,
+      "started": "Juwan Johnson",
+      "startedPts": 0,
+      "cost": 9.1
+     }
     }
    ],
    "totals": {
-    "pointsFor": 568.84,
-    "benchPoints": 54.7,
-    "allPlayW": 27,
-    "allPlayL": 23,
-    "weeksPlayed": 5
+    "pointsFor": 652.84,
+    "benchPoints": 64.8,
+    "allPlayW": 28,
+    "allPlayL": 32,
+    "weeksPlayed": 6
    },
    "awards": {
     "ownerOfWeek": [
@@ -535,20 +595,33 @@
       "startedPts": 32.6,
       "cost": 1.72
      }
+    },
+    {
+     "week": 6,
+     "score": 71.48,
+     "benchPoints": 0,
+     "optimal": 71.48,
+     "allPlayW": 0,
+     "allPlayL": 10,
+     "result": "lost",
+     "margin": 24.74,
+     "opponent": "Billy Norton"
     }
    ],
    "totals": {
-    "pointsFor": 680.36,
+    "pointsFor": 751.84,
     "benchPoints": 77.7,
     "allPlayW": 40,
-    "allPlayL": 10,
-    "weeksPlayed": 5
+    "allPlayL": 20,
+    "weeksPlayed": 6
    },
    "awards": {
     "ownerOfWeek": [
      5
     ],
-    "worstOwner": [],
+    "worstOwner": [
+     6
+    ],
     "startOfWeek": [
      4
     ],
@@ -646,14 +719,25 @@
       "startedPts": 0,
       "cost": 15.8
      }
+    },
+    {
+     "week": 6,
+     "score": 87.7,
+     "benchPoints": 0,
+     "optimal": 87.7,
+     "allPlayW": 2,
+     "allPlayL": 8,
+     "result": "lost",
+     "margin": 31.76,
+     "opponent": "Aron Rogers"
     }
    ],
    "totals": {
-    "pointsFor": 367.34,
+    "pointsFor": 455.04,
     "benchPoints": 64.9,
-    "allPlayW": 7,
-    "allPlayL": 43,
-    "weeksPlayed": 5
+    "allPlayW": 9,
+    "allPlayL": 51,
+    "weeksPlayed": 6
    },
    "awards": {
     "ownerOfWeek": [],
@@ -662,7 +746,8 @@
      3
     ],
     "startOfWeek": [
-     1
+     1,
+     6
     ],
     "sitOfWeek": [
      5
@@ -760,14 +845,32 @@
       "startedPts": 1.1,
       "cost": 0.5
      }
+    },
+    {
+     "week": 6,
+     "score": 136.24,
+     "benchPoints": 6.14,
+     "optimal": 142.38,
+     "allPlayW": 10,
+     "allPlayL": 0,
+     "result": "bye",
+     "margin": 0.0,
+     "opponent": null,
+     "worstSit": {
+      "benched": "C.J. Stroud",
+      "pts": 29.98,
+      "started": "Bryce Young",
+      "startedPts": 23.84,
+      "cost": 6.14
+     }
     }
    ],
    "totals": {
-    "pointsFor": 592.76,
-    "benchPoints": 108.4,
-    "allPlayW": 29,
+    "pointsFor": 729.0,
+    "benchPoints": 114.54,
+    "allPlayW": 39,
     "allPlayL": 21,
-    "weeksPlayed": 5
+    "weeksPlayed": 6
    },
    "awards": {
     "ownerOfWeek": [],
@@ -864,14 +967,32 @@
       "startedPts": 0,
       "cost": 7.2
      }
+    },
+    {
+     "week": 6,
+     "score": 103.34,
+     "benchPoints": 25,
+     "optimal": 128.34,
+     "allPlayW": 5,
+     "allPlayL": 5,
+     "result": "lost",
+     "margin": 1.88,
+     "opponent": "Michael Smith",
+     "worstSit": {
+      "benched": "Germie Bernard",
+      "pts": 20.2,
+      "started": "Zay Flowers",
+      "startedPts": 9.7,
+      "cost": 10.5
+     }
     }
    ],
    "totals": {
-    "pointsFor": 559.82,
-    "benchPoints": 60.5,
-    "allPlayW": 25,
-    "allPlayL": 25,
-    "weeksPlayed": 5
+    "pointsFor": 663.16,
+    "benchPoints": 85.5,
+    "allPlayW": 30,
+    "allPlayL": 30,
+    "weeksPlayed": 6
    },
    "awards": {
     "ownerOfWeek": [],
@@ -881,7 +1002,9 @@
     "startOfWeek": [
      3
     ],
-    "sitOfWeek": [],
+    "sitOfWeek": [
+     6
+    ],
     "wasteOfWeek": []
    }
   },
@@ -975,14 +1098,32 @@
       "startedPts": 0,
       "cost": 16.2
      }
+    },
+    {
+     "week": 6,
+     "score": 96.22,
+     "benchPoints": 24.3,
+     "optimal": 120.52,
+     "allPlayW": 4,
+     "allPlayL": 6,
+     "result": "won",
+     "margin": 24.74,
+     "opponent": "Matt Davis",
+     "worstSit": {
+      "benched": "Stefon Diggs",
+      "pts": 13.4,
+      "started": "DJ Moore",
+      "startedPts": 0,
+      "cost": 13.4
+     }
     }
    ],
    "totals": {
-    "pointsFor": 402.0,
-    "benchPoints": 76.5,
-    "allPlayW": 7,
-    "allPlayL": 43,
-    "weeksPlayed": 5
+    "pointsFor": 498.22,
+    "benchPoints": 100.8,
+    "allPlayW": 11,
+    "allPlayL": 49,
+    "weeksPlayed": 6
    },
    "awards": {
     "ownerOfWeek": [],
@@ -1077,14 +1218,32 @@
       "startedPts": 1.5,
       "cost": 23.3
      }
+    },
+    {
+     "week": 6,
+     "score": 105.22,
+     "benchPoints": 2.74,
+     "optimal": 107.96,
+     "allPlayW": 6,
+     "allPlayL": 4,
+     "result": "won",
+     "margin": 1.88,
+     "opponent": "Bob Dorsch",
+     "worstSit": {
+      "benched": "Daniel Jones",
+      "pts": 15.76,
+      "started": "Dak Prescott",
+      "startedPts": 13.02,
+      "cost": 2.74
+     }
     }
    ],
    "totals": {
-    "pointsFor": 545.04,
-    "benchPoints": 52.9,
-    "allPlayW": 22,
-    "allPlayL": 28,
-    "weeksPlayed": 5
+    "pointsFor": 650.26,
+    "benchPoints": 55.64,
+    "allPlayW": 28,
+    "allPlayL": 32,
+    "weeksPlayed": 6
    },
    "awards": {
     "ownerOfWeek": [
@@ -1186,14 +1345,32 @@
       "startedPts": 1.1,
       "cost": 8.4
      }
+    },
+    {
+     "week": 6,
+     "score": 88.86,
+     "benchPoints": 26.38,
+     "optimal": 115.24,
+     "allPlayW": 3,
+     "allPlayL": 7,
+     "result": "lost",
+     "margin": 20.14,
+     "opponent": "Eric Olson",
+     "worstSit": {
+      "benched": "Trevor Lawrence",
+      "pts": 36.34,
+      "started": "Brock Purdy",
+      "startedPts": 19.36,
+      "cost": 16.98
+     }
     }
    ],
    "totals": {
-    "pointsFor": 522.72,
-    "benchPoints": 99.5,
-    "allPlayW": 15,
-    "allPlayL": 35,
-    "weeksPlayed": 5
+    "pointsFor": 611.58,
+    "benchPoints": 125.88,
+    "allPlayW": 18,
+    "allPlayL": 42,
+    "weeksPlayed": 6
    },
    "awards": {
     "ownerOfWeek": [],
@@ -1954,14 +2131,15 @@
    "owner": "Michael Smith",
    "call": "Michael Smith beats Bob Dorsch.",
    "resolvesWeek": 6,
-   "graded": null,
-   "correct": null,
+   "graded": 6,
+   "correct": true,
    "check": {
     "type": "h2h",
     "winner": "Michael Smith",
     "loser": "Bob Dorsch",
     "week": 6
-   }
+   },
+   "evidence": "Michael Smith beat Bob Dorsch by 1.88"
   },
   {
    "n": 45,
@@ -1970,14 +2148,15 @@
    "owner": "Bob Dorsch",
    "call": "Bob Dorsch clears 110 in Week 6.",
    "resolvesWeek": 6,
-   "graded": null,
-   "correct": null,
+   "graded": 6,
+   "correct": false,
    "check": {
     "type": "scoreAtLeast",
     "owner": "Bob Dorsch",
     "week": 6,
     "value": 110
-   }
+   },
+   "evidence": "scored 103.34"
   },
   {
    "n": 46,
@@ -1986,14 +2165,15 @@
    "owner": "Billy Norton",
    "call": "Billy Norton wins his first game, over Matt Davis.",
    "resolvesWeek": 6,
-   "graded": null,
-   "correct": null,
+   "graded": 6,
+   "correct": true,
    "check": {
     "type": "h2h",
     "winner": "Billy Norton",
     "loser": "Matt Davis",
     "week": 6
-   }
+   },
+   "evidence": "Billy Norton beat Matt Davis by 24.74"
   },
   {
    "n": 47,
@@ -2002,14 +2182,15 @@
    "owner": "Matt Davis",
    "call": "Matt Davis clears 120 for the fifth straight week.",
    "resolvesWeek": 6,
-   "graded": null,
-   "correct": null,
+   "graded": 6,
+   "correct": false,
    "check": {
     "type": "scoreAtLeast",
     "owner": "Matt Davis",
     "week": 6,
     "value": 120
-   }
+   },
+   "evidence": "scored 71.48"
   },
   {
    "n": 48,
@@ -2018,14 +2199,15 @@
    "owner": "Aaron Jezioro",
    "call": "Aaron Jezioro beats Eric Olson.",
    "resolvesWeek": 6,
-   "graded": null,
-   "correct": null,
+   "graded": 6,
+   "correct": false,
    "check": {
     "type": "h2h",
     "winner": "Aaron Jezioro",
     "loser": "Eric Olson",
     "week": 6
-   }
+   },
+   "evidence": "Aaron Jezioro lost to Eric Olson by 20.14"
   },
   {
    "n": 49,
@@ -2034,14 +2216,15 @@
    "owner": "Eric Olson",
    "call": "Eric Olson leaves under fifteen on his bench in Week 6.",
    "resolvesWeek": 6,
-   "graded": null,
-   "correct": null,
+   "graded": 6,
+   "correct": true,
    "check": {
     "type": "benchUnder",
     "owner": "Eric Olson",
     "week": 6,
     "value": 15
-   }
+   },
+   "evidence": "left 0.00 behind"
   },
   {
    "n": 50,
@@ -2050,14 +2233,15 @@
    "owner": "Michael Turner",
    "call": "Michael Turner beats Spencer Lentz.",
    "resolvesWeek": 6,
-   "graded": null,
-   "correct": null,
+   "graded": 6,
+   "correct": false,
    "check": {
     "type": "h2h",
     "winner": "Michael Turner",
     "loser": "Spencer Lentz",
     "week": 6
-   }
+   },
+   "evidence": "Michael Turner lost to Spencer Lentz by 23.20"
   },
   {
    "n": 51,
@@ -2066,14 +2250,15 @@
    "owner": "Spencer Lentz",
    "call": "Spencer Lentz leaves under five on his bench again.",
    "resolvesWeek": 6,
-   "graded": null,
-   "correct": null,
+   "graded": 6,
+   "correct": false,
    "check": {
     "type": "benchUnder",
     "owner": "Spencer Lentz",
     "week": 6,
     "value": 5
-   }
+   },
+   "evidence": "left 25.40 behind"
   },
   {
    "n": 52,
@@ -2082,14 +2267,15 @@
    "owner": "Ryan Kelly",
    "call": "Ryan Kelly wins his first game, over Aron Rogers.",
    "resolvesWeek": 6,
-   "graded": null,
-   "correct": null,
+   "graded": 6,
+   "correct": false,
    "check": {
     "type": "h2h",
     "winner": "Ryan Kelly",
     "loser": "Aron Rogers",
     "week": 6
-   }
+   },
+   "evidence": "Ryan Kelly lost to Aron Rogers by 31.76"
   },
   {
    "n": 53,
@@ -2098,14 +2284,15 @@
    "owner": "Rahul Pahuja",
    "call": "Rahul Pahuja clears 110 on his bye.",
    "resolvesWeek": 6,
-   "graded": null,
-   "correct": null,
+   "graded": 6,
+   "correct": true,
    "check": {
     "type": "scoreAtLeast",
     "owner": "Rahul Pahuja",
     "week": 6,
     "value": 110
-   }
+   },
+   "evidence": "scored 136.24"
   },
   {
    "n": 54,
@@ -2114,20 +2301,197 @@
    "owner": "Aron Rogers",
    "call": "Aron Rogers leaves under ten on his bench in Week 6.",
    "resolvesWeek": 6,
-   "graded": null,
-   "correct": null,
+   "graded": 6,
+   "correct": true,
    "check": {
     "type": "benchUnder",
     "owner": "Aron Rogers",
     "week": 6,
     "value": 10
+   },
+   "evidence": "left 0.00 behind"
+  },
+  {
+   "n": 55,
+   "week": 6,
+   "by": "Boomer",
+   "owner": "Bob Dorsch",
+   "call": "Bob Dorsch starts Germie Bernard in Week 7, bye or no bye.",
+   "resolvesWeek": 7,
+   "graded": null,
+   "correct": null,
+   "check": {
+    "type": "startsPlayer",
+    "owner": "Bob Dorsch",
+    "week": 7,
+    "player": "Germie Bernard"
+   }
+  },
+  {
+   "n": 56,
+   "week": 6,
+   "by": "Boomer",
+   "owner": "Rahul Pahuja",
+   "call": "Rahul Pahuja starts C.J. Stroud in Week 7.",
+   "resolvesWeek": 7,
+   "graded": null,
+   "correct": null,
+   "check": {
+    "type": "startsPlayer",
+    "owner": "Rahul Pahuja",
+    "week": 7,
+    "player": "C.J. Stroud"
+   }
+  },
+  {
+   "n": 57,
+   "week": 6,
+   "by": "Boomer",
+   "owner": "Matt Davis",
+   "call": "Matt Davis beats Rahul Pahuja.",
+   "resolvesWeek": 7,
+   "graded": null,
+   "correct": null,
+   "check": {
+    "type": "h2h",
+    "winner": "Matt Davis",
+    "loser": "Rahul Pahuja",
+    "week": 7
+   }
+  },
+  {
+   "n": 58,
+   "week": 6,
+   "by": "Boomer",
+   "owner": "Michael Smith",
+   "call": "Michael Smith beats Eric Olson.",
+   "resolvesWeek": 7,
+   "graded": null,
+   "correct": null,
+   "check": {
+    "type": "h2h",
+    "winner": "Michael Smith",
+    "loser": "Eric Olson",
+    "week": 7
+   }
+  },
+  {
+   "n": 59,
+   "week": 6,
+   "by": "Boomer",
+   "owner": "Eric Olson",
+   "call": "Eric Olson clears 100 in Week 7.",
+   "resolvesWeek": 7,
+   "graded": null,
+   "correct": null,
+   "check": {
+    "type": "scoreAtLeast",
+    "owner": "Eric Olson",
+    "week": 7,
+    "value": 100
+   }
+  },
+  {
+   "n": 60,
+   "week": 6,
+   "by": "Boomer",
+   "owner": "Billy Norton",
+   "call": "Billy Norton beats Spencer Lentz for the fourth straight time.",
+   "resolvesWeek": 7,
+   "graded": null,
+   "correct": null,
+   "check": {
+    "type": "h2h",
+    "winner": "Billy Norton",
+    "loser": "Spencer Lentz",
+    "week": 7
+   }
+  },
+  {
+   "n": 61,
+   "week": 6,
+   "by": "Boomer",
+   "owner": "Spencer Lentz",
+   "call": "Spencer Lentz leaves under ten on his bench in Week 7.",
+   "resolvesWeek": 7,
+   "graded": null,
+   "correct": null,
+   "check": {
+    "type": "benchUnder",
+    "owner": "Spencer Lentz",
+    "week": 7,
+    "value": 10
+   }
+  },
+  {
+   "n": 62,
+   "week": 6,
+   "by": "Boomer",
+   "owner": "Aaron Jezioro",
+   "call": "Aaron Jezioro clears 100 in Week 7.",
+   "resolvesWeek": 7,
+   "graded": null,
+   "correct": null,
+   "check": {
+    "type": "scoreAtLeast",
+    "owner": "Aaron Jezioro",
+    "week": 7,
+    "value": 100
+   }
+  },
+  {
+   "n": 63,
+   "week": 6,
+   "by": "Boomer",
+   "owner": "Aron Rogers",
+   "call": "Aron Rogers beats Aaron Jezioro for the ninth straight time.",
+   "resolvesWeek": 7,
+   "graded": null,
+   "correct": null,
+   "check": {
+    "type": "h2h",
+    "winner": "Aron Rogers",
+    "loser": "Aaron Jezioro",
+    "week": 7
+   }
+  },
+  {
+   "n": 64,
+   "week": 6,
+   "by": "Boomer",
+   "owner": "Michael Turner",
+   "call": "Michael Turner beats Ryan Kelly.",
+   "resolvesWeek": 7,
+   "graded": null,
+   "correct": null,
+   "check": {
+    "type": "h2h",
+    "winner": "Michael Turner",
+    "loser": "Ryan Kelly",
+    "week": 7
+   }
+  },
+  {
+   "n": 65,
+   "week": 6,
+   "by": "Boomer",
+   "owner": "Ryan Kelly",
+   "call": "Ryan Kelly clears 90 in Week 7.",
+   "resolvesWeek": 7,
+   "graded": null,
+   "correct": null,
+   "check": {
+    "type": "scoreAtLeast",
+    "owner": "Ryan Kelly",
+    "week": 7,
+    "value": 90
    }
   }
  ],
  "record": {
-  "graded": 42,
-  "right": 16,
-  "wrong": 26,
+  "graded": 53,
+  "right": 21,
+  "wrong": 32,
   "open": 12
  },
  "usedInsights": [
@@ -2250,6 +2614,73 @@
     "Aaron Jezioro"
    ],
    "value": 13
+  },
+  {
+   "week": 6,
+   "kind": "streak_snapped",
+   "owners": [
+    "Aron Rogers",
+    "Ryan Kelly"
+   ],
+   "value": 6
+  },
+  {
+   "week": 6,
+   "kind": "streak_snapped",
+   "owners": [
+    "Michael Smith",
+    "Bob Dorsch"
+   ],
+   "value": 5
+  },
+  {
+   "week": 6,
+   "kind": "benched_the_win",
+   "owners": [
+    "Bob Dorsch"
+   ],
+   "value": 25.0
+  },
+  {
+   "week": 6,
+   "kind": "bench_bomb",
+   "owners": [
+    "Aaron Jezioro"
+   ],
+   "value": 36.34
+  },
+  {
+   "week": 6,
+   "kind": "career_low",
+   "owners": [
+    "Matt Davis"
+   ],
+   "value": 71.48
+  },
+  {
+   "week": 6,
+   "kind": "lifetime_series",
+   "owners": [
+    "Billy Norton",
+    "Matt Davis"
+   ],
+   "value": "12-5"
+  },
+  {
+   "week": 6,
+   "kind": "season_luck",
+   "owners": [
+    "Michael Turner"
+   ],
+   "value": "1-4 on 26-24 all-play"
+  },
+  {
+   "week": 6,
+   "kind": "top_start",
+   "owners": [
+    "Aron Rogers"
+   ],
+   "value": 32.96
   }
  ]
 }
