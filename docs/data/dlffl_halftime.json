@@ -1,0 +1,660 @@
+{
+ "league": "dlffl",
+ "week": 7,
+ "seasonsOnRecord": 17,
+ "firstYear": 2009,
+ "lastYear": 2025,
+ "halfwayLeader": {
+  "titles": 4,
+  "playoffs": 16,
+  "n": 17
+ },
+ "pointsLeader": {
+  "titles": 6,
+  "playoffs": 16,
+  "n": 17
+ },
+ "byWins": {
+  "7": {
+   "n": 2,
+   "po": 2,
+   "titles": 0
+  },
+  "6": {
+   "n": 7,
+   "po": 7,
+   "titles": 2
+  },
+  "5": {
+   "n": 44,
+   "po": 31,
+   "titles": 11
+  },
+  "4": {
+   "n": 42,
+   "po": 23,
+   "titles": 3
+  },
+  "3": {
+   "n": 51,
+   "po": 15,
+   "titles": 0
+  },
+  "2": {
+   "n": 31,
+   "po": 3,
+   "titles": 1
+  },
+  "1": {
+   "n": 14,
+   "po": 0,
+   "titles": 0
+  },
+  "0": {
+   "n": 1,
+   "po": 0,
+   "titles": 0
+  }
+ },
+ "leaderMissed": [
+  {
+   "year": 2023,
+   "owner": "Kent Frenger",
+   "w": 5,
+   "l": 2
+  }
+ ],
+ "lowestPfRankToMakePlayoffs": [
+  {
+   "year": 2022,
+   "owner": "Doug Fields",
+   "w": 4,
+   "l": 3,
+   "pfRank": 12,
+   "teams": 12
+  },
+  {
+   "year": 2012,
+   "owner": "Dustin Hollar",
+   "w": 5,
+   "l": 2,
+   "pfRank": 10,
+   "teams": 12
+  },
+  {
+   "year": 2013,
+   "owner": "Casey Couture",
+   "w": 4,
+   "l": 3,
+   "pfRank": 9,
+   "teams": 10
+  }
+ ],
+ "week7Records": {
+  "games": 97,
+  "highest": [
+   {
+    "year": 2010,
+    "owner": "Spencer Lentz",
+    "score": 185.0,
+    "opp": "Kim Boocher",
+    "oppScore": 120.0
+   },
+   {
+    "year": 2020,
+    "owner": "Doug Fields",
+    "score": 181.56,
+    "opp": "Jake Hackett",
+    "oppScore": 85.02
+   },
+   {
+    "year": 2021,
+    "owner": "Casey Couture",
+    "score": 180.28,
+    "opp": "Scott Howard",
+    "oppScore": 106.86
+   }
+  ],
+  "lowest": [
+   {
+    "year": 2019,
+    "owner": "Adam Hershberger",
+    "score": 37.84,
+    "opp": "Phil Shepherd",
+    "oppScore": 123.02
+   },
+   {
+    "year": 2014,
+    "owner": "Ryan Couture",
+    "score": 42.84,
+    "opp": "Chelsea Wilkinson",
+    "oppScore": 101.6
+   },
+   {
+    "year": 2025,
+    "owner": "Seth Humble",
+    "score": 47.84,
+    "opp": "Spencer Lentz",
+    "oppScore": 84.82
+   }
+  ],
+  "biggestMargin": [
+   {
+    "year": 2020,
+    "owner": "Doug Fields",
+    "score": 181.56,
+    "opp": "Jake Hackett",
+    "oppScore": 85.02,
+    "margin": 96.54
+   },
+   {
+    "year": 2024,
+    "owner": "Casey Couture",
+    "score": 158.04,
+    "opp": "Scott Howard",
+    "oppScore": 65.7,
+    "margin": 92.34
+   },
+   {
+    "year": 2017,
+    "owner": "Spencer Lentz",
+    "score": 175.38,
+    "opp": "Beth Couture",
+    "oppScore": 84.62,
+    "margin": 90.76
+   }
+  ],
+  "closest": [
+   {
+    "year": 2011,
+    "owner": "Ryan Couture",
+    "score": 81.0,
+    "opp": "noahwaterman",
+    "oppScore": 80.0,
+    "margin": 1.0
+   },
+   {
+    "year": 2013,
+    "owner": "Kent Frenger",
+    "score": 125.38,
+    "opp": "Beth Couture",
+    "oppScore": 124.34,
+    "margin": 1.04
+   },
+   {
+    "year": 2014,
+    "owner": "Spencer Lentz",
+    "score": 134.66,
+    "opp": "Adam Hershberger",
+    "oppScore": 133.54,
+    "margin": 1.12
+   }
+  ]
+ },
+ "championsAtHalfway": [
+  {
+   "year": 2009,
+   "owner": "Casey Couture",
+   "w": 5,
+   "l": 2,
+   "rank": 3,
+   "pf": 951.0
+  },
+  {
+   "year": 2010,
+   "owner": "Spencer Lentz",
+   "w": 5,
+   "l": 2,
+   "rank": 1,
+   "pf": 955.0
+  },
+  {
+   "year": 2011,
+   "owner": "Casey Couture",
+   "w": 2,
+   "l": 5,
+   "rank": 9,
+   "pf": 787.0
+  },
+  {
+   "year": 2012,
+   "owner": "Ben Gates",
+   "w": 5,
+   "l": 2,
+   "rank": 2,
+   "pf": 813.92
+  },
+  {
+   "year": 2013,
+   "owner": "Spencer Lentz",
+   "w": 5,
+   "l": 2,
+   "rank": 2,
+   "pf": 847.74
+  },
+  {
+   "year": 2014,
+   "owner": "Beth Couture",
+   "w": 5,
+   "l": 2,
+   "rank": 3,
+   "pf": 818.5
+  },
+  {
+   "year": 2015,
+   "owner": "Seth Humble",
+   "w": 4,
+   "l": 3,
+   "rank": 5,
+   "pf": 776.52
+  },
+  {
+   "year": 2016,
+   "owner": "Spencer Lentz",
+   "w": 4,
+   "l": 3,
+   "rank": 7,
+   "pf": 906.2
+  },
+  {
+   "year": 2017,
+   "owner": "Casey Couture",
+   "w": 5,
+   "l": 2,
+   "rank": 1,
+   "pf": 773.7
+  },
+  {
+   "year": 2018,
+   "owner": "Beth Couture",
+   "w": 5,
+   "l": 2,
+   "rank": 1,
+   "pf": 993.84
+  },
+  {
+   "year": 2019,
+   "owner": "Spencer Lentz",
+   "w": 6,
+   "l": 1,
+   "rank": 1,
+   "pf": 844.5
+  },
+  {
+   "year": 2020,
+   "owner": "Casey Couture",
+   "w": 5,
+   "l": 2,
+   "rank": 2,
+   "pf": 834.82
+  },
+  {
+   "year": 2021,
+   "owner": "Casey Couture",
+   "w": 5,
+   "l": 2,
+   "rank": 2,
+   "pf": 1007.82
+  },
+  {
+   "year": 2022,
+   "owner": "Beth Couture",
+   "w": 5,
+   "l": 2,
+   "rank": 2,
+   "pf": 764.0
+  },
+  {
+   "year": 2023,
+   "owner": "Scott Reisert",
+   "w": 5,
+   "l": 2,
+   "rank": 2,
+   "pf": 779.84
+  },
+  {
+   "year": 2024,
+   "owner": "Doug Fields",
+   "w": 6,
+   "l": 1,
+   "rank": 2,
+   "pf": 908.7
+  },
+  {
+   "year": 2025,
+   "owner": "Kent Frenger",
+   "w": 4,
+   "l": 3,
+   "rank": 6,
+   "pf": 750.84
+  }
+ ],
+ "worstHalfwayToMakePlayoffs": [
+  {
+   "owner": "Kent Frenger",
+   "w": 2,
+   "l": 5,
+   "pf": 685.52,
+   "rank": 8,
+   "madePlayoffs": true,
+   "wonTitle": false,
+   "year": 2014
+  },
+  {
+   "owner": "Allen Pettit",
+   "w": 2,
+   "l": 5,
+   "pf": 736.86,
+   "rank": 10,
+   "madePlayoffs": true,
+   "wonTitle": false,
+   "year": 2018
+  },
+  {
+   "owner": "Casey Couture",
+   "w": 2,
+   "l": 5,
+   "pf": 787.0,
+   "rank": 9,
+   "madePlayoffs": true,
+   "wonTitle": true,
+   "year": 2011
+  }
+ ],
+ "bestHalfwayToMiss": [
+  {
+   "owner": "Ryan Couture",
+   "w": 5,
+   "l": 2,
+   "pf": 885.1,
+   "rank": 2,
+   "madePlayoffs": false,
+   "wonTitle": false,
+   "year": 2019
+  },
+  {
+   "owner": "Dennis Couture",
+   "w": 5,
+   "l": 2,
+   "pf": 812.54,
+   "rank": 3,
+   "madePlayoffs": false,
+   "wonTitle": false,
+   "year": 2012
+  },
+  {
+   "owner": "Kent Frenger",
+   "w": 5,
+   "l": 2,
+   "pf": 806.96,
+   "rank": 2,
+   "madePlayoffs": false,
+   "wonTitle": false,
+   "year": 2016
+  }
+ ],
+ "worstHalfwayChampion": [
+  {
+   "year": 2011,
+   "owner": "Casey Couture",
+   "w": 2,
+   "l": 5,
+   "rank": 9,
+   "pf": 787.0
+  },
+  {
+   "year": 2025,
+   "owner": "Kent Frenger",
+   "w": 4,
+   "l": 3,
+   "rank": 6,
+   "pf": 750.84
+  },
+  {
+   "year": 2015,
+   "owner": "Seth Humble",
+   "w": 4,
+   "l": 3,
+   "rank": 5,
+   "pf": 776.52
+  }
+ ],
+ "lowestRankedChampion": {
+  "year": 2011,
+  "owner": "Casey Couture",
+  "w": 2,
+  "l": 5,
+  "rank": 9,
+  "pf": 787.0
+ },
+ "current": [
+  {
+   "owner": "Spencer Lentz",
+   "display": "Spencer Lentz",
+   "team": "Balls Deep",
+   "w": 5,
+   "l": 2,
+   "pf": 925.28,
+   "seed": 1,
+   "allPlayW": 60,
+   "allPlayL": 17,
+   "games": 7,
+   "expWins": 5.45,
+   "luck": -0.45,
+   "pfRank": 1,
+   "recKey": "5",
+   "histN": 44,
+   "histPO": 31,
+   "histTitles": 11
+  },
+  {
+   "owner": "Kent Frenger",
+   "display": "Kent Frenger",
+   "team": "Berlin Blitz",
+   "w": 5,
+   "l": 2,
+   "pf": 841.38,
+   "seed": 2,
+   "allPlayW": 53,
+   "allPlayL": 24,
+   "games": 7,
+   "expWins": 4.82,
+   "luck": 0.18,
+   "pfRank": 3,
+   "recKey": "5",
+   "histN": 44,
+   "histPO": 31,
+   "histTitles": 11
+  },
+  {
+   "owner": "Geoff Cavender",
+   "display": "Geoff Cavender",
+   "team": "Hawk Tua Tagovailoa",
+   "w": 5,
+   "l": 2,
+   "pf": 748.34,
+   "seed": 3,
+   "allPlayW": 36,
+   "allPlayL": 41,
+   "games": 7,
+   "expWins": 3.27,
+   "luck": 1.73,
+   "pfRank": 6,
+   "recKey": "5",
+   "histN": 44,
+   "histPO": 31,
+   "histTitles": 11
+  },
+  {
+   "owner": "dennis couture",
+   "display": "DA",
+   "team": "DA The Badenov's",
+   "w": 4,
+   "l": 3,
+   "pf": 844.84,
+   "seed": 4,
+   "allPlayW": 46,
+   "allPlayL": 31,
+   "games": 7,
+   "expWins": 4.18,
+   "luck": -0.18,
+   "pfRank": 2,
+   "recKey": "4",
+   "histN": 42,
+   "histPO": 23,
+   "histTitles": 3
+  },
+  {
+   "owner": "Scott Reisert",
+   "display": "Scott Reisert",
+   "team": "Simba St. Gibbs Lion Kings",
+   "w": 4,
+   "l": 3,
+   "pf": 840.2,
+   "seed": 5,
+   "allPlayW": 48,
+   "allPlayL": 29,
+   "games": 7,
+   "expWins": 4.36,
+   "luck": -0.36,
+   "pfRank": 4,
+   "recKey": "4",
+   "histN": 42,
+   "histPO": 23,
+   "histTitles": 3
+  },
+  {
+   "owner": "Casey Couture",
+   "display": "Casey Couture",
+   "team": "One Under akaThe Mulligan",
+   "w": 4,
+   "l": 3,
+   "pf": 653.22,
+   "seed": 6,
+   "allPlayW": 23,
+   "allPlayL": 54,
+   "games": 7,
+   "expWins": 2.09,
+   "luck": 1.91,
+   "pfRank": 12,
+   "recKey": "4",
+   "histN": 42,
+   "histPO": 23,
+   "histTitles": 3
+  },
+  {
+   "owner": "Ryan Reed",
+   "display": "Ryan Reed",
+   "team": "BearDown",
+   "w": 3,
+   "l": 4,
+   "pf": 728.98,
+   "seed": 7,
+   "allPlayW": 39,
+   "allPlayL": 38,
+   "games": 7,
+   "expWins": 3.55,
+   "luck": -0.55,
+   "pfRank": 7,
+   "recKey": "3",
+   "histN": 51,
+   "histPO": 15,
+   "histTitles": 0
+  },
+  {
+   "owner": "Adam Calvelage",
+   "display": "Adam Calvelage",
+   "team": "An alBum Cover",
+   "w": 3,
+   "l": 4,
+   "pf": 717.24,
+   "seed": 8,
+   "allPlayW": 33,
+   "allPlayL": 44,
+   "games": 7,
+   "expWins": 3.0,
+   "luck": 0.0,
+   "pfRank": 8,
+   "recKey": "3",
+   "histN": 51,
+   "histPO": 15,
+   "histTitles": 0
+  },
+  {
+   "owner": "Doug Fields",
+   "display": "Doug Fields",
+   "team": "Cosby Copperheads",
+   "w": 3,
+   "l": 4,
+   "pf": 678.74,
+   "seed": 9,
+   "allPlayW": 29,
+   "allPlayL": 48,
+   "games": 7,
+   "expWins": 2.64,
+   "luck": 0.36,
+   "pfRank": 9,
+   "recKey": "3",
+   "histN": 51,
+   "histPO": 15,
+   "histTitles": 0
+  },
+  {
+   "owner": "Adam Hershberger",
+   "display": "Adam Hershberger",
+   "team": "Holy Rollers",
+   "w": 3,
+   "l": 4,
+   "pf": 671.2,
+   "seed": 10,
+   "allPlayW": 34,
+   "allPlayL": 43,
+   "games": 7,
+   "expWins": 3.09,
+   "luck": -0.09,
+   "pfRank": 10,
+   "recKey": "3",
+   "histN": 51,
+   "histPO": 15,
+   "histTitles": 0
+  },
+  {
+   "owner": "Scott Howard",
+   "display": "Scott Howard",
+   "team": "The Scranton Strangler",
+   "w": 2,
+   "l": 5,
+   "pf": 761.1,
+   "seed": 11,
+   "allPlayW": 37,
+   "allPlayL": 40,
+   "games": 7,
+   "expWins": 3.36,
+   "luck": -1.36,
+   "pfRank": 5,
+   "recKey": "2",
+   "histN": 31,
+   "histPO": 3,
+   "histTitles": 1
+  },
+  {
+   "owner": "Beth Couture",
+   "display": "Mama Beth",
+   "team": "Momma's Boys",
+   "w": 1,
+   "l": 6,
+   "pf": 660.08,
+   "seed": 12,
+   "allPlayW": 24,
+   "allPlayL": 53,
+   "games": 7,
+   "expWins": 2.18,
+   "luck": -1.18,
+   "pfRank": 11,
+   "recKey": "1",
+   "histN": 14,
+   "histPO": 0,
+   "histTitles": 0
+  }
+ ]
+}

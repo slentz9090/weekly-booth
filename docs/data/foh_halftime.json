@@ -1,0 +1,617 @@
+{
+ "league": "foh",
+ "week": 7,
+ "seasonsOnRecord": 14,
+ "firstYear": 2011,
+ "lastYear": 2025,
+ "halfwayLeader": {
+  "titles": 4,
+  "playoffs": 13,
+  "n": 14
+ },
+ "pointsLeader": {
+  "titles": 6,
+  "playoffs": 13,
+  "n": 14
+ },
+ "byWins": {
+  "7": {
+   "n": 5,
+   "po": 5,
+   "titles": 2
+  },
+  "6": {
+   "n": 12,
+   "po": 11,
+   "titles": 2
+  },
+  "5": {
+   "n": 21,
+   "po": 20,
+   "titles": 4
+  },
+  "4": {
+   "n": 34,
+   "po": 18,
+   "titles": 5
+  },
+  "3": {
+   "n": 40,
+   "po": 18,
+   "titles": 1
+  },
+  "2": {
+   "n": 29,
+   "po": 1,
+   "titles": 0
+  },
+  "1": {
+   "n": 13,
+   "po": 1,
+   "titles": 0
+  },
+  "0": {
+   "n": 2,
+   "po": 0,
+   "titles": 0
+  }
+ },
+ "leaderMissed": [
+  {
+   "year": 2024,
+   "owner": "Aron Rogers",
+   "w": 6,
+   "l": 1
+  }
+ ],
+ "lowestPfRankToMakePlayoffs": [
+  {
+   "year": 2013,
+   "owner": "Herb Schumann",
+   "w": 1,
+   "l": 6,
+   "pfRank": 11,
+   "teams": 12
+  },
+  {
+   "year": 2015,
+   "owner": "Jeffery Braun",
+   "w": 4,
+   "l": 3,
+   "pfRank": 10,
+   "teams": 12
+  },
+  {
+   "year": 2017,
+   "owner": "Aron Rogers",
+   "w": 3,
+   "l": 4,
+   "pfRank": 10,
+   "teams": 12
+  }
+ ],
+ "week7Records": {
+  "games": 82,
+  "highest": [
+   {
+    "year": 2020,
+    "owner": "Matt Davis",
+    "score": 185.46,
+    "opp": "Michael Turner",
+    "oppScore": 60.4
+   },
+   {
+    "year": 2015,
+    "owner": "Jeff Schappert",
+    "score": 179.62,
+    "opp": "Ryan Kelly",
+    "oppScore": 93.34
+   },
+   {
+    "year": 2022,
+    "owner": "Ryan Kelly",
+    "score": 165.92,
+    "opp": "Aron Rogers",
+    "oppScore": 116.7
+   }
+  ],
+  "lowest": [
+   {
+    "year": 2015,
+    "owner": "Matt Horak",
+    "score": 55.2,
+    "opp": "Michael Turner",
+    "oppScore": 101.34
+   },
+   {
+    "year": 2025,
+    "owner": "Ryan Kelly",
+    "score": 55.74,
+    "opp": "Aaron Jezioro",
+    "oppScore": 122.18
+   },
+   {
+    "year": 2023,
+    "owner": "Aaron Jezioro",
+    "score": 60.16,
+    "opp": "Herb Schumann",
+    "oppScore": 142.3
+   }
+  ],
+  "biggestMargin": [
+   {
+    "year": 2020,
+    "owner": "Matt Davis",
+    "score": 185.46,
+    "opp": "Michael Turner",
+    "oppScore": 60.4,
+    "margin": 125.06
+   },
+   {
+    "year": 2015,
+    "owner": "Jeff Schappert",
+    "score": 179.62,
+    "opp": "Ryan Kelly",
+    "oppScore": 93.34,
+    "margin": 86.28
+   },
+   {
+    "year": 2023,
+    "owner": "Herb Schumann",
+    "score": 142.3,
+    "opp": "Aaron Jezioro",
+    "oppScore": 60.16,
+    "margin": 82.14
+   }
+  ],
+  "closest": [
+   {
+    "year": 2011,
+    "owner": "Matt Davis",
+    "score": 113.14,
+    "opp": "Michael Smith",
+    "oppScore": 112.84,
+    "margin": 0.3
+   },
+   {
+    "year": 2020,
+    "owner": "Herb Schumann",
+    "score": 120.86,
+    "opp": "Aron Rogers",
+    "oppScore": 120.22,
+    "margin": 0.64
+   },
+   {
+    "year": 2023,
+    "owner": "Aron Rogers",
+    "score": 89.46,
+    "opp": "Rahul Pahuja",
+    "oppScore": 88.56,
+    "margin": 0.9
+   }
+  ]
+ },
+ "championsAtHalfway": [
+  {
+   "year": 2011,
+   "owner": "Ryan Kelly",
+   "w": 4,
+   "l": 3,
+   "rank": 2,
+   "pf": 891.51
+  },
+  {
+   "year": 2012,
+   "owner": "Bob Dorsch",
+   "w": 5,
+   "l": 2,
+   "rank": 4,
+   "pf": 795.2
+  },
+  {
+   "year": 2013,
+   "owner": "Rahul Pahuja",
+   "w": 7,
+   "l": 0,
+   "rank": 1,
+   "pf": 915.06
+  },
+  {
+   "year": 2014,
+   "owner": "Billy Norton",
+   "w": 5,
+   "l": 2,
+   "rank": 4,
+   "pf": 810.14
+  },
+  {
+   "year": 2015,
+   "owner": "Bob Dorsch",
+   "w": 4,
+   "l": 3,
+   "rank": 3,
+   "pf": 847.76
+  },
+  {
+   "year": 2016,
+   "owner": "Ryan Kelly",
+   "w": 3,
+   "l": 4,
+   "rank": 7,
+   "pf": 748.18
+  },
+  {
+   "year": 2017,
+   "owner": "Billy Norton",
+   "w": 5,
+   "l": 2,
+   "rank": 2,
+   "pf": 753.4
+  },
+  {
+   "year": 2019,
+   "owner": "Aron Rogers",
+   "w": 7,
+   "l": 0,
+   "rank": 1,
+   "pf": 901.28
+  },
+  {
+   "year": 2020,
+   "owner": "Michael Smith",
+   "w": 5,
+   "l": 2,
+   "rank": 3,
+   "pf": 803.48
+  },
+  {
+   "year": 2021,
+   "owner": "Ryan Kelly",
+   "w": 4,
+   "l": 3,
+   "rank": 3,
+   "pf": 900.66
+  },
+  {
+   "year": 2022,
+   "owner": "Billy Norton",
+   "w": 4,
+   "l": 3,
+   "rank": 6,
+   "pf": 743.68
+  },
+  {
+   "year": 2023,
+   "owner": "Matt Davis",
+   "w": 6,
+   "l": 1,
+   "rank": 1,
+   "pf": 778.28
+  },
+  {
+   "year": 2024,
+   "owner": "Ryan Kelly",
+   "w": 4,
+   "l": 3,
+   "rank": 5,
+   "pf": 841.32
+  },
+  {
+   "year": 2025,
+   "owner": "Bob Dorsch",
+   "w": 6,
+   "l": 1,
+   "rank": 1,
+   "pf": 1000.1
+  }
+ ],
+ "worstHalfwayToMakePlayoffs": [
+  {
+   "owner": "Herb Schumann",
+   "w": 1,
+   "l": 6,
+   "pf": 624.22,
+   "rank": 11,
+   "madePlayoffs": true,
+   "wonTitle": false,
+   "year": 2013
+  },
+  {
+   "owner": "Aron Rogers",
+   "w": 2,
+   "l": 5,
+   "pf": 802.44,
+   "rank": 10,
+   "madePlayoffs": true,
+   "wonTitle": false,
+   "year": 2020
+  },
+  {
+   "owner": "Michael Turner",
+   "w": 3,
+   "l": 3,
+   "pf": 619.66,
+   "rank": 6,
+   "madePlayoffs": true,
+   "wonTitle": false,
+   "year": 2023
+  }
+ ],
+ "bestHalfwayToMiss": [
+  {
+   "owner": "Aron Rogers",
+   "w": 6,
+   "l": 1,
+   "pf": 833.6,
+   "rank": 1,
+   "madePlayoffs": false,
+   "wonTitle": false,
+   "year": 2024
+  },
+  {
+   "owner": "Aron Rogers",
+   "w": 5,
+   "l": 2,
+   "pf": 680.22,
+   "rank": 3,
+   "madePlayoffs": false,
+   "wonTitle": false,
+   "year": 2023
+  },
+  {
+   "owner": "Bob Dorsch",
+   "w": 4,
+   "l": 3,
+   "pf": 883.9,
+   "rank": 3,
+   "madePlayoffs": false,
+   "wonTitle": false,
+   "year": 2013
+  }
+ ],
+ "worstHalfwayChampion": [
+  {
+   "year": 2016,
+   "owner": "Ryan Kelly",
+   "w": 3,
+   "l": 4,
+   "rank": 7,
+   "pf": 748.18
+  },
+  {
+   "year": 2022,
+   "owner": "Billy Norton",
+   "w": 4,
+   "l": 3,
+   "rank": 6,
+   "pf": 743.68
+  },
+  {
+   "year": 2024,
+   "owner": "Ryan Kelly",
+   "w": 4,
+   "l": 3,
+   "rank": 5,
+   "pf": 841.32
+  }
+ ],
+ "lowestRankedChampion": {
+  "year": 2016,
+  "owner": "Ryan Kelly",
+  "w": 3,
+  "l": 4,
+  "rank": 7,
+  "pf": 748.18
+ },
+ "current": [
+  {
+   "owner": "Matt Davis",
+   "display": "Matt Davis",
+   "team": "Dallas Dawgs",
+   "w": 5,
+   "l": 2,
+   "pf": 904.52,
+   "seed": 1,
+   "allPlayW": 50,
+   "allPlayL": 20,
+   "games": 7,
+   "expWins": 5.0,
+   "luck": 0.0,
+   "pfRank": 1,
+   "recKey": "5",
+   "histN": 21,
+   "histPO": 20,
+   "histTitles": 4
+  },
+  {
+   "owner": "Spencer Lentz",
+   "display": "Spencer Lentz",
+   "team": "Balls Deep",
+   "w": 5,
+   "l": 2,
+   "pf": 897.52,
+   "seed": 2,
+   "allPlayW": 49,
+   "allPlayL": 21,
+   "games": 7,
+   "expWins": 4.9,
+   "luck": 0.1,
+   "pfRank": 2,
+   "recKey": "5",
+   "histN": 21,
+   "histPO": 20,
+   "histTitles": 4
+  },
+  {
+   "owner": "Aron Rogers",
+   "display": "Aron Rogers",
+   "team": "Kim Jong Un Pleasure Squad",
+   "w": 5,
+   "l": 2,
+   "pf": 880.86,
+   "seed": 3,
+   "allPlayW": 51,
+   "allPlayL": 19,
+   "games": 7,
+   "expWins": 5.1,
+   "luck": -0.1,
+   "pfRank": 3,
+   "recKey": "5",
+   "histN": 21,
+   "histPO": 20,
+   "histTitles": 4
+  },
+  {
+   "owner": "Eric Olson",
+   "display": "Eric Olson",
+   "team": "Colorado Narcoleptic Kestrels",
+   "w": 5,
+   "l": 2,
+   "pf": 847.02,
+   "seed": 4,
+   "allPlayW": 50,
+   "allPlayL": 20,
+   "games": 7,
+   "expWins": 5.0,
+   "luck": 0.0,
+   "pfRank": 4,
+   "recKey": "5",
+   "histN": 21,
+   "histPO": 20,
+   "histTitles": 4
+  },
+  {
+   "owner": "Rahul Pahuja",
+   "display": "Rahul Pahuja",
+   "team": "Pack Up",
+   "w": 4,
+   "l": 2,
+   "pf": 697.08,
+   "seed": 5,
+   "allPlayW": 33,
+   "allPlayL": 27,
+   "games": 6,
+   "expWins": 3.3,
+   "luck": 0.7,
+   "pfRank": 5,
+   "recKey": "4",
+   "histN": 34,
+   "histPO": 18,
+   "histTitles": 5
+  },
+  {
+   "owner": "Michael Smith",
+   "display": "Michael Smith",
+   "team": "Midget Grinders",
+   "w": 4,
+   "l": 2,
+   "pf": 666,
+   "seed": 6,
+   "allPlayW": 31,
+   "allPlayL": 29,
+   "games": 6,
+   "expWins": 3.1,
+   "luck": 0.9,
+   "pfRank": 6,
+   "recKey": "4",
+   "histN": 34,
+   "histPO": 18,
+   "histTitles": 5
+  },
+  {
+   "owner": "Bob Dorsch",
+   "display": "Bob Dorsch",
+   "team": "WPB Steel City",
+   "w": 2,
+   "l": 4,
+   "pf": 663.16,
+   "seed": 7,
+   "allPlayW": 30,
+   "allPlayL": 30,
+   "games": 6,
+   "expWins": 3.0,
+   "luck": -1.0,
+   "pfRank": 7,
+   "recKey": "2",
+   "histN": 29,
+   "histPO": 1,
+   "histTitles": 0
+  },
+  {
+   "owner": "Aaron Jezioro",
+   "display": "Aaron Jezioro",
+   "team": "| croup",
+   "w": 2,
+   "l": 4,
+   "pf": 579.32,
+   "seed": 8,
+   "allPlayW": 16,
+   "allPlayL": 44,
+   "games": 6,
+   "expWins": 1.6,
+   "luck": 0.4,
+   "pfRank": 9,
+   "recKey": "2",
+   "histN": 29,
+   "histPO": 1,
+   "histTitles": 0
+  },
+  {
+   "owner": "Michael Turner",
+   "display": "Michael Turner",
+   "team": "Napoleon's Army",
+   "w": 1,
+   "l": 5,
+   "pf": 659.82,
+   "seed": 9,
+   "allPlayW": 28,
+   "allPlayL": 32,
+   "games": 6,
+   "expWins": 2.8,
+   "luck": -1.8,
+   "pfRank": 8,
+   "recKey": "1",
+   "histN": 13,
+   "histPO": 1,
+   "histTitles": 0
+  },
+  {
+   "owner": "Billy Norton",
+   "display": "Billy Norton",
+   "team": "I Loved You Tom Brady",
+   "w": 1,
+   "l": 5,
+   "pf": 509.22,
+   "seed": 10,
+   "allPlayW": 12,
+   "allPlayL": 48,
+   "games": 6,
+   "expWins": 1.2,
+   "luck": -0.2,
+   "pfRank": 10,
+   "recKey": "1",
+   "histN": 13,
+   "histPO": 1,
+   "histTitles": 0
+  },
+  {
+   "owner": "Ryan Kelly",
+   "display": "Ryan Kelly",
+   "team": "Old Man Smashers",
+   "w": 1,
+   "l": 5,
+   "pf": 456.5,
+   "seed": 11,
+   "allPlayW": 11,
+   "allPlayL": 49,
+   "games": 6,
+   "expWins": 1.1,
+   "luck": -0.1,
+   "pfRank": 11,
+   "recKey": "1",
+   "histN": 13,
+   "histPO": 1,
+   "histTitles": 0
+  }
+ ]
+}
