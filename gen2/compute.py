@@ -144,6 +144,9 @@ def grade(pred, facts):
         return ("RIGHT" if team["score"] < c["value"] else "WRONG", f"scored {team['score']:.2f}")
     if t == "scoreAtLeast":
         return ("RIGHT" if team["score"] >= c["value"] else "WRONG", f"scored {team['score']:.2f}")
+    if t == "scoreBetween":
+        ok = c["low"] <= team["score"] <= c["high"]
+        return ("RIGHT" if ok else "WRONG", f"scored {team['score']:.2f}")
     if t == "benchUnder":
         return ("RIGHT" if team["left"] < c["value"] else "WRONG", f"left {team['left']:.2f} behind")
     if t == "benchAtLeastAndLoses":
@@ -171,6 +174,8 @@ def grade(pred, facts):
         won, margin, opp = result_for(facts, o)
         if won is False and margin < c["value"]:
             return ("RIGHT", f"lost to {opp} by {margin:.2f}")
+        if wk >= max(c["weeks"]):
+            return ("WRONG", f"{'lost to' if won is False else 'beat'} {opp} by {margin:.2f} in the last week of the window; never lost by under {c['value']}")
         return (None, f"still open, resolves by week {max(c['weeks'])}")
     return (None, f"unknown check type {t}")
 

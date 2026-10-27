@@ -21,23 +21,24 @@ TX = "#e6eaf0"
 MUT = "#9aa4b2"
 
 CARDS = {
-    "dlffl-week-6.png": {
+    "dlffl-week-7.png": {
         "league": "Dewart Lake FFL",
-        "week": "Week 6 · 2026",
+        "week": "Week 7 · 2026 · Halftime",
         "accent": GOLD,
-        "headline": "DA Has Lost To Casey Couture Ten Straight Times. Two Bench Swaps Would Have Won This One By 0.38.",
-        "owner": "Owner of the Week · Kent Frenger, 136.90",
-        "worst": "Worst Owner · Scott Reisert, 68.68",
+        "headline": "Scott Howard Scored The Most Points In The League This Week. He Is In Eleventh Place.",
+        "owner": "Owner of the Week · Scott Howard, 135.68",
+        "worst": "Worst Owner · DA, 83.28",
     },
-    "foh-week-6.png": {
+    "foh-week-7.png": {
         "league": "Friends of Herb",
-        "week": "Week 6 · 2026",
+        "week": "Week 7 · 2026 · Halftime",
         "accent": BLUE,
-        "headline": "Bob Dorsch Cut Tyler Shough For Scoring Less Than Zero. Aron Rogers Signed Him And He Scored 32.96.",
-        "owner": "Owner of the Week · Aron Rogers, 119.46",
-        "worst": "Worst Owner · Matt Davis, 71.48",
+        "headline": "Aron Rogers Beat Aaron Jezioro By 75 Points. It Was The Ninth Straight.",
+        "owner": "Owner of the Week · Matt Davis, 152.68",
+        "worst": "Worst Owner · Aaron Jezioro, 76.82",
     },
 }
+
 
 def wrap(draw, text, font, width):
     words, lines, line = text.split(), [], ""

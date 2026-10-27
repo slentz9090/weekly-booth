@@ -62,6 +62,29 @@ EXTRA_CSS = """
 @media print{.led tbody tr:first-child th,.led tbody tr:first-child td{color:#000 !important}}
 @media print{.grade{border-color:#000;color:#000}}
 @media (forced-colors:active){.mc-row.lose .mc-fill{background:CanvasText}}
+/* HALFTIME (added Week 7): the luck board and the history tiles */
+.hb{list-style:none;margin:0 0 14px;padding:0;border:1px solid var(--hair);border-radius:12px;background:var(--surf);overflow:hidden}
+.hb li{display:grid;grid-template-columns:2ch minmax(0,1fr) minmax(120px,34%) 88px;grid-template-areas:"n who bar lab" "n sub bar lab";column-gap:10px;align-items:center;padding:9px 12px;border-bottom:1px solid var(--hair)}
+.hb li:last-child{border-bottom:0}
+.hb .n{grid-area:n;color:var(--dim);font-variant-numeric:tabular-nums;font-size:13px}
+.hb .who{grid-area:who;font-weight:700;color:var(--tx);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.hb .sub{grid-area:sub;font-size:12.5px;color:var(--mut);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.hb .bar{grid-area:bar;position:relative;height:12px;border-radius:6px;background:var(--surf2);border:1px solid var(--line)}
+.hb .bar::before{content:"";position:absolute;left:50%;top:-3px;bottom:-3px;width:1px;background:var(--line2)}
+.hb .bar i{position:absolute;top:0;bottom:0;display:block}
+.hb .bar .lucky{left:50%;background:var(--gold);border-radius:0 5px 5px 0}
+.hb .bar .unlucky{right:50%;background:var(--blue);border-radius:5px 0 0 5px}
+.hb .lab{grid-area:lab;font-size:12.5px;font-variant-numeric:tabular-nums;white-space:nowrap;text-align:right}
+.hb .lab.lucky{color:var(--gold)} .hb .lab.unlucky{color:var(--blue)} .hb .lab.even{color:var(--mut)}
+.hb .me .who{color:#fff}
+.hb-key{margin:0 0 14px;font-size:13px;line-height:1.45;color:var(--mut)}
+@media (max-width:600px){.hb li{grid-template-columns:2ch minmax(0,1fr) auto;grid-template-areas:"n who lab" "n sub sub" "n bar bar"}.hb .bar{margin-top:6px}.hb .sub{white-space:normal}.hb .lab{align-self:start}}
+.ht{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:10px;margin:0 0 14px}
+.ht div{border:1px solid var(--hair);border-left:3px solid var(--gold);border-radius:10px;background:var(--surf);padding:11px 13px}
+.ht b{display:block;font-size:26px;line-height:1;color:var(--gold);font-variant-numeric:tabular-nums;margin-bottom:5px}
+.ht span{display:block;font-size:13px;line-height:1.4;color:var(--mut)}
+@media print{.hb .bar .lucky,.hb .bar .unlucky{background:#000}.ht b{color:#000}}
+@media (forced-colors:active){.hb .bar .lucky,.hb .bar .unlucky{background:CanvasText}}
 """
 
 
@@ -222,6 +245,43 @@ def ledger(rows, week, season_note=None):
         f'<th scope="col">Benched</th><th scope="col">Cost him?</th>'
         f'<th scope="col">Season</th></tr></thead><tbody>{trs}</tbody></table>{extra}'
     )
+
+
+def halftime_board(rows, caption):
+    """HALFTIME luck board. rows: dicts with display, team, w, l, pfRank, allPlayW, allPlayL, luck,
+    and me (bool). Bars default visible; the number is always printed beside the bar, so colour is
+    never the only encoding (hard rule 16: styling keys off the verdict, lucky or unlucky)."""
+    scale = max(abs(r["luck"]) for r in rows) or 1
+    lis = []
+    for i, r in enumerate(rows, 1):
+        luck = r["luck"]
+        pct = abs(luck) / scale * 48  # half the track, minus a hair
+        if luck >= 0.25:
+            bar, cls, lab = f'<i class="lucky" style="width:{pct:.1f}%"></i>', "lucky", f"+{luck:.1f} lucky"
+        elif luck <= -0.25:
+            bar, cls, lab = f'<i class="unlucky" style="width:{pct:.1f}%"></i>', "unlucky", f"{luck:.1f} unlucky"
+        else:
+            bar, cls, lab = "", "even", "even"
+        lis.append(
+            f'<li{" class=\"me\"" if r.get("me") else ""}><span class="n">{i}</span>'
+            f'<span class="who">{esc(r["display"])}</span>'
+            f'<span class="sub">{r["w"]}-{r["l"]} · {ordinal(r["pfRank"])} in points · all-play {r["allPlayW"]}-{r["allPlayL"]}</span>'
+            f'<span class="bar" aria-hidden="true">{bar}</span>'
+            f'<span class="lab {cls}">{lab}</span></li>'
+        )
+    return (f'<p class="hb-key">{caption}</p>'
+            f'<ol class="hb" aria-label="The luck board">{"".join(lis)}</ol>')
+
+
+def halftime_tiles(tiles):
+    """tiles: (big, caption)."""
+    return '<div class="ht">' + "".join(f"<div><b>{esc(b)}</b><span>{c}</span></div>" for b, c in tiles) + "</div>"
+
+
+def ordinal(n: int) -> str:
+    n = int(n)
+    suf = "th" if 10 <= n % 100 <= 20 else {1: "st", 2: "nd", 3: "rd"}.get(n % 10, "th")
+    return f"{n}{suf}"
 
 
 def jump(teams):
