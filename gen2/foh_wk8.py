@@ -115,8 +115,8 @@ def build():
         "Eric released a quarterback who scored 23 and it did not matter because the one he kept scored 30 and "
         "the running back he started scored 31 and the receiver he started on a projection of ten scored 25. "
         "Eric asked for this booth's instructions last week. Eric, here they are: score 159. And he has the bye "
-        "next week, which means the only man who can stop Eric Olson right now is the schedule, and the "
-        "schedule got him."))
+        "next week, which means what stops Eric Olson right now is the schedule, and the schedule "
+        "got him."))
 
     # ---- 2. the series lead
     w, l = card_rows("Aaron Jezioro", "Michael Turner")
@@ -207,12 +207,15 @@ def build():
         "back projected for seven who scored 35, and I want to know who to thank for that, because it was not "
         "Ryan. Ryan started a running back who scored zero and a tight end who scored one and a half and "
         "benched a 24-point quarterback, and he is on a two-game winning streak. The Old Man Smashers have "
-        "four titles, Gil, and this is how all four of them happened. Nobody can explain any of it."))
+        "four titles, Gil. Ryan averaged 68 a week in his five losses and 114 in his two wins. Same owner. I "
+        "have never once seen the turn coming."))
     parts.append(gil(
         "In fairness to Billy Norton, there was nothing to fix. Cousins, Cook and Douglas were 67.38 between "
         "them, his bench was Malik Nabers on bye, Ladd McConkey, RJ Harvey, Jaylin Noel and Kendre Miller, and "
-        "his best possible lineup was the one he played. The Jets defense scored minus two and his tight end, "
-        "Juwan Johnson, was on bye with no replacement. Billy has four titles and is 1 and 6."))
+        "his best possible lineup was the one he played. The Jets defense scored minus two. His tight end, Juwan "
+        "Johnson, was on bye and he had nobody to replace him. Billy is 14 and 49 against the room this season, "
+        "and Cousins's 34 is the 80th-most a quarterback has scored in a loss here since 2018. Billy has four "
+        "titles and is 1 and 6."))
     parts.append(boomer(
         "Billy played a perfect lineup and lost by six, and the six points that decided it were the Jets missing "
         "their projection by eight. Billy did not lose to Ryan Kelly. He lost to the New York Jets, which is a "
@@ -246,9 +249,9 @@ def build():
         "Against the nine other teams that played this week, Smith went 1 and 8. Aron Rogers has left 38.08 on his bench all season, "
         "the fewest in the league by 17."))
     parts.append(boomer(
-        "Aron has left 38 points on the bench all year. Spencer left 21 on Sunday. Aron is the only man in "
-        "this league who reads his lineup before he sends it, and his reward is 6 and 2 and third in points "
-        "and nobody in the thread ever mentions him. I am mentioning him. Aron, you are the quietest "
+        "Aron has left 38 points on the bench all year, Gil. Thirty-eight. Aron reads his lineup before he "
+        "sends it, and his reward is 6 and 2 and third in points and barely a word in the thread. I am "
+        "mentioning him. Aron, you are the quietest "
         "contender in the history of this league, and if you keep it up, I am going to have to learn how you "
         "spell your first name without looking."))
 
@@ -299,8 +302,8 @@ def build():
         "sixth-most points in the league and three straight losses."))
     parts.append(boomer(
         "Four rings, the biggest season on record, and he is 19 and 8 against the man in first "
-        "place. Spencer Lentz has lost to Bob Dorsch more than he has lost to any human being, and Spencer is "
-        "in first and Bob is 2 and 5 with a bench full of running backs he keeps meaning to start. Bob won the "
+        "place. Spencer Lentz has lost to Bob Dorsch 19 times, more than to anyone else in this league, and nobody "
+        "else has beaten him 15. Spencer is in first and Bob is 2 and 5 with a bench full of running backs he keeps meaning to start. Bob won the "
         "title last December by 58 over the one man who owns him, and then opened this season by losing to "
         "Rahul Pahuja by 0.46. That is not a slump, Gil. That is a man who left the trophy at the venue and has not "
         "been back for it."))
@@ -352,7 +355,7 @@ def build():
          "Neither of us earned it."),
         ("Pack Up", "Rahul Pahuja leaves under ten on his bench in Week 8.", "RIGHT",
          "Zero. A perfect lineup, with McCaffrey and Stroud on bye. The man had fewer choices and made all of "
-         "them right, which is the only recipe that has ever worked for him."),
+         "them right, which is the recipe that works for him."),
         ("Kim Jong Un Pleasure Squad", "Tony Pollard clears 20 again for Aron Rogers.", "RIGHT",
          "29.20, after 37.00 last week. The call writes itself and I am taking credit for the handwriting."),
         ("Midget Grinders", "Michael Smith beats Aron Rogers.", "WRONG",
@@ -404,7 +407,7 @@ def build():
          "Turner leads the series 13 and 12, but he is 1 and 6 on five straight losses and just scored 70. Smith "
          "set a perfect lineup and scored 89, which is sad, and 89 beats 70, which is math."),
         ("Napoleon's Army", "Michael Turner clears 100 in Week 9.",
-         "He averaged 110 a week before Sunday. Lamar Jackson plays Thursday night, or does not, and either way "
+         "He averaged 110 in the six games he played before Sunday. Lamar Jackson plays Thursday night, or does not, and either way "
          "there are eight other slots. One hundred. This call is for you, Michael, and it is the kindest thing I "
          "have done all season."),
         ("| croup", "Aaron Jezioro beats Billy Norton.",
@@ -430,8 +433,8 @@ def build():
         "since 2011, and a win by 51.44 over the reigning champion. Tuten 30.90, Allen 30.56, Wilson 24.80, the "
         "Jaguars defense 19.00 the week he signed them, and 1.00 left behind.",
         "Eric signed a defense this week, the defense scored 19, and he kept it, which in this league this week "
-        "counts as a strategy. One point on the bench, 159 on the field, and the "
-        "robot gets the week off next Sunday, which is the first time all year Eric Olson and his lineup have "
+        "counts as a strategy. One point on the bench, 159 on the field, and next "
+        "Sunday is Eric's bye, which is the first time all year Eric Olson and his lineup have "
         "had the same schedule."))
     parts.append(award(
         "bad", "Worst Owner of the Week", "Michael Turner · Napoleon's Army",
@@ -439,7 +442,7 @@ def build():
         "Jezioro the series lead. Drake London 1.30, J.K. Dobbins 1.30, Tre Tucker 0.00, the Broncos defense "
         "2.00. Five straight losses.",
         "Seventy points and the series lead gone in one afternoon. Michael started three men who combined for "
-        "2.60, and he left 4.40 on the bench, so there were no right ones to pick. Napoleon, the army is the "
+        "2.60, and he left 4.40 on the bench, so there were no right ones to pick. Michael, the army is the "
         "problem."))
     parts.append(award(
         "good", "Start of the Week", "Ryan Kelly · Tyler Allgeier, 35.60",
@@ -496,8 +499,7 @@ def build():
         "Olson's Jaguars defense for the Patriots, 19.00 to 7.00, third."))
     parts.append(gil(
         "<strong>Worst move:</strong> Bob Dorsch releasing the Buccaneers defense, who scored 16.00, for the "
-        "Texans defense, who were on bye and scored zero, after claiming the Buccaneers for Jordan Addison the "
-        "same week. A 16.00-point swing against him. Eric Olson releasing Bo Nix, who scored 23.28, for Antonio "
+        "Texans defense, who were on bye and scored zero, days after claiming the Buccaneers for Jordan Addison. A 16.00-point swing against him. Eric Olson releasing Bo Nix, who scored 23.28, for Antonio "
         "Williams, who scored 7.90, was second on paper, and it did not matter with Josh Allen back."))
     parts.append(boomer(
         "Bob claimed a defense and cut the same defense inside one week, and the defense scored sixteen for "
@@ -530,10 +532,10 @@ def build():
         "defenses are done before Sunday. "
         "Cincinnati and Atlanta kick off at 9:30 on Sunday morning. Buffalo plays at Minnesota on Monday night."))
     parts.append(boomer(
-        "Spencer and Davis, 14 and 14 after twenty-eight games, and one of them walks out ahead. Rogers goes to Dorsch, and Bob has read his own page, so "
-        "either he wins or we find out it was fiction. Kelly and Rahul meet for the first time since Rahul took "
+        "Spencer and Davis, 14 and 14 after twenty-eight games, and one of them walks out ahead. Rogers goes to Dorsch, and the champion is 2 and 5 against a man who "
+        "has lost twice all year. Kelly and Rahul meet for the first time since Rahul took "
         "last December's consolation game 162.00 to 81.24, Rahul has won three straight in it, and Kelly is hot, which in this league lasts about as "
-        "long as a two-game winning streak. Turner needs a hundred and a win and I have bet him for one of them. And Billy "
+        "long as a two-game winning streak. Turner needs a hundred and a win and I have called one of them. And Billy "
         "Norton, four rings, 1 and 6, gets Jezioro and his 138. Set your lineups, and Bob, start the running "
         "backs. All of them. I do not care which."))
     return "".join(parts)
