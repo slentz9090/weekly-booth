@@ -52,7 +52,7 @@ EXTRA_CARDS = {
 TEASERS = {
     "dlffl": """Gil and Boomer have Week 8 of the Dewart Lake FFL.
 
-Mama Beth benched Tyler Allgeier for 37 and started Omar Cooper Jr. for zero, exactly like Boomer bet she would, and she is 1 and 7. Scott Howard started Lamar Jackson, who did not play, and lost to Spencer by 60. Kent Frenger scored 163, the ninth-best game of his career, and three teams are 6 and 2. New this week: a lifetime series line on every matchup, and THE OWNER SPOTLIGHT, one owner a week from the all-time log. First up: Casey Couture, five titles, the most in league history, and tenth in points. Boomer went 7 and 5.
+Mama Beth benched Tyler Allgeier for 37 and started Omar Cooper Jr. for zero, exactly like Boomer called, and she is 1 and 7. Scott Howard started Lamar Jackson, who did not play, and lost to Spencer by 60. Kent Frenger scored 163, the ninth-best game of his career, and three teams are 6 and 2. New this week: a lifetime series line on every matchup, and THE OWNER SPOTLIGHT, one owner a week from the all-time log. First up: Casey Couture, five titles, the most in league history, and tenth in points. Boomer went 7 and 5.
 
 {site}/dlffl/week-8.html
 """,
