@@ -316,8 +316,7 @@
      1
     ],
     "worstOwner": [
-     5,
-     8
+     5
     ],
     "startOfWeek": [],
     "sitOfWeek": [
@@ -1752,7 +1751,8 @@
      7
     ],
     "worstOwner": [
-     1
+     1,
+     8
     ],
     "startOfWeek": [],
     "sitOfWeek": [
@@ -3484,16 +3484,16 @@
    "n": 92,
    "week": 8,
    "by": "Boomer",
-   "owner": "Beth Couture",
-   "call": "Mama Beth starts Tyler Allgeier in Week 9.",
+   "owner": "Scott Howard",
+   "call": "Scott Howard starts Dak Prescott in Week 9.",
    "resolvesWeek": 9,
    "graded": null,
    "correct": null,
    "check": {
     "type": "startsPlayer",
-    "owner": "Beth Couture",
+    "owner": "Scott Howard",
     "week": 9,
-    "player": "Tyler Allgeier"
+    "player": "Dak Prescott"
    }
   },
   {
