@@ -8,7 +8,7 @@ from compute import DATA, grade, load, result_for
 AWARDS = {
     "dlffl": {
         "ownerOfWeek": "Kent Frenger",
-        "worstOwner": "Beth Couture",
+        "worstOwner": "Scott Howard",
         "startOfWeek": "Spencer Lentz",
         "sitOfWeek": "Scott Reisert",
         "wasteOfWeek": "Doug Fields",
@@ -38,8 +38,8 @@ NEW = {
          9, {"type": "playerAtLeast", "owner": "Adam Calvelage", "week": 9, "player": "Jayden Daniels", "value": 20}),
         ("Scott Howard", "Scott Howard beats Mama Beth for the seventh straight time.",
          9, {"type": "h2h", "winner": "Scott Howard", "loser": "Beth Couture", "week": 9}),
-        ("Beth Couture", "Mama Beth starts Tyler Allgeier in Week 9.",
-         9, {"type": "startsPlayer", "owner": "Beth Couture", "week": 9, "player": "Tyler Allgeier"}),
+        ("Scott Howard", "Scott Howard starts Dak Prescott in Week 9.",
+         9, {"type": "startsPlayer", "owner": "Scott Howard", "week": 9, "player": "Dak Prescott"}),
         ("Ryan Reed", "Ryan Reed beats Adam Hershberger.",
          9, {"type": "h2h", "winner": "Ryan Reed", "loser": "Adam Hershberger", "week": 9}),
         ("Adam Hershberger", "Jameson Williams clears 15 for Adam Hershberger.",

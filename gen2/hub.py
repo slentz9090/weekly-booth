@@ -19,11 +19,11 @@ WK = int(os.environ.get("WEEK", "8"))
 HEAD = {
     "dlffl": {
         "league": "Dewart Lake FFL",
-        "headline": "Mama Beth Benched A 37 For A Zero. The Zero Was Boomer's Call.",
+        "headline": "Scott Howard Started Lamar Jackson. Lamar Jackson Did Not Play.",
         "accent": "var(--gold)",
         "meta": "12 teams · snake · 0.5 PPR",
         "note": ("Owner of the Week: Kent Frenger, 163.38, the ninth-best game of his career. "
-                 "Worst Owner: Mama Beth, 70.90, with 64.14 on her bench."),
+                 "Worst Owner: Scott Howard, 99.70, with a quarterback who did not play."),
         "date": "November 3, 2026",
         "sub": "Six games, a series line on every card, the first Owner Spotlight (Casey Couture, five titles, tenth in points), five pieces of hardware, the Bench Ledger, and twelve calls graded in public.",
     },
@@ -52,13 +52,13 @@ EXTRA_CARDS = {
 TEASERS = {
     "dlffl": """Gil and Boomer have Week 8 of the Dewart Lake FFL.
 
-Mama Beth benched Tyler Allgeier for 37 and started Omar Cooper Jr. for zero, exactly like Boomer called, and she is 1 and 7. Scott Howard started Lamar Jackson, who did not play, and lost to Spencer by 60. Kent Frenger scored 163, the ninth-best game of his career, and three teams are 6 and 2. New this week: a lifetime series line on every matchup, and THE OWNER SPOTLIGHT, one owner a week from the all-time log. First up: Casey Couture, five titles, the most in league history, and tenth in points. Boomer went 7 and 5.
+Scott Howard started Lamar Jackson, who did not play, and lost by 60. The zero was the worst miss by a projected starter since 2018. Ryan Reed started two players who did not play and won anyway. Kent Frenger scored 163, his ninth-best game since 2009, and three teams are 6 and 2. New this week: a lifetime series line on every matchup, and THE OWNER SPOTLIGHT, one owner a week from the all-time log. First up: Casey Couture, five titles, the most in league history, and tenth in points. Boomer went 7 and 5.
 
 {site}/dlffl/week-8.html
 """,
     "foh": """Gil and Boomer have Week 8 of Friends of Herb.
 
-Joe Burrow scored 50 for Matt Davis on his bye week. Eric Olson scored 159, his fourth-best game since 2011, and beat the reigning champ by 51. Jezioro beat Turner by 68 and took the lead in a series that was 16 and 16. Ryan Kelly won a second straight on a backup running back who scored 35. Spencer is first in points and first in points left on the bench. New this week: a lifetime series line on every matchup, and THE OWNER SPOTLIGHT, one owner a week from the all-time log, starting with Bob Dorsch: four titles, the biggest season on record, 19 and 8 against Spencer, and 2 and 5. Boomer went 8 and 3.
+Joe Burrow scored 50 for Matt Davis on his bye week. Eric Olson scored 159, his fourth-best game since 2011, and beat the reigning champ by 51. Jezioro beat Turner by 68 and took the lead in a series that was 16 and 16. Ryan Kelly won a second straight on a backup running back who scored 35. Spencer leads the league in points left on the bench, and also in points. New this week: a lifetime series line on every matchup, and THE OWNER SPOTLIGHT, one owner a week from the all-time log, starting with Bob Dorsch: four titles, the biggest season on record, 19 and 8 against Spencer, and 2 and 5. Boomer went 8 and 3.
 
 {site}/foh/week-8.html
 """,
@@ -102,6 +102,9 @@ def league_index(league):
     cards += [mk(*c) for c in EXTRA_CARDS.get(league, []) if f'href="{c[0]}"' not in h]
     if f'href="week-{WK}.html"' not in h:
         h = h.replace('<h2 id="issues">Installments</h2>', '<h2 id="issues">Installments</h2>\n' + "\n".join(cards), 1)
+    else:
+        # the card already exists (a republish): keep its headline in step with HEAD
+        h = re.sub(rf'(<a href="week-{WK}\.html">)[^<]*(</a>)', lambda m: m.group(1) + spec["headline"] + m.group(2), h, count=1)
     # swap the Week 1 ledger table for the season table
     note = ("Bench points are your best possible lineup minus the one you turned in. All-play is your record "
             "against every other team every week.")

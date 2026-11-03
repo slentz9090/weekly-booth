@@ -25,9 +25,9 @@ CARDS = {
         "league": "Dewart Lake FFL",
         "week": "Week 8 · 2026",
         "accent": GOLD,
-        "headline": "Mama Beth Benched A 37 For A Zero. The Zero Was Boomer's Call.",
+        "headline": "Scott Howard Started Lamar Jackson. Lamar Jackson Did Not Play.",
         "owner": "Owner of the Week · Kent Frenger, 163.38",
-        "worst": "Worst Owner · Mama Beth, 70.90",
+        "worst": "Worst Owner · Scott Howard, 99.70",
     },
     "foh-week-8.png": {
         "league": "Friends of Herb",

@@ -45,17 +45,17 @@ NAV = (
     '<li><a href="#next">Next Sunday</a></li></ul></nav>'
 )
 
-HEADLINE = "Mama Beth Benched A 37 For A Zero. The Zero Was Boomer's Call."
+HEADLINE = "Scott Howard Started Lamar Jackson. Lamar Jackson Did Not Play."
 DEK = (
-    "Scott Howard started Lamar Jackson, who did not play, and lost by 59.86. Boomer called that Mama Beth would start "
-    "Omar Cooper Jr. She did, for zero, with Tyler Allgeier's 37.60 on her bench. Kent "
-    "Frenger scored 163.38, the ninth-best game of his career, and three teams sit at 6 and 2. New this week: "
+    "Howard's quarterback was projected for 23.46 and scored 0.00, the worst miss by a projected starter in 7,600 "
+    "since 2018, and Howard lost by 59.86 with Dak Prescott's 19.80 on his bench. Ryan Reed won with two starters "
+    "who did not play. Kent Frenger scored 163.38, the ninth-best of his 268 games here, and three teams sit at 6 and 2. New this week: "
     "a lifetime series line on every card, and THE OWNER SPOTLIGHT, one owner a week from the all-time log. "
     "First up, the man with the most titles in league history, who is currently tenth in points."
 )
 META = (
-    "Gil and Boomer call Week 8 of the Dewart Lake FFL: Scott Howard starts a quarterback who did not play, "
-    "Mama Beth benches a 37 for a zero on Boomer's call, Kent Frenger's 163.38, three teams at 6 and 2, a "
+    "Gil and Boomer call Week 8 of the Dewart Lake FFL: Scott Howard starts a quarterback who did not play and "
+    "loses by 59.86, Ryan Reed wins with two starters who did not play, Kent Frenger's 163.38, three teams at 6 and 2, a "
     "series line on every card, and the first Owner Spotlight: Casey Couture, five titles, tenth in points."
 )
 
@@ -111,41 +111,36 @@ def build():
         "by thirteen. Six straight, first place, and his third-best running back is a "
         "kicker."))
 
-    # ---- 2. the 37 on the bench
+    # ---- 2. Reed wins with two ghosts
     w, l = card_rows("Ryan Reed", "Beth Couture")
     parts.append(mcard(
-        "m-beth", "Reed with two starters who did not play, over Mama Beth with 64.14 on her bench", w, l,
+        "m-beth", "Reed, with two starters who did not play, over Mama Beth", w, l,
         "Jaxon Smith-Njigba 23.80, Harold Fannin Jr. 21.40 on a projection of 7.11, and Bo Nix 19.28 for Ryan "
         "Reed, who started A.J. Brown and Breece Hall for zero apiece with Jaylen Waddle's 13.40 on his bench. "
-        "Mama Beth got 18.00 from Geno Smith, signed this week, started Omar Cooper Jr. for zero and Zay "
-        "Flowers for zero, and left Tyler Allgeier's 37.60 and Patrick Mahomes's 29.44 on her bench.",
+        "Mama Beth got 18.00 from Geno Smith, signed this week, and zeros from Omar Cooper Jr. and Zay Flowers, "
+        "with Tyler Allgeier's 37.60 on her bench.",
         SCALE, series="Tied 2-2 in four meetings since 2012 · Reed has won the last two"))
     parts.append(gil(
         "Ryan Reed wins 91.38 to 70.90 and is 4 and 4. He started Bo Nix, as Boomer called, and Nix scored "
         "19.28. He also started two players who did not play, A.J. Brown and Breece Hall, plus Emanuel Wilson, "
         "who scored the same zero, and won anyway with the 98th-fewest points in a winning "
-        "score since 2009. Mama Beth is 1 and 7, seven straight losses, the "
-        "longest losing streak of her career. She left 64.14 on her bench, the most in the league this week by "
-        "a distance: Allgeier for 37.60 behind Cooper's zero, Mahomes for 29.44 behind Geno Smith's 18.00. Her "
-        "best lineup was 135.04. It wins this game by 43.66."))
+        "score since 2009. Mama Beth is 1 and 7. Geno Smith, signed this week, gave her 18.00, Zay Flowers was "
+        "projected for 18.09 and scored zero, and Tyler Allgeier scored 37.60 on her bench behind Omar Cooper Jr."))
     parts.append(boomer(
-        "She benched a 37 for a zero, and the zero was my idea. I called that she would start Omar Cooper Jr. "
-        "and she did, and the man produced nothing, and Tyler Allgeier scored 37 in a folding chair. I am in the box "
-        "score this week, Gil, under contributing factors. And then she signed Geno Smith and started him over "
-        "Patrick Mahomes. Mahomes scored 29. Geno scored 18. Mama Beth had the "
-        "third-best lineup in the league this week sitting in her garage, and she drove to the game in the "
-        "other car."))
+        "The Cooper start was my call, Gil. I said it on this page a week ago, she did it, and the man produced "
+        "nothing while Allgeier scored 37 in a folding chair. Put me in the box score under contributing factors. "
+        "The story on this card is Ryan. Ryan started two men who were not playing and a third who scored like he "
+        "was not playing, and won. The lineup had the same number of absences as a Friday in July."))
     parts.append(gil(
-        "In fairness to Mama Beth, Zay Flowers was projected for 18.09 and scored zero, the 23rd-worst miss since "
-        "2018 by a starter projected for ten or more, so one of her two zeros was an absence, not a decision. She has three titles "
-        "here, 2014, 2018 and 2022, and nobody with three titles stays 1 and 7 for long. Ryan Reed got 21.40 from a "
+        "In fairness to Mama Beth, the Flowers zero was an absence, not a decision, the 23rd-worst miss since 2018 "
+        "by a starter projected for ten or more, and she has three titles here, 2014, 2018 and 2022. Nobody with "
+        "three titles stays 1 and 7 for long. Ryan Reed got 21.40 from a "
         "tight end projected for 7.11, Harold Fannin Jr., and released Dominic Zvada for Chad Ryland, who "
         "scored 10.00."))
     parts.append(boomer(
-        "Ryan started two men who were not playing and beat Mama Beth, who benched the best man she "
-        "had. That is the whole league in one sentence. Ryan, you won with 91, and your lineup had the same number of absences "
-        "as a Friday in July. Jaylen Waddle scored 13 on your bench while two ghosts and a running back who scored like one "
-        "started in front of him. Ryan, that one was awarded."))
+        "Ryan, you won with 91 and two ghosts in the lineup, and Jaylen Waddle scored 13 on your bench behind them. "
+        "Three titles on the other sideline, and you beat her with a roster that was half out of town. That one "
+        "was awarded, and I am still counting it."))
 
     # ---- 3. the 163
     w, l = card_rows("Kent Frenger", "Casey Couture")
@@ -198,8 +193,7 @@ def build():
         "Hershberger is 3 and 5 and has had 1,014.96 points scored against him, the most in the league."))
     parts.append(boomer(
         "Josh Allen came home and DA remembered who he was. DA has left 61 points on his bench all season, "
-        "third-fewest in the league. Mama Beth left 64 on Sunday. Same house, Gil. Different lineup card. And "
-        "DA made five moves this week. Five. "
+        "third-fewest in the league, and this week he made five moves, Gil. Five. "
         "One of them was signing Dameon Pierce and cutting Dameon Pierce in the same week, so Pierce was on the "
         "roster long enough to find the bathroom and not long enough to use it. The elder got busy, and when "
         "the elder gets busy, somebody named Adam gets a letter."))
@@ -328,8 +322,8 @@ def build():
     parts.append('<h2 id="calls">On The Record</h2>')
     parts.append(boomer(
         "Twelve calls came due. Seven right, five wrong, a winning week, which the record will show does not "
-        "happen often. Season record 38 and 46. I got Mama Beth right, and that one is on me. Every call is "
-        "below, in ink, including that one."))
+        "happen often. Season record 38 and 46. The Cooper call came in, and that one is on me, not on her. Every "
+        "call is below, in ink, including that one."))
     parts.append(graded_list([
         ("The Scranton Strangler", "Scott Howard beats Spencer Lentz.", "WRONG",
          "Lost by 59.86 with a quarterback who did not play. I bet on the weather system and the weather "
@@ -345,8 +339,8 @@ def build():
          "for most of these men. Easiest call on the board and I will take it."),
         ("Momma's Boys", "Mama Beth starts Omar Cooper Jr. in Week 8.", "RIGHT",
          "She started him. He scored zero. Tyler Allgeier scored 37.60 on her bench. This is the first call I "
-         "have ever won that I would like to give back. I am keeping it, because the record is the record, "
-         "and Mama Beth, I am sorry, and I am also 1 and 0 on you starting the wrong man."),
+         "have ever won that I would like to give back. The record is the record, so it stays, and the apology "
+         "goes to Mama Beth, in ink, same as the call."),
         ("BearDown", "Ryan Reed starts Bo Nix in Week 8.", "RIGHT",
          "Started, 19.28. Then he started two men who were not playing. I asked for Nix to be in the room. I did "
          "not think to ask about the rest of the room."),
@@ -397,11 +391,10 @@ def build():
          "dead on arrival, and so is my patience."),
         ("The Scranton Strangler", "Scott Howard beats Mama Beth for the seventh straight time.",
          "Howard leads 7 and 4 and has won six straight meetings. Howard has Dak Prescott, who is playing. I am "
-         "betting he notices."),
-        ("Momma's Boys", "Mama Beth starts Tyler Allgeier in Week 9.",
-         "He scored 37.60 on her bench. I bet last week she would start Cooper and she did. This week I am "
-         "betting she has met Tyler Allgeier. If she benches him again I "
-         "will stop making calls on the elders, and this time the word will last longer than the page."),
+         "betting he notices, and that Mama Beth makes him earn the seventh."),
+        ("The Scranton Strangler", "Scott Howard starts Dak Prescott in Week 9.",
+         "Dak Prescott scored 19.80 from the next chair and is projected for twenty. Lamar is out again. I am "
+         "betting Scott moves one chair to the left."),
         ("BearDown", "Ryan Reed beats Adam Hershberger.",
          "Reed leads 2 and 1. He won this week with two men who did not play, so a full lineup should be an "
          "improvement, and if it is not, Ryan, I am done asking."),
@@ -430,16 +423,16 @@ def build():
         "Five straight for the champ, 163, and the two men who carried him are named Bhayshul and Pollard. Kent, "
         "I have to look up your roster every week and I never once have to look up your score."))
     parts.append(award(
-        "bad", "Worst Owner of the Week", "Mama Beth · Momma's Boys",
-        "70.90, the low score of the week, which loses to all eleven teams, with 64.14 left on her bench: "
-        "Tyler Allgeier for 37.60 behind Omar Cooper Jr.'s zero, Patrick Mahomes for 29.44 behind Geno Smith's "
-        "18.00. Her lineup efficiency was 52.5%, meaning she scored about half of what her roster had. Seven "
-        "straight losses, the longest of her career.",
-        "64.14 is the fourth-most any team here has left on a bench in 1,393 tries since 2018, and Allgeier's "
-        "37.60 is the 22nd-biggest single benching in that span. She did not have a bad week, Gil. She had a "
-        "historic one, pointed the wrong way. She has three titles and she is 1 and 7, and the one loss I take "
-        "personally is this one, because I called that she would start Cooper, and she listened. Mama Beth, "
-        "please stop listening to me. Everyone else already has."))
+        "bad", "Worst Owner of the Week", "Scott Howard · The Scranton Strangler",
+        "99.70 in a loss by 59.86. Lamar Jackson, projected for 23.46, did not play and scored 0.00, the worst "
+        "miss by a starter projected for ten or more in 7,600 since 2018, with Dak Prescott's 19.80 on the bench. "
+        "He also started Drake London for 1.30 over Michael Wilson's 25.80. He left 50.50 on his bench, the "
+        "13th-most in a week since 2018, and his best lineup, 150.20, still loses this game by 9.36.",
+        "The man started a quarterback who was not in the building, Gil, and the one who was in the building "
+        "scored nineteen from the next chair. Projected for twenty-three, scored zero, the biggest miss by a "
+        "starter in this league since they started counting. And here is the part he should keep: fifty points "
+        "on his bench, and if he gets every one of them back, he loses by nine. The lineup was wrong and it also "
+        "did not matter, and I have never had to say both about one man in the same week."))
     parts.append(award(
         "good", "Start of the Week", "Spencer Lentz · Tee Higgins, 35.50",
         "Projected for 13.80, so 21.70 over, the biggest margin over projection by any starter in the league "
@@ -452,8 +445,9 @@ def build():
         "bad", "Sit of the Week", "Scott Reisert · Wan'Dale Robinson, 12.70 on the bench",
         "Jeremiyah Love started in his place for 2.30, a 10.40 swing in a game Reisert lost by 8.08. It is the "
         "biggest benching this week that flipped its own game by an owner who does not already hold a trophy. "
-        "Mama Beth's Allgeier for Cooper was 37.60 and she already holds Worst Owner; Scott Howard's Michael Wilson for Drake London was 24.50 in "
-        "a loss by 59.86, which no benching flips.",
+        "Mama Beth's Allgeier for Cooper was 37.60, and the booth is not counting it, because Boomer called it and "
+        "he can wear it. Scott Howard's Michael Wilson for Drake London was 24.50 in a loss by 59.86, which no "
+        "benching flips, and he holds Worst Owner.",
         "Scott made five moves this week, claimed the best defense on the wire, and then lost the game on the "
         "one decision that did not require a transaction. He benched a 12 and started a 2. Scott, you keep "
         "fixing the roster, and the thing that keeps losing is Sunday morning, and you cannot claim a new one of "
@@ -472,8 +466,7 @@ def build():
     parts.append(boomer(
         "All twelve of you, every week, all season. Scott Howard leads at 221.30 after adding 50.50 in a week "
         "he lost by 60, which means for the second week running the points on his bench were decorative, just "
-        "a lot more of them. Mama Beth added 64.14 and jumped to second at 138.28, and hers were the opposite "
-        "of decorative. Scott Reisert is still the cleanest man in the league at 51.80, and this week the "
+        "a lot more of them. Mama Beth added 64.14 and is second at 138.28. Scott Reisert is still the cleanest man in the league at 51.80, and this week the "
         "15.80 he added is the reason he lost."))
     parts.append(ledger(ledger_rows(FACTS, SEASON), 8, season_note=(
         "Season totals come from the season ledger through Week 8. Scott Howard leads at 221.30, Mama Beth is "
@@ -486,8 +479,8 @@ def build():
     parts.append(boomer(
         "Scott Howard's bench has 221 points on it, Gil, more than Reisert, DA and Frenger have left combined "
         "all season. Casey left nothing and lost by fifty. Howard left fifty and lost by sixty. Mama Beth left "
-        "sixty-four and lost by twenty. Only one of those three could have won from the couch, and she is the one who "
-        "taught the other Couture how to set a lineup."))
+        "sixty-four and lost by twenty. Only one of those three could have won from the couch, Gil, and the man "
+        "who could not have won from anywhere is the one holding the trophy this week."))
 
     # ---- WIRE
     parts.append('<h2 id="wire">The Waiver Wire</h2>')
@@ -532,7 +525,7 @@ def build():
         "Two of the three 6 and 2s play each other. Spencer gets Geoff, who has beaten him twice "
         "running, and Kent gets Doug, who has beaten him ten times, so by Monday night one of the three could be "
         "alone in first and both of them should be looking over a shoulder at Casey Couture, who has five rings and is tenth "
-        "in points, which I will keep saying until one of you explains it to me. Howard and Mama Beth is the bottom two, and Howard has won six straight in it, and if he starts a "
+        "in points, which I will keep saying until one of you explains it to me. Howard goes to Mama Beth, where he has won six straight in the series, and if he starts a "
         "quarterback who is playing, he has a chance. Lamar is on Thursday night, Scott."))
     return "".join(parts)
 
