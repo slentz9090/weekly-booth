@@ -21,21 +21,21 @@ TX = "#e6eaf0"
 MUT = "#9aa4b2"
 
 CARDS = {
-    "dlffl-week-7.png": {
+    "dlffl-week-8.png": {
         "league": "Dewart Lake FFL",
-        "week": "Week 7 · 2026 · Halftime",
+        "week": "Week 8 · 2026",
         "accent": GOLD,
-        "headline": "Scott Howard Scored The Most Points In The League This Week. He Is In Eleventh Place.",
-        "owner": "Owner of the Week · Scott Howard, 135.68",
-        "worst": "Worst Owner · DA, 83.28",
+        "headline": "Mama Beth Benched A 37 For A Zero. The Zero Was Boomer's Call.",
+        "owner": "Owner of the Week · Kent Frenger, 163.38",
+        "worst": "Worst Owner · Mama Beth, 70.90",
     },
-    "foh-week-7.png": {
+    "foh-week-8.png": {
         "league": "Friends of Herb",
-        "week": "Week 7 · 2026 · Halftime",
+        "week": "Week 8 · 2026",
         "accent": BLUE,
-        "headline": "Aron Rogers Beat Aaron Jezioro By 75 Points. It Was The Ninth Straight.",
-        "owner": "Owner of the Week · Matt Davis, 152.68",
-        "worst": "Worst Owner · Aaron Jezioro, 76.82",
+        "headline": "Joe Burrow Scored 50.48 For Matt Davis. Matt Davis Had The Week Off.",
+        "owner": "Owner of the Week · Eric Olson, 158.96",
+        "worst": "Worst Owner · Michael Turner, 70.28",
     },
 }
 
@@ -93,7 +93,8 @@ def card(name, spec):
            font=ImageFont.truetype(SANS, 22), fill=MUT)
 
     path = os.path.join(OUT, name)
-    im.save(path, "PNG", optimize=True)
+    # 48-colour palette: the card is flat type on a flat ground, so this is visually lossless and a third of the bytes
+    im.convert("RGB").quantize(colors=48, method=Image.Quantize.MEDIANCUT, dither=Image.Dither.NONE).save(path, "PNG", optimize=True)
     print("wrote", path, os.path.getsize(path), "bytes,", len(lines), "headline lines")
 
 

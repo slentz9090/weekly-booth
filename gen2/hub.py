@@ -14,29 +14,29 @@ from compute import DATA, load
 DOCS = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "docs")
 SITE = "https://slentz9090.github.io/weekly-booth"
 
-WK = int(os.environ.get("WEEK", "7"))
+WK = int(os.environ.get("WEEK", "8"))
 
 HEAD = {
     "dlffl": {
         "league": "Dewart Lake FFL",
-        "headline": "Scott Howard Scored The Most Points In The League This Week. He Is In Eleventh Place.",
+        "headline": "Mama Beth Benched A 37 For A Zero. The Zero Was Boomer's Call.",
         "accent": "var(--gold)",
         "meta": "12 teams · snake · 0.5 PPR",
-        "note": ("Owner of the Week: Scott Howard, 135.68, the high score of the week from eleventh place. "
-                 "Worst Owner: DA, 83.28, the low score of the week."),
-        "date": "October 27, 2026",
-        "sub": "Halftime. Six games, a new segment on what the halfway mark has meant since 2009, the luck board, five pieces of hardware, the Bench Ledger, and twelve calls graded in public.",
+        "note": ("Owner of the Week: Kent Frenger, 163.38, the ninth-best game of his career. "
+                 "Worst Owner: Mama Beth, 70.90, with 64.14 on her bench."),
+        "date": "November 3, 2026",
+        "sub": "Six games, a series line on every card, the first Owner Spotlight (Casey Couture, five titles, tenth in points), five pieces of hardware, the Bench Ledger, and twelve calls graded in public.",
     },
     "foh": {
         "league": "Friends of Herb",
-        "headline": "Aron Rogers Beat Aaron Jezioro By 75 Points. It Was The Ninth Straight.",
+        "headline": "Joe Burrow Scored 50.48 For Matt Davis. Matt Davis Had The Week Off.",
         "accent": "var(--blue)",
         "indexAccent": "var(--gold)",
         "meta": "11 teams · auction · 0.5 PPR",
-        "note": ("Owner of the Week: Matt Davis, 152.68, by 0.56 over a perfect Rogers lineup. Worst Owner: Aaron "
-                 "Jezioro, 76.82, in a loss by 75.30."),
-        "date": "October 27, 2026",
-        "sub": "Halftime. Five games, a bye, a new segment on what the halfway mark has meant since 2011 (Herb is in it), the luck board, the Freiermuth Memorial Rule, and twelve calls graded in public.",
+        "note": ("Owner of the Week: Eric Olson, 158.96, by 51.44 over the reigning champion. Worst Owner: Michael "
+                 "Turner, 70.28, in a loss by 68.02."),
+        "date": "November 3, 2026",
+        "sub": "Five games, a bye, a series line on every card, the first Owner Spotlight (Bob Dorsch, four titles, 2 and 5), the Freiermuth Memorial Rule, and eleven calls graded in public.",
     },
 }
 
@@ -50,17 +50,17 @@ EXTRA_CARDS = {
 }
 
 TEASERS = {
-    "dlffl": """Gil and Boomer have Week 7 of the Dewart Lake FFL. Halftime.
+    "dlffl": """Gil and Boomer have Week 8 of the Dewart Lake FFL.
 
-Scott Howard scored the most points in the league this week, 135.68, and he is in eleventh place with the fifth-most points in the league. Casey Couture is 4 and 3 with the fewest. Ryan Reed signed a quarterback, started him over Bo Nix, and lost by less than Nix scored on his bench. Mama Beth claimed a receiver, benched him for 23, and lost by 10. Doug Fields has scored between 92 and 106 every single week, the flattest start in league history. New this week: HALFTIME, the booth opens the archive on what the standings after Week 7 have meant in every season since 2009, plus the luck board, which says Casey is two wins lucky and Howard is a win and a half unlucky. Boomer went 4 and 8.
+Mama Beth benched Tyler Allgeier for 37 and started Omar Cooper Jr. for zero, exactly like Boomer bet she would, and she is 1 and 7. Scott Howard started Lamar Jackson, who did not play, and lost to Spencer by 60. Kent Frenger scored 163, the ninth-best game of his career, and three teams are 6 and 2. New this week: a lifetime series line on every matchup, and THE OWNER SPOTLIGHT, one owner a week from the all-time log. First up: Casey Couture, five titles, the most in league history, and tenth in points. Boomer went 7 and 5.
 
-{site}/dlffl/week-7.html
+{site}/dlffl/week-8.html
 """,
-    "foh": """Gil and Boomer have Week 7 of Friends of Herb. Halftime.
+    "foh": """Gil and Boomer have Week 8 of Friends of Herb.
 
-Aron Rogers set a perfect lineup, scored 152.12, beat Aaron Jezioro by 75 for the ninth straight time, and still finished second for the week by 0.56 to Matt Davis, who started Joe Burrow this time. Michael Turner cut Cam Skattebo and signed Tre Tucker. Ryan Kelly signed Skattebo. They played each other and each man benched his new man for twenty, and Kelly won his first game of the year. Bob Dorsch cut Pat Freiermuth, so the rule is now a memorial. New this week: HALFTIME, what the standings after Week 7 have meant in every season since 2011. Rogers is the only team ever to miss the playoffs from five wins at the break, twice. Herb made them from 1 and 6. Boomer went 5 and 7.
+Joe Burrow scored 50 for Matt Davis on his bye week. Eric Olson scored 159, his fourth-best game since 2011, and beat the reigning champ by 51. Jezioro beat Turner by 68 and took the lead in a series that was 16 and 16. Ryan Kelly won a second straight on a backup running back who scored 35. Spencer is first in points and first in points left on the bench. New this week: a lifetime series line on every matchup, and THE OWNER SPOTLIGHT, one owner a week from the all-time log, starting with Bob Dorsch: four titles, the biggest season on record, 19 and 8 against Spencer, and 2 and 5. Boomer went 8 and 3.
 
-{site}/foh/week-7.html
+{site}/foh/week-8.html
 """,
 }
 

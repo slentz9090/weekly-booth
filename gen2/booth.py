@@ -85,6 +85,19 @@ EXTRA_CSS = """
 .ht span{display:block;font-size:13px;line-height:1.4;color:var(--mut)}
 @media print{.hb .bar .lucky,.hb .bar .unlucky{background:#000}.ht b{color:#000}}
 @media (forced-colors:active){.hb .bar .lucky,.hb .bar .unlucky{background:CanvasText}}
+/* SERIES LINE (added Week 8): lifetime head to head on every matchup card */
+.mc-series{margin:10px 0 0;font-size:13px;line-height:1.45;color:var(--mut);letter-spacing:.01em}
+.mc-series b{color:var(--gold);font-weight:700;letter-spacing:.12em;text-transform:uppercase;font-size:11.5px;margin-right:2px}
+@media print{.mc-series,.mc-series b{color:#000}}
+/* THE OWNER SPOTLIGHT (added Week 8) */
+.spot{border:1px solid var(--hair);border-left:4px solid var(--gold);border-radius:12px;background:var(--surf);padding:14px 16px 6px;margin:0 0 14px}
+.spot .sp-k{font-size:11.5px;font-weight:700;letter-spacing:.17em;text-transform:uppercase;color:var(--gold);margin:0 0 4px}
+.spot .sp-who{font-size:22px;font-weight:700;color:#fff;margin:0 0 2px;line-height:1.2;letter-spacing:0;text-transform:none}
+.spot .sp-sub{font-size:13.5px;color:var(--mut);margin:0 0 12px}
+.spot .ht{margin-bottom:6px}
+@media (max-width:400px){.spot .ht b{font-size:23px}}
+@media (min-width:600px){.spot .ht{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media print{.spot .sp-who,.spot .sp-k{color:#000}.spot,.ht div{break-inside:avoid}}
 """
 
 
@@ -125,8 +138,9 @@ def audio(*_args, **_kwargs) -> str:
     raise NotImplementedError("Audio is off. See the runbook before turning it back on.")
 
 
-def mcard(anchor, ribbon, win, lose, note, scale, key=False, ribbon_color="var(--gold)"):
-    """One matchup. win/lose are dicts: team, owner, score, left.
+def mcard(anchor, ribbon, win, lose, note, scale, key=False, ribbon_color="var(--gold)", series=None):
+    """One matchup. win/lose are dicts: team, owner, score, left. `series` (added Week 8) is the
+    lifetime head to head line printed under the bars on every card, from gen2/series.py.
 
     The bar scale is shared by every card on the page: solid is points started,
     the hatched tail is points left on the bench. Bars default visible; the
@@ -162,12 +176,13 @@ def mcard(anchor, ribbon, win, lose, note, scale, key=False, ribbon_color="var(-
         else ""
     )
     label = f'{win["team"]} versus {lose["team"]}'
+    series_p = f'<p class="mc-series"><b>Series</b> {esc(series)}</p>' if series else ""
     return (
         f'<section class="mcard" id="{anchor}" aria-labelledby="{anchor}-h">'
         f'<div class="mc-top"><h3 class="mc-rib" id="{anchor}-h" style="color:{ribbon_color}">{esc(ribbon)}</h3>'
         f'<button class="mc-lnk" type="button" data-a="{anchor}" aria-label="Share or copy a link to {esc(label)}">Link</button></div>'
         + "".join(rows)
-        + f'<p class="mc-note">{note}</p>{keyline}</section>'
+        + f'<p class="mc-note">{note}</p>{series_p}{keyline}</section>'
     )
 
 
@@ -175,8 +190,12 @@ def byecard(anchor, ribbon, team, note, scale, ribbon_color="var(--gold)"):
     """Friends of Herb runs eleven teams, so somebody sits every week."""
     fill = team["score"] / scale * 100
     tail = team["left"] / scale * 100
-    tail_div = (f'<div class="mc-tail" style="left:{fill:.2f}%;width:{tail:.2f}%"></div>'
-                if team["left"] > 0 else "")
+    if team["left"] <= 0:
+        tail_div = ""
+    elif fill + tail >= 99.9:
+        tail_div = f'<div class="mc-tail" style="right:0;width:{tail:.2f}%"></div>'
+    else:
+        tail_div = f'<div class="mc-tail" style="left:{fill:.2f}%;width:{tail:.2f}%"></div>'
     return (
         f'<section class="mcard" id="{anchor}" aria-labelledby="{anchor}-h">'
         f'<div class="mc-top"><h3 class="mc-rib" id="{anchor}-h" style="color:{ribbon_color}">{esc(ribbon)}</h3>'
@@ -276,6 +295,13 @@ def halftime_board(rows, caption):
 def halftime_tiles(tiles):
     """tiles: (big, caption)."""
     return '<div class="ht">' + "".join(f"<div><b>{esc(b)}</b><span>{c}</span></div>" for b, c in tiles) + "</div>"
+
+
+def spotlight(kicker, who, sub, tiles):
+    """THE OWNER SPOTLIGHT header block (added Week 8): kicker line, the owner, a sub line, and the
+    big-number tiles (same markup as the Week 7 tiles). The dialogue follows outside the block."""
+    return (f'<div class="spot"><p class="sp-k">{esc(kicker)}</p><h3 class="sp-who">{esc(who)}</h3>'
+            f'<p class="sp-sub">{sub}</p>{halftime_tiles(tiles)}</div>')
 
 
 def ordinal(n: int) -> str:

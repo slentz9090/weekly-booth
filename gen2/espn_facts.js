@@ -116,13 +116,16 @@ async function boothFacts(league, week) {
       };
     }
   }
-  // all-play on the week's score, bye team included
+  // all-play on the week's score. A bye-week score counts for nobody, in either direction
+  // (changed Week 8, 2026-11-03: it used to include the bye team).
   const all = Object.values(per);
+  const byeIds = new Set(games.filter(m => !m.away && m.home).map(m => m.home.teamId));
+  const apField = all.filter(t => !byeIds.has(t.teamId));
   for (const t of all) {
     let w = 0, l = 0;
-    for (const o of all) if (o !== t) { if (t.score > o.score) w++; else if (t.score < o.score) l++; }
+    if (!byeIds.has(t.teamId)) for (const o of apField) if (o !== t) { if (t.score > o.score) w++; else if (t.score < o.score) l++; }
     t.allPlay = `${w}-${l}`;
-    t.expWins = r3(w / (all.length - 1));
+    t.expWins = byeIds.has(t.teamId) ? null : r3(w / Math.max(1, apField.length - 1));
   }
 
   const matchups = games.filter(m => m.away).map(m => {
