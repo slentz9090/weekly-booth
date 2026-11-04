@@ -1,0 +1,147 @@
+{
+ "league": "foh",
+ "week": 8,
+ "spots": 4,
+ "weeksLeft": 6,
+ "rounds": "one week each, Weeks 15 and 16",
+ "source": "FantasyPros League Analyzer, pulled after ESPN rolled Week 8 (2026-11-03)",
+ "teams": [
+  {
+   "owner": "Spencer Lentz",
+   "team": "Balls Deep",
+   "w": 6,
+   "l": 2,
+   "projW": 10,
+   "projL": 4,
+   "projRank": 1,
+   "playoffs": "96%",
+   "title": "30%"
+  },
+  {
+   "owner": "Aron Rogers",
+   "team": "Kim Jong Un Pleasure Squad",
+   "w": 6,
+   "l": 2,
+   "projW": 10,
+   "projL": 4,
+   "projRank": 2,
+   "playoffs": "89%",
+   "title": "18%"
+  },
+  {
+   "owner": "Eric Olson",
+   "team": "Colorado Narcoleptic Kestrels",
+   "w": 6,
+   "l": 2,
+   "projW": 9,
+   "projL": 5,
+   "projRank": 3,
+   "playoffs": "85%",
+   "title": "17%"
+  },
+  {
+   "owner": "Matt Davis",
+   "team": "Dallas Dawgs",
+   "w": 5,
+   "l": 2,
+   "projW": 9,
+   "projL": 5,
+   "projRank": 4,
+   "playoffs": "75%",
+   "title": "24%"
+  },
+  {
+   "owner": "Rahul Pahuja",
+   "team": "Pack Up",
+   "w": 4,
+   "l": 3,
+   "projW": 8,
+   "projL": 6,
+   "projRank": 5,
+   "playoffs": "32%",
+   "title": "7%"
+  },
+  {
+   "owner": "Aaron Jezioro",
+   "team": "| croup",
+   "w": 3,
+   "l": 4,
+   "projW": 7,
+   "projL": 7,
+   "projRank": 6,
+   "playoffs": "12%",
+   "title": "3%"
+  },
+  {
+   "owner": "Michael Smith",
+   "team": "Midget Grinders",
+   "w": 4,
+   "l": 3,
+   "projW": 7,
+   "projL": 7,
+   "projRank": 7,
+   "playoffs": "10%",
+   "title": "1%"
+  },
+  {
+   "owner": "Bob Dorsch",
+   "team": "WPB Steel City",
+   "w": 2,
+   "l": 5,
+   "projW": 5,
+   "projL": 9,
+   "projRank": 8,
+   "playoffs": "<1%",
+   "title": "<1%"
+  },
+  {
+   "owner": "Ryan Kelly",
+   "team": "Old Man Smashers",
+   "w": 2,
+   "l": 5,
+   "projW": 4,
+   "projL": 10,
+   "projRank": 9,
+   "playoffs": "<1%",
+   "title": "<1%"
+  },
+  {
+   "owner": "Michael Turner",
+   "team": "Napoleon's Army",
+   "w": 1,
+   "l": 6,
+   "projW": 4,
+   "projL": 10,
+   "projRank": 10,
+   "playoffs": "<1%",
+   "title": "<1%"
+  },
+  {
+   "owner": "Billy Norton",
+   "team": "I Loved You Tom Brady",
+   "w": 1,
+   "l": 6,
+   "projW": 4,
+   "projL": 10,
+   "projRank": 11,
+   "playoffs": "<1%",
+   "title": "<1%"
+  }
+ ],
+ "seedsToday": [
+  "Spencer Lentz",
+  "Eric Olson",
+  "Aron Rogers",
+  "Matt Davis"
+ ],
+ "bracket": [
+  [
+   "Spencer Lentz",
+   "Matt Davis"
+  ],
+  [
+   "Eric Olson",
+   "Aron Rogers"
+  ]
+ ]
+}

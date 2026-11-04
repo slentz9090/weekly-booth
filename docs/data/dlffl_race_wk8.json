@@ -1,0 +1,158 @@
+{
+ "league": "dlffl",
+ "week": 8,
+ "spots": 4,
+ "weeksLeft": 6,
+ "rounds": "two weeks each, Weeks 15 to 18",
+ "source": "FantasyPros League Analyzer, pulled after ESPN rolled Week 8 (2026-11-03)",
+ "teams": [
+  {
+   "owner": "Spencer Lentz",
+   "team": "Balls Deep",
+   "w": 6,
+   "l": 2,
+   "projW": 10,
+   "projL": 4,
+   "projRank": 1,
+   "playoffs": "97%",
+   "title": "41%"
+  },
+  {
+   "owner": "Kent Frenger",
+   "team": "Berlin Blitz",
+   "w": 6,
+   "l": 2,
+   "projW": 9,
+   "projL": 5,
+   "projRank": 2,
+   "playoffs": "93%",
+   "title": "27%"
+  },
+  {
+   "owner": "Geoff Cavender",
+   "team": "Hawk Tua Tagovailoa",
+   "w": 6,
+   "l": 2,
+   "projW": 9,
+   "projL": 5,
+   "projRank": 3,
+   "playoffs": "73%",
+   "title": "8%"
+  },
+  {
+   "owner": "DA",
+   "team": "DA The Badenov's",
+   "w": 5,
+   "l": 3,
+   "projW": 8,
+   "projL": 6,
+   "projRank": 4,
+   "playoffs": "65%",
+   "title": "14%"
+  },
+  {
+   "owner": "Scott Reisert",
+   "team": "Simba St. Gibbs Lion Kings",
+   "w": 4,
+   "l": 4,
+   "projW": 7,
+   "projL": 7,
+   "projRank": 5,
+   "playoffs": "30%",
+   "title": "4%"
+  },
+  {
+   "owner": "Doug Fields",
+   "team": "Cosby Copperheads",
+   "w": 4,
+   "l": 4,
+   "projW": 7,
+   "projL": 7,
+   "projRank": 6,
+   "playoffs": "16%",
+   "title": "3%"
+  },
+  {
+   "owner": "Ryan Reed",
+   "team": "BearDown",
+   "w": 4,
+   "l": 4,
+   "projW": 6,
+   "projL": 8,
+   "projRank": 7,
+   "playoffs": "10%",
+   "title": "<1%"
+  },
+  {
+   "owner": "Casey Couture",
+   "team": "One Under akaThe Mulligan",
+   "w": 4,
+   "l": 4,
+   "projW": 6,
+   "projL": 8,
+   "projRank": 8,
+   "playoffs": "8%",
+   "title": "<1%"
+  },
+  {
+   "owner": "Adam Hershberger",
+   "team": "Holy Rollers",
+   "w": 3,
+   "l": 5,
+   "projW": 6,
+   "projL": 8,
+   "projRank": 9,
+   "playoffs": "6%",
+   "title": "1%"
+  },
+  {
+   "owner": "Scott Howard",
+   "team": "The Scranton Strangler",
+   "w": 2,
+   "l": 6,
+   "projW": 5,
+   "projL": 9,
+   "projRank": 10,
+   "playoffs": "2%",
+   "title": "<1%"
+  },
+  {
+   "owner": "Adam Calvelage",
+   "team": "An alBum Cover",
+   "w": 3,
+   "l": 5,
+   "projW": 5,
+   "projL": 9,
+   "projRank": 11,
+   "playoffs": "1%",
+   "title": "<1%"
+  },
+  {
+   "owner": "Mama Beth",
+   "team": "Momma's Boys",
+   "w": 1,
+   "l": 7,
+   "projW": 3,
+   "projL": 11,
+   "projRank": 12,
+   "playoffs": "0%",
+   "title": "0%"
+  }
+ ],
+ "seedsToday": [
+  "Spencer Lentz",
+  "Kent Frenger",
+  "Geoff Cavender",
+  "DA"
+ ],
+ "bracket": [
+  [
+   "Spencer Lentz",
+   "DA"
+  ],
+  [
+   "Kent Frenger",
+   "Geoff Cavender"
+  ]
+ ]
+}
