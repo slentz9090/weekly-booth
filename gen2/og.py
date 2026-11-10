@@ -21,21 +21,21 @@ TX = "#e6eaf0"
 MUT = "#9aa4b2"
 
 CARDS = {
-    "dlffl-week-8.png": {
+    "dlffl-week-9.png": {
         "league": "Dewart Lake FFL",
-        "week": "Week 8 · 2026",
+        "week": "Week 9 · 2026",
         "accent": GOLD,
-        "headline": "Scott Howard Started Lamar Jackson. Lamar Jackson Did Not Play.",
-        "owner": "Owner of the Week · Kent Frenger, 163.38",
-        "worst": "Worst Owner · Scott Howard, 99.70",
+        "headline": "Spencer Lentz Benched C.J. Stroud. C.J. Stroud Scored 40.",
+        "owner": "Owner of the Week · Scott Howard, 148.30",
+        "worst": "Worst Owner · Ryan Reed, 63.38",
     },
-    "foh-week-8.png": {
+    "foh-week-9.png": {
         "league": "Friends of Herb",
-        "week": "Week 8 · 2026",
+        "week": "Week 9 · 2026",
         "accent": BLUE,
-        "headline": "Joe Burrow Scored 50.48 For Matt Davis. Matt Davis Had The Week Off.",
-        "owner": "Owner of the Week · Eric Olson, 158.96",
-        "worst": "Worst Owner · Michael Turner, 70.28",
+        "headline": "Rahul Pahuja Beat Ryan Kelly By 112.20. Boomer Picked Kelly.",
+        "owner": "Owner of the Week · Rahul Pahuja, 173.86",
+        "worst": "Worst Owner · Ryan Kelly, 61.66",
     },
 }
 

@@ -14,29 +14,29 @@ from compute import DATA, load
 DOCS = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "docs")
 SITE = "https://slentz9090.github.io/weekly-booth"
 
-WK = int(os.environ.get("WEEK", "8"))
+WK = int(os.environ.get("WEEK", "9"))
 
 HEAD = {
     "dlffl": {
         "league": "Dewart Lake FFL",
-        "headline": "Scott Howard Started Lamar Jackson. Lamar Jackson Did Not Play.",
+        "headline": "Spencer Lentz Benched C.J. Stroud. C.J. Stroud Scored 40.",
         "accent": "var(--gold)",
         "meta": "12 teams · snake · 0.5 PPR",
-        "note": ("Owner of the Week: Kent Frenger, 163.38, the ninth-best game of his career. "
-                 "Worst Owner: Scott Howard, 99.70, with a quarterback who did not play."),
-        "date": "November 3, 2026",
-        "sub": "Six games, a series line on every card, the first Owner Spotlight (Casey Couture, five titles, tenth in points), five pieces of hardware, the Bench Ledger, and twelve calls graded in public.",
+        "note": ("Owner of the Week: Scott Howard, 148.30, a week after he was Worst Owner. "
+                 "Worst Owner: Ryan Reed, 63.38, with two starters who did not play."),
+        "date": "November 10, 2026",
+        "sub": "Six games, THE RACE with five weeks left, five pieces of hardware, the Bench Ledger, and twelve calls graded in public.",
     },
     "foh": {
         "league": "Friends of Herb",
-        "headline": "Joe Burrow Scored 50.48 For Matt Davis. Matt Davis Had The Week Off.",
+        "headline": "Rahul Pahuja Beat Ryan Kelly By 112.20. Boomer Picked Kelly.",
         "accent": "var(--blue)",
         "indexAccent": "var(--gold)",
         "meta": "11 teams · auction · 0.5 PPR",
-        "note": ("Owner of the Week: Eric Olson, 158.96, by 51.44 over the reigning champion. Worst Owner: Michael "
-                 "Turner, 70.28, in a loss by 68.02."),
-        "date": "November 3, 2026",
-        "sub": "Five games, a bye, a series line on every card, the first Owner Spotlight (Bob Dorsch, four titles, 2 and 5), the Freiermuth Memorial Rule, and eleven calls graded in public.",
+        "note": ("Owner of the Week: Rahul Pahuja, 173.86 and a perfect lineup. Worst Owner: Ryan Kelly, "
+                 "61.66, in a loss by 112.20."),
+        "date": "November 10, 2026",
+        "sub": "Five games, a bye, THE RACE with five weeks left, the Freiermuth Memorial Rule, and eleven calls graded in public.",
     },
 }
 
@@ -50,17 +50,17 @@ EXTRA_CARDS = {
 }
 
 TEASERS = {
-    "dlffl": """Gil and Boomer have Week 8 of the Dewart Lake FFL.
+    "dlffl": """Gil and Boomer have Week 9 of the Dewart Lake FFL.
 
-Scott Howard started Lamar Jackson, who did not play, and lost by 60. The zero was the worst miss by a projected starter since 2018. Ryan Reed started two players who did not play and won anyway. Kent Frenger scored 163, his ninth-best game since 2009, and three teams are 6 and 2. New this week: a lifetime series line on every matchup, and THE OWNER SPOTLIGHT, one owner a week from the all-time log. First up: Casey Couture, five titles, the most in league history, and tenth in points. Boomer went 7 and 5.
+Spencer benched C.J. Stroud and Stroud scored 40, the 11th-most points anyone has left on a bench here since 2018, and Boomer did not let it go. Scott Howard went from Worst Owner to the high score of the week. Ryan Reed started two guys who did not play. Doug Fields scored between 92 and 106 eight weeks running and finally missed, by 0.98. Kent cut his backup quarterback and his backup defense, and both starters are on bye next week. THE RACE has playoff and title odds for all twelve. Boomer went 4 and 8.
 
-{site}/dlffl/week-8.html
+{site}/dlffl/week-9.html
 """,
-    "foh": """Gil and Boomer have Week 8 of Friends of Herb.
+    "foh": """Gil and Boomer have Week 9 of Friends of Herb.
 
-Joe Burrow scored 50 for Matt Davis on his bye week. Eric Olson scored 159, his fourth-best game since 2011, and beat the reigning champ by 51. Jezioro beat Turner by 68 and took the lead in a series that was 16 and 16. Ryan Kelly won a second straight on a backup running back who scored 35. Spencer leads the league in points left on the bench, and also in points. New this week: a lifetime series line on every matchup, and THE OWNER SPOTLIGHT, one owner a week from the all-time log, starting with Bob Dorsch: four titles, the biggest season on record, 19 and 8 against Spencer, and 2 and 5. Boomer went 8 and 3.
+Rahul beat Kelly by 112.20, the fifth-biggest margin in this league since 2011, with a perfect lineup. Boomer picked Kelly. Dorsch beat Rogers while the quarterback Dorsch cut sat on Rogers's bench for 21.70. Jezioro has two straight weeks over 134 and is one game out. Three teams are tied for the last playoff spot, and THE RACE has the odds for all eleven. Spencer still leads the league in points left on the bench. Boomer went 4 and 7.
 
-{site}/foh/week-8.html
+{site}/foh/week-9.html
 """,
 }
 
