@@ -2056,19 +2056,6 @@
    "allPlay": "8-1"
   },
   {
-   "teamId": 15,
-   "name": "Kim Jong Un Pleasure Squad",
-   "owner": "Aron Rogers",
-   "w": 6,
-   "l": 3,
-   "tie": 0,
-   "pf": 1074,
-   "pa": 1013.46,
-   "seed": 2,
-   "eff": 80.1,
-   "allPlay": "2-7"
-  },
-  {
    "teamId": 16,
    "name": "Colorado Narcoleptic Kestrels",
    "owner": "Eric Olson",
@@ -2077,9 +2064,22 @@
    "tie": 0,
    "pf": 1005.98,
    "pa": 886.76,
-   "seed": 3,
+   "seed": 2,
    "eff": 93.4,
    "allPlay": "0-0"
+  },
+  {
+   "teamId": 15,
+   "name": "Kim Jong Un Pleasure Squad",
+   "owner": "Aron Rogers",
+   "w": 6,
+   "l": 3,
+   "tie": 0,
+   "pf": 1074,
+   "pa": 1013.46,
+   "seed": 3,
+   "eff": 80.1,
+   "allPlay": "2-7"
   },
   {
    "teamId": 6,
@@ -2444,5 +2444,6 @@
   "loserId": 1,
   "margin": 31.04
  },
- "live": true
+ "verifiedFinal": true,
+ "note": "Pulled live before the ESPN roll (2026-11-10 12:12 AM ET); re-pulled after the roll at 3:16 AM ET and matched in every section."
 }

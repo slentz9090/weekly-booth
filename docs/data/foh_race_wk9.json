@@ -1,0 +1,147 @@
+{
+ "league": "foh",
+ "week": 9,
+ "spots": 4,
+ "weeksLeft": 5,
+ "rounds": "one week each, Weeks 15 and 16",
+ "source": "FantasyPros League Analyzer, pulled after ESPN rolled Week 9 (2026-11-10)",
+ "teams": [
+  {
+   "owner": "Spencer Lentz",
+   "team": "Balls Deep",
+   "w": 7,
+   "l": 2,
+   "projW": 11,
+   "projL": 3,
+   "projRank": 1,
+   "playoffs": "99%",
+   "title": "31%"
+  },
+  {
+   "owner": "Aron Rogers",
+   "team": "Kim Jong Un Pleasure Squad",
+   "w": 6,
+   "l": 3,
+   "projW": 9,
+   "projL": 5,
+   "projRank": 2,
+   "playoffs": "83%",
+   "title": "15%"
+  },
+  {
+   "owner": "Eric Olson",
+   "team": "Colorado Narcoleptic Kestrels",
+   "w": 6,
+   "l": 2,
+   "projW": 9,
+   "projL": 5,
+   "projRank": 3,
+   "playoffs": "70%",
+   "title": "14%"
+  },
+  {
+   "owner": "Matt Davis",
+   "team": "Dallas Dawgs",
+   "w": 5,
+   "l": 3,
+   "projW": 8,
+   "projL": 6,
+   "projRank": 4,
+   "playoffs": "66%",
+   "title": "20%"
+  },
+  {
+   "owner": "Rahul Pahuja",
+   "team": "Pack Up",
+   "w": 5,
+   "l": 3,
+   "projW": 8,
+   "projL": 6,
+   "projRank": 5,
+   "playoffs": "50%",
+   "title": "13%"
+  },
+  {
+   "owner": "Aaron Jezioro",
+   "team": "| croup",
+   "w": 4,
+   "l": 4,
+   "projW": 7,
+   "projL": 7,
+   "projRank": 6,
+   "playoffs": "23%",
+   "title": "6%"
+  },
+  {
+   "owner": "Michael Smith",
+   "team": "Midget Grinders",
+   "w": 5,
+   "l": 3,
+   "projW": 7,
+   "projL": 7,
+   "projRank": 7,
+   "playoffs": "8%",
+   "title": "<1%"
+  },
+  {
+   "owner": "Bob Dorsch",
+   "team": "WPB Steel City",
+   "w": 3,
+   "l": 5,
+   "projW": 5,
+   "projL": 9,
+   "projRank": 8,
+   "playoffs": "1%",
+   "title": "<1%"
+  },
+  {
+   "owner": "Ryan Kelly",
+   "team": "Old Man Smashers",
+   "w": 2,
+   "l": 6,
+   "projW": 4,
+   "projL": 10,
+   "projRank": 9,
+   "playoffs": "<1%",
+   "title": "<1%"
+  },
+  {
+   "owner": "Billy Norton",
+   "team": "I Loved You Tom Brady",
+   "w": 1,
+   "l": 7,
+   "projW": 3,
+   "projL": 11,
+   "projRank": 10,
+   "playoffs": "<1%",
+   "title": "<1%"
+  },
+  {
+   "owner": "Michael Turner",
+   "team": "Napoleon's Army",
+   "w": 1,
+   "l": 7,
+   "projW": 3,
+   "projL": 11,
+   "projRank": 11,
+   "playoffs": "0%",
+   "title": "0%"
+  }
+ ],
+ "seedsToday": [
+  "Spencer Lentz",
+  "Eric Olson",
+  "Aron Rogers",
+  "Matt Davis"
+ ],
+ "bracket": [
+  [
+   "Spencer Lentz",
+   "Matt Davis"
+  ],
+  [
+   "Eric Olson",
+   "Aron Rogers"
+  ]
+ ]
+}

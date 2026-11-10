@@ -2890,5 +2890,6 @@
   "loserId": 3,
   "margin": 25.72
  },
- "live": true
+ "verifiedFinal": true,
+ "note": "Pulled live before the ESPN roll (2026-11-10 12:12 AM ET); re-pulled after the roll at 3:16 AM ET and matched in every section."
 }
