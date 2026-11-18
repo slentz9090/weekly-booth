@@ -1,0 +1,3066 @@
+{
+ "league": "dlffl",
+ "leagueId": 404188,
+ "leagueName": "Dewart Lake FFL",
+ "week": 10,
+ "generatedAt": "2026-11-18T00:19:22.689Z",
+ "matchups": [
+  {
+   "homeId": 14,
+   "home": "Holy Rollers",
+   "homeOwner": "Adam Hershberger",
+   "homeScore": 106.28,
+   "awayId": 12,
+   "away": "An alBum Cover",
+   "awayOwner": "Adam Calvelage",
+   "awayScore": 118.96,
+   "winnerId": 12,
+   "winner": "An alBum Cover",
+   "loserId": 14,
+   "margin": 12.68
+  },
+  {
+   "homeId": 15,
+   "home": "The Scranton Strangler",
+   "homeOwner": "Scott Howard",
+   "homeScore": 126.12,
+   "awayId": 19,
+   "away": "BearDown",
+   "awayOwner": "Ryan Reed",
+   "awayScore": 102.4,
+   "winnerId": 15,
+   "winner": "The Scranton Strangler",
+   "loserId": 19,
+   "margin": 23.72
+  },
+  {
+   "homeId": 4,
+   "home": "Berlin Blitz",
+   "homeOwner": "Kent Frenger",
+   "homeScore": 121.7,
+   "awayId": 3,
+   "away": "DA The Badenov's",
+   "awayOwner": "dennis couture",
+   "awayScore": 128.34,
+   "winnerId": 3,
+   "winner": "DA The Badenov's",
+   "loserId": 4,
+   "margin": 6.64
+  },
+  {
+   "homeId": 16,
+   "home": "Hawk Tua Tagovailoa",
+   "homeOwner": "Geoff Cavender",
+   "homeScore": 120.6,
+   "awayId": 11,
+   "away": "Momma's Boys",
+   "awayOwner": "Beth Couture",
+   "awayScore": 98.82,
+   "winnerId": 16,
+   "winner": "Hawk Tua Tagovailoa",
+   "loserId": 11,
+   "margin": 21.78
+  },
+  {
+   "homeId": 17,
+   "home": "Simba St. Gibbs Lion Kings",
+   "homeOwner": "Scott Reisert",
+   "homeScore": 112.62,
+   "awayId": 18,
+   "away": "Cosby Copperheads",
+   "awayOwner": "Doug Fields",
+   "awayScore": 131.06,
+   "winnerId": 18,
+   "winner": "Cosby Copperheads",
+   "loserId": 17,
+   "margin": 18.44
+  },
+  {
+   "homeId": 6,
+   "home": "One Under akaThe Mulligan",
+   "homeOwner": "Casey Couture",
+   "homeScore": 77.92,
+   "awayId": 1,
+   "away": "Balls Deep",
+   "awayOwner": "Spencer Lentz",
+   "awayScore": 151.52,
+   "winnerId": 1,
+   "winner": "Balls Deep",
+   "loserId": 6,
+   "margin": 73.6
+  }
+ ],
+ "byes": [],
+ "perTeam": [
+  {
+   "teamId": 1,
+   "name": "Balls Deep",
+   "owner": "Spencer Lentz",
+   "score": 151.52,
+   "actual": 151.52,
+   "optimal": 187.54,
+   "left": 36.02,
+   "eff": 80.8,
+   "worst": {
+    "delta": 18.6,
+    "slot": "WR",
+    "started": "Tee Higgins",
+    "startedPts": 9.1,
+    "benched": "Parker Washington",
+    "benchedPts": 27.7
+   },
+   "top": [
+    {
+     "n": "Emmett Johnson",
+     "pos": "RB",
+     "pts": 35.1,
+     "proj": 17.57
+    },
+    {
+     "n": "Chuba Hubbard",
+     "pos": "RB",
+     "pts": 31.7,
+     "proj": 19.33
+    },
+    {
+     "n": "Jaxon Smith-Njigba",
+     "pos": "WR",
+     "pts": 31.1,
+     "proj": 19.85
+    }
+   ],
+   "bust": {
+    "n": "Drake Maye",
+    "pos": "QB",
+    "pts": 3.02,
+    "proj": 23.23,
+    "miss": -20.21
+   },
+   "bestBench": {
+    "n": "Parker Washington",
+    "pos": "WR",
+    "pts": 27.7
+   },
+   "benchTop": [
+    {
+     "n": "Parker Washington",
+     "pos": "WR",
+     "pts": 27.7,
+     "proj": 13.31
+    },
+    {
+     "n": "C.J. Stroud",
+     "pos": "QB",
+     "pts": 20.44,
+     "proj": 19.23
+    }
+   ],
+   "starterLow": [
+    {
+     "n": "Brock Bowers",
+     "pos": "TE",
+     "slot": "TE",
+     "pts": 2.8,
+     "proj": 13.07
+    },
+    {
+     "n": "Drake Maye",
+     "pos": "QB",
+     "slot": "QB",
+     "pts": 3.02,
+     "proj": 23.23
+    }
+   ],
+   "starters": [
+    {
+     "n": "Bijan Robinson",
+     "pos": "RB",
+     "slot": "RB",
+     "pts": 15.7,
+     "proj": 17.93
+    },
+    {
+     "n": "Brock Bowers",
+     "pos": "TE",
+     "slot": "TE",
+     "pts": 2.8,
+     "proj": 13.07
+    },
+    {
+     "n": "Tee Higgins",
+     "pos": "WR",
+     "slot": "WR",
+     "pts": 9.1,
+     "proj": 13.88
+    },
+    {
+     "n": "Drake Maye",
+     "pos": "QB",
+     "slot": "QB",
+     "pts": 3.02,
+     "proj": 23.23
+    },
+    {
+     "n": "Chuba Hubbard",
+     "pos": "RB",
+     "slot": "RB",
+     "pts": 31.7,
+     "proj": 19.33
+    },
+    {
+     "n": "Jaxon Smith-Njigba",
+     "pos": "WR",
+     "slot": "WR",
+     "pts": 31.1,
+     "proj": 19.85
+    },
+    {
+     "n": "Cam Little",
+     "pos": "K",
+     "slot": "K",
+     "pts": 19,
+     "proj": 9.84
+    },
+    {
+     "n": "Emmett Johnson",
+     "pos": "RB",
+     "slot": "FLEX",
+     "pts": 35.1,
+     "proj": 17.57
+    },
+    {
+     "n": "Commanders D/ST",
+     "pos": "D/ST",
+     "slot": "D/ST",
+     "pts": 4,
+     "proj": 6.78
+    }
+   ],
+   "bench": [
+    {
+     "n": "Parker Washington",
+     "pos": "WR",
+     "pts": 27.7,
+     "proj": 13.31
+    },
+    {
+     "n": "C.J. Stroud",
+     "pos": "QB",
+     "pts": 20.44,
+     "proj": 19.23
+    },
+    {
+     "n": "Tucker Kraft",
+     "pos": "TE",
+     "pts": 2.4,
+     "proj": 7.52
+    },
+    {
+     "n": "49ers D/ST",
+     "pos": "D/ST",
+     "pts": -1,
+     "proj": 4.53
+    },
+    {
+     "n": "Steelers D/ST",
+     "pos": "D/ST",
+     "pts": -7,
+     "proj": 5.49
+    },
+    {
+     "n": "Kenny Gainwell",
+     "pos": "RB",
+     "pts": 0,
+     "proj": 0
+    }
+   ],
+   "allPlay": "11-0",
+   "expWins": 1
+  },
+  {
+   "teamId": 3,
+   "name": "DA The Badenov's",
+   "owner": "dennis couture",
+   "score": 128.34,
+   "actual": 128.34,
+   "optimal": 136.14,
+   "left": 7.8,
+   "eff": 94.3,
+   "worst": {
+    "delta": 7.8,
+    "slot": "RB",
+    "started": "Kyren Williams",
+    "startedPts": 4.2,
+    "benched": "Aaron Jones Sr.",
+    "benchedPts": 12
+   },
+   "top": [
+    {
+     "n": "Christian McCaffrey",
+     "pos": "RB",
+     "pts": 49.3,
+     "proj": 20.3
+    },
+    {
+     "n": "Josh Allen",
+     "pos": "QB",
+     "pts": 22.34,
+     "proj": 25.39
+    },
+    {
+     "n": "Rams D/ST",
+     "pos": "D/ST",
+     "pts": 16,
+     "proj": 8.3
+    }
+   ],
+   "bust": {
+    "n": "Kyren Williams",
+    "pos": "RB",
+    "pts": 4.2,
+    "proj": 17.69,
+    "miss": -13.49
+   },
+   "bestBench": {
+    "n": "Aaron Jones Sr.",
+    "pos": "RB",
+    "pts": 12
+   },
+   "benchTop": [
+    {
+     "n": "Aaron Jones Sr.",
+     "pos": "RB",
+     "pts": 12,
+     "proj": 7.74
+    },
+    {
+     "n": "Kyle Pitts Sr.",
+     "pos": "TE",
+     "pts": 5,
+     "proj": 7.46
+    }
+   ],
+   "starterLow": [
+    {
+     "n": "Kyren Williams",
+     "pos": "RB",
+     "slot": "RB",
+     "pts": 4.2,
+     "proj": 17.69
+    },
+    {
+     "n": "Christian Watson",
+     "pos": "WR",
+     "slot": "WR",
+     "pts": 5.2,
+     "proj": 13.69
+    }
+   ],
+   "starters": [
+    {
+     "n": "Christian McCaffrey",
+     "pos": "RB",
+     "slot": "RB",
+     "pts": 49.3,
+     "proj": 20.3
+    },
+    {
+     "n": "Josh Allen",
+     "pos": "QB",
+     "slot": "QB",
+     "pts": 22.34,
+     "proj": 25.39
+    },
+    {
+     "n": "Kyren Williams",
+     "pos": "RB",
+     "slot": "RB",
+     "pts": 4.2,
+     "proj": 17.69
+    },
+    {
+     "n": "Khalil Shakir",
+     "pos": "WR",
+     "slot": "WR",
+     "pts": 6.5,
+     "proj": 8.58
+    },
+    {
+     "n": "Christian Watson",
+     "pos": "WR",
+     "slot": "WR",
+     "pts": 5.2,
+     "proj": 13.69
+    },
+    {
+     "n": "Woody Marks",
+     "pos": "RB",
+     "slot": "FLEX",
+     "pts": 7,
+     "proj": 14
+    },
+    {
+     "n": "Dalton Kincaid",
+     "pos": "TE",
+     "slot": "TE",
+     "pts": 6.8,
+     "proj": 7.41
+    },
+    {
+     "n": "Ryan Fitzgerald",
+     "pos": "K",
+     "slot": "K",
+     "pts": 11,
+     "proj": 7.66
+    },
+    {
+     "n": "Rams D/ST",
+     "pos": "D/ST",
+     "slot": "D/ST",
+     "pts": 16,
+     "proj": 8.3
+    }
+   ],
+   "bench": [
+    {
+     "n": "Kyle Monangai",
+     "pos": "RB",
+     "pts": 0,
+     "proj": 0
+    },
+    {
+     "n": "Aaron Jones Sr.",
+     "pos": "RB",
+     "pts": 12,
+     "proj": 7.74
+    },
+    {
+     "n": "Kyle Pitts Sr.",
+     "pos": "TE",
+     "pts": 5,
+     "proj": 7.46
+    },
+    {
+     "n": "Treylon Burks",
+     "pos": "WR",
+     "pts": 3.7,
+     "proj": 7.77
+    },
+    {
+     "n": "Makai Lemon",
+     "pos": "WR",
+     "pts": 0,
+     "proj": 0
+    },
+    {
+     "n": "Chris Rodriguez Jr.",
+     "pos": "RB",
+     "pts": 0.5,
+     "proj": 6.87
+    }
+   ],
+   "allPlay": "9-2",
+   "expWins": 0.818
+  },
+  {
+   "teamId": 4,
+   "name": "Berlin Blitz",
+   "owner": "Kent Frenger",
+   "score": 121.7,
+   "actual": 121.7,
+   "optimal": 134.2,
+   "left": 12.5,
+   "eff": 90.7,
+   "worst": {
+    "delta": 12.5,
+    "slot": "FLEX",
+    "started": "Germie Bernard",
+    "startedPts": 1,
+    "benched": "Jordyn Tyson",
+    "benchedPts": 13.5
+   },
+   "top": [
+    {
+     "n": "Ja'Marr Chase",
+     "pos": "WR",
+     "pts": 32.6,
+     "proj": 19.95
+    },
+    {
+     "n": "Tony Pollard",
+     "pos": "RB",
+     "pts": 19.9,
+     "proj": 13.3
+    },
+    {
+     "n": "Bhayshul Tuten",
+     "pos": "RB",
+     "pts": 18.8,
+     "proj": 17.35
+    }
+   ],
+   "bust": {
+    "n": "Germie Bernard",
+    "pos": "WR",
+    "pts": 1,
+    "proj": 8.69,
+    "miss": -7.69
+   },
+   "bestBench": {
+    "n": "Jordyn Tyson",
+    "pos": "WR",
+    "pts": 13.5
+   },
+   "benchTop": [
+    {
+     "n": "Jordyn Tyson",
+     "pos": "WR",
+     "pts": 13.5,
+     "proj": 7.03
+    },
+    {
+     "n": "Malik Washington",
+     "pos": "WR",
+     "pts": 11.86,
+     "proj": 7.46
+    }
+   ],
+   "starterLow": [
+    {
+     "n": "Germie Bernard",
+     "pos": "WR",
+     "slot": "FLEX",
+     "pts": 1,
+     "proj": 8.69
+    },
+    {
+     "n": "Packers D/ST",
+     "pos": "D/ST",
+     "slot": "D/ST",
+     "pts": 4,
+     "proj": 5.56
+    }
+   ],
+   "starters": [
+    {
+     "n": "Ja'Marr Chase",
+     "pos": "WR",
+     "slot": "WR",
+     "pts": 32.6,
+     "proj": 19.95
+    },
+    {
+     "n": "Trey McBride",
+     "pos": "TE",
+     "slot": "TE",
+     "pts": 6.2,
+     "proj": 10.98
+    },
+    {
+     "n": "DJ Moore",
+     "pos": "WR",
+     "slot": "WR",
+     "pts": 17.4,
+     "proj": 12.05
+    },
+    {
+     "n": "Bhayshul Tuten",
+     "pos": "RB",
+     "slot": "RB",
+     "pts": 18.8,
+     "proj": 17.35
+    },
+    {
+     "n": "Tony Pollard",
+     "pos": "RB",
+     "slot": "RB",
+     "pts": 19.9,
+     "proj": 13.3
+    },
+    {
+     "n": "Ka'imi Fairbairn",
+     "pos": "K",
+     "slot": "K",
+     "pts": 7,
+     "proj": 10.02
+    },
+    {
+     "n": "Germie Bernard",
+     "pos": "WR",
+     "slot": "FLEX",
+     "pts": 1,
+     "proj": 8.69
+    },
+    {
+     "n": "Packers D/ST",
+     "pos": "D/ST",
+     "slot": "D/ST",
+     "pts": 4,
+     "proj": 5.56
+    },
+    {
+     "n": "Jacoby Brissett",
+     "pos": "QB",
+     "slot": "QB",
+     "pts": 14.8,
+     "proj": 14.39
+    }
+   ],
+   "bench": [
+    {
+     "n": "Kenneth Walker III",
+     "pos": "RB",
+     "pts": 0,
+     "proj": 0
+    },
+    {
+     "n": "Caleb Williams",
+     "pos": "QB",
+     "pts": 0,
+     "proj": 0
+    },
+    {
+     "n": "Broncos D/ST",
+     "pos": "D/ST",
+     "pts": 0,
+     "proj": 0
+    },
+    {
+     "n": "Malik Washington",
+     "pos": "WR",
+     "pts": 11.86,
+     "proj": 7.46
+    },
+    {
+     "n": "Jordyn Tyson",
+     "pos": "WR",
+     "pts": 13.5,
+     "proj": 7.03
+    },
+    {
+     "n": "David Montgomery",
+     "pos": "RB",
+     "pts": 0,
+     "proj": 0
+    }
+   ],
+   "allPlay": "7-4",
+   "expWins": 0.636
+  },
+  {
+   "teamId": 6,
+   "name": "One Under akaThe Mulligan",
+   "owner": "Casey Couture",
+   "score": 77.92,
+   "actual": 77.92,
+   "optimal": 88.92,
+   "left": 11,
+   "eff": 87.6,
+   "worst": {
+    "delta": 10.5,
+    "slot": "FLEX",
+    "started": "Jordan Addison",
+    "startedPts": 0,
+    "benched": "Pat Freiermuth",
+    "benchedPts": 10.5
+   },
+   "top": [
+    {
+     "n": "Stefon Diggs",
+     "pos": "WR",
+     "pts": 17.3,
+     "proj": 8.5
+    },
+    {
+     "n": "Fernando Mendoza",
+     "pos": "QB",
+     "pts": 13.92,
+     "proj": 14.12
+    },
+    {
+     "n": "Ollie Gordon II",
+     "pos": "RB",
+     "pts": 13.5,
+     "proj": 16.28
+    }
+   ],
+   "bust": {
+    "n": "Chris Olave",
+    "pos": "WR",
+    "pts": 4.5,
+    "proj": 13.55,
+    "miss": -9.05
+   },
+   "bestBench": {
+    "n": "Pat Freiermuth",
+    "pos": "TE",
+    "pts": 10.5
+   },
+   "benchTop": [
+    {
+     "n": "Pat Freiermuth",
+     "pos": "TE",
+     "pts": 10.5,
+     "proj": 7.3
+    },
+    {
+     "n": "Travis Etienne Jr.",
+     "pos": "RB",
+     "pts": 4.9,
+     "proj": 9.61
+    }
+   ],
+   "starterLow": [
+    {
+     "n": "Jordan Addison",
+     "pos": "WR",
+     "slot": "FLEX",
+     "pts": 0,
+     "proj": 0
+    },
+    {
+     "n": "Chig Okonkwo",
+     "pos": "TE",
+     "slot": "TE",
+     "pts": 4.4,
+     "proj": 6.47
+    }
+   ],
+   "starters": [
+    {
+     "n": "Jonathan Taylor",
+     "pos": "RB",
+     "slot": "RB",
+     "pts": 11.3,
+     "proj": 17.26
+    },
+    {
+     "n": "Chris Olave",
+     "pos": "WR",
+     "slot": "WR",
+     "pts": 4.5,
+     "proj": 13.55
+    },
+    {
+     "n": "Stefon Diggs",
+     "pos": "WR",
+     "slot": "WR",
+     "pts": 17.3,
+     "proj": 8.5
+    },
+    {
+     "n": "Jordan Addison",
+     "pos": "WR",
+     "slot": "FLEX",
+     "pts": 0,
+     "proj": 0
+    },
+    {
+     "n": "Ollie Gordon II",
+     "pos": "RB",
+     "slot": "RB",
+     "pts": 13.5,
+     "proj": 16.28
+    },
+    {
+     "n": "Matt Gay",
+     "pos": "K",
+     "slot": "K",
+     "pts": 8,
+     "proj": 8.33
+    },
+    {
+     "n": "Chig Okonkwo",
+     "pos": "TE",
+     "slot": "TE",
+     "pts": 4.4,
+     "proj": 6.47
+    },
+    {
+     "n": "Saints D/ST",
+     "pos": "D/ST",
+     "slot": "D/ST",
+     "pts": 5,
+     "proj": 4.76
+    },
+    {
+     "n": "Fernando Mendoza",
+     "pos": "QB",
+     "slot": "QB",
+     "pts": 13.92,
+     "proj": 14.12
+    }
+   ],
+   "bench": [
+    {
+     "n": "Travis Etienne Jr.",
+     "pos": "RB",
+     "pts": 4.9,
+     "proj": 9.61
+    },
+    {
+     "n": "Emeka Egbuka",
+     "pos": "WR",
+     "pts": 0,
+     "proj": 0
+    },
+    {
+     "n": "D'Andre Swift",
+     "pos": "RB",
+     "pts": 0,
+     "proj": 0
+    },
+    {
+     "n": "J.K. Dobbins",
+     "pos": "RB",
+     "pts": 0,
+     "proj": 0
+    },
+    {
+     "n": "Pat Freiermuth",
+     "pos": "TE",
+     "pts": 10.5,
+     "proj": 7.3
+    },
+    {
+     "n": "Kyler Murray",
+     "pos": "QB",
+     "pts": 0,
+     "proj": 0
+    }
+   ],
+   "allPlay": "0-11",
+   "expWins": 0
+  },
+  {
+   "teamId": 11,
+   "name": "Momma's Boys",
+   "owner": "Beth Couture",
+   "score": 98.82,
+   "actual": 98.82,
+   "optimal": 112.32,
+   "left": 13.5,
+   "eff": 88,
+   "worst": {
+    "delta": 13.5,
+    "slot": "RB",
+    "started": "Tyler Allgeier",
+    "startedPts": 1.4,
+    "benched": "Alvin Kamara",
+    "benchedPts": 14.9
+   },
+   "top": [
+    {
+     "n": "Patrick Mahomes",
+     "pos": "QB",
+     "pts": 38.42,
+     "proj": 19.53
+    },
+    {
+     "n": "Vikings D/ST",
+     "pos": "D/ST",
+     "pts": 21,
+     "proj": 4.99
+    },
+    {
+     "n": "Justin Jefferson",
+     "pos": "WR",
+     "pts": 11.9,
+     "proj": 16.57
+    }
+   ],
+   "bust": {
+    "n": "Tyler Allgeier",
+    "pos": "RB",
+    "pts": 1.4,
+    "proj": 8.03,
+    "miss": -6.63
+   },
+   "bestBench": {
+    "n": "Alvin Kamara",
+    "pos": "RB",
+    "pts": 14.9
+   },
+   "benchTop": [
+    {
+     "n": "Alvin Kamara",
+     "pos": "RB",
+     "pts": 14.9,
+     "proj": 6.83
+    },
+    {
+     "n": "Geno Smith",
+     "pos": "QB",
+     "pts": 5.92,
+     "proj": 15.53
+    }
+   ],
+   "starterLow": [
+    {
+     "n": "Tyler Allgeier",
+     "pos": "RB",
+     "slot": "RB",
+     "pts": 1.4,
+     "proj": 8.03
+    },
+    {
+     "n": "Darren Waller",
+     "pos": "TE",
+     "slot": "TE",
+     "pts": 3.4,
+     "proj": 7.13
+    }
+   ],
+   "starters": [
+    {
+     "n": "Justin Jefferson",
+     "pos": "WR",
+     "slot": "WR",
+     "pts": 11.9,
+     "proj": 16.57
+    },
+    {
+     "n": "Zay Flowers",
+     "pos": "WR",
+     "slot": "WR",
+     "pts": 8.4,
+     "proj": 12.72
+    },
+    {
+     "n": "Patrick Mahomes",
+     "pos": "QB",
+     "slot": "QB",
+     "pts": 38.42,
+     "proj": 19.53
+    },
+    {
+     "n": "Vikings D/ST",
+     "pos": "D/ST",
+     "slot": "D/ST",
+     "pts": 21,
+     "proj": 4.99
+    },
+    {
+     "n": "Tyler Allgeier",
+     "pos": "RB",
+     "slot": "RB",
+     "pts": 1.4,
+     "proj": 8.03
+    },
+    {
+     "n": "Rachaad White",
+     "pos": "RB",
+     "slot": "RB",
+     "pts": 5.7,
+     "proj": 10.07
+    },
+    {
+     "n": "Darren Waller",
+     "pos": "TE",
+     "slot": "TE",
+     "pts": 3.4,
+     "proj": 7.13
+    },
+    {
+     "n": "Chris Boswell",
+     "pos": "K",
+     "slot": "K",
+     "pts": 5,
+     "proj": 10.5
+    },
+    {
+     "n": "Tank Dell",
+     "pos": "WR",
+     "slot": "FLEX",
+     "pts": 3.6,
+     "proj": 8.91
+    }
+   ],
+   "bench": [
+    {
+     "n": "Saquon Barkley",
+     "pos": "RB",
+     "pts": 0,
+     "proj": 0
+    },
+    {
+     "n": "Luther Burden III",
+     "pos": "WR",
+     "pts": 0,
+     "proj": 0
+    },
+    {
+     "n": "Omar Cooper Jr.",
+     "pos": "WR",
+     "pts": 0,
+     "proj": 7.82
+    },
+    {
+     "n": "Geno Smith",
+     "pos": "QB",
+     "pts": 5.92,
+     "proj": 15.53
+    },
+    {
+     "n": "Alvin Kamara",
+     "pos": "RB",
+     "pts": 14.9,
+     "proj": 6.83
+    },
+    {
+     "n": "Cairo Santos",
+     "pos": "K",
+     "pts": 0,
+     "proj": 0
+    }
+   ],
+   "allPlay": "1-10",
+   "expWins": 0.091
+  },
+  {
+   "teamId": 12,
+   "name": "An alBum Cover",
+   "owner": "Adam Calvelage",
+   "score": 118.96,
+   "actual": 118.96,
+   "optimal": 123.26,
+   "left": 4.3,
+   "eff": 96.5,
+   "worst": {
+    "delta": 3.9,
+    "slot": "TE",
+    "started": "Travis Kelce",
+    "startedPts": 4,
+    "benched": "Brenton Strange",
+    "benchedPts": 7.9
+   },
+   "top": [
+    {
+     "n": "Brock Purdy",
+     "pos": "QB",
+     "pts": 36.66,
+     "proj": 21.91
+    },
+    {
+     "n": "CeeDee Lamb",
+     "pos": "WR",
+     "pts": 16.7,
+     "proj": 18.23
+    },
+    {
+     "n": "Garrett Wilson",
+     "pos": "WR",
+     "pts": 15.1,
+     "proj": 10.69
+    }
+   ],
+   "bust": {
+    "n": "Tetairoa McMillan",
+    "pos": "WR",
+    "pts": 5,
+    "proj": 14.26,
+    "miss": -9.26
+   },
+   "bestBench": {
+    "n": "Jayden Daniels",
+    "pos": "QB",
+    "pts": 20.76
+   },
+   "benchTop": [
+    {
+     "n": "Jayden Daniels",
+     "pos": "QB",
+     "pts": 20.76,
+     "proj": 18.49
+    },
+    {
+     "n": "Brenton Strange",
+     "pos": "TE",
+     "pts": 7.9,
+     "proj": 7.89
+    }
+   ],
+   "starterLow": [
+    {
+     "n": "Travis Kelce",
+     "pos": "TE",
+     "slot": "TE",
+     "pts": 4,
+     "proj": 9.81
+    },
+    {
+     "n": "Tetairoa McMillan",
+     "pos": "WR",
+     "slot": "WR",
+     "pts": 5,
+     "proj": 14.26
+    }
+   ],
+   "starters": [
+    {
+     "n": "CeeDee Lamb",
+     "pos": "WR",
+     "slot": "WR",
+     "pts": 16.7,
+     "proj": 18.23
+    },
+    {
+     "n": "Garrett Wilson",
+     "pos": "WR",
+     "slot": "FLEX",
+     "pts": 15.1,
+     "proj": 10.69
+    },
+    {
+     "n": "Tetairoa McMillan",
+     "pos": "WR",
+     "slot": "WR",
+     "pts": 5,
+     "proj": 14.26
+    },
+    {
+     "n": "Jadarian Price",
+     "pos": "RB",
+     "slot": "RB",
+     "pts": 10.9,
+     "proj": 11.31
+    },
+    {
+     "n": "Brandon Aubrey",
+     "pos": "K",
+     "slot": "K",
+     "pts": 12,
+     "proj": 10.47
+    },
+    {
+     "n": "Travis Kelce",
+     "pos": "TE",
+     "slot": "TE",
+     "pts": 4,
+     "proj": 9.81
+    },
+    {
+     "n": "Brock Purdy",
+     "pos": "QB",
+     "slot": "QB",
+     "pts": 36.66,
+     "proj": 21.91
+    },
+    {
+     "n": "Kaelon Black",
+     "pos": "RB",
+     "slot": "RB",
+     "pts": 13.6,
+     "proj": 7.52
+    },
+    {
+     "n": "Giants D/ST",
+     "pos": "D/ST",
+     "slot": "D/ST",
+     "pts": 5,
+     "proj": 5.39
+    }
+   ],
+   "bench": [
+    {
+     "n": "Jayden Daniels",
+     "pos": "QB",
+     "pts": 20.76,
+     "proj": 18.49
+    },
+    {
+     "n": "Jakobi Meyers",
+     "pos": "WR",
+     "pts": 4.9,
+     "proj": 10.08
+    },
+    {
+     "n": "Brenton Strange",
+     "pos": "TE",
+     "pts": 7.9,
+     "proj": 7.89
+    },
+    {
+     "n": "MarShawn Lloyd",
+     "pos": "RB",
+     "pts": 5.4,
+     "proj": 6.56
+    },
+    {
+     "n": "Jonah Coleman",
+     "pos": "RB",
+     "pts": 0,
+     "proj": 0
+    },
+    {
+     "n": "Marvin Harrison Jr.",
+     "pos": "WR",
+     "pts": 0,
+     "proj": 0
+    }
+   ],
+   "allPlay": "5-6",
+   "expWins": 0.455
+  },
+  {
+   "teamId": 14,
+   "name": "Holy Rollers",
+   "owner": "Adam Hershberger",
+   "score": 106.28,
+   "actual": 106.28,
+   "optimal": 141.18,
+   "left": 34.9,
+   "eff": 75.3,
+   "worst": {
+    "delta": 22.2,
+    "slot": "FLEX",
+    "started": "Denzel Boston",
+    "startedPts": 2.1,
+    "benched": "Chase Brown",
+    "benchedPts": 24.3
+   },
+   "top": [
+    {
+     "n": "Trevor Lawrence",
+     "pos": "QB",
+     "pts": 29.78,
+     "proj": 22.58
+    },
+    {
+     "n": "Blake Corum",
+     "pos": "RB",
+     "pts": 22.4,
+     "proj": 11.37
+    },
+    {
+     "n": "Colts D/ST",
+     "pos": "D/ST",
+     "pts": 14,
+     "proj": 6.36
+    }
+   ],
+   "bust": {
+    "n": "Denzel Boston",
+    "pos": "WR",
+    "pts": 2.1,
+    "proj": 11.27,
+    "miss": -9.17
+   },
+   "bestBench": {
+    "n": "Chase Brown",
+    "pos": "RB",
+    "pts": 24.3
+   },
+   "benchTop": [
+    {
+     "n": "Chase Brown",
+     "pos": "RB",
+     "pts": 24.3,
+     "proj": 11.42
+    },
+    {
+     "n": "Omarion Hampton",
+     "pos": "RB",
+     "pts": 20,
+     "proj": 7.54
+    }
+   ],
+   "starterLow": [
+    {
+     "n": "Denzel Boston",
+     "pos": "WR",
+     "slot": "FLEX",
+     "pts": 2.1,
+     "proj": 11.27
+    },
+    {
+     "n": "Malik Nabers",
+     "pos": "WR",
+     "slot": "WR",
+     "pts": 4.9,
+     "proj": 13.84
+    }
+   ],
+   "starters": [
+    {
+     "n": "Malik Nabers",
+     "pos": "WR",
+     "slot": "WR",
+     "pts": 4.9,
+     "proj": 13.84
+    },
+    {
+     "n": "Matthew Golden",
+     "pos": "WR",
+     "slot": "WR",
+     "pts": 9.5,
+     "proj": 15.34
+    },
+    {
+     "n": "Trevor Lawrence",
+     "pos": "QB",
+     "slot": "QB",
+     "pts": 29.78,
+     "proj": 22.58
+    },
+    {
+     "n": "Denzel Boston",
+     "pos": "WR",
+     "slot": "FLEX",
+     "pts": 2.1,
+     "proj": 11.27
+    },
+    {
+     "n": "Zach Charbonnet",
+     "pos": "RB",
+     "slot": "RB",
+     "pts": 9.4,
+     "proj": 14.32
+    },
+    {
+     "n": "Blake Corum",
+     "pos": "RB",
+     "slot": "RB",
+     "pts": 22.4,
+     "proj": 11.37
+    },
+    {
+     "n": "Jake Bates",
+     "pos": "K",
+     "slot": "K",
+     "pts": 5,
+     "proj": 9.32
+    },
+    {
+     "n": "Tyler Higbee",
+     "pos": "TE",
+     "slot": "TE",
+     "pts": 9.2,
+     "proj": 6.17
+    },
+    {
+     "n": "Colts D/ST",
+     "pos": "D/ST",
+     "slot": "D/ST",
+     "pts": 14,
+     "proj": 6.36
+    }
+   ],
+   "bench": [
+    {
+     "n": "Omarion Hampton",
+     "pos": "RB",
+     "pts": 20,
+     "proj": 7.54
+    },
+    {
+     "n": "Chase Brown",
+     "pos": "RB",
+     "pts": 24.3,
+     "proj": 11.42
+    },
+    {
+     "n": "Colston Loveland",
+     "pos": "TE",
+     "pts": 0,
+     "proj": 0
+    },
+    {
+     "n": "Rome Odunze",
+     "pos": "WR",
+     "pts": 0,
+     "proj": 0
+    },
+    {
+     "n": "Jameson Williams",
+     "pos": "WR",
+     "pts": 7,
+     "proj": 10.57
+    },
+    {
+     "n": "Tyler Shough",
+     "pos": "QB",
+     "pts": 9.98,
+     "proj": 18.25
+    }
+   ],
+   "allPlay": "3-8",
+   "expWins": 0.273
+  },
+  {
+   "teamId": 15,
+   "name": "The Scranton Strangler",
+   "owner": "Scott Howard",
+   "score": 126.12,
+   "actual": 126.12,
+   "optimal": 130.32,
+   "left": 4.2,
+   "eff": 96.8,
+   "worst": {
+    "delta": 4.2,
+    "slot": "FLEX",
+    "started": "DeMario Douglas",
+    "startedPts": 0.9,
+    "benched": "Braelon Allen",
+    "benchedPts": 5.1
+   },
+   "top": [
+    {
+     "n": "Dak Prescott",
+     "pos": "QB",
+     "pts": 37.42,
+     "proj": 17.4
+    },
+    {
+     "n": "James Cook III",
+     "pos": "RB",
+     "pts": 25.7,
+     "proj": 21.24
+    },
+    {
+     "n": "Deebo Samuel Sr.",
+     "pos": "WR",
+     "pts": 25.4,
+     "proj": 10.28
+    }
+   ],
+   "bust": {
+    "n": "DeMario Douglas",
+    "pos": "WR",
+    "pts": 0.9,
+    "proj": 8.67,
+    "miss": -7.77
+   },
+   "bestBench": {
+    "n": "Braelon Allen",
+    "pos": "RB",
+    "pts": 5.1
+   },
+   "benchTop": [
+    {
+     "n": "Braelon Allen",
+     "pos": "RB",
+     "pts": 5.1,
+     "proj": 7.11
+    },
+    {
+     "n": "Jalen Coker",
+     "pos": "WR",
+     "pts": 0.3,
+     "proj": 9.74
+    }
+   ],
+   "starterLow": [
+    {
+     "n": "DeMario Douglas",
+     "pos": "WR",
+     "slot": "FLEX",
+     "pts": 0.9,
+     "proj": 8.67
+    },
+    {
+     "n": "Sam LaPorta",
+     "pos": "TE",
+     "slot": "TE",
+     "pts": 2.1,
+     "proj": 9.49
+    }
+   ],
+   "starters": [
+    {
+     "n": "Rashee Rice",
+     "pos": "WR",
+     "slot": "WR",
+     "pts": 10.7,
+     "proj": 11.05
+    },
+    {
+     "n": "Sam LaPorta",
+     "pos": "TE",
+     "slot": "TE",
+     "pts": 2.1,
+     "proj": 9.49
+    },
+    {
+     "n": "Dak Prescott",
+     "pos": "QB",
+     "slot": "QB",
+     "pts": 37.42,
+     "proj": 17.4
+    },
+    {
+     "n": "Spencer Shrader",
+     "pos": "K",
+     "slot": "K",
+     "pts": 8,
+     "proj": 10.63
+    },
+    {
+     "n": "Jordan Mason",
+     "pos": "RB",
+     "slot": "RB",
+     "pts": 5.9,
+     "proj": 8.79
+    },
+    {
+     "n": "James Cook III",
+     "pos": "RB",
+     "slot": "RB",
+     "pts": 25.7,
+     "proj": 21.24
+    },
+    {
+     "n": "DeMario Douglas",
+     "pos": "WR",
+     "slot": "FLEX",
+     "pts": 0.9,
+     "proj": 8.67
+    },
+    {
+     "n": "Deebo Samuel Sr.",
+     "pos": "WR",
+     "slot": "WR",
+     "pts": 25.4,
+     "proj": 10.28
+    },
+    {
+     "n": "Bills D/ST",
+     "pos": "D/ST",
+     "slot": "D/ST",
+     "pts": 10,
+     "proj": 6.25
+    }
+   ],
+   "bench": [
+    {
+     "n": "Puka Nacua",
+     "pos": "WR",
+     "pts": 0,
+     "proj": 0
+    },
+    {
+     "n": "Lamar Jackson",
+     "pos": "QB",
+     "pts": 0,
+     "proj": 0
+    },
+    {
+     "n": "Bucky Irving",
+     "pos": "RB",
+     "pts": 0,
+     "proj": 0
+    },
+    {
+     "n": "Jalen Coker",
+     "pos": "WR",
+     "pts": 0.3,
+     "proj": 9.74
+    },
+    {
+     "n": "Braelon Allen",
+     "pos": "RB",
+     "pts": 5.1,
+     "proj": 7.11
+    },
+    {
+     "n": "Buccaneers D/ST",
+     "pos": "D/ST",
+     "pts": 0,
+     "proj": 0
+    }
+   ],
+   "allPlay": "8-3",
+   "expWins": 0.727
+  },
+  {
+   "teamId": 16,
+   "name": "Hawk Tua Tagovailoa",
+   "owner": "Geoff Cavender",
+   "score": 120.6,
+   "actual": 120.6,
+   "optimal": 131.36,
+   "left": 10.76,
+   "eff": 91.8,
+   "worst": {
+    "delta": 8.96,
+    "slot": "QB",
+    "started": "Jordan Love",
+    "startedPts": 10.8,
+    "benched": "Matthew Stafford",
+    "benchedPts": 19.76
+   },
+   "top": [
+    {
+     "n": "George Pickens",
+     "pos": "WR",
+     "pts": 41,
+     "proj": 10.3
+    },
+    {
+     "n": "Amon-Ra St. Brown",
+     "pos": "WR",
+     "pts": 24.8,
+     "proj": 17.58
+    },
+    {
+     "n": "Quinshon Judkins",
+     "pos": "RB",
+     "pts": 14.6,
+     "proj": 11.51
+    }
+   ],
+   "bust": {
+    "n": "Tyler Warren",
+    "pos": "TE",
+    "pts": 1.4,
+    "proj": 8.37,
+    "miss": -6.97
+   },
+   "bestBench": {
+    "n": "Matthew Stafford",
+    "pos": "QB",
+    "pts": 19.76
+   },
+   "benchTop": [
+    {
+     "n": "Matthew Stafford",
+     "pos": "QB",
+     "pts": 19.76,
+     "proj": 17.89
+    },
+    {
+     "n": "Hunter Henry",
+     "pos": "TE",
+     "pts": 3.2,
+     "proj": 7.15
+    }
+   ],
+   "starterLow": [
+    {
+     "n": "Tyler Warren",
+     "pos": "TE",
+     "slot": "TE",
+     "pts": 1.4,
+     "proj": 8.37
+    },
+    {
+     "n": "Ravens D/ST",
+     "pos": "D/ST",
+     "slot": "D/ST",
+     "pts": 4,
+     "proj": 7.79
+    }
+   ],
+   "starters": [
+    {
+     "n": "Amon-Ra St. Brown",
+     "pos": "WR",
+     "slot": "WR",
+     "pts": 24.8,
+     "proj": 17.58
+    },
+    {
+     "n": "Ashton Jeanty",
+     "pos": "RB",
+     "slot": "RB",
+     "pts": 8.4,
+     "proj": 11.79
+    },
+    {
+     "n": "George Pickens",
+     "pos": "WR",
+     "slot": "WR",
+     "pts": 41,
+     "proj": 10.3
+    },
+    {
+     "n": "Quinshon Judkins",
+     "pos": "RB",
+     "slot": "RB",
+     "pts": 14.6,
+     "proj": 11.51
+    },
+    {
+     "n": "Tyler Warren",
+     "pos": "TE",
+     "slot": "TE",
+     "pts": 1.4,
+     "proj": 8.37
+    },
+    {
+     "n": "Jordan Love",
+     "pos": "QB",
+     "slot": "QB",
+     "pts": 10.8,
+     "proj": 17.11
+    },
+    {
+     "n": "Ravens D/ST",
+     "pos": "D/ST",
+     "slot": "D/ST",
+     "pts": 4,
+     "proj": 7.79
+    },
+    {
+     "n": "Caleb Douglas",
+     "pos": "WR",
+     "slot": "FLEX",
+     "pts": 8.6,
+     "proj": 7.34
+    },
+    {
+     "n": "Tyler Bass",
+     "pos": "K",
+     "slot": "K",
+     "pts": 7,
+     "proj": 11.23
+    }
+   ],
+   "bench": [
+    {
+     "n": "Mike Evans",
+     "pos": "WR",
+     "pts": 0,
+     "proj": 0
+    },
+    {
+     "n": "Carnell Tate",
+     "pos": "WR",
+     "pts": 0,
+     "proj": 0
+    },
+    {
+     "n": "Josh Jacobs",
+     "pos": "RB",
+     "pts": 0,
+     "proj": 0
+    },
+    {
+     "n": "Matthew Stafford",
+     "pos": "QB",
+     "pts": 19.76,
+     "proj": 17.89
+    },
+    {
+     "n": "Hunter Henry",
+     "pos": "TE",
+     "pts": 3.2,
+     "proj": 7.15
+    },
+    {
+     "n": "Bears D/ST",
+     "pos": "D/ST",
+     "pts": 0,
+     "proj": 0
+    }
+   ],
+   "allPlay": "6-5",
+   "expWins": 0.545
+  },
+  {
+   "teamId": 17,
+   "name": "Simba St. Gibbs Lion Kings",
+   "owner": "Scott Reisert",
+   "score": 112.62,
+   "actual": 112.62,
+   "optimal": 116.82,
+   "left": 4.2,
+   "eff": 96.4,
+   "worst": {
+    "delta": 4.2,
+    "slot": "FLEX",
+    "started": "Rico Dowdle",
+    "startedPts": 4.4,
+    "benched": "Keenan Allen",
+    "benchedPts": 8.6
+   },
+   "top": [
+    {
+     "n": "Jahmyr Gibbs",
+     "pos": "RB",
+     "pts": 43.7,
+     "proj": 22.91
+    },
+    {
+     "n": "Jared Goff",
+     "pos": "QB",
+     "pts": 24.42,
+     "proj": 18.56
+    },
+    {
+     "n": "George Kittle",
+     "pos": "TE",
+     "pts": 10.4,
+     "proj": 13.52
+    }
+   ],
+   "bust": {
+    "n": "Javonte Williams",
+    "pos": "RB",
+    "pts": 7.2,
+    "proj": 14.15,
+    "miss": -6.95
+   },
+   "bestBench": {
+    "n": "Keenan Allen",
+    "pos": "WR",
+    "pts": 8.6
+   },
+   "benchTop": [
+    {
+     "n": "Keenan Allen",
+     "pos": "WR",
+     "pts": 8.6,
+     "proj": 7.26
+    },
+    {
+     "n": "Mike Washington Jr.",
+     "pos": "RB",
+     "pts": 3.2,
+     "proj": 5.95
+    }
+   ],
+   "starterLow": [
+    {
+     "n": "Dominic Zvada",
+     "pos": "K",
+     "slot": "K",
+     "pts": 2,
+     "proj": 8.22
+    },
+    {
+     "n": "Jaguars D/ST",
+     "pos": "D/ST",
+     "slot": "D/ST",
+     "pts": 3,
+     "proj": 6.26
+    }
+   ],
+   "starters": [
+    {
+     "n": "Jahmyr Gibbs",
+     "pos": "RB",
+     "slot": "RB",
+     "pts": 43.7,
+     "proj": 22.91
+    },
+    {
+     "n": "Javonte Williams",
+     "pos": "RB",
+     "slot": "RB",
+     "pts": 7.2,
+     "proj": 14.15
+    },
+    {
+     "n": "George Kittle",
+     "pos": "TE",
+     "slot": "TE",
+     "pts": 10.4,
+     "proj": 13.52
+    },
+    {
+     "n": "Jared Goff",
+     "pos": "QB",
+     "slot": "QB",
+     "pts": 24.42,
+     "proj": 18.56
+    },
+    {
+     "n": "Rico Dowdle",
+     "pos": "RB",
+     "slot": "FLEX",
+     "pts": 4.4,
+     "proj": 8.81
+    },
+    {
+     "n": "KC Concepcion",
+     "pos": "WR",
+     "slot": "WR",
+     "pts": 10.2,
+     "proj": 8.72
+    },
+    {
+     "n": "Jaguars D/ST",
+     "pos": "D/ST",
+     "slot": "D/ST",
+     "pts": 3,
+     "proj": 6.26
+    },
+    {
+     "n": "Dominic Zvada",
+     "pos": "K",
+     "slot": "K",
+     "pts": 2,
+     "proj": 8.22
+    },
+    {
+     "n": "Mack Hollins",
+     "pos": "WR",
+     "slot": "WR",
+     "pts": 7.3,
+     "proj": 8.03
+    }
+   ],
+   "bench": [
+    {
+     "n": "Jeremiyah Love",
+     "pos": "RB",
+     "pts": 0,
+     "proj": 0
+    },
+    {
+     "n": "Davante Adams",
+     "pos": "WR",
+     "pts": 0,
+     "proj": 0
+    },
+    {
+     "n": "Wan'Dale Robinson",
+     "pos": "WR",
+     "pts": 2.5,
+     "proj": 8.06
+    },
+    {
+     "n": "Keenan Allen",
+     "pos": "WR",
+     "pts": 8.6,
+     "proj": 7.26
+    },
+    {
+     "n": "Courtland Sutton",
+     "pos": "WR",
+     "pts": 0,
+     "proj": 0
+    },
+    {
+     "n": "Mike Washington Jr.",
+     "pos": "RB",
+     "pts": 3.2,
+     "proj": 5.95
+    }
+   ],
+   "allPlay": "4-7",
+   "expWins": 0.364
+  },
+  {
+   "teamId": 18,
+   "name": "Cosby Copperheads",
+   "owner": "Doug Fields",
+   "score": 131.06,
+   "actual": 131.06,
+   "optimal": 143.36,
+   "left": 12.3,
+   "eff": 91.4,
+   "worst": {
+    "delta": 12.1,
+    "slot": "RB",
+    "started": "Audric Estime",
+    "startedPts": 1.6,
+    "benched": "Seth McGowan",
+    "benchedPts": 13.7
+   },
+   "top": [
+    {
+     "n": "Joe Burrow",
+     "pos": "QB",
+     "pts": 37.16,
+     "proj": 20.38
+    },
+    {
+     "n": "Isaiah Likely",
+     "pos": "TE",
+     "pts": 27.2,
+     "proj": 10.09
+    },
+    {
+     "n": "Drake London",
+     "pos": "WR",
+     "pts": 16.9,
+     "proj": 12.99
+    }
+   ],
+   "bust": {
+    "n": "Tre Tucker",
+    "pos": "WR",
+    "pts": 1.4,
+    "proj": 7.06,
+    "miss": -5.66
+   },
+   "bestBench": {
+    "n": "Kirk Cousins",
+    "pos": "QB",
+    "pts": 15.38
+   },
+   "benchTop": [
+    {
+     "n": "Kirk Cousins",
+     "pos": "QB",
+     "pts": 15.38,
+     "proj": 13.84
+    },
+    {
+     "n": "Seth McGowan",
+     "pos": "RB",
+     "pts": 13.7,
+     "proj": 5.31
+    }
+   ],
+   "starterLow": [
+    {
+     "n": "Tre Tucker",
+     "pos": "WR",
+     "slot": "WR",
+     "pts": 1.4,
+     "proj": 7.06
+    },
+    {
+     "n": "Audric Estime",
+     "pos": "RB",
+     "slot": "RB",
+     "pts": 1.6,
+     "proj": 4.94
+    }
+   ],
+   "starters": [
+    {
+     "n": "Derrick Henry",
+     "pos": "RB",
+     "slot": "RB",
+     "pts": 16.5,
+     "proj": 19.11
+    },
+    {
+     "n": "Joe Burrow",
+     "pos": "QB",
+     "slot": "QB",
+     "pts": 37.16,
+     "proj": 20.38
+    },
+    {
+     "n": "Tre Tucker",
+     "pos": "WR",
+     "slot": "WR",
+     "pts": 1.4,
+     "proj": 7.06
+    },
+    {
+     "n": "Josh Downs",
+     "pos": "WR",
+     "slot": "FLEX",
+     "pts": 13.3,
+     "proj": 8.82
+    },
+    {
+     "n": "Will Reichard",
+     "pos": "K",
+     "slot": "K",
+     "pts": 12,
+     "proj": 9.41
+    },
+    {
+     "n": "Bengals D/ST",
+     "pos": "D/ST",
+     "slot": "D/ST",
+     "pts": 5,
+     "proj": 5.34
+    },
+    {
+     "n": "Isaiah Likely",
+     "pos": "TE",
+     "slot": "TE",
+     "pts": 27.2,
+     "proj": 10.09
+    },
+    {
+     "n": "Drake London",
+     "pos": "WR",
+     "slot": "WR",
+     "pts": 16.9,
+     "proj": 12.99
+    },
+    {
+     "n": "Audric Estime",
+     "pos": "RB",
+     "slot": "RB",
+     "pts": 1.6,
+     "proj": 4.94
+    }
+   ],
+   "bench": [
+    {
+     "n": "DeVonta Smith",
+     "pos": "WR",
+     "pts": 0,
+     "proj": 0
+    },
+    {
+     "n": "Ladd McConkey",
+     "pos": "WR",
+     "pts": 0,
+     "proj": 0
+    },
+    {
+     "n": "Rhamondre Stevenson",
+     "pos": "RB",
+     "pts": 1,
+     "proj": 12.16
+    },
+    {
+     "n": "Kirk Cousins",
+     "pos": "QB",
+     "pts": 15.38,
+     "proj": 13.84
+    },
+    {
+     "n": "Keon Coleman",
+     "pos": "WR",
+     "pts": 1.6,
+     "proj": 6.53
+    },
+    {
+     "n": "Seth McGowan",
+     "pos": "RB",
+     "pts": 13.7,
+     "proj": 5.31
+    }
+   ],
+   "allPlay": "10-1",
+   "expWins": 0.909
+  },
+  {
+   "teamId": 19,
+   "name": "BearDown",
+   "owner": "Ryan Reed",
+   "score": 102.4,
+   "actual": 102.4,
+   "optimal": 120.1,
+   "left": 17.7,
+   "eff": 85.3,
+   "worst": {
+    "delta": 10.7,
+    "slot": "WR",
+    "started": "A.J. Brown",
+    "startedPts": 3.7,
+    "benched": "DK Metcalf",
+    "benchedPts": 14.4
+   },
+   "top": [
+    {
+     "n": "Cam Skattebo",
+     "pos": "RB",
+     "pts": 25.7,
+     "proj": 11.58
+    },
+    {
+     "n": "Nico Collins",
+     "pos": "WR",
+     "pts": 19.9,
+     "proj": 11.93
+    },
+    {
+     "n": "Breece Hall",
+     "pos": "RB",
+     "pts": 12.8,
+     "proj": 11.51
+    }
+   ],
+   "bust": {
+    "n": "Bryce Young",
+    "pos": "QB",
+    "pts": 8.1,
+    "proj": 20.09,
+    "miss": -11.99
+   },
+   "bestBench": {
+    "n": "DK Metcalf",
+    "pos": "WR",
+    "pts": 14.4
+   },
+   "benchTop": [
+    {
+     "n": "DK Metcalf",
+     "pos": "WR",
+     "pts": 14.4,
+     "proj": 9.26
+    },
+    {
+     "n": "Seahawks D/ST",
+     "pos": "D/ST",
+     "pts": 12,
+     "proj": 7.03
+    }
+   ],
+   "starterLow": [
+    {
+     "n": "A.J. Brown",
+     "pos": "WR",
+     "slot": "WR",
+     "pts": 3.7,
+     "proj": 11.19
+    },
+    {
+     "n": "Texans D/ST",
+     "pos": "D/ST",
+     "slot": "D/ST",
+     "pts": 5,
+     "proj": 7.14
+    }
+   ],
+   "starters": [
+    {
+     "n": "A.J. Brown",
+     "pos": "WR",
+     "slot": "WR",
+     "pts": 3.7,
+     "proj": 11.19
+    },
+    {
+     "n": "Breece Hall",
+     "pos": "RB",
+     "slot": "RB",
+     "pts": 12.8,
+     "proj": 11.51
+    },
+    {
+     "n": "Cam Skattebo",
+     "pos": "RB",
+     "slot": "FLEX",
+     "pts": 25.7,
+     "proj": 11.58
+    },
+    {
+     "n": "Harold Fannin Jr.",
+     "pos": "TE",
+     "slot": "TE",
+     "pts": 12.6,
+     "proj": 8.24
+    },
+    {
+     "n": "Texans D/ST",
+     "pos": "D/ST",
+     "slot": "D/ST",
+     "pts": 5,
+     "proj": 7.14
+    },
+    {
+     "n": "Chad Ryland",
+     "pos": "K",
+     "slot": "K",
+     "pts": 8,
+     "proj": 7.81
+    },
+    {
+     "n": "Nico Collins",
+     "pos": "WR",
+     "slot": "WR",
+     "pts": 19.9,
+     "proj": 11.93
+    },
+    {
+     "n": "Jaylen Warren",
+     "pos": "RB",
+     "slot": "RB",
+     "pts": 6.6,
+     "proj": 15.06
+    },
+    {
+     "n": "Bryce Young",
+     "pos": "QB",
+     "slot": "QB",
+     "pts": 8.1,
+     "proj": 20.09
+    }
+   ],
+   "bench": [
+    {
+     "n": "Jaylen Waddle",
+     "pos": "WR",
+     "pts": 0,
+     "proj": 0
+    },
+    {
+     "n": "DK Metcalf",
+     "pos": "WR",
+     "pts": 14.4,
+     "proj": 9.26
+    },
+    {
+     "n": "Seahawks D/ST",
+     "pos": "D/ST",
+     "pts": 12,
+     "proj": 7.03
+    },
+    {
+     "n": "Bo Nix",
+     "pos": "QB",
+     "pts": 0,
+     "proj": 0
+    },
+    {
+     "n": "Kendre Miller",
+     "pos": "RB",
+     "pts": 0,
+     "proj": 0
+    },
+    {
+     "n": "Corey Kiner",
+     "pos": "RB",
+     "pts": 2.5,
+     "proj": 6.7
+    }
+   ],
+   "allPlay": "2-9",
+   "expWins": 0.182
+  }
+ ],
+ "standings": [
+  {
+   "teamId": 1,
+   "name": "Balls Deep",
+   "owner": "Spencer Lentz",
+   "w": 8,
+   "l": 2,
+   "tie": 0,
+   "pf": 1361.02,
+   "pa": 1131.38,
+   "seed": 1,
+   "eff": 80.8,
+   "allPlay": "11-0"
+  },
+  {
+   "teamId": 4,
+   "name": "Berlin Blitz",
+   "owner": "Kent Frenger",
+   "w": 7,
+   "l": 3,
+   "tie": 0,
+   "pf": 1256.02,
+   "pa": 1096.06,
+   "seed": 2,
+   "eff": 90.7,
+   "allPlay": "7-4"
+  },
+  {
+   "teamId": 16,
+   "name": "Hawk Tua Tagovailoa",
+   "owner": "Geoff Cavender",
+   "w": 7,
+   "l": 3,
+   "tie": 0,
+   "pf": 1064.94,
+   "pa": 982.32,
+   "seed": 3,
+   "eff": 91.8,
+   "allPlay": "6-5"
+  },
+  {
+   "teamId": 3,
+   "name": "DA The Badenov's",
+   "owner": "dennis couture",
+   "w": 6,
+   "l": 4,
+   "tie": 0,
+   "pf": 1193.1,
+   "pa": 1096.86,
+   "seed": 4,
+   "eff": 94.3,
+   "allPlay": "9-2"
+  },
+  {
+   "teamId": 17,
+   "name": "Simba St. Gibbs Lion Kings",
+   "owner": "Scott Reisert",
+   "w": 5,
+   "l": 5,
+   "tie": 0,
+   "pf": 1142.96,
+   "pa": 998.4,
+   "seed": 5,
+   "eff": 96.4,
+   "allPlay": "4-7"
+  },
+  {
+   "teamId": 12,
+   "name": "An alBum Cover",
+   "owner": "Adam Calvelage",
+   "w": 5,
+   "l": 5,
+   "tie": 0,
+   "pf": 1053.46,
+   "pa": 1064.34,
+   "seed": 6,
+   "eff": 96.5,
+   "allPlay": "5-6"
+  },
+  {
+   "teamId": 18,
+   "name": "Cosby Copperheads",
+   "owner": "Doug Fields",
+   "w": 5,
+   "l": 5,
+   "tie": 0,
+   "pf": 995.2,
+   "pa": 1055.08,
+   "seed": 7,
+   "eff": 91.4,
+   "allPlay": "10-1"
+  },
+  {
+   "teamId": 15,
+   "name": "The Scranton Strangler",
+   "owner": "Scott Howard",
+   "w": 4,
+   "l": 6,
+   "tie": 0,
+   "pf": 1135.22,
+   "pa": 1105.4,
+   "seed": 8,
+   "eff": 96.8,
+   "allPlay": "8-3"
+  },
+  {
+   "teamId": 19,
+   "name": "BearDown",
+   "owner": "Ryan Reed",
+   "w": 4,
+   "l": 6,
+   "tie": 0,
+   "pf": 986.14,
+   "pa": 1054.46,
+   "seed": 9,
+   "eff": 85.3,
+   "allPlay": "2-9"
+  },
+  {
+   "teamId": 14,
+   "name": "Holy Rollers",
+   "owner": "Adam Hershberger",
+   "w": 4,
+   "l": 6,
+   "tie": 0,
+   "pf": 975.26,
+   "pa": 1197.3,
+   "seed": 10,
+   "eff": 75.3,
+   "allPlay": "3-8"
+  },
+  {
+   "teamId": 6,
+   "name": "One Under akaThe Mulligan",
+   "owner": "Casey Couture",
+   "w": 4,
+   "l": 6,
+   "tie": 0,
+   "pf": 907.32,
+   "pa": 1049.2,
+   "seed": 11,
+   "eff": 87.6,
+   "allPlay": "0-11"
+  },
+  {
+   "teamId": 11,
+   "name": "Momma's Boys",
+   "owner": "Beth Couture",
+   "w": 1,
+   "l": 9,
+   "tie": 0,
+   "pf": 917.88,
+   "pa": 1157.72,
+   "seed": 12,
+   "eff": 88,
+   "allPlay": "1-10"
+  }
+ ],
+ "moves": [
+  {
+   "type": "FREEAGENT",
+   "sp": 10,
+   "team": "Balls Deep",
+   "owner": "Spencer Lentz",
+   "added": [
+    {
+     "n": "Steelers D/ST",
+     "pos": "D/ST",
+     "pts": -7
+    }
+   ],
+   "dropped": [
+    {
+     "n": "Chase McLaughlin",
+     "pos": "K",
+     "pts": 0
+    }
+   ]
+  },
+  {
+   "type": "FREEAGENT",
+   "sp": 10,
+   "team": "DA The Badenov's",
+   "owner": "dennis couture",
+   "added": [
+    {
+     "n": "Chris Rodriguez Jr.",
+     "pos": "RB",
+     "pts": 0.5
+    }
+   ],
+   "dropped": [
+    {
+     "n": "Samaje Perine",
+     "pos": "RB",
+     "pts": 11.9
+    }
+   ]
+  },
+  {
+   "type": "FREEAGENT",
+   "sp": 10,
+   "team": "Simba St. Gibbs Lion Kings",
+   "owner": "Scott Reisert",
+   "added": [
+    {
+     "n": "Mack Hollins",
+     "pos": "WR",
+     "pts": 7.3
+    }
+   ],
+   "dropped": [
+    {
+     "n": "Adonai Mitchell",
+     "pos": "WR",
+     "pts": 7.4
+    }
+   ]
+  },
+  {
+   "type": "WAIVER",
+   "sp": 10,
+   "team": "Berlin Blitz",
+   "owner": "Kent Frenger",
+   "added": [
+    {
+     "n": "Packers D/ST",
+     "pos": "D/ST",
+     "pts": 4
+    }
+   ],
+   "dropped": [
+    {
+     "n": "Chris Rodriguez Jr.",
+     "pos": "RB",
+     "pts": 0.5
+    }
+   ]
+  },
+  {
+   "type": "WAIVER",
+   "sp": 10,
+   "team": "Holy Rollers",
+   "owner": "Adam Hershberger",
+   "added": [
+    {
+     "n": "Tyler Shough",
+     "pos": "QB",
+     "pts": 9.98
+    }
+   ],
+   "dropped": [
+    {
+     "n": "Kenny Gainwell",
+     "pos": "RB",
+     "pts": 0
+    }
+   ]
+  },
+  {
+   "type": "FREEAGENT",
+   "sp": 10,
+   "team": "Balls Deep",
+   "owner": "Spencer Lentz",
+   "added": [
+    {
+     "n": "Cam Little",
+     "pos": "K",
+     "pts": 19
+    }
+   ],
+   "dropped": [
+    {
+     "n": "Jason Myers",
+     "pos": "K",
+     "pts": 2
+    }
+   ]
+  },
+  {
+   "type": "WAIVER",
+   "sp": 10,
+   "team": "Cosby Copperheads",
+   "owner": "Doug Fields",
+   "added": [
+    {
+     "n": "Audric Estime",
+     "pos": "RB",
+     "pts": 1.6
+    }
+   ],
+   "dropped": [
+    {
+     "n": "Mike Gesicki",
+     "pos": "TE",
+     "pts": 1.4
+    }
+   ]
+  },
+  {
+   "type": "FREEAGENT",
+   "sp": 10,
+   "team": "Balls Deep",
+   "owner": "Spencer Lentz",
+   "added": [
+    {
+     "n": "49ers D/ST",
+     "pos": "D/ST",
+     "pts": -1
+    }
+   ],
+   "dropped": []
+  },
+  {
+   "type": "FREEAGENT",
+   "sp": 10,
+   "team": "The Scranton Strangler",
+   "owner": "Scott Howard",
+   "added": [
+    {
+     "n": "Bills D/ST",
+     "pos": "D/ST",
+     "pts": 10
+    }
+   ],
+   "dropped": [
+    {
+     "n": "Konata Mumpfield",
+     "pos": "WR",
+     "pts": 9.6
+    }
+   ]
+  },
+  {
+   "type": "FREEAGENT",
+   "sp": 10,
+   "team": "Holy Rollers",
+   "owner": "Adam Hershberger",
+   "added": [
+    {
+     "n": "Colts D/ST",
+     "pos": "D/ST",
+     "pts": 14
+    }
+   ],
+   "dropped": [
+    {
+     "n": "Cowboys D/ST",
+     "pos": "D/ST",
+     "pts": -7
+    }
+   ]
+  },
+  {
+   "type": "FREEAGENT",
+   "sp": 10,
+   "team": "Momma's Boys",
+   "owner": "Beth Couture",
+   "added": [
+    {
+     "n": "Tank Dell",
+     "pos": "WR",
+     "pts": 3.6
+    }
+   ],
+   "dropped": [
+    {
+     "n": "David Montgomery",
+     "pos": "RB",
+     "pts": 0
+    }
+   ]
+  },
+  {
+   "type": "FREEAGENT",
+   "sp": 10,
+   "team": "Berlin Blitz",
+   "owner": "Kent Frenger",
+   "added": [
+    {
+     "n": "David Montgomery",
+     "pos": "RB",
+     "pts": 0
+    }
+   ],
+   "dropped": [
+    {
+     "n": "T.J. Hockenson",
+     "pos": "TE",
+     "pts": 0
+    }
+   ]
+  },
+  {
+   "type": "WAIVER",
+   "sp": 10,
+   "team": "DA The Badenov's",
+   "owner": "dennis couture",
+   "added": [
+    {
+     "n": "Rams D/ST",
+     "pos": "D/ST",
+     "pts": 16
+    }
+   ],
+   "dropped": [
+    {
+     "n": "Bills D/ST",
+     "pos": "D/ST",
+     "pts": 10
+    }
+   ]
+  },
+  {
+   "type": "FREEAGENT",
+   "sp": 10,
+   "team": "Balls Deep",
+   "owner": "Spencer Lentz",
+   "added": [
+    {
+     "n": "Kenny Gainwell",
+     "pos": "RB",
+     "pts": 0
+    }
+   ],
+   "dropped": [
+    {
+     "n": "Tank Dell",
+     "pos": "WR",
+     "pts": 3.6
+    }
+   ]
+  },
+  {
+   "type": "FREEAGENT",
+   "sp": 10,
+   "team": "One Under akaThe Mulligan",
+   "owner": "Casey Couture",
+   "added": [
+    {
+     "n": "Fernando Mendoza",
+     "pos": "QB",
+     "pts": 13.92
+    }
+   ],
+   "dropped": [
+    {
+     "n": "J.J. McCarthy",
+     "pos": "QB",
+     "pts": 18.12
+    }
+   ]
+  },
+  {
+   "type": "FREEAGENT",
+   "sp": 10,
+   "team": "Balls Deep",
+   "owner": "Spencer Lentz",
+   "added": [
+    {
+     "n": "Tank Dell",
+     "pos": "WR",
+     "pts": 3.6
+    }
+   ],
+   "dropped": [
+    {
+     "n": "Patriots D/ST",
+     "pos": "D/ST",
+     "pts": -2
+    }
+   ]
+  },
+  {
+   "type": "WAIVER",
+   "sp": 10,
+   "team": "Momma's Boys",
+   "owner": "Beth Couture",
+   "added": [
+    {
+     "n": "Darren Waller",
+     "pos": "TE",
+     "pts": 3.4
+    }
+   ],
+   "dropped": [
+    {
+     "n": "Dallas Goedert",
+     "pos": "TE",
+     "pts": 0
+    }
+   ]
+  },
+  {
+   "type": "WAIVER",
+   "sp": 10,
+   "team": "The Scranton Strangler",
+   "owner": "Scott Howard",
+   "added": [
+    {
+     "n": "Deebo Samuel Sr.",
+     "pos": "WR",
+     "pts": 25.4
+    }
+   ],
+   "dropped": [
+    {
+     "n": "Michael Wilson",
+     "pos": "WR",
+     "pts": 0
+    }
+   ]
+  },
+  {
+   "type": "FREEAGENT",
+   "sp": 10,
+   "team": "BearDown",
+   "owner": "Ryan Reed",
+   "added": [
+    {
+     "n": "Corey Kiner",
+     "pos": "RB",
+     "pts": 2.5
+    }
+   ],
+   "dropped": [
+    {
+     "n": "Devin Singletary",
+     "pos": "RB",
+     "pts": 0.3
+    }
+   ]
+  },
+  {
+   "type": "FREEAGENT",
+   "sp": 10,
+   "team": "Momma's Boys",
+   "owner": "Beth Couture",
+   "added": [
+    {
+     "n": "Chris Boswell",
+     "pos": "K",
+     "pts": 5
+    }
+   ],
+   "dropped": [
+    {
+     "n": "Chiefs D/ST",
+     "pos": "D/ST",
+     "pts": 9
+    }
+   ]
+  },
+  {
+   "type": "FREEAGENT",
+   "sp": 10,
+   "team": "Balls Deep",
+   "owner": "Spencer Lentz",
+   "added": [
+    {
+     "n": "Emmett Johnson",
+     "pos": "RB",
+     "pts": 35.1
+    }
+   ],
+   "dropped": [
+    {
+     "n": "Jonathon Brooks",
+     "pos": "RB",
+     "pts": 0
+    }
+   ]
+  },
+  {
+   "type": "FREEAGENT",
+   "sp": 10,
+   "team": "Balls Deep",
+   "owner": "Spencer Lentz",
+   "added": [
+    {
+     "n": "Commanders D/ST",
+     "pos": "D/ST",
+     "pts": 4
+    }
+   ],
+   "dropped": [
+    {
+     "n": "Browns D/ST",
+     "pos": "D/ST",
+     "pts": 5
+    }
+   ]
+  },
+  {
+   "type": "FREEAGENT",
+   "sp": 10,
+   "team": "Berlin Blitz",
+   "owner": "Kent Frenger",
+   "added": [
+    {
+     "n": "Jacoby Brissett",
+     "pos": "QB",
+     "pts": 14.8
+    }
+   ],
+   "dropped": [
+    {
+     "n": "Elijah Mitchell",
+     "pos": "RB",
+     "pts": 0
+    }
+   ]
+  },
+  {
+   "type": "WAIVER",
+   "sp": 10,
+   "team": "BearDown",
+   "owner": "Ryan Reed",
+   "added": [
+    {
+     "n": "Bryce Young",
+     "pos": "QB",
+     "pts": 8.1
+    }
+   ],
+   "dropped": [
+    {
+     "n": "Jake Ferguson",
+     "pos": "TE",
+     "pts": 0
+    }
+   ]
+  },
+  {
+   "type": "FREEAGENT",
+   "sp": 10,
+   "team": "Holy Rollers",
+   "owner": "Adam Hershberger",
+   "added": [
+    {
+     "n": "Tyler Higbee",
+     "pos": "TE",
+     "pts": 9.2
+    }
+   ],
+   "dropped": [
+    {
+     "n": "Antonio Williams",
+     "pos": "WR",
+     "pts": 11.2
+    }
+   ]
+  },
+  {
+   "type": "WAIVER",
+   "sp": 10,
+   "team": "The Scranton Strangler",
+   "owner": "Scott Howard",
+   "added": [
+    {
+     "n": "Konata Mumpfield",
+     "pos": "WR",
+     "pts": 9.6
+    }
+   ],
+   "dropped": [
+    {
+     "n": "Brian Robinson Jr.",
+     "pos": "RB",
+     "pts": 0
+    }
+   ]
+  }
+ ],
+ "nextWeek": [
+  {
+   "home": "The Scranton Strangler",
+   "homeOwner": "Scott Howard",
+   "away": "Holy Rollers",
+   "awayOwner": "Adam Hershberger"
+  },
+  {
+   "home": "An alBum Cover",
+   "homeOwner": "Adam Calvelage",
+   "away": "Berlin Blitz",
+   "awayOwner": "Kent Frenger"
+  },
+  {
+   "home": "BearDown",
+   "homeOwner": "Ryan Reed",
+   "away": "Hawk Tua Tagovailoa",
+   "awayOwner": "Geoff Cavender"
+  },
+  {
+   "home": "DA The Badenov's",
+   "homeOwner": "dennis couture",
+   "away": "Simba St. Gibbs Lion Kings",
+   "awayOwner": "Scott Reisert"
+  },
+  {
+   "home": "Momma's Boys",
+   "homeOwner": "Beth Couture",
+   "away": "One Under akaThe Mulligan",
+   "awayOwner": "Casey Couture"
+  },
+  {
+   "home": "Cosby Copperheads",
+   "homeOwner": "Doug Fields",
+   "away": "Balls Deep",
+   "awayOwner": "Spencer Lentz"
+  }
+ ],
+ "high": {
+  "name": "Balls Deep",
+  "owner": "Spencer Lentz",
+  "score": 151.52
+ },
+ "low": {
+  "name": "One Under akaThe Mulligan",
+  "owner": "Casey Couture",
+  "score": 77.92
+ },
+ "biggestMargin": {
+  "homeId": 6,
+  "home": "One Under akaThe Mulligan",
+  "homeOwner": "Casey Couture",
+  "homeScore": 77.92,
+  "awayId": 1,
+  "away": "Balls Deep",
+  "awayOwner": "Spencer Lentz",
+  "awayScore": 151.52,
+  "winnerId": 1,
+  "winner": "Balls Deep",
+  "loserId": 6,
+  "margin": 73.6
+ },
+ "closest": {
+  "homeId": 4,
+  "home": "Berlin Blitz",
+  "homeOwner": "Kent Frenger",
+  "homeScore": 121.7,
+  "awayId": 3,
+  "away": "DA The Badenov's",
+  "awayOwner": "dennis couture",
+  "awayScore": 128.34,
+  "winnerId": 3,
+  "winner": "DA The Badenov's",
+  "loserId": 4,
+  "margin": 6.64
+ }
+}
