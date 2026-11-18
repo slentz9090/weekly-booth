@@ -21,21 +21,21 @@ TX = "#e6eaf0"
 MUT = "#9aa4b2"
 
 CARDS = {
-    "dlffl-week-9.png": {
+    "dlffl-week-10.png": {
         "league": "Dewart Lake FFL",
-        "week": "Week 9 · 2026",
+        "week": "Week 10 · 2026",
         "accent": GOLD,
-        "headline": "Spencer Lentz Benched C.J. Stroud. C.J. Stroud Scored 40.",
-        "owner": "Owner of the Week · Scott Howard, 148.30",
-        "worst": "Worst Owner · Ryan Reed, 63.38",
+        "headline": "Kent Frenger Cut The Rams Defense. It Scored 16 For DA, Who Beat Him By 6.64.",
+        "owner": "Owner of the Week · DA, 128.34",
+        "worst": "Worst Owner · Casey Couture, 77.92",
     },
-    "foh-week-9.png": {
+    "foh-week-10.png": {
         "league": "Friends of Herb",
-        "week": "Week 9 · 2026",
+        "week": "Week 10 · 2026",
         "accent": BLUE,
-        "headline": "Rahul Pahuja Beat Ryan Kelly By 112.20. Boomer Picked Kelly.",
-        "owner": "Owner of the Week · Rahul Pahuja, 173.86",
-        "worst": "Worst Owner · Ryan Kelly, 61.66",
+        "headline": "Michael Turner Started Five Players Who Did Not Play. Bob Dorsch Beat Him With Just 75.10.",
+        "owner": "Owner of the Week · Rahul Pahuja, 173.84",
+        "worst": "Worst Owner · Michael Turner, 56.56",
     },
 }
 

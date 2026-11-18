@@ -7,86 +7,86 @@ from compute import DATA, grade, load, result_for
 
 AWARDS = {
     "dlffl": {
-        "ownerOfWeek": "Scott Howard",
-        "worstOwner": "Ryan Reed",
+        "ownerOfWeek": "dennis couture",
+        "worstOwner": "Casey Couture",
         "startOfWeek": "Geoff Cavender",
-        "sitOfWeek": "Spencer Lentz",
-        "wasteOfWeek": "Scott Reisert",
+        "sitOfWeek": "Adam Hershberger",
+        "wasteOfWeek": "Spencer Lentz",
     },
     "foh": {
         "ownerOfWeek": "Rahul Pahuja",
-        "worstOwner": "Ryan Kelly",
-        "startOfWeek": "Bob Dorsch",
-        "sitOfWeek": "Aron Rogers",
+        "worstOwner": "Michael Turner",
+        "startOfWeek": "Aron Rogers",
+        "sitOfWeek": "Billy Norton",
         "wasteOfWeek": "Michael Smith",
     },
 }
 
 NEW = {
     "dlffl": [
-        ("Spencer Lentz", "Spencer Lentz leaves under ten on his bench in Week 10.",
-         10, {"type": "benchUnder", "owner": "Spencer Lentz", "week": 10, "value": 10}),
-        ("Casey Couture", "Jonathan Taylor clears 15 for Casey Couture.",
-         10, {"type": "playerAtLeast", "owner": "Casey Couture", "week": 10, "player": "Jonathan Taylor", "value": 15}),
-        ("Kent Frenger", "Kenneth Walker III clears 20 again for Kent Frenger.",
-         10, {"type": "playerAtLeast", "owner": "Kent Frenger", "week": 10, "player": "Kenneth Walker III", "value": 20}),
-        ("dennis couture", "DA beats Kent Frenger.",
-         10, {"type": "h2h", "winner": "dennis couture", "loser": "Kent Frenger", "week": 10}),
-        ("Geoff Cavender", "Geoff Cavender beats Mama Beth.",
-         10, {"type": "h2h", "winner": "Geoff Cavender", "loser": "Beth Couture", "week": 10}),
-        ("Beth Couture", "Justin Jefferson clears 15 for Mama Beth.",
-         10, {"type": "playerAtLeast", "owner": "Beth Couture", "week": 10, "player": "Justin Jefferson", "value": 15}),
-        ("Scott Howard", "Scott Howard beats Ryan Reed.",
-         10, {"type": "h2h", "winner": "Scott Howard", "loser": "Ryan Reed", "week": 10}),
-        ("Ryan Reed", "Ryan Reed scores 90 or more in Week 10.",
-         10, {"type": "scoreAtLeast", "owner": "Ryan Reed", "week": 10, "value": 90}),
-        ("Adam Calvelage", "CeeDee Lamb clears 20 again for Adam Calvelage.",
-         10, {"type": "playerAtLeast", "owner": "Adam Calvelage", "week": 10, "player": "CeeDee Lamb", "value": 20}),
-        ("Adam Hershberger", "Adam Hershberger beats Adam Calvelage.",
-         10, {"type": "h2h", "winner": "Adam Hershberger", "loser": "Adam Calvelage", "week": 10}),
-        ("Doug Fields", "Doug Fields scores between 92 and 106 in Week 10.",
-         10, {"type": "scoreBetween", "owner": "Doug Fields", "week": 10, "low": 92, "high": 106}),
-        ("Scott Reisert", "Scott Reisert beats Doug Fields for the first time.",
-         10, {"type": "h2h", "winner": "Scott Reisert", "loser": "Doug Fields", "week": 10}),
+        ("Spencer Lentz", "C.J. Stroud clears 20 for Spencer Lentz.",
+         11, {"type": "playerAtLeast", "owner": "Spencer Lentz", "week": 11, "player": "C.J. Stroud", "value": 20}),
+        ("Doug Fields", "Doug Fields beats Spencer Lentz.",
+         11, {"type": "h2h", "winner": "Doug Fields", "loser": "Spencer Lentz", "week": 11}),
+        ("Kent Frenger", "Kent Frenger beats Adam Calvelage.",
+         11, {"type": "h2h", "winner": "Kent Frenger", "loser": "Adam Calvelage", "week": 11}),
+        ("Adam Calvelage", "Brock Purdy clears 20 again for Adam Calvelage.",
+         11, {"type": "playerAtLeast", "owner": "Adam Calvelage", "week": 11, "player": "Brock Purdy", "value": 20}),
+        ("Ryan Reed", "Ryan Reed beats Geoff Cavender.",
+         11, {"type": "h2h", "winner": "Ryan Reed", "loser": "Geoff Cavender", "week": 11}),
+        ("Geoff Cavender", "Amon-Ra St. Brown clears 15 for Geoff Cavender.",
+         11, {"type": "playerAtLeast", "owner": "Geoff Cavender", "week": 11, "player": "Amon-Ra St. Brown", "value": 15}),
+        ("dennis couture", "DA beats Scott Reisert.",
+         11, {"type": "h2h", "winner": "dennis couture", "loser": "Scott Reisert", "week": 11}),
+        ("Scott Reisert", "Jahmyr Gibbs clears 20 again for Scott Reisert.",
+         11, {"type": "playerAtLeast", "owner": "Scott Reisert", "week": 11, "player": "Jahmyr Gibbs", "value": 20}),
+        ("Beth Couture", "Mama Beth beats Casey Couture.",
+         11, {"type": "h2h", "winner": "Beth Couture", "loser": "Casey Couture", "week": 11}),
+        ("Casey Couture", "Casey Couture scores 90 or more in Week 11.",
+         11, {"type": "scoreAtLeast", "owner": "Casey Couture", "week": 11, "value": 90}),
+        ("Scott Howard", "Scott Howard beats Adam Hershberger.",
+         11, {"type": "h2h", "winner": "Scott Howard", "loser": "Adam Hershberger", "week": 11}),
+        ("Adam Hershberger", "Chase Brown starts for Adam Hershberger in Week 11.",
+         11, {"type": "startsPlayer", "owner": "Adam Hershberger", "week": 11, "player": "Chase Brown"}),
     ],
     "foh": [
-        ("Spencer Lentz", "Spencer Lentz clears 120 on his bye.",
-         10, {"type": "scoreAtLeast", "owner": "Spencer Lentz", "week": 10, "value": 120}),
-        ("Aron Rogers", "Aron Rogers starts Tyler Shough in Week 10.",
-         10, {"type": "startsPlayer", "owner": "Aron Rogers", "week": 10, "player": "Tyler Shough"}),
-        ("Eric Olson", "Eric Olson beats Aron Rogers.",
-         10, {"type": "h2h", "winner": "Eric Olson", "loser": "Aron Rogers", "week": 10}),
-        ("Ryan Kelly", "Ryan Kelly clears 80 in Week 10.",
-         10, {"type": "scoreAtLeast", "owner": "Ryan Kelly", "week": 10, "value": 80}),
-        ("Matt Davis", "Matt Davis beats Ryan Kelly.",
-         10, {"type": "h2h", "winner": "Matt Davis", "loser": "Ryan Kelly", "week": 10}),
-        ("Michael Turner", "Breece Hall starts for Michael Turner in Week 10.",
-         10, {"type": "startsPlayer", "owner": "Michael Turner", "week": 10, "player": "Breece Hall"}),
-        ("Bob Dorsch", "Bob Dorsch beats Michael Turner.",
-         10, {"type": "h2h", "winner": "Bob Dorsch", "loser": "Michael Turner", "week": 10}),
-        ("Aaron Jezioro", "Aaron Jezioro clears 120 for the third straight week.",
-         10, {"type": "scoreAtLeast", "owner": "Aaron Jezioro", "week": 10, "value": 120}),
-        ("Rahul Pahuja", "Rahul Pahuja beats Aaron Jezioro.",
-         10, {"type": "h2h", "winner": "Rahul Pahuja", "loser": "Aaron Jezioro", "week": 10}),
-        ("Billy Norton", "Billy Norton beats Michael Smith.",
-         10, {"type": "h2h", "winner": "Billy Norton", "loser": "Michael Smith", "week": 10}),
-        ("Michael Smith", "Dak Prescott clears 20 again for Michael Smith.",
-         10, {"type": "playerAtLeast", "owner": "Michael Smith", "week": 10, "player": "Dak Prescott", "value": 20}),
+        ("Spencer Lentz", "Patrick Mahomes clears 25 for Spencer Lentz.",
+         11, {"type": "playerAtLeast", "owner": "Spencer Lentz", "week": 11, "player": "Patrick Mahomes", "value": 25}),
+        ("Ryan Kelly", "Caleb Williams starts for Ryan Kelly in Week 11.",
+         11, {"type": "startsPlayer", "owner": "Ryan Kelly", "week": 11, "player": "Caleb Williams"}),
+        ("Eric Olson", "Eric Olson beats Michael Turner.",
+         11, {"type": "h2h", "winner": "Eric Olson", "loser": "Michael Turner", "week": 11}),
+        ("Michael Turner", "Michael Turner clears 90 in Week 11.",
+         11, {"type": "scoreAtLeast", "owner": "Michael Turner", "week": 11, "value": 90}),
+        ("Matt Davis", "Matt Davis beats Aaron Jezioro.",
+         11, {"type": "h2h", "winner": "Matt Davis", "loser": "Aaron Jezioro", "week": 11}),
+        ("Aaron Jezioro", "Ja'Marr Chase clears 20 again for Aaron Jezioro.",
+         11, {"type": "playerAtLeast", "owner": "Aaron Jezioro", "week": 11, "player": "Ja'Marr Chase", "value": 20}),
+        ("Billy Norton", "Billy Norton beats Bob Dorsch.",
+         11, {"type": "h2h", "winner": "Billy Norton", "loser": "Bob Dorsch", "week": 11}),
+        ("Bob Dorsch", "Saquon Barkley clears 12 for Bob Dorsch.",
+         11, {"type": "playerAtLeast", "owner": "Bob Dorsch", "week": 11, "player": "Saquon Barkley", "value": 12}),
+        ("Rahul Pahuja", "Rahul Pahuja beats Michael Smith.",
+         11, {"type": "h2h", "winner": "Rahul Pahuja", "loser": "Michael Smith", "week": 11}),
+        ("Michael Smith", "Dak Prescott clears 25 for Michael Smith.",
+         11, {"type": "playerAtLeast", "owner": "Michael Smith", "week": 11, "player": "Dak Prescott", "value": 25}),
+        ("Aron Rogers", "Aron Rogers clears 130 on his bye.",
+         11, {"type": "scoreAtLeast", "owner": "Aron Rogers", "week": 11, "value": 130}),
     ],
 }
 
-UPDATED = "2026-11-10"
+UPDATED = "2026-11-17"
 
 NOTE = {
     "dlffl": (
-        "Week 9 published 2026-11-10. Boomer went 4 and 8 and is 42 and 54 on the season. Boomer runs at full heat. "
+        "Week 10 published 2026-11-17. Boomer went 4 and 8 and is 46 and 62 on the season. Boomer runs at full heat. "
         "THE RACE (gen2/race.py, FantasyPros playoff and title odds) runs after the Scoreboard through the playoff cut. "
         "No series line on the cards and no Owner Spotlight (both pulled after Week 8). Mama Beth is never the headline, "
         "Worst Owner or a jab target. Grade every call that resolves at the TOP of the next issue, right or wrong, "
         "before anything else, then make a new call on every team at the bottom."
     ),
     "foh": (
-        "Week 9 published 2026-11-10. Boomer went 4 and 7 and is 38 and 49 on the season. THE RACE (gen2/race.py, "
+        "Week 10 published 2026-11-17. Boomer went 7 and 4 and is 45 and 53 on the season. THE RACE (gen2/race.py, "
         "FantasyPros playoff and title odds) runs after the Scoreboard through the playoff cut. No series line on the "
         "cards and no Owner Spotlight (both pulled after Week 8). Grade every call that resolves at the TOP of the next "
         "issue, right or wrong, before anything else, then make a new call on every team at the bottom."
@@ -95,7 +95,7 @@ NOTE = {
 
 
 def run(league):
-    facts = load(f"{league}_wk{os.environ.get('WEEK', '9')}_facts.json")
+    facts = load(f"{league}_wk{os.environ.get('WEEK', '10')}_facts.json")
     season = load(f"{league}_season.json")
     wk = facts["week"]
 

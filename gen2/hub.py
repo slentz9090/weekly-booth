@@ -14,29 +14,29 @@ from compute import DATA, load
 DOCS = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "docs")
 SITE = "https://slentz9090.github.io/weekly-booth"
 
-WK = int(os.environ.get("WEEK", "9"))
+WK = int(os.environ.get("WEEK", "10"))
 
 HEAD = {
     "dlffl": {
         "league": "Dewart Lake FFL",
-        "headline": "Spencer Lentz Benched C.J. Stroud. C.J. Stroud Scored 40.",
+        "headline": "Kent Frenger Cut The Rams Defense. It Scored 16 For DA, Who Beat Him By 6.64.",
         "accent": "var(--gold)",
         "meta": "12 teams · snake · 0.5 PPR",
-        "note": ("Owner of the Week: Scott Howard, 148.30, a week after he was Worst Owner. "
-                 "Worst Owner: Ryan Reed, 63.38, with two starters who did not play."),
-        "date": "November 10, 2026",
-        "sub": "Six games, THE RACE with five weeks left, five pieces of hardware, the Bench Ledger, and twelve calls graded in public.",
+        "note": ("Owner of the Week: DA, 128.34, over the team that had won six straight. "
+                 "Worst Owner: Casey Couture, 77.92, with a starter who did not play."),
+        "date": "November 17, 2026",
+        "sub": "Six games, THE RACE with four weeks left, five pieces of hardware, the Bench Ledger, and twelve calls graded in public.",
     },
     "foh": {
         "league": "Friends of Herb",
-        "headline": "Rahul Pahuja Beat Ryan Kelly By 112.20. Boomer Picked Kelly.",
+        "headline": "Michael Turner Started Five Players Who Did Not Play. Bob Dorsch Beat Him With Just 75.10.",
         "accent": "var(--blue)",
         "indexAccent": "var(--gold)",
         "meta": "11 teams · auction · 0.5 PPR",
-        "note": ("Owner of the Week: Rahul Pahuja, 173.86 and a perfect lineup. Worst Owner: Ryan Kelly, "
-                 "61.66, in a loss by 112.20."),
-        "date": "November 10, 2026",
-        "sub": "Five games, a bye, THE RACE with five weeks left, the Freiermuth Memorial Rule, and eleven calls graded in public.",
+        "note": ("Owner of the Week: Rahul Pahuja, 173.84 and a second straight perfect lineup. Worst Owner: "
+                 "Michael Turner, 56.56, with five starters who did not play."),
+        "date": "November 17, 2026",
+        "sub": "Five games, a bye, THE RACE with four weeks left, the Freiermuth Memorial Rule, and eleven calls graded in public.",
     },
 }
 
@@ -50,17 +50,17 @@ EXTRA_CARDS = {
 }
 
 TEASERS = {
-    "dlffl": """Gil and Boomer have Week 9 of the Dewart Lake FFL.
+    "dlffl": """Gil and Boomer have Week 10 of the Dewart Lake FFL.
 
-Spencer benched C.J. Stroud and Stroud scored 40, the 11th-most points anyone has left on a bench here since 2018, and Boomer did not let it go. Scott Howard went from Worst Owner to the high score of the week. Ryan Reed started two guys who did not play. Doug Fields scored between 92 and 106 eight weeks running and finally missed, by 0.98. Kent cut his backup quarterback and his backup defense, and both starters are on bye next week. THE RACE has playoff and title odds for all twelve. Boomer went 4 and 8.
+Kent cut the Rams defense last week. DA picked it up, it scored 16, and DA beat him by 6.64 to end the six-game streak. Hershberger left 44.30 points of running back on his bench and lost by 12.68. Doug Fields scored 131 a week after scoring 91. Spencer left 36.02 on his bench the week Boomer bet he would leave under ten. Geoff Cavender won with a receiver who did not play the week before. THE RACE has playoff and title odds for all twelve with four weeks left. Boomer went 4 and 8.
 
-{site}/dlffl/week-9.html
+{site}/dlffl/week-10.html
 """,
-    "foh": """Gil and Boomer have Week 9 of Friends of Herb.
+    "foh": """Gil and Boomer have Week 10 of Friends of Herb.
 
-Rahul beat Kelly by 112.20, the fifth-biggest margin in this league since 2011, with a perfect lineup. Boomer picked Kelly. Dorsch beat Rogers while the quarterback Dorsch cut sat on Rogers's bench for 21.70. Jezioro has two straight weeks over 134 and is one game out. Three teams are tied for the last playoff spot, and THE RACE has the odds for all eleven. Spencer still leads the league in points left on the bench. Boomer went 4 and 7.
+Turner started five players who did not play and lost to Dorsch's 75.10 with the winning lineup on his bench. Pahuja scored 173.84 a week after scoring 173.86, both perfect lineups. Six of the ten teams that played left nothing on the bench. Davis finally cut Mark Andrews, the week Andrews scored 12.20. Spencer benched 46.42 at quarterback on his bye. Four teams are 6 and 3 for two playoff spots, and THE RACE has the odds for all eleven. Boomer went 7 and 4.
 
-{site}/foh/week-9.html
+{site}/foh/week-10.html
 """,
 }
 
