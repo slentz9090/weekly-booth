@@ -21,23 +21,24 @@ TX = "#e6eaf0"
 MUT = "#9aa4b2"
 
 CARDS = {
-    "dlffl-week-10.png": {
+    "dlffl-week-11.png": {
         "league": "Dewart Lake FFL",
-        "week": "Week 10 · 2026",
+        "week": "Week 11 · 2026",
         "accent": GOLD,
-        "headline": "Kent Frenger Cut The Rams Defense. It Scored 16 For DA, Who Beat Him By 6.64.",
-        "owner": "Owner of the Week · DA, 128.34",
-        "worst": "Worst Owner · Casey Couture, 77.92",
+        "headline": "DA Scored 70.96, Lost By 48, And Still Holds The Last Playoff Spot. By 1.88 Points.",
+        "owner": "Owner of the Week · Scott Reisert, 119.22",
+        "worst": "Worst Owner · Doug Fields, 64.90",
     },
-    "foh-week-10.png": {
+    "foh-week-11.png": {
         "league": "Friends of Herb",
-        "week": "Week 10 · 2026",
+        "week": "Week 11 · 2026",
         "accent": BLUE,
-        "headline": "Michael Turner Started Five Players Who Did Not Play. Bob Dorsch Beat Him With Just 75.10.",
-        "owner": "Owner of the Week · Rahul Pahuja, 173.84",
-        "worst": "Worst Owner · Michael Turner, 56.56",
+        "headline": "Boomer Named Three Players On The Bye. Michael Turner Started All Three And Scored 54.06.",
+        "owner": "Owner of the Week · Matt Davis, 146.20",
+        "worst": "Worst Owner · Michael Turner, 54.06",
     },
 }
+
 
 
 def wrap(draw, text, font, width):

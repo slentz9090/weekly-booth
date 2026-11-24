@@ -14,29 +14,29 @@ from compute import DATA, load
 DOCS = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "docs")
 SITE = "https://slentz9090.github.io/weekly-booth"
 
-WK = int(os.environ.get("WEEK", "10"))
+WK = int(os.environ.get("WEEK", "11"))
 
 HEAD = {
     "dlffl": {
         "league": "Dewart Lake FFL",
-        "headline": "Kent Frenger Cut The Rams Defense. It Scored 16 For DA, Who Beat Him By 6.64.",
+        "headline": "DA Scored 70.96, Lost By 48, And Still Holds The Last Playoff Spot. By 1.88 Points.",
         "accent": "var(--gold)",
         "meta": "12 teams · snake · 0.5 PPR",
-        "note": ("Owner of the Week: DA, 128.34, over the team that had won six straight. "
-                 "Worst Owner: Casey Couture, 77.92, with a starter who did not play."),
-        "date": "November 17, 2026",
-        "sub": "Six games, THE RACE with four weeks left, five pieces of hardware, the Bench Ledger, and twelve calls graded in public.",
+        "note": ("Owner of the Week: Scott Reisert, 119.22 with a perfect lineup. "
+                 "Worst Owner: Doug Fields, 64.90, a week after 131.06."),
+        "date": "November 24, 2026",
+        "sub": "Six games, THE RACE with three weeks left, five pieces of hardware, the Bench Ledger, and twelve calls graded in public.",
     },
     "foh": {
         "league": "Friends of Herb",
-        "headline": "Michael Turner Started Five Players Who Did Not Play. Bob Dorsch Beat Him With Just 75.10.",
+        "headline": "Boomer Named Three Players On The Bye. Michael Turner Started All Three And Scored 54.06.",
         "accent": "var(--blue)",
         "indexAccent": "var(--gold)",
         "meta": "11 teams · auction · 0.5 PPR",
-        "note": ("Owner of the Week: Rahul Pahuja, 173.84 and a second straight perfect lineup. Worst Owner: "
-                 "Michael Turner, 56.56, with five starters who did not play."),
-        "date": "November 17, 2026",
-        "sub": "Five games, a bye, THE RACE with four weeks left, the Freiermuth Memorial Rule, and eleven calls graded in public.",
+        "note": ("Owner of the Week: Matt Davis, 146.20 with a perfect lineup. Worst Owner: "
+                 "Michael Turner, 54.06, with three starters on the bye."),
+        "date": "November 24, 2026",
+        "sub": "Five games, a bye, THE RACE with three weeks left, the Freiermuth Memorial Rule, and eleven calls graded in public.",
     },
 }
 
@@ -50,17 +50,23 @@ EXTRA_CARDS = {
 }
 
 TEASERS = {
-    "dlffl": """Gil and Boomer have Week 10 of the Dewart Lake FFL.
+    "dlffl": """Gil and Boomer have Week 11 of the Dewart Lake FFL. Also Week 10, which was finished last Tuesday and never made it to this chat.
 
-Kent cut the Rams defense last week. DA picked it up, it scored 16, and DA beat him by 6.64 to end the six-game streak. Hershberger left 44.30 points of running back on his bench and lost by 12.68. Doug Fields scored 131 a week after scoring 91. Spencer left 36.02 on his bench the week Boomer bet he would leave under ten. Geoff Cavender won with a receiver who did not play the week before. THE RACE has playoff and title odds for all twelve with four weeks left. Boomer went 4 and 8.
-
+BOOMER: That one is on me. I had one job and the job was to send you the link. I wrote it on my hand so I would not forget. Then I washed my hands, because I am a professional. Week 10 is still up, and DA beats the champ with the champ's own defense in it:
 {site}/dlffl/week-10.html
+
+Now Week 11. DA scored 70.96, lost to Reisert by 48, and still holds the last playoff spot. By 1.88 points. Three teams are 6 and 5 for it. Calvelage beat Kent for the first time ever with 22.94 on his bench. Doug Fields scored 131 last week and 64.90 this week. Scott Howard has won three straight. Boomer called two quarterbacks to clear 20. Both did, from the bench. One was Spencer's, who has now sat a 20 at quarterback three weeks running. THE RACE has playoff and title odds for all twelve with three weeks left. Boomer went 4 and 8.
+
+{site}/dlffl/week-11.html
 """,
-    "foh": """Gil and Boomer have Week 10 of Friends of Herb.
+    "foh": """Gil and Boomer have Week 11 of Friends of Herb. Also Week 10, which was done last Tuesday and never reached this thread.
 
-Turner started five players who did not play and lost to Dorsch's 75.10 with the winning lineup on his bench. Pahuja scored 173.84 a week after scoring 173.86, both perfect lineups. Six of the ten teams that played left nothing on the bench. Davis finally cut Mark Andrews, the week Andrews scored 12.20. Spencer benched 46.42 at quarterback on his bye. Four teams are 6 and 3 for two playoff spots, and THE RACE has the odds for all eleven. Boomer went 7 and 4.
-
+BOOMER: My fault. I was told to text it to the group. I do not text. I mailed it. Eleven envelopes, first class. They are somewhere in Ohio. Until they land:
 {site}/foh/week-10.html
+
+Now Week 11. Last week Boomer told Turner, by name, which three of his players had the bye this week. Turner started all three and scored 54.06. Davis won by 75.10 with a perfect lineup and is 2.68 points off the scoring lead. Dak scored 44.90 for Smith a week after 45.42. Pahuja set a third straight perfect lineup and lost. Dorsch made seven roster moves and scored 69. Spencer started a defense that scored zero with 14 on his bench. Four teams are 7 and 3, and THE RACE has the odds for all eleven. Boomer went 8 and 3.
+
+{site}/foh/week-11.html
 """,
 }
 
