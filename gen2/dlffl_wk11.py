@@ -152,7 +152,7 @@ def build():
     # ---- 6. the range
     w, l = card_rows("Spencer Lentz", "Doug Fields")
     parts.append(mcard(
-        "m-lentz", "Fields scores 64.90 a week after 131.06, and Spencer Lentz benches Boomer's quarterback again", w, l,
+        "m-lentz", "Fields scores 64.90 a week after 131.06, and Justin Herbert beats C.J. Stroud 22.44 to 20.46", w, l,
         "Chuba Hubbard 29.00, Emmett Johnson 25.30 and Justin Herbert 22.44 the week he signed him for Spencer Lentz, with C.J. Stroud's 20.46 and the 49ers defense's 14.00 on his bench. Joe Burrow 22.90 and Derrick Henry 17.10 for Doug Fields, with Ladd McConkey's 18.20 on his bench behind Keon Coleman's 2.70.",
         SCALE))
     parts.append(gil(
@@ -162,7 +162,7 @@ def build():
     parts.append(gil(
         "In fairness to Doug Fields, Drake London and Rhamondre Stevenson were on the bye, Isaiah Likely was projected for 10.53 and scored 4.00, and his best lineup was 81.00, which does not win either. He is 5 and 6 and one game out of the fourth spot."))
     parts.append(boomer(
-        "And the man who runs this booth. I bet C.J. Stroud would clear 20 for him, because the Patriots were off and there was nobody left to start in front of Stroud. So he went out and signed Justin Herbert to start in front of Stroud. Stroud scored 20.46. On the bench. Again. That is 40.36, 20.44 and 20.46 in three weeks, 81.26 points of quarterback, none of it in the lineup. He also sat a defense that scored 14 for one that scored 7. He will not start Stroud for me and I am starting to take it personally."))
+        "And the man who runs this booth. I bet C.J. Stroud would clear 20 for him, because the Patriots were off and there was nobody left to start in front of Stroud. So he went out and signed Justin Herbert to start in front of Stroud. Stroud scored 20.46 on the bench. Herbert scored 22.44 in the lineup. He was right by 1.98 and my call lost anyway, so the only man with a complaint here is me. He did sit a defense that scored 14 for one that scored 7, and I am keeping that."))
 
     # ---- THE RACE
     parts.append(race_section())
@@ -173,7 +173,7 @@ def build():
         "Twelve calls came due. Four right, eight wrong, same as last week. Season record 50 and 70. Two of the eight were quarterbacks who cleared my number from the bench, and I want that noted somewhere, even though it does not count. Every call is below, in ink."))
     parts.append(graded_list([
         ("Balls Deep", "C.J. Stroud clears 20 for Spencer Lentz.", "WRONG",
-         "20.46, on the bench, behind Justin Herbert's 22.44. He cleared it. He just did it sitting down."),
+         "20.46, on the bench. Justin Herbert started and scored 22.44, so the lineup was right and the call was wrong. He cleared my number from the wrong seat."),
         ("Cosby Copperheads", "Doug Fields beats Spencer Lentz.", "WRONG",
          "Lost by 78.74 with 64.90. I bet against the man who runs this booth and asked somebody to write it down. Somebody did."),
         ("Berlin Blitz", "Kent Frenger beats Adam Calvelage.", "WRONG",
