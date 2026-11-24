@@ -6,9 +6,6 @@ never "Mother" or "Dad". Mama Beth is never the headline, Worst Owner or Boomer'
 rule, 2026-11-03). No new segment: THE RACE (through the playoff cut) after the Scoreboard. No series
 line on the cards, no Owner Spotlight.
 
-Housekeeping note at the top (Spencer, 2026-11-24): the Week 10 teaser was never sent to the group, so
-the page opens with Gil linking Week 10 and Boomer taking the blame with a joke.
-
 Outlier engine, Week 11: nothing reached HEADLINE or PROMOTE. SUPPORT: Spencer Lentz by 78.74 (45th
 biggest margin of 1,456); Adam Calvelage's first win over Kent Frenger in six; Doug Fields 64.90 (3rd
 worst of his 133); Ja'Marr Chase 5.60 on 22.44 (45th-worst miss of 7,801); Calvelage 142.56 and Geoff
@@ -74,12 +71,6 @@ def build():
     parts = []
     teams = [(t["name"], SEASON["owners"][t["owner"]]["display"]) for t in FACTS["perTeam"]]
     parts.append(jump(teams))
-
-    # ---- housekeeping: Week 10 was published and never reached the group
-    parts.append(gil(
-        'One piece of housekeeping. The Week 10 show was published last Tuesday and never reached the group chat. It is still up, and some of what follows grades calls made on it: <a href="week-10.html">Week 10, right here</a>.'))
-    parts.append(boomer(
-        "That one is on me. Gil gave me one job, and the job was to send you the link. I wrote the link on my hand so I would not forget it. Then I washed my hands, because I am a professional. By the time I figured out where it went, it was Sunday. Go read it. DA beats the champ with the champ's own defense in it, and after this week DA could use the memory."))
 
     parts.append('<h2 id="board">The Scoreboard</h2>')
 

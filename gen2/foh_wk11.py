@@ -5,9 +5,6 @@ alibis and never gloats, clean language on the page, roast cap and Gil defenses 
 THE RACE (through the playoff cut) after the Scoreboard. No series line on the cards, no Owner
 Spotlight. Nothing on this page refers to any other league.
 
-Housekeeping note at the top (Spencer, 2026-11-24): the Week 10 teaser was never sent to the group, so
-the page opens with Gil linking Week 10 and Boomer taking the blame with a joke.
-
 Outlier engine, Week 11. PROMOTE: Michael Turner 54.06 (22nd-lowest of 2,709 team-weeks since 2011);
 Eric Olson six straight over Turner. SUPPORT: Matt Davis by 75.10 (47th-biggest margin of 1,355);
 Dak Prescott 44.90 for Michael Smith (51st-best start of 11,216); Rahul Pahuja lost with Jonah
@@ -74,12 +71,6 @@ def build():
     parts = []
     teams = [(t["name"], SEASON["owners"][t["owner"]]["display"]) for t in FACTS["perTeam"]]
     parts.append(jump(teams))
-
-    # ---- housekeeping: Week 10 was published and never reached the group
-    parts.append(gil(
-        'Before the games, a correction to our distribution. The Week 10 show was published last Tuesday and never reached the group. Some of what follows grades calls made on it, so here it is: <a href="week-10.html">Week 10</a>.'))
-    parts.append(boomer(
-        "I was told to text it to the group. I do not text. I mailed it. Eleven envelopes, first class, one per owner, and as of this morning they are somewhere in Ohio. Until they land, use the link."))
 
     parts.append('<h2 id="board">The Scoreboard</h2>')
 

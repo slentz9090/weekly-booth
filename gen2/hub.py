@@ -50,21 +50,15 @@ EXTRA_CARDS = {
 }
 
 TEASERS = {
-    "dlffl": """Gil and Boomer have Week 11 of the Dewart Lake FFL. Also Week 10, which was finished last Tuesday and never made it to this chat.
+    "dlffl": """Gil and Boomer have Week 11 of the Dewart Lake FFL.
 
-BOOMER: That one is on me. I had one job and the job was to send you the link. I wrote it on my hand so I would not forget. Then I washed my hands, because I am a professional. Week 10 is still up, and DA beats the champ with the champ's own defense in it:
-{site}/dlffl/week-10.html
-
-Now Week 11. DA scored 70.96, lost to Reisert by 48, and still holds the last playoff spot. By 1.88 points. Three teams are 6 and 5 for it. Calvelage beat Kent for the first time ever with 22.94 on his bench. Doug Fields scored 131 last week and 64.90 this week. Scott Howard has won three straight. Boomer called two quarterbacks to clear 20. Both did, from the bench. One was Spencer's, who has now sat a 20 at quarterback three weeks running. THE RACE has playoff and title odds for all twelve with three weeks left. Boomer went 4 and 8.
+DA scored 70.96, lost to Reisert by 48, and still holds the last playoff spot. By 1.88 points. Three teams are 6 and 5 for it. Calvelage beat Kent for the first time ever with 22.94 on his bench. Doug Fields scored 131 last week and 64.90 this week. Scott Howard has won three straight. Boomer called two quarterbacks to clear 20. Both did, from the bench. One was Spencer's, who has now sat a 20 at quarterback three weeks running. THE RACE has playoff and title odds for all twelve with three weeks left. Boomer went 4 and 8.
 
 {site}/dlffl/week-11.html
 """,
-    "foh": """Gil and Boomer have Week 11 of Friends of Herb. Also Week 10, which was done last Tuesday and never reached this thread.
+    "foh": """Gil and Boomer have Week 11 of Friends of Herb.
 
-BOOMER: My fault. I was told to text it to the group. I do not text. I mailed it. Eleven envelopes, first class. They are somewhere in Ohio. Until they land:
-{site}/foh/week-10.html
-
-Now Week 11. Last week Boomer told Turner, by name, which three of his players had the bye this week. Turner started all three and scored 54.06. Davis won by 75.10 with a perfect lineup and is 2.68 points off the scoring lead. Dak scored 44.90 for Smith a week after 45.42. Pahuja set a third straight perfect lineup and lost. Dorsch made seven roster moves and scored 69. Spencer started a defense that scored zero with 14 on his bench. Four teams are 7 and 3, and THE RACE has the odds for all eleven. Boomer went 8 and 3.
+Boomer told Turner, by name, which three of his players had the bye. Turner started all three and scored 54.06. Davis won by 75.10 with a perfect lineup and is 2.68 points off the scoring lead. Dak scored 44.90 for Smith a week after 45.42. Pahuja set a third straight perfect lineup and lost. Dorsch made seven roster moves and scored 69. Spencer started a defense that scored zero with 14 on his bench. Four teams are 7 and 3, and THE RACE has the odds for all eleven. Boomer went 8 and 3.
 
 {site}/foh/week-11.html
 """,
