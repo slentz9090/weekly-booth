@@ -62,7 +62,7 @@ Hershberger started the two backs he benched last week. They went from 44 to 15.
 
 Cavender had no quarterback, grabbed one off the wire, and scored 140.
 
-Boomer called 20 for Stroud. Stroud scored 20.46 on Spencer's bench. The quarterback who started over him scored 22.44. Boomer lost the call anyway.
+Boomer bet Stroud would clear 20 for Spencer. Spencer grabbed Herbert instead and got 22.44. Stroud scored 20.46 on the bench. Boomer was right about the player and still lost.
 
 Boomer went 4 and 8 and is picking DA over Spencer this week.
 
