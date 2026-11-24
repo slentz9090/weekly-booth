@@ -33,7 +33,7 @@ CARDS = {
         "league": "Friends of Herb",
         "week": "Week 11 · 2026",
         "accent": BLUE,
-        "headline": "Boomer Named Three Players On The Bye. Michael Turner Started All Three And Scored 54.06.",
+        "headline": "Michael Turner Started Three Players On Their Bye, Scored 54.06, And Left 35 Points On His Bench.",
         "owner": "Owner of the Week · Matt Davis, 146.20",
         "worst": "Worst Owner · Michael Turner, 54.06",
     },

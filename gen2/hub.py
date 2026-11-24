@@ -29,7 +29,7 @@ HEAD = {
     },
     "foh": {
         "league": "Friends of Herb",
-        "headline": "Boomer Named Three Players On The Bye. Michael Turner Started All Three And Scored 54.06.",
+        "headline": "Michael Turner Started Three Players On Their Bye, Scored 54.06, And Left 35 Points On His Bench.",
         "accent": "var(--blue)",
         "indexAccent": "var(--gold)",
         "meta": "11 teams · auction · 0.5 PPR",
@@ -70,17 +70,17 @@ Boomer went 4 and 8 and is picking DA over Spencer this week.
 """,
     "foh": """Week 11 Booth is up.
 
-Last week Boomer told Turner which three of his guys had the bye. By name. In writing. Turner started all three. 54.06.
+Turner started three guys who were on their bye. Scored 54.06. Left Breece Hall and Aaron Rodgers on the bench with 35 between them.
 
 Davis won by 75 with a perfect lineup.
 
-Dak scored 45, then 44.90. Smith is 7 and 3 and has a losing record against the league.
+Dak has scored 90 for Smith in two weeks. Smith is 7 and 3 and has a losing record against the league.
 
-Pahuja set a third straight perfect lineup and lost.
+Pahuja set a perfect lineup and lost.
 
 Dorsch made seven moves and scored 69. He cut the Texans defense. Davis picked it up. It scored 13.
 
-Norton benched Diggs for 17 last week and started him for 6.50 this week.
+Norton won with 88 and 18 points of McConkey on his bench.
 
 Spencer started a defense that scored zero. The one on his bench scored 14.
 

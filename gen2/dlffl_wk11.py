@@ -83,11 +83,11 @@ def build():
     parts.append(gil(
         "Scott Reisert wins 119.22 to 70.96. Both teams are 6 and 5, and so is Adam Calvelage. Season points break the tie, and DA has 1,264.06 to Reisert's 1,262.18. DA led that count by 50.14 a week ago and leads it by 1.88 now, so he keeps the fourth playoff spot. His 70.96 beat one team in the league this week. Reisert set a perfect lineup: he claimed Cam Ward, started him over Jared Goff, and Ward won that choice 23.22 to 21.36. DA still leads the series 5 and 2."))
     parts.append(boomer(
-        "One point eight eight. That is a field goal that hit the upright and a short kickoff return. That is what DA has left of the playoffs. Last week I gave the elder the trophy for beating the champ with the champ's own defense. This week the Rams were on the bye, so he signed four new people, started all four, and got 16 points out of the whole group. Dawson Knox, 4.10. Xavier Hutchinson, 2.30. Ryan Flournoy, 1.60. The Jets defense carried the other three in on its back with an eight."))
+        "One point eight eight. A kicker makes that by accident. That is all DA has left of the playoffs. Last week I gave the elder the trophy for beating the champ with the champ's own defense. This week the Rams were on the bye, so he signed four new people, started all four, and got 16 points out of the whole group. Dawson Knox, 4.10. Xavier Hutchinson, 2.30. Ryan Flournoy, 1.60. The Jets defense carried the other three in on its back with an eight."))
     parts.append(gil(
         "In fairness to DA, Kyren Williams and Christian Watson were on the bye, Woody Marks and Dalton Kincaid did not play, and Josh Allen and Christian McCaffrey finished 14.34 under their projections between them. His best lineup was 80.16, so the bench did not decide it. He left 9.20 behind: Aaron Jones Sr. scored 10.80 behind Ryan Flournoy's 1.60. He beat Reisert twice last season."))
     parts.append(boomer(
-        "And Reisert did it with a receiver who scored zero. Courtland Sutton, in the lineup, nothing. Perfect lineup anyway, because the bench behind him was on vacation. Reisert found a quarterback on the wire, benched Jared Goff for him, and was right by 1.86. I picked DA. I said the elder keeps the chair. He is still in the chair, Gil. There is just somebody else's coat on the back of it now."))
+        "And Reisert did it with a receiver who scored zero. Courtland Sutton, in the lineup, nothing. Perfect lineup anyway. A zero was his best option, Gil. Picture the bench. Reisert found a quarterback on the wire, benched Jared Goff for him, and was right by 1.86. I picked DA. I said the elder keeps the chair. He is still in the chair, Gil. There is just somebody else's coat on the back of it now."))
 
     # ---- 2. first time
     w, l = card_rows("Adam Calvelage", "Kent Frenger")
@@ -117,7 +117,7 @@ def build():
     parts.append(gil(
         "In fairness to Ryan Reed, Nix was projected for 21.71 to Young's 18.37, so the start was the reasonable one, and he left only 4.56 behind. Cam Skattebo scored 4.30 on a projection of 13.81. In fairness to Geoff Cavender, he is 8 and 3. Against the whole league, every week, he is 62 and 59, about two and a half wins better than that would predict."))
     parts.append(boomer(
-        "Sixty-two and 59, and second place. I called fifteen for Amon-Ra St. Brown and he scored 12.20 while Mike Evans scored 22.90 right next to him, so Geoff beat my call with his own bench. Ryan Reed, two of your running backs gave you 8.20 between them. I have had sandwiches do more."))
+        "Sixty-two and 59, and second place. I called fifteen for Amon-Ra St. Brown and he scored 12.20 while Mike Evans scored 22.90 on the bench. Geoff had my fifteen the whole time. It was sitting down. Ryan Reed, two of your running backs gave you 8.20 between them, like two men sharing one umbrella."))
 
     # ---- 4. three and a half
     w, l = card_rows("Casey Couture", "Beth Couture")
@@ -132,7 +132,7 @@ def build():
     parts.append(gil(
         "In fairness to Casey Couture, Jonathan Taylor was projected for 16.00 and scored 4.70, and D'Andre Swift and Ollie Gordon II were both under their projections. He left 2.90 behind. Fernando Mendoza, the quarterback he signed a week ago, scored 23.88, the best game by anyone in his lineup. Against the whole league this season Casey is 37 and 84."))
     parts.append(boomer(
-        "I called 90 for Casey and he scored 91.98, so I will take the win and the two points of breathing room. Jonathan Taylor has given him 6.90, 11.30 and 4.70 the last three weeks. Casey is winning games around Jonathan Taylor like a man carrying a couch up the stairs by himself."))
+        "I called 90 for Casey and he scored 91.98. I have never been that right on purpose. Jonathan Taylor has given him 6.90, 11.30 and 4.70 the last three weeks. Casey is winning games around Jonathan Taylor like a man carrying a couch up the stairs by himself."))
 
     # ---- 5. the running backs, started
     w, l = card_rows("Scott Howard", "Adam Hershberger")
@@ -143,11 +143,11 @@ def build():
     parts.append(gil(
         "Scott Howard wins 110.00 to 97.84 and is 5 and 6 with three straight wins and four in his last five. Dak Prescott has scored 37.42 and 38.90 for him the last two weeks. Howard has the fifth-most points in the league, 1,245.22, and leads this series 6 and 3. Adam Hershberger set a perfect lineup and lost. He is 4 and 7 and has had 1,307.30 points scored against him, the most in the league."))
     parts.append(boomer(
-        "Last week Adam Hershberger left Chase Brown and Omarion Hampton on the bench and they scored 44.30. I yelled. The whole booth yelled. So this week he started both of them, and they scored 15.90. Together. That is 28 points that got lost somewhere between his bench and his lineup. Hershberger did everything right and it handed him a 6.10. The lineup was perfect, Gil. The players were not."))
+        "Last week Adam Hershberger left Chase Brown and Omarion Hampton on the bench and they scored 44.30. I yelled. The whole booth yelled. So this week he started both of them, and they scored 15.90. Together. That is 28 points that got lost somewhere between his bench and his lineup. Perfect lineup, and it handed him a 6.10. Those two are houseplants, Gil. They only grow when nobody is watching."))
     parts.append(gil(
         "In fairness to Adam Hershberger, Zach Charbonnet, Blake Corum, Matthew Golden and Denzel Boston were all on the bye, so the bench had nothing to offer, and no lineup he could have set wins the game. In fairness to Scott Howard, he left 5.20 behind after leaving 4.20 a week ago. He still leads the league in points left on the bench for the season, at 239.00."))
     parts.append(boomer(
-        "Scott Howard has left 9.40 on his bench in two weeks. He left 46 in Week 1 alone. I called this one and I am taking it. His kicker scored one point and he still won by twelve. He is 5 and 6 with the fifth-most points in the league and three wins in a row, and nobody at 6 and 5 should be sleeping well."))
+        "Scott Howard has left 9.40 on his bench in two weeks. He left 46 in Week 1 alone. I called this one and I am taking it. His kicker scored one point and he still won by twelve. He is 5 and 6 with the fifth-most points in the league and three wins in a row, and all three teams at 6 and 5 can hear him in the driveway."))
 
     # ---- 6. the range
     w, l = card_rows("Spencer Lentz", "Doug Fields")
@@ -162,7 +162,7 @@ def build():
     parts.append(gil(
         "In fairness to Doug Fields, Drake London and Rhamondre Stevenson were on the bye, Isaiah Likely was projected for 10.53 and scored 4.00, and his best lineup was 81.00, which does not win either. He is 5 and 6 and one game out of the fourth spot."))
     parts.append(boomer(
-        "And the man who runs this booth. I bet C.J. Stroud would clear 20 for him, because the Patriots were off and there was nobody left to start in front of Stroud. So he went out and signed Justin Herbert to start in front of Stroud. Stroud scored 20.46 on the bench. Herbert scored 22.44 in the lineup. He was right by 1.98 and my call lost anyway, so the only man with a complaint here is me. He did sit a defense that scored 14 for one that scored 7, and I am keeping that."))
+        "And the man who runs this booth. I bet C.J. Stroud would clear 20 for him, because the Patriots were off and there was nobody left to start in front of Stroud. So he went out and signed Justin Herbert to start in front of Stroud. Stroud scored 20.46 on the bench. Herbert scored 22.44 in the lineup. He gained 1.98 and my call lost anyway. Then he sat a defense that scored 14 for one that scored 7 and gave the 1.98 right back, and then some. All that work to finish behind himself."))
 
     # ---- THE RACE
     parts.append(race_section())
@@ -170,14 +170,14 @@ def build():
     # ---- ON THE RECORD
     parts.append('<h2 id="calls">On The Record</h2>')
     parts.append(boomer(
-        "Twelve calls came due. Four right, eight wrong, same as last week. Season record 50 and 70. Two of the eight were quarterbacks who cleared my number from the bench, and I want that noted somewhere, even though it does not count. Every call is below, in ink."))
+        "Twelve calls came due. Four right, eight wrong, same as last week. Season record 50 and 70. Two of the eight were quarterbacks who cleared my number from the bench. I had the right men. Their owners outvoted me. Every call is below, in ink."))
     parts.append(graded_list([
         ("Balls Deep", "C.J. Stroud clears 20 for Spencer Lentz.", "WRONG",
          "20.46, on the bench. Justin Herbert started and scored 22.44, so the lineup was right and the call was wrong. He cleared my number from the wrong seat."),
         ("Cosby Copperheads", "Doug Fields beats Spencer Lentz.", "WRONG",
          "Lost by 78.74 with 64.90. I bet against the man who runs this booth and asked somebody to write it down. Somebody did."),
         ("Berlin Blitz", "Kent Frenger beats Adam Calvelage.", "WRONG",
-         "Lost by 37.52. He was 5 and 0 in the series, and I bet on the 5 and 0. Chase scored 5.60."),
+         "Lost by 37.52. He was 5 and 0 in the series. I bet on the 5 and 0 and Chase showed up with the 5.60."),
         ("An alBum Cover", "Brock Purdy clears 20 again for Adam Calvelage.", "WRONG",
          "22.20, on the bench, behind Jayden Daniels's 17.06. I stood behind Purdy and Calvelage sat him down in front of me."),
         ("BearDown", "Ryan Reed beats Geoff Cavender.", "WRONG",
@@ -187,7 +187,7 @@ def build():
         ("DA The Badenov's", "DA beats Scott Reisert.", "WRONG",
          "Lost by 48.26. I said the elder keeps the chair. He kept it by 1.88 points."),
         ("Simba St. Gibbs Lion Kings", "Jahmyr Gibbs clears 20 again for Scott Reisert.", "RIGHT",
-         "25.80. I said I was just betting on Gibbs. Gibbs is the only one on this list who has never let me down."),
+         "25.80. I said I was just betting on Gibbs. Gibbs is the only relationship I have with no surprises in it."),
         ("Momma's Boys", "Mama Beth beats Casey Couture.", "WRONG",
          "Lost by 3.52 with 1.90 on her bench and no better lineup available. She did everything right. The miss is mine."),
         ("One Under akaThe Mulligan", "Casey Couture scores 90 or more in Week 11.", "RIGHT",
@@ -217,7 +217,7 @@ def build():
         ("An alBum Cover", "Jonah Coleman clears 15 for Adam Calvelage.",
          "35.90 this week. Denver is at Pittsburgh on Friday. I have no call on which quarterback Calvelage starts. I have retired from that. I am betting on the running back, who has never been benched to spite me."),
         ("One Under akaThe Mulligan", "Casey Couture beats Ryan Reed.",
-         "Casey leads the series 8 and 2 and has won the last four, including 129.44 to 108.26 in Week 1. A win puts the last-place scoring team in the league at 6 and 6. I am betting it happens, because of course it does."),
+         "Casey leads the series 8 and 2 and has won the last four, including 129.44 to 108.26 in Week 1. A win puts the last-place scoring team in the league at 6 and 6. I am betting it happens, because arithmetic gave up on Casey."),
         ("BearDown", "Ryan Reed scores 95 or more in Week 12.",
          "63.38, 102.40 and 88.30 the last three weeks. Nobody on his roster is on the bye, and Bo Nix was 10 points under his projection. I am betting on a full roster and an ordinary day."),
         ("Momma's Boys", "Mama Beth beats Doug Fields.",
@@ -241,7 +241,7 @@ def build():
     parts.append(award(
         "good", "Start of the Week", "Scott Howard · Dak Prescott, 38.90",
         "Projected for 23.15, so 15.75 over, and the 111th-best start in this league since 2018, out of 12,819. Jonah Coleman's 35.90 for Adam Calvelage was 17.31 over and first, and Calvelage holds Waste of the Week. Ashton Jeanty's 26.40 for Geoff Cavender was 14.13 over and third.",
-        "Scott Howard has the most Sit of the Week trophies in this league. Three of them. This is his first one for starting somebody. Dak has given him 76.32 in two weeks, and for two weeks Howard has had him in the lineup to receive it. Growth, Gil. In November, but growth."))
+        "Scott Howard has the most Sit of the Week trophies in this league. Three of them. This is his first one for starting somebody, and he is holding it like somebody else's baby. Dak has given him 76.32 in two weeks, and Howard had him in the lineup for every point of it."))
     parts.append(award(
         "bad", "Sit of the Week", "Geoff Cavender · Mike Evans, 22.90 on the bench",
         "Amon-Ra St. Brown started in his place for 12.20, a 10.70 swing. No benching cost a game this week. Doug Fields's Ladd McConkey behind Keon Coleman was 15.50 and first, and Fields holds Worst Owner. Adam Calvelage's Jacory Croskey-Merritt behind Kaelon Black was 12.70 and second, and Calvelage holds Waste of the Week.",
@@ -254,13 +254,13 @@ def build():
     # ---- LEDGER
     parts.append('<h2 id="ledger">The Bench Ledger</h2>')
     parts.append(boomer(
-        "All twelve of you, every week, all season. Scott Howard still leads at 239.00, and he has added 9.40 in two weeks, which for Howard is a monastery. Adam Hershberger is second at 174.30 and added nothing. Ryan Reed is third at 168.40. The man who runs this booth is fourth at 163.68. And there is a new name at the bottom: Scott Reisert has left 73.90 all season and passed DA, at 78.70, for the cleanest bench in the league. That is the second thing Reisert took from DA this week."))
+        "All twelve of you, every week, all season. Scott Howard still leads at 239.00, and he has added only 9.40 in two weeks. He left 46 in Week 1. The man found the lineup page in November. Adam Hershberger is second at 174.30 and added nothing. Ryan Reed is third at 168.40. The man who runs this booth is fourth at 163.68. And there is a new name at the bottom: Scott Reisert has left 73.90 all season and passed DA, at 78.70, for the cleanest bench in the league. That is the second thing Reisert took from DA this week."))
     parts.append(ledger(ledger_rows(FACTS, SEASON), 11, season_note=(
         "Season totals come from the season ledger through Week 11. Scott Howard leads at 239.00, Adam Hershberger is second at 174.30, Ryan Reed third at 168.40. Scott Reisert has left the fewest, 73.90.")))
     parts.append(gil(
         "No bench cost a game this week, after two did a week ago. Adam Calvelage left 22.94 and won by 37.52. Doug Fields left 16.10 and lost by 78.74. Adam Hershberger and Scott Reisert each left 0.00, and Mama Beth left 1.90 in a game she lost by 3.52."))
     parts.append(boomer(
-        "Two perfect lineups this week. Reisert's scored 119 and won by 48. Hershberger's scored 97 and lost by 12. Same grade on the test, Gil. Different class."))
+        "Two perfect lineups this week. Reisert's scored 119 and won by 48. Hershberger's scored 97 and lost by 12. You can iron a shirt perfectly and it is still that shirt."))
 
     # ---- WIRE
     parts.append('<h2 id="wire">The Waiver Wire</h2>')
@@ -278,7 +278,7 @@ def build():
     parts.append(gil(
         "Kent Frenger at Adam Hershberger, Scott Howard at Geoff Cavender, Adam Calvelage at Scott Reisert, Ryan Reed at Casey Couture, DA at Spencer Lentz, and Mama Beth at Doug Fields. Nobody is on the bye. Thanksgiving week has one game Wednesday, three Thursday and one Friday, so set lineups before the turkey. Three weeks remain in the regular season."))
     parts.append(boomer(
-        "Calvelage at Reisert is the game. Two of the three teams at 6 and 5, and the third one, DA, has to go through the first-place team with a 1.88 lead in the tiebreaker. Somebody is leaving Week 12 in fourth place and I could not tell you who. Howard at Cavender is the points against the luck. Casey gets Ryan Reed and a chance to be 6 and 6 with the fewest points in the league, which I would like to see just to know it can be done. And Mama Beth gets Doug Fields, who she beat 149.12 to 96.96 in Week 1, the week after he fell off the roof. I am on her side of that one."))
+        "Calvelage at Reisert is the game. Two of the three teams at 6 and 5, and the third one, DA, has to go through the first-place team with a 1.88 lead in the tiebreaker. Somebody is leaving Week 12 in fourth place and I could not tell you who. Howard at Cavender is the points against the luck. Casey gets Ryan Reed and a chance to be 6 and 6 with the fewest points in the league, which I would like to see just to know it can be done. And Mama Beth gets Doug Fields the week after he fell off the roof. She beat him 149.12 to 96.96 in Week 1. I am on her side of that one."))
     return "".join(parts)
 
 
